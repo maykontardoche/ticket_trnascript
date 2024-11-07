@@ -1,0 +1,491 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・shiny-w23ihrd3</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/7/2024, 12:55:03 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:55:41 AM</div>
+              <div class="content">🥹 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:55:49 AM</div>
+              <div class="content">NO CHÃO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:55:51 AM</div>
+              <div class="content">eu estava arrumando,dai eu ia comer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:55:59 AM</div>
+              <div class="content">do meu quarto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:56:07 AM</div>
+              <div class="content">juro pra voce </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:56:12 AM</div>
+              <div class="content">n tem como ngm ter pego </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:56:20 AM</div>
+              <div class="content">ngm tem a senha da minha base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:56:24 AM</div>
+              <div class="content">no chão tem que sumir, se não o server fica estremamente pesado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:56:40 AM</div>
+              <div class="content">lugar de item é dentro do barril </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:56:45 AM</div>
+              <div class="content">mas o time n é as 6? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:57:14 AM</div>
+              <div class="content">eu tava arrumando e minha mae me chamou pra comer😭 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:57:17 AM</div>
+              <div class="content">de onde vc tirou esta info? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:57:28 AM</div>
+              <div class="content">ue,o pessoal fica falando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:57:36 AM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:57:42 AM</div>
+              <div class="content">e as vezes eu deixo itens no chao,e demora mt pra sumir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:57:46 AM</div>
+              <div class="content">mt mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:57:47 AM</div>
+              <div class="content">eu não arriscaria nem 15 min </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:58:04 AM</div>
+              <div class="content">hm KKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:58:13 AM</div>
+              <div class="content">por isso vc perdeu as pkp a </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:58:33 AM</div>
+              <div class="content">brincadeiras a parte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 12:58:42 AM</div>
+              <div class="content">itens não se deixa no chão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:00 AM</div>
+              <div class="content">po tam,vou mentir n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:07 AM</div>
+              <div class="content">eu coloco lixo no chao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:12 AM</div>
+              <div class="content">pq n tem mais aquelas lixeiras </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:25 AM</div>
+              <div class="content">dai esses itens demora mt </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:32 AM</div>
+              <div class="content">dai eu fico colando outros itens no chao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:41 AM</div>
+              <div class="content">pra arrumar dps </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:57 AM</div>
+              <div class="content">e dessa vez deu bosta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 12:59:59 AM</div>
+              <div class="content">pq eu confiei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:00:44 AM</div>
+              <div class="content">primeiramente obrigado por causar peso desnecessário no server deixando seus itens fora dos barris, segundamente boa noite. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:00:59 AM</div>
+              <div class="content">oloco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:01:03 AM</div>
+              <div class="content">mas n tem onde colocar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:01:18 AM</div>
+              <div class="content">eu nao sei oq eu faço com os lixos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:01:21 AM</div>
+              <div class="content">vc tem vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:01:26 AM</div>
+              <div class="content">tenho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:01:35 AM</div>
+              <div class="content">manda seu id ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:01:54 AM</div>
+              <div class="content">vai tirar meu vip?😥 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:02:03 AM</div>
+              <div class="content">não, vou dar tag </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:02:16 AM</div>
+              <div class="content">76561199773595219 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:02:27 AM</div>
+              <div class="content">desculpa ai tam,por causar isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:02:52 AM</div>
+              <div class="content">eu gosto do teu servidor e sempre gostei de ver ele melhorando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:03:18 AM</div>
+              <div class="content">n tenho intenção nenhuma de te prejudicar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:03:46 AM</div>
+              <div class="content">não prejudicou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:03:49 AM</div>
+              <div class="content">relaxa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:03:53 AM</div>
+              <div class="content">to ti zuando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:03:58 AM</div>
+              <div class="content">kkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:04:09 AM</div>
+              <div class="content">q susto mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:04:35 AM</div>
+              <div class="content">prontinho, passei as tags aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:04:35 AM</div>
+              <div class="content">ei tam,seria daora tu colocar as lixeiras de volta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:04:53 AM</div>
+              <div class="content">vou ver se desenrrólo uma aqui com o novo dev </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:04:54 AM</div>
+              <div class="content">ai simmm tam,brigadao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:05:15 AM</div>
+              <div class="content">vai ficar show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:05:24 AM</div>
+              <div class="content">mas é isso tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:05:34 AM</div>
+              <div class="content">obgd por ter me ajudado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:05:38 AM</div>
+              <div class="content">flww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:05:42 AM</div>
+              <div class="content">flww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/7/2024, 1:05:43 AM</div>
+              <div class="content">boa noite ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">slaatsix</div>
+              <div class="timestamp">11/7/2024, 1:05:54 AM</div>
+              <div class="content">tenha uma boa noite tbm </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
