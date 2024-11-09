@@ -1,0 +1,975 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・pjzl-86s7nwvh</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">11/8/2024, 10:41:19 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 10:41:23 AM</div>
+                  <div class="content">opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:15:47 AM</div>
+                  <div class="content">Bom dia <span class="mention">@.suzuks</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:15:54 AM</div>
+                  <div class="content">bom dia </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:15:56 AM</div>
+                  <div class="content">pode me ajudar? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:16:01 AM</div>
+                  <div class="content">Depende </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:16:06 AM</div>
+                  <div class="content">do que? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:16:17 AM</div>
+                  <div class="content">do que voce precisa de ajuda ue </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:16:22 AM</div>
+                  <div class="content">ah </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:16:25 AM</div>
+                  <div class="content">esse erro aqui </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:16:46 AM</div>
+                  <div class="content">melhor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:16:47 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304449546654318653/image.png?ex=672f6ecf&is=672e1d4f&hm=2fb0f62020554000a110646d9449ee062b2029a27a6b83481aaf0d28b9ea0d44&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:17:09 AM</div>
+                  <div class="content">manda uma print do seu projeto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:17:21 AM</div>
+                  <div class="content">ai da fando que o caminho de voce inicar o arquivo esta errado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:17:25 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304449706151251990/image.png?ex=672f6ef5&is=672e1d75&hm=9c8d164c89d0d646eda072377043ef581660e8307665ae108cdeb88ea961c2d9&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:17:35 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304449749985788005/image.png?ex=672f6eff&is=672e1d7f&hm=434beda0fa6948552eb6aae76e6365f79d2eb168311e410e410037484a2ceba8&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:18:17 AM</div>
+                  <div class="content">qual é o aquivo principal do bot </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:18:29 AM</div>
+                  <div class="content">tem o config.js </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:18:32 AM</div>
+                  <div class="content">q é o q configura </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:18:33 AM</div>
+                  <div class="content">sabe ne </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:18:48 AM</div>
+                  <div class="content">sim mas tem um arquivo principal onde ta o codigo que liga o bot </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:18:53 AM</div>
+                  <div class="content">tipo um index </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:18:57 AM</div>
+                  <div class="content">acho q é o main </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:19:38 AM</div>
+                  <div class="content">iniciar como python main.py </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:23:04 AM</div>
+                  <div class="content">package main
+
+import (
+    "BoostTool/Core/Bot"
+    "BoostTool/Core/Discord"
+    "BoostTool/Core/Utils"
+    "time"
+
+    title "github.com/lxi1400/GoTitle"
+)
+
+
+func main() {
+    config, _ := Utils.LoadConfig() // Ignoring the error for simplicity
+
+    // Continue with the rest of your program
+    Utils.ClearScreen()
+
+    time.Sleep(time.Second * 1)
+    Utils.LogInfo("Logging in.", "", "")
+
+    title.SetTitle("")
+    Utils.ClearScreen()
+    Utils.PrintASCII()
+
+    if config.CustomPersonalization.Onliner {
+        Utils.LogInfo("Token Onliner: Enabled", "", "")
+        go Discord.Websocket()
+    } else {
+        Utils.LogInfo("Token Onliner: Disabled", "", "")
+    }
+
+    go Bot.Automation()
+    Bot.StartBot()
+} </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:23:09 AM</div>
+                  <div class="content">o script dele é esse ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:24:38 AM</div>
+                  <div class="content">iniciei como python nao aconteceu nd </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:26:40 AM</div>
+                  <div class="content">```py
+package main
+
+import (
+    "BoostTool/Core/Bot"
+    "BoostTool/Core/Discord"
+    "BoostTool/Core/Utils"
+    "log"
+    "time"
+
+    title "github.com/lxi1400/GoTitle"
+)
+
+func main() {
+    // Carrega a configuração e lida com possíveis erros
+    config, err := Utils.LoadConfig()
+    if err != nil {
+        log.Fatalf("Erro ao carregar a configuração: %v", err)
+    }
+
+    // Limpa a tela do terminal
+    Utils.ClearScreen()
+
+    // Mensagem de log informando o login
+    time.Sleep(time.Second * 1)
+    Utils.LogInfo("Logging in.", "", "")
+
+    // Define o título do terminal, se necessário
+    title.SetTitle("BoostTool - Discord Automation")
+
+    // Limpa a tela novamente e imprime o ASCII
+    Utils.ClearScreen()
+    Utils.PrintASCII()
+
+    // Verifica se o "Token Onliner" está habilitado e inicia o WebSocket, se necessário
+    if config.CustomPersonalization.Onliner {
+        Utils.LogInfo("Token Onliner: Enabled", "", "")
+        go func() {
+            if err := Discord.Websocket(); err != nil {
+                log.Printf("Erro ao conectar ao WebSocket do Discord: %v", err)
+            }
+        }()
+    } else {
+        Utils.LogInfo("Token Onliner: Disabled", "", "")
+    }
+
+    // Inicia a automação do bot e o bot principal
+    go func() {
+        if err := Bot.Automation(); err != nil {
+            log.Printf("Erro na automação do bot: %v", err)
+        }
+    }()
+
+    if err := Bot.StartBot(); err != nil {
+        log.Fatalf("Erro ao iniciar o bot: %v", err)
+    }
+}
+``` </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:27:10 AM</div>
+                  <div class="content">Irmão fica meio dificil eu te ajudar com um codigo que eu nao sei como esta a estrutura dele corretamente </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:27:40 AM</div>
+                  <div class="content">isso aqui é uma melhoria que mudei no seu codigo que mandou ai com tratamento de erros </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:28:03 AM</div>
+                  <div class="content">assim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:28:09 AM</div>
+                  <div class="content">não pdoe ser um erro do 'go' </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:28:10 AM</div>
+                  <div class="content">nao? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:28:37 AM</div>
+                  <div class="content">o primeiro erro que voce me mandou </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:28:38 AM</div>
+                  <div class="content">pq tipo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:28:47 AM</div>
+                  <div class="content">ta dizendo q nao encontra o loacl </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:28:48 AM</div>
+                  <div class="content">esta indicando que voce nao esta iniciando o codigo pelo caminho correto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:30:13 AM</div>
+                  <div class="content">eu inicio o cmd por aqui </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:30:16 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304452941117259776/image.png?ex=672f71f8&is=672e2078&hm=588ce8103fa2c896167de64bd42104f0de8c43d6eb6f24f111187da0bbf479bb&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:30:27 AM</div>
+                  <div class="content">e mando o codigo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:31:29 AM</div>
+                  <div class="content">```js
+principal
+|
+|_commands
+|  |_teste.py
+|  |_teste2.py
+|_config
+|  |_config.py
+|
+|_codigoPrincipal.py
+```
+
+automaticamente eu teria que iniciar ele a cima por `python codigoPrincipal.py`
+
+```js
+principal
+|
+|_commands
+|  |_teste.py
+|  |_teste2.py
+|_config
+|  |_config.py
+|_src
+|  |_codigoPrincipal.py
+|
+```
+automaticamente eu teria que iniciar ele a cima por `python src/codigoPrincipal.py` </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:28 AM</div>
+                  <div class="content">vish man </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:34:38 AM</div>
+                  <div class="content">nao conseguiu entender ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:41 AM</div>
+                  <div class="content">nao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:43 AM</div>
+                  <div class="content">kkkkkkkkkkkkkkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:48 AM</div>
+                  <div class="content">eu peguei esse bot em um sv aq </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:34:51 AM</div>
+                  <div class="content">ai complicou kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:52 AM</div>
+                  <div class="content">ai eu tava configurando ele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:34:55 AM</div>
+                  <div class="content">soq deu esse erro </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:34:59 AM</div>
+                  <div class="content">manda ele ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:35:00 AM</div>
+                  <div class="content">se quiser eu ate mando o arquivo p vc </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:35:04 AM</div>
+                  <div class="content">o arquivo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:35:22 AM</div>
+                  <div class="content">enviando </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:35:28 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304454247361937418/botimpulso.rar?ex=672f7330&is=672e21b0&hm=6697cccea57608978293ee76b7d8ae797221ac7c6a5fb1557283ca10dd2c945f&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:37:44 AM</div>
+                  <div class="content">seu aquivo esta alocado na area de trabalho ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:39:57 AM</div>
+                  <div class="content">Voce ta com arquivo que contem index.js e ta usando py e go <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304455379089883197/image.png?ex=672f743d&is=672e22bd&hm=883f88649c8ddf796e9967fcbf491c15d8228264607ed0a42e318b474a9e0a68&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:40:02 AM</div>
+                  <div class="content">ai ta errado neeh </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:40:11 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304455437088722996/package.json?ex=672f744b&is=672e22cb&hm=e521a4f71747f37eee7abc027f5fca11b55552e5a8890e56d3ce16e3f15e7856&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:41:02 AM</div>
+                  <div class="content">Copia esse codigo que te mandei e troca seu package,json de onde esta essa pasta que ta no print <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304455648854933555/image.png?ex=672f747e&is=672e22fe&hm=356df607e05990f5053d169a906a6e7061a171e5d18884b0937a39790a90b57b&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:41:52 AM</div>
+                  <div class="content">Mmmmmmmmm </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:41:56 AM</div>
+                  <div class="content">Instala esse instal aqui <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304455876031156254/image.png?ex=672f74b4&is=672e2334&hm=1ac4bf60c1b2f2c460e5f831af6dc0462b287c24246324efddc55663d4d22d01&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:51:35 AM</div>
+                  <div class="content">pronto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:51:37 AM</div>
+                  <div class="content">e agora? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:52:59 AM</div>
+                  <div class="content">abre essa pasta e tenta iniciar o bot </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:53:09 AM</div>
+                  <div class="content">pelo cmd ne? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:53:29 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1304440618906419271/1304458783392534568/image.png?ex=672f7769&is=672e25e9&hm=40f440b71c04f16d185f51001a2a03a00ebe439b9fdd3aa958c8db19cb2d8366&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:53:29 AM</div>
+                  <div class="content">mesmo ero </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:53:30 AM</div>
+                  <div class="content">erro </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:54:53 AM</div>
+                  <div class="content">me manda a url de onde esta essa pasta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:55:04 AM</div>
+                  <div class="content">q pasta? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:55:04 AM</div>
+                  <div class="content">o arquivo main.go </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:55:20 AM</div>
+                  <div class="content">é no boosttolls </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 11:55:34 AM</div>
+                  <div class="content">abre essa pasta e clica la no caminho e me mnada o caminho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 11:55:58 AM</div>
+                  <div class="content">C:\Users\tonay\Downloads\tk4\grabados\botimpulso\boosttools-1 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt=".suzuks" class="avatar">
+              <div class="message-content">
+                  <div class="author">.suzuks</div>
+                  <div class="timestamp">11/8/2024, 12:07:47 PM</div>
+                  <div class="content">; </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 12:12:57 PM</div>
+                  <div class="content">Irmão ta faltando arquivos no seu codigo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 12:13:21 PM</div>
+                  <div class="content">tenta fazer isso aqui 
+
+```
+Configurar o Diretório de Cache do Go (GOPATH): Para garantir que o Go tenha um local adequado para armazenar seus módulos e caches, defina o GOPATH.
+
+Abra as Variáveis de Ambiente:
+
+No menu Iniciar do Windows, digite "variáveis de ambiente" e selecione Editar variáveis de ambiente do sistema.
+Na janela que abrir, clique em Variáveis de Ambiente.
+Configurar a Variável GOPATH:
+
+Em Variáveis de usuário ou Variáveis do sistema, clique em Novo.
+Nome da variável: GOPATH
+Valor da variável: C:\Users\tonay\go
+Clique em OK para salvar.
+Criar o Diretório go: Se o diretório C:\Users\tonay\go não existir, crie-o manualmente:
+
+Abra o Explorador de Arquivos.
+Navegue até C:\Users\tonay.
+Crie uma nova pasta chamada go.
+Reiniciar o Terminal: Após configurar o GOPATH, feche e reabra o terminal para garantir que ele reconheça a nova configuração.
+
+Executar o Código: Navegue até a pasta onde o main.go está localizado e execute o seguinte comando:
+``` </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
