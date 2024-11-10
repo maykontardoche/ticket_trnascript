@@ -1,0 +1,701 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・torresss-haq3h231</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/10/2024, 12:35:14 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:35:32 PM</div>
+              <div class="content">que porra é essa ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:35:39 PM</div>
+              <div class="content">que pousaram helli aqui na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:35:43 PM</div>
+              <div class="content">e roubaram todo mundo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:35:57 PM</div>
+              <div class="content">faisca atrasada querendo janela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:12 PM</div>
+              <div class="content">como lider do cla eu preciso saber oq esta acontecendo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:20 PM</div>
+              <div class="content">isso ai no minimo é ban né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:36:27 PM</div>
+              <div class="content">por min não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:36 PM</div>
+              <div class="content">ue kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:39 PM</div>
+              <div class="content">como nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:36:40 PM</div>
+              <div class="content">pergunta a quem ta na base e resolveu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:51 PM</div>
+              <div class="content">e a regra que probide fazer isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:55 PM</div>
+              <div class="content">tem q dar ban po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:36:59 PM</div>
+              <div class="content">tem condiçao nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:03 PM</div>
+              <div class="content">tem 10 base abertas ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:08 PM</div>
+              <div class="content">e o cara rouba justo a nossa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:37:11 PM</div>
+              <div class="content">vai abrir tickt pra mi mandar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:11 PM</div>
+              <div class="content">nem fudendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:37:17 PM</div>
+              <div class="content">é isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:21 PM</div>
+              <div class="content">to abrindo pra cobrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:24 PM</div>
+              <div class="content">o justo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:29 PM</div>
+              <div class="content">pq se fosse com a gnt era lepo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:35 PM</div>
+              <div class="content">sem nem conversar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:37:35 PM</div>
+              <div class="content">sai fora doidão, eu sei oque eu faço </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:48 PM</div>
+              <div class="content">kkkk beleza entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:55 PM</div>
+              <div class="content">tem nego cobrando um monte de coisa aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:37:59 PM</div>
+              <div class="content">e ai a gnt vai fazer oq? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:38:14 PM</div>
+              <div class="content">se acha que vai ficar impune </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:38:24 PM</div>
+              <div class="content">o cara pode ter dropado loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:38:25 PM</div>
+              <div class="content">vendido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:38:31 PM</div>
+              <div class="content">pode ter feito um monte de coisa kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:40:06 PM</div>
+              <div class="content">caralho, mas tu veio abrir tiquet pra zuar a parada que estava sendo acertada ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:40:19 PM</div>
+              <div class="content">o cara vai tomar ban, o loot foi devolvido. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:40:29 PM</div>
+              <div class="content">se faltou algo nem faz diferença tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:30 PM</div>
+              <div class="content">nao to zoando nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:33 PM</div>
+              <div class="content">tem cara me falando aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:36 PM</div>
+              <div class="content">que ta faltando coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:40:38 PM</div>
+              <div class="content">tem loot pra 10 clã nessa base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:40:42 PM</div>
+              <div class="content">não enche </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:42 PM</div>
+              <div class="content">por isso queria conversar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:50 PM</div>
+              <div class="content">kkkkkkkkk mas ai é mérito nosso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:54 PM</div>
+              <div class="content">chegar alguem e roubar tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:40:57 PM</div>
+              <div class="content">é foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:41:17 PM</div>
+              <div class="content">mais de 10 mil slots de loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:41:20 PM</div>
+              <div class="content">ta maluco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:41:25 PM</div>
+              <div class="content">vão vende isso ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:41:40 PM</div>
+              <div class="content">vou por um teto ai depois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:41:44 PM</div>
+              <div class="content">ta tudo pago </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:41:49 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:42:14 PM</div>
+              <div class="content">não zoa minha mente não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:42:19 PM</div>
+              <div class="content">to maluco ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:42:27 PM</div>
+              <div class="content">blz, mas vai abrir ticket ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:42:33 PM</div>
+              <div class="content">levaram ate arma minha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:42:37 PM</div>
+              <div class="content">que tava com os caras kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:42:46 PM</div>
+              <div class="content">maluco, deixa eu falar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:42:53 PM</div>
+              <div class="content">os mlq tao dizendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:42:54 PM</div>
+              <div class="content">o cara levou a base inteira dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:42:57 PM</div>
+              <div class="content">q o cara ficou a madruga inteira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:42:58 PM</div>
+              <div class="content">não ficou nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:43:00 PM</div>
+              <div class="content">roubando coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:43:12 PM</div>
+              <div class="content">mas tinha nada em veiculo nao? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:43:20 PM</div>
+              <div class="content">quer que eu carregue as paredes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:43:28 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:43:31 PM</div>
+              <div class="content">traz os hellis ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:44:31 PM</div>
+              <div class="content">se tivesse com falta de loot de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:44:41 PM</div>
+              <div class="content">mas ja tem loot ai pra 3 temporadas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:44:46 PM</div>
+              <div class="content">não mi encomoda não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:44:49 PM</div>
+              <div class="content">mas nao sou eu tam kkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:44:55 PM</div>
+              <div class="content">sao os mlqs que tao reclamando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:11 PM</div>
+              <div class="content">ele roubou quarto de uns 3 mlqs que tem loot junto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:20 PM</div>
+              <div class="content">e tao zurinando minha orelha aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:45:34 PM</div>
+              <div class="content">impossivelta faltando loot depois de tudo que carreguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:45:37 PM</div>
+              <div class="content">impossivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:45:40 PM</div>
+              <div class="content">toma no cu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:41 PM</div>
+              <div class="content">kkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:44 PM</div>
+              <div class="content">pois é cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:49 PM</div>
+              <div class="content">por mim ta resolvido entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:55 PM</div>
+              <div class="content">se abrirem ticket tu fala com eles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:45:58 PM</div>
+              <div class="content">vlw vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:46:46 PM</div>
+              <div class="content">deixa eu banir ele aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:47:12 PM</div>
+              <div class="content">kkkkk vai que é tua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:50:44 PM</div>
+              <div class="content">toda acção gera uma consequência </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:50:50 PM</div>
+              <div class="content">isso serve pra vc tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:52:36 PM</div>
+              <div class="content">kkkk ja entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:52:45 PM</div>
+              <div class="content">me desculpe pela chatice </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:52:50 PM</div>
+              <div class="content">marginal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:52:52 PM</div>
+              <div class="content">mas entenda meu lado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:53:13 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:53:19 PM</div>
+              <div class="content">to puto não, to zuando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:53:26 PM</div>
+              <div class="content">mas não mi enche não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:53:29 PM</div>
+              <div class="content">kkkkkk show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:53:33 PM</div>
+              <div class="content">um ótimo domingo pra voce </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">11/10/2024, 12:53:35 PM</div>
+              <div class="content">meu prefeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:53:47 PM</div>
+              <div class="content">jaé, tmj. </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
