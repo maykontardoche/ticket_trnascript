@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・biellost-5lqdrcji</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 9:57:05 AM</div>
+              <div class="content">ja era tmb? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 9:58:01 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 9:58:15 AM</div>
+              <div class="content">isso se encaixa em falha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 9:58:21 AM</div>
+              <div class="content">mas o cara tem que gravar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 9:59:30 AM</div>
+              <div class="content">entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 9:59:49 AM</div>
+              <div class="content">então se deixar barril aberto o cara posar de heli levar tudo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 9:59:52 AM</div>
+              <div class="content">ja era tmb? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:02:12 AM</div>
+              <div class="content">pode entrar call radinho gordão?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:02:17 AM</div>
+              <div class="content">so pra me transmitir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:04:33 AM</div>
+              <div class="content">e vc analisar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 10:12:15 AM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 10:12:49 AM</div>
+              <div class="content">cola] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:16:06 AM</div>
+              <div class="content">puxa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:18:42 AM</div>
+              <div class="content">entao posso colocar barril no aberta sem medo dos cara pegar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 10:19:54 AM</div>
+              <div class="content">pode </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/10/2024, 10:20:00 AM</div>
+              <div class="content">mas não é confiavel ne mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:21:07 AM</div>
+              <div class="content">se alguem pegar vamos atras mano, só pedimos para não por tão a vista que pode ser feito um estrago que até podemos tentar reparar, mas é impossivel ser 100% </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:21:18 AM</div>
+              <div class="content">o cara vai de ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:22:40 AM</div>
+              <div class="content">Vixi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:22:51 AM</div>
+              <div class="content">deu ruim tam KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:23:55 AM</div>
+              <div class="content">vc pousou em uma base? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:24:08 AM</div>
+              <div class="content">SIM KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:24:14 AM</div>
+              <div class="content">arrrombado aq falou que podia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:24:38 AM</div>
+              <div class="content">😕 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:24:45 AM</div>
+              <div class="content">qual base? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:24:48 AM</div>
+              <div class="content">pqp kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:24:50 AM</div>
+              <div class="content">manda loc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:24:52 AM</div>
+              <div class="content">brota aq te levo la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:25:08 AM</div>
+              <div class="content">fdp da puta mano pourra cara falou que podia que tava na pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:25:46 AM</div>
+              <div class="content">ja colo ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:25:53 AM</div>
+              <div class="content">vc esta co o loot ainda? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:25:57 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:25:59 AM</div>
+              <div class="content">ou ja descarregou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:26:00 AM</div>
+              <div class="content">ta aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:26:06 AM</div>
+              <div class="content">ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:26:11 AM</div>
+              <div class="content">descarreguei umas coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:26:26 AM</div>
+              <div class="content">só que ai fiquei na duvida decidir perguntar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:26:37 AM</div>
+              <div class="content">ainda bem que vim perguntar ia me lascar por causa dos outros </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:28:01 AM</div>
+              <div class="content">bora buscar estas coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:28:57 AM</div>
+              <div class="content">ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:29:14 AM</div>
+              <div class="content">POUSA AI DOIDO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:29:18 AM</div>
+              <div class="content">OLHA O RETART </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:30:05 AM</div>
+              <div class="content">essa base ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:30:27 AM</div>
+              <div class="content">TA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:30:36 AM</div>
+              <div class="content">sei os bau que coloquei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 10:30:39 AM</div>
+              <div class="content">É SEU AMIGO QUE ESTA LÁ DENTRO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:30:43 AM</div>
+              <div class="content">nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 10:30:50 AM</div>
+              <div class="content">sao os cara ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:36:11 AM</div>
+              <div class="content">fala pra eles ai man pode ficar ford </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:36:17 AM</div>
+              <div class="content">fui na onda dos outros fiz merda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:36:35 AM</div>
+              <div class="content">foi algumas coisas minhas junto ai mais tem nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:36:41 AM</div>
+              <div class="content">nao sabia ao certo oq eu peguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:36:47 AM</div>
+              <div class="content">entao so catei tudo que tinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:37:17 AM</div>
+              <div class="content">queria atrasar lado de ninguem nao fui na onda dos outros </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:37:31 AM</div>
+              <div class="content">nao conheço muito do jogo comprei jogo recentemente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 11:39:40 AM</div>
+              <div class="content">não precisa responder lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:43:02 AM</div>
+              <div class="content">o mano que falou isso ele ia entrar pro cla ele falou que ia me chamar discord ce tu quiser quando ele me chamar te passo o discord apesar q o erro foi meu de ter pegado né mais blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 11:49:27 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 11:49:35 AM</div>
+              <div class="content">assim que se liberar ai avise </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 11:49:46 AM</div>
+              <div class="content">quando os caras pegarem as coisas dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:51:07 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:53:21 AM</div>
+              <div class="content">acabo aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 11:53:27 AM</div>
+              <div class="content">ja pegaram tudo do chao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:21:51 PM</div>
+              <div class="content">meu jogo fico sem som eai ta faltando mais alguma coisa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:29:17 PM</div>
+              <div class="content">faltou alguma coisa ou ta de boa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:31:37 PM</div>
+              <div class="content">falaram em kit nbq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:31:42 PM</div>
+              <div class="content">tinha algum? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:33:04 PM</div>
+              <div class="content">nao lembro mais tenho algumas partes aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:33:11 PM</div>
+              <div class="content">se quiser levar pra ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:33:19 PM</div>
+              <div class="content">mais nao lembro de ter pegado nbq nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:33:24 PM</div>
+              <div class="content">foquei mais foi nas armas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:33:52 PM</div>
+              <div class="content">mais se quiser levar aq tenho algumas parte mais nao tenho completo nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:34:26 PM</div>
+              <div class="content">não precisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:34:29 PM</div>
+              <div class="content">fica de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:34:43 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:37:25 PM</div>
+              <div class="content">tudo certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:38:46 PM</div>
+              <div class="content">como é o nick do outro cara lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:38:47 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:42:35 PM</div>
+              <div class="content">nao lembro mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:42:46 PM</div>
+              <div class="content">isso por voltas das 3:00 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:43:01 PM</div>
+              <div class="content">ele ia comigo porem ele falou que tinha que sair </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:43:10 PM</div>
+              <div class="content">ia me chamar no discord ai passei discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:43:18 PM</div>
+              <div class="content">como meu voip sempre buga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:43:23 PM</div>
+              <div class="content">fico digitando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:43:28 PM</div>
+              <div class="content">ele tava falando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:43:51 PM</div>
+              <div class="content">ele mandou discord? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:44:08 PM</div>
+              <div class="content">não chamou:? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:47:09 PM</div>
+              <div class="content">nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:47:09 PM</div>
+              <div class="content">pois é mano, ja que vc devolveu o loot, seu ban fica em 5 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:47:19 PM</div>
+              <div class="content">queria banir este outro ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:47:28 PM</div>
+              <div class="content">mas ja que vc não sabe quem é </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:47:36 PM</div>
+              <div class="content">tudo bem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:47:54 PM</div>
+              <div class="content">deixa só da coisa pro mano aq 2m </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:48:15 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:49:06 PM</div>
+              <div class="content">pode banir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:49:21 PM</div>
+              <div class="content">5 dias mano, seu vip eu estendo depois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:49:24 PM</div>
+              <div class="content">só mi lembre </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:49:42 PM</div>
+              <div class="content">flw man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/10/2024, 12:49:44 PM</div>
+              <div class="content">valeu ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/10/2024, 12:49:53 PM</div>
+              <div class="content">flww </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
