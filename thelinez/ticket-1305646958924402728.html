@@ -1,0 +1,485 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・baiano-zuuzvrc2</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/11/2024, 6:34:53 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:35:33 PM</div>
+              <div class="content">e ai tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:35:37 PM</div>
+              <div class="content">boa noite, como ta ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:35:51 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:35:56 PM</div>
+              <div class="content">bom, e vc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:35:58 PM</div>
+              <div class="content">em relacao la as caixas e o gunrack que deixou comigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:36:01 PM</div>
+              <div class="content">to bem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:36:20 PM</div>
+              <div class="content">tinha colocado os itens nao sumiram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:36:37 PM</div>
+              <div class="content">pode seguir usando normalmente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:36:42 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:36:54 PM</div>
+              <div class="content">so sentir falta de colocar o codlock neles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:36:56 PM</div>
+              <div class="content">ja botei pra vender elas na trade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:37:18 PM</div>
+              <div class="content">isso ai em storages virtuais vou ficar devendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:37:29 PM</div>
+              <div class="content">ah blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:37:35 PM</div>
+              <div class="content">vlw, tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:37:51 PM</div>
+              <div class="content">ja ja faco o pix de um vip platina, vendi pro muleke aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:38:07 PM</div>
+              <div class="content">consegue fazer menos de 100? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:45:13 PM</div>
+              <div class="content">vc vai vender este vip ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:47:17 PM</div>
+              <div class="content">vou vender </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:48:35 PM</div>
+              <div class="content">ai é valor integral msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:49:39 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:50:01 PM</div>
+              <div class="content">nem 90tinha faz nao? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:50:09 PM</div>
+              <div class="content">depois ver pra me quanto tempo meu heli falta pra acabar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:50:14 PM</div>
+              <div class="content">por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:50:38 PM</div>
+              <div class="content">vc tira seu monei no game e eu tiro o meu integral kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 6:50:43 PM</div>
+              <div class="content">põe mais caro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 6:51:04 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:15:12 PM</div>
+              <div class="content">76561199068465277 <a href="https://cdn.discordapp.com/attachments/1305646958924402728/1305657109039546368/IMG_9853.png?ex=6733d370&is=673281f0&hm=188b39b9ee435d746e17604b136e764199eac9dc41919cff668c2534f6c1e9bb&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:15:21 PM</div>
+              <div class="content">STEAM DO CARA: </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:15:23 PM</div>
+              <div class="content">76561199068465277 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:15:29 PM</div>
+              <div class="content">qual nome do caboco? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:15:34 PM</div>
+              <div class="content">no game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:16:09 PM</div>
+              <div class="content">[NALX] LeanDrinnZ YT </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:18:15 PM</div>
+              <div class="content">feito, pós o rr ele pode se matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:19:54 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:23:17 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:23:22 PM</div>
+              <div class="content">Obrigado lindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:23:41 PM</div>
+              <div class="content">Me diga uma coisa, melhor arma pra matar o Lobão lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:24:10 PM</div>
+              <div class="content">ATÉ 20MM ELE TANCA 10 TIROS KKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:24:15 PM</div>
+              <div class="content">BIXO É BRUTO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:24:20 PM</div>
+              <div class="content">Mísera TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:24:28 PM</div>
+              <div class="content">Aí você pegou pesado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:24:31 PM</div>
+              <div class="content">A MAIS FORTE QUE VC DESENRROLAR KKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:24:45 PM</div>
+              <div class="content">Meu amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:27:17 PM</div>
+              <div class="content">Tá de quanto ela ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:28:05 PM</div>
+              <div class="content">A 20MM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:28:10 PM</div>
+              <div class="content">80TINHA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 7:37:50 PM</div>
+              <div class="content">Isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 7:40:24 PM</div>
+              <div class="content">80 ela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:19 PM</div>
+              <div class="content">Tá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:35 PM</div>
+              <div class="content">Deixar pra pegar próxima semana ou ainda essa semana </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 8:04:40 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:41 PM</div>
+              <div class="content">Já gastei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:44 PM</div>
+              <div class="content">Obrigado lindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:53 PM</div>
+              <div class="content">Acho que já já compro um vip de 30 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 8:04:58 PM</div>
+              <div class="content">TMJ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/11/2024, 8:04:59 PM</div>
+              <div class="content">Esperar o cara falar aqui comigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/11/2024, 8:14:23 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
