@@ -1,0 +1,587 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・ranan-amaral-o5xood7y</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/17/2024, 6:34:52 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 9:22:48 AM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 9:39:07 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 9:39:30 AM</div>
+              <div class="content">Olharei e mandarei aqui. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 9:58:39 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1307640090088046613/1307691377097703466/image.png?ex=673b3a00&is=6739e880&hm=ecb014b2ddde404d1117f9cc61f2c2902c41768d13f09dc5988fd1982db81f8e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 9:58:42 AM</div>
+              <div class="content">vencido a 2 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 9:58:53 AM</div>
+              <div class="content">venceu ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 10:16:32 AM</div>
+              <div class="content">BLZ DAQUI A PPOUCO JA RENOVO BLZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 10:16:48 AM</div>
+              <div class="content">CONSEGUE VER COM O TAM SE VAI DAR DESCONTO DE NOVO ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:16:49 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:16:56 AM</div>
+              <div class="content">só mandar o comprovante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:17:11 AM</div>
+              <div class="content">desconto é só com ele mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:17:27 AM</div>
+              <div class="content">mas até então, ele não estava dando desconto esse mes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:17:34 AM</div>
+              <div class="content">pq é mês pós wipe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:17:50 AM</div>
+              <div class="content">mas posso deixar aqui o ticket e quando ele chegar ele vê </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 10:42:44 AM</div>
+              <div class="content">BLZ SABE O HORTARIO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 10:42:54 AM</div>
+              <div class="content">HORARIO QUE ELE CHEGA ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 10:49:09 AM</div>
+              <div class="content">Ele chega a tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/17/2024, 12:40:29 PM</div>
+              <div class="content">tam falou que sai a 52 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 2:40:21 PM</div>
+              <div class="content"><span class="mention">@renanamaral98</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 2:40:37 PM</div>
+              <div class="content">VAI ASSINAR O GOLD NOS 52 REAIS? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 5:55:13 PM</div>
+              <div class="content">Hey da pra fazer o platina em 2 vezes ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 5:55:28 PM</div>
+              <div class="content">50 hoje e 50 daqui a 15 dias ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 5:57:27 PM</div>
+              <div class="content">Foi mal a demora acabei dormindo aqui kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:25:05 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:38:24 PM</div>
+              <div class="content">DA SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:38:36 PM</div>
+              <div class="content">JOGA NO MEUS PEITO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:40:34 PM</div>
+              <div class="content">mwsmo pix da ultima vez ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:40:46 PM</div>
+              <div class="content">mesmo. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:42:17 PM</div>
+              <div class="content">CEL 53 984653110 EVERTON JESKE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:42:57 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1307640090088046613/1307823318744956948/IMG-20241117-WA0000.jpg?ex=673bb4e1&is=673a6361&hm=c194b5264cc8eb622990f0625ed3ed51a685a2ffd03c17bb47f52ebf24fcc24c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:42:58 PM</div>
+              <div class="content">Tá na mão pae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:43:07 PM</div>
+              <div class="content">MANDA ID STEAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:43:28 PM</div>
+              <div class="content">ID Steam: 76561198141333077 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:47:09 PM</div>
+              <div class="content">to verificando os arquivos quando terminar ja logo aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:50:46 PM</div>
+              <div class="content">TA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:50:53 PM</div>
+              <div class="content">VOU POR 1 MIN </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:53:24 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:53:51 PM</div>
+              <div class="content">QUANDO COMPLETAR O PAGAMENTO MI AVISE QUE SEU VENCIMENTO FICOU PARA DIA 02/12 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:54:01 PM</div>
+              <div class="content">TENHO QUE UPAR LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:58:56 PM</div>
+              <div class="content">blz tranquilo acho q consigo pagar antes quanvir o decimo kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:59:02 PM</div>
+              <div class="content">quando vir. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:59:12 PM</div>
+              <div class="content">so esperar voltar do rr agr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:59:13 PM</div>
+              <div class="content">BLZZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 6:59:16 PM</div>
+              <div class="content">ai ja logo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:59:22 PM</div>
+              <div class="content">ISSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 6:59:27 PM</div>
+              <div class="content">E PODE SE SE MATAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:05:38 PM</div>
+              <div class="content">blz ja loguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:07:05 PM</div>
+              <div class="content">PODE SE MATAR QUE VAI VOLTAR COM OS ITENS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:07:29 PM</div>
+              <div class="content">tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:07:32 PM</div>
+              <div class="content">deu boa aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:07:40 PM</div>
+              <div class="content">vlw flw patrao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:07:59 PM</div>
+              <div class="content">TMJ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:08:01 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:08:13 PM</div>
+              <div class="content">pow se matar no queime nao conta como suicidio né n vou p inferno por isso kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:08:20 PM</div>
+              <div class="content">sacanagem kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:08:48 PM</div>
+              <div class="content">KKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:41:23 PM</div>
+              <div class="content">o tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:41:37 PM</div>
+              <div class="content">cabei de morrer aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:41:51 PM</div>
+              <div class="content">mas no kill fed n apareceu quem me matou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:42:03 PM</div>
+              <div class="content">e tinha 3 cara na minha frente foi estranho isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:42:09 PM</div>
+              <div class="content">consegue dar uma olhada ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:45:59 PM</div>
+              <div class="content">NEM NO DISCORD </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:46:00 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:46:00 PM</div>
+              <div class="content">e minha morte nao ta aparecendo no kilfeed </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:46:06 PM</div>
+              <div class="content">nao nem no discor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:46:06 PM</div>
+              <div class="content"><#1295739367662551090> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:46:09 PM</div>
+              <div class="content">discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:46:19 PM</div>
+              <div class="content">VOU VERIFICAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:47:08 PM</div>
+              <div class="content">tinha 3 mlk na minha frente mas nenhum deles apontou arma p min eu tava dentro do rocanbole verde tlg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:47:15 PM</div>
+              <div class="content">e eles tavam na porta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/17/2024, 7:47:39 PM</div>
+              <div class="content">CLIPOU? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:50:00 PM</div>
+              <div class="content">bah esqueci pqp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:50:11 PM</div>
+              <div class="content">fiquei em choque pq entendi nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">renanamaral98</div>
+              <div class="timestamp">11/17/2024, 7:50:39 PM</div>
+              <div class="content">consegue ir aonde eu to ? </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
