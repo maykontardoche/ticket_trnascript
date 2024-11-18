@@ -1,0 +1,417 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・blanca-gfo81y1h</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">11/6/2024, 5:46:17 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 5:47:19 PM</div>
+                  <div class="content">Gostaria de orçamento para criação de discord pessoal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 5:49:18 PM</div>
+                  <div class="content">nome que tenho em mente é Family & Friends </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 6:26:31 PM</div>
+                  <div class="content">Boa noite <span class="mention">@blanca.lb</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 6:27:04 PM</div>
+                  <div class="content">Você tem algum modelo em mente que gostaria parecido com ele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 6:27:06 PM</div>
+                  <div class="content">? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 6:33:12 PM</div>
+                  <div class="content">modelo de discord? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 6:57:37 PM</div>
+                  <div class="content">https://xenon.bot/templates/wYTbz7VRDMwf </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:01:10 PM</div>
+                  <div class="content">cargos nao precisaria <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303841636618600551/image.png?ex=673c61e6&is=673b1066&hm=5b4e5b017f77d8d2b202231008290dc6713084b530315e5bd0102d7b9fd63ea9&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:02:21 PM</div>
+                  <div class="content">lugar do sorteios, clips <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303841932862160946/image.png?ex=673c622d&is=673b10ad&hm=132570db3838fc445c7ab50a9c720e94ec1ce70549b210a0b47a0df571d3130c&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:02:56 PM</div>
+                  <div class="content">lugar de eventos - fotos </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:03:14 PM</div>
+                  <div class="content">e nao precisaria do level-up </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:05:33 PM</div>
+                  <div class="content">o bate-papo seria para geral, mas queria um separado para pessoas que darei cargos, ou seja, um bate-papo pra amigos intimos mesmo <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303842738403278888/image.png?ex=673c62ed&is=673b116d&hm=98f066a0caa28cbf3ef6a4df215e3105cdd2ba32f4689f1af2b5e0a5deac55f8&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:05:54 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303842827318333490/image.png?ex=673c6302&is=673b1182&hm=26b4c6409f0e42492812343da4945e87773bcb4c292e8de4e92a14180dedbc8b&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:06:09 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303842891965141082/image.png?ex=673c6311&is=673b1191&hm=202c5b20896b691410f862cfe945b18255046b4e70576481577ffcc332e5cbea&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:06:25 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303842957719507045/image.png?ex=673c6321&is=673b11a1&hm=802405089db3e9e42fb7274cbc128af9ce8f1cb4ad65c562e2561743177a86e5&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:08:55 PM</div>
+                  <div class="content">aqui seria a call pra geral mas queria uma aba também pra cargos de pessoas mais intimas que tenham acesso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:09:31 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1303822792570961970/1303843738396921957/image.png?ex=673c63db&is=673b125b&hm=ec806e4bf246395ef037b176c94e14360c894fff32ab85684698fc46015794cc&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 7:11:11 PM</div>
+                  <div class="content">certo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 7:11:21 PM</div>
+                  <div class="content">que entrar em call pra que eu possa entender melhor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:11:28 PM</div>
+                  <div class="content">pode ser </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:11:34 PM</div>
+                  <div class="content">ql? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/6/2024, 7:11:47 PM</div>
+                  <div class="content">https://discord.com/channels/1209978061403979856/1230711758038110308 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/492862318875508740/29c6c37d0d5530c4cc962ec3d8427b65.webp?size=128" alt="blanca.lb" class="avatar">
+              <div class="message-content">
+                  <div class="author">blanca.lb</div>
+                  <div class="timestamp">11/6/2024, 7:38:39 PM</div>
+                  <div class="content">**Cargos Principais**
+
+Patriarca / Matriarca - para os administradores do servidor.
+Tiozão / Tia do Pavê/Filha / Filho - para moderadores que estão sempre por perto para ajudar.
+Primogênito(a) - para membros de alto nível ou muito ativos.
+Irmão Mais Velho / Irmã Mais Velha - cargos de supervisão, mas menos formais.
+Cúmplice do Rolê - para amigos próximos que participam de todas as conversas.
+Amigão / Amigona - para os membros mais engajados.
+Primo Favorito / Prima Favorita - para aqueles que contribuem positivamente.
+
+**Cargos Informais**
+
+Chefe do Churrasco - para alguém que anima o servidor.
+Fofoqueiro da Família - para quem sempre traz as novidades.
+Cozinheiro de Plantão - para os que adoram compartilhar receitas e dicas de cozinha.
+DJ da Festa - para os que sempre compartilham músicas e playlists.
+Troll do Natal - para aquele amigo que gosta de brincar com todos.
+Bagunceiro Oficial - para os membros mais bagunceiros e engraçados.
+Caçula da Família - para novos membros ou pessoas que estão começando.
+
+**Cargos Específicos**
+
+Sábio da Família - para quem sempre dá bons conselhos.
+Confidente - para alguém em quem os amigos confiam muito.
+Colecionador de Memes - para aquele amigo que sempre compartilha memes.
+Viajante da Família - para os que adoram contar histórias de viagem.
+Dono da Casa - para quem está sempre no servidor.
+
+**Cargos para Casal**
+Mozão / Mozinha - uma alternativa mais carinhosa e divertida.
+Dupla Dinâmica - para um casal que está sempre junto, animado e conectado.
+Sr. & Sra. Encrenca - para casais divertidos e com espírito de aventura.
+Amor Eterno - para casais que compartilham uma conexão profunda. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 2:49:48 PM</div>
+                  <div class="content"><span class="mention">@blanca.lb</span> da pra fazer por 70,00 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/8/2024, 2:50:01 PM</div>
+                  <div class="content">Caso queira fechar so me avisa pra iniciar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_d127291c5cb32e98be8f1b3f441376d1.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">11/17/2024, 11:49:51 PM</div>
+                  <div class="content"><span class="mention">@blanca.lb</span> </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
