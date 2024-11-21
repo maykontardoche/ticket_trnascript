@@ -1,0 +1,413 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・mongebudi-movo8wao</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/21/2024, 11:02:01 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:03:27 AM</div>
+              <div class="content">quem deslogou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:03:37 AM</div>
+              <div class="content">aquu onde eu to nao sei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:03:52 AM</div>
+              <div class="content">ele deslogou pra nao morre aqui na black </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:03:57 AM</div>
+              <div class="content">o heli dele ta aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:04:06 AM</div>
+              <div class="content">quem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:05:09 AM</div>
+              <div class="content">nao sei nao matei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:05:18 AM</div>
+              <div class="content">desde 10;47 que não desloga ningiem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:05:27 AM</div>
+              <div class="content">vem aqui onde eu to </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:05:32 AM</div>
+              <div class="content">eu to aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:05:34 AM</div>
+              <div class="content">posso manda um clipe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:05:39 AM</div>
+              <div class="content">manda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:06:32 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309156871239766047/1309158008839999539/image.png?ex=67408fe8&is=673f3e68&hm=1c08bda0e1b874e60e445f70f78e1a1f124c4020ac61888f1dcbd049ed552e87&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:06:41 AM</div>
+              <div class="content">desde 10:47 que não desloga ninguem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:00 AM</div>
+              <div class="content">https://medal.tv/pt/games/dayz/clips/j86ubRNA1TWjUo7vq?invite=cr-MSxESm8sMjkwOTMwMzI5LA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:04 AM</div>
+              <div class="content">esse e o meu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:17 AM</div>
+              <div class="content">e meu amigo vai manda o dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:26 AM</div>
+              <div class="content">os meus tiros bug na planta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:27 AM</div>
+              <div class="content">=/ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:08:44 AM</div>
+              <div class="content">ele me rusha depois sobe  pra direita e some </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:09:04 AM</div>
+              <div class="content">e isso quer dizer que ele deslogou?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:09:05 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:09:12 AM</div>
+              <div class="content">o cara ta ai ainda monge </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:13 AM</div>
+              <div class="content">nao amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:18 AM</div>
+              <div class="content">esse e o meu momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:26 AM</div>
+              <div class="content">vou manda o momento que ele desloga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:09:28 AM</div>
+              <div class="content">monge, o cara ta ai ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:09:32 AM</div>
+              <div class="content">ele não deslogou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:34 AM</div>
+              <div class="content">serio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:35 AM</div>
+              <div class="content">kkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:09:39 AM</div>
+              <div class="content">pera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:10:04 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309156871239766047/1309158899227557918/image.png?ex=674090bc&is=673f3f3c&hm=b22a1a08af2b0f809f8c2608fa432988fc4e8b9e739c28fa28cb625cc3fed24a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:10:25 AM</div>
+              <div class="content">https://medal.tv/pt/games/dayz/clips/j86v2Q8KOK2pdvZP9?invite=cr-MSx6TWssMjEyMTAxMzk4LA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:10:28 AM</div>
+              <div class="content">meu deus </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:10:33 AM</div>
+              <div class="content">entao ele e muito rapido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:10:38 AM</div>
+              <div class="content">desculpe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:10:49 AM</div>
+              <div class="content">é mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:10:52 AM</div>
+              <div class="content">vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:11:33 AM</div>
+              <div class="content">nos 2 videos o cara pega cover de vcs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:12:56 AM</div>
+              <div class="content">vlw  maninho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:13:08 AM</div>
+              <div class="content">desculpa eu jurava que ele desconecto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:13:09 AM</div>
+              <div class="content">kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:13:18 AM</div>
+              <div class="content">mas os bug na planta foi f </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 11:13:19 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:16:11 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 11:16:14 AM</div>
+              <div class="content">normal do dayz </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
