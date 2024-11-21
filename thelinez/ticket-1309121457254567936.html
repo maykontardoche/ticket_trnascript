@@ -1,0 +1,389 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・mongebudi-xz2pt8db</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/21/2024, 8:41:18 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 8:42:58 AM</div>
+              <div class="content">Vô ver com o dev </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 8:43:04 AM</div>
+              <div class="content"><span class="mention">@ch_1983</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 8:43:34 AM</div>
+              <div class="content">porque to gravando aqui um video pra mostra a diferença dele pro platino </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 8:44:11 AM</div>
+              <div class="content">Vou pedir ele pra olhar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/21/2024, 8:53:06 AM</div>
+              <div class="content">vou verificar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/21/2024, 8:55:34 AM</div>
+              <div class="content">Acho que o Tam tirou o cinto pois a Tag pega no cinto.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/21/2024, 8:55:51 AM</div>
+              <div class="content">Mudei a ordem de carregamento dos itens para ver se soluciona o problema de vir escondido na ghilie </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:19:38 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:19:50 AM</div>
+              <div class="content">sabe dizer qual redução de dano tem o colete </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:20:20 AM</div>
+              <div class="content">e quanto tempo essa tag do braço fica no chão, e se ela some no RR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:20:34 AM</div>
+              <div class="content">pois acredito quer isso vai ser um grande diferencial para o pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:21:13 AM</div>
+              <div class="content">Deve ser o tempo normal de loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:21:23 AM</div>
+              <div class="content">outro detalhe a tag do braço tem 100 slots, mas só se consegue por armas AR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:21:47 AM</div>
+              <div class="content">Dentro do espaço não dá pra colocar outros itens? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:22:06 AM</div>
+              <div class="content">as snipes ficam de fora, e isso e muito ruim para quem vai esconde armas e joga de sniper se fosse adicionado mas um slot na vertical caberia as sniper </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:22:31 AM</div>
+              <div class="content"><span class="mention">@serginhogordaum</span>  e que tipo a bracadeira e um diferencial importante nesse vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:23:01 AM</div>
+              <div class="content">acredito que muitos jogadores pvp vai compra ou migra do platino pra ele exatamente pelo colete capacete e a tag </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:23:22 AM</div>
+              <div class="content">mas nao da pra coloca sniper la por causa de apenas 1 slot da vertical </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:23:45 AM</div>
+              <div class="content">se adciona uma fila e fica 110 de slot vai fica otimo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:23:57 AM</div>
+              <div class="content">e se nao sumir com o RR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:24:13 AM</div>
+              <div class="content">porque jogadores pvp detesta sai do pvp pra ir busca arma na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:24:20 AM</div>
+              <div class="content">como sabemos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:24:57 AM</div>
+              <div class="content">vou testa aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:25:03 AM</div>
+              <div class="content">Ah, não vai ser adicionado mais 1 não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:25:07 AM</div>
+              <div class="content">vou joga a tag com uma pkp pra ver depois do rr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:25:10 AM</div>
+              <div class="content">É pra ser do jeito que é mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:25:16 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:25:23 AM</div>
+              <div class="content">só queria passa a informaçao mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:25:48 AM</div>
+              <div class="content">Show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:25:50 AM</div>
+              <div class="content">Sem problemas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:25:57 AM</div>
+              <div class="content">Ela é pra ter 100 slots mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:26:02 AM</div>
+              <div class="content">Igual ao a guile </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:26:07 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:26:21 AM</div>
+              <div class="content">obrigado pela atenção </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:26:26 AM</div>
+              <div class="content">Tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:26:27 AM</div>
+              <div class="content">queria passa as informaçoes d </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:26:31 AM</div>
+              <div class="content">pode fecha vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:26:38 AM</div>
+              <div class="content">Show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:26:40 AM</div>
+              <div class="content">Tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 9:26:51 AM</div>
+              <div class="content">Qualquer coisa só chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mongebudi</div>
+              <div class="timestamp">11/21/2024, 9:27:02 AM</div>
+              <div class="content">❤️ 🫡 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
