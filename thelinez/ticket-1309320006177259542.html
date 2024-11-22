@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・kgz-atbope-dw9hw7co</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:55:02 PM</div>
+              <div class="content">se nao for mt qnt tempo que demora pra cair sab?] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:55:50 PM</div>
+              <div class="content">Já deve estar caindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:56:19 PM</div>
+              <div class="content">ela ta na msm altura a 3 dias ta descendo nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:57:22 PM</div>
+              <div class="content">Ela cai por estapas mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:57:29 PM</div>
+              <div class="content">De degrau em degrau </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:57:36 PM</div>
+              <div class="content">Está no último estágio agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:57:45 PM</div>
+              <div class="content">a sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:57:54 PM</div>
+              <div class="content">entao se pa amanha ja vai de ralo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:58:03 PM</div>
+              <div class="content">3 dias ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:58:10 PM</div>
+              <div class="content">Tem que cuidar e chegar antes de nós adms </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 9:58:15 PM</div>
+              <div class="content">Kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:58:15 PM</div>
+              <div class="content">ou mais 3 dias é oq eu sei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:58:17 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:58:30 PM</div>
+              <div class="content">vcs podem ficar sem internet final de semana nao???? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 9:58:32 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:01:11 PM</div>
+              <div class="content">são 15 dias off e a bandeira zera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:01:15 PM</div>
+              <div class="content">se não me engano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:01:29 PM</div>
+              <div class="content">Não explana kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:01:33 PM</div>
+              <div class="content">KKKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:01:34 PM</div>
+              <div class="content">kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:01:37 PM</div>
+              <div class="content">Deixa ele ir lá todo dia kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:01:39 PM</div>
+              <div class="content">dei a dica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:01:46 PM</div>
+              <div class="content">nao tem como eu saber se ta mais ou menos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:01:50 PM</div>
+              <div class="content">é rota </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:01:52 PM</div>
+              <div class="content">po mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:01:52 PM</div>
+              <div class="content">exatamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:01:58 PM</div>
+              <div class="content">Cara já te falei está no último estagio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:01:59 PM</div>
+              <div class="content">somos vizinhos pprt </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:02:00 PM</div>
+              <div class="content">São três </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:07 PM</div>
+              <div class="content">entao sao 5 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:08 PM</div>
+              <div class="content">kkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:10 PM</div>
+              <div class="content">matematica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:02:10 PM</div>
+              <div class="content">Tu já foi a três dias e ela. L está assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:02:17 PM</div>
+              <div class="content">Só somar que vai ter a resposta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:17 PM</div>
+              <div class="content">no minimo 2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:21 PM</div>
+              <div class="content">KKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:02:21 PM</div>
+              <div class="content">De quando vai cair </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:30 PM</div>
+              <div class="content">vcs sao mt bons nmrl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/21/2024, 10:02:36 PM</div>
+              <div class="content">Kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:40 PM</div>
+              <div class="content">matematics </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:02:41 PM</div>
+              <div class="content">kkkk boa jogatina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:48 PM</div>
+              <div class="content">vlw rapaziada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:02:49 PM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:03:04 PM</div>
+              <div class="content">só uma pergunta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:03:13 PM</div>
+              <div class="content">tu ta usando rashade? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:03:31 PM</div>
+              <div class="content">seu jogo ta muito estourado pela sua imagem ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:03:46 PM</div>
+              <div class="content">nao filtro da nvidia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:03:54 PM</div>
+              <div class="content">mas ele muda a cor do jogo né? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:03:56 PM</div>
+              <div class="content">tem que tirar mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:04:01 PM</div>
+              <div class="content">quer print? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:04:09 PM</div>
+              <div class="content">ja da pra ver por ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:04:10 PM</div>
+              <div class="content">nao muda a cor nao so iluminaçao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:04:16 PM</div>
+              <div class="content">que tu ta usando alguma saturação </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:04:30 PM</div>
+              <div class="content">não mano, as arvores não são daquelas cores </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:04:53 PM</div>
+              <div class="content">nao pode entao]? eu tiro de boas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:04:57 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:02 PM</div>
+              <div class="content">nada que mude a cor do jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:03 PM</div>
+              <div class="content">entende? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:09 PM</div>
+              <div class="content">no maximo brilho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:05:09 PM</div>
+              <div class="content">entendi sim suavera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:16 PM</div>
+              <div class="content">pra clarear e tal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:05:23 PM</div>
+              <div class="content">deixa so eu entrar que eu tiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:26 PM</div>
+              <div class="content">ai tu pode usar o dccw do windons </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:05:34 PM</div>
+              <div class="content">qq isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:52 PM</div>
+              <div class="content">aperta windows + r </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:05:56 PM</div>
+              <div class="content">ai escreve dccw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:06:10 PM</div>
+              <div class="content">ai avança avança até aparecer uma barrinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:06:25 PM</div>
+              <div class="content">ai tu sobe a barrinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:06:31 PM</div>
+              <div class="content">ai ela aumenta o brilho do jogho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:06:34 PM</div>
+              <div class="content">isso pode </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:06:35 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309320006177259542/1309324117857665064/image.png?ex=67412a9b&is=673fd91b&hm=a9d54a3e8d8ea67c71e561c07bea8663615eee3840b0848a6cde90a203685ed5&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:06:58 PM</div>
+              <div class="content">isso, tu consegue clarar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:07:11 PM</div>
+              <div class="content">isso melhora??? pra ver a noite? pq meu pc e do capta de escuro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:07:23 PM</div>
+              <div class="content">pq n tem monitor tlg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:07:27 PM</div>
+              <div class="content">é so notebook </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:07:31 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:07:37 PM</div>
+              <div class="content">os mlks usam muito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:07:39 PM</div>
+              <div class="content">de noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:07:55 PM</div>
+              <div class="content">so aumentar o brilho entao de leve ate ficar bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:08:06 PM</div>
+              <div class="content">fechou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:08:09 PM</div>
+              <div class="content">vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:08:35 PM</div>
+              <div class="content">corrigido ja <a href="https://cdn.discordapp.com/attachments/1309320006177259542/1309324620343545936/image.png?ex=67412b13&is=673fd993&hm=07c080dd47c266dbd85760a021823221899cf03fd703de46670b8076d591c9e7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:08:45 PM</div>
+              <div class="content">agr vou arrumar desse jeito que tu falou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:18 PM</div>
+              <div class="content">exatamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:26 PM</div>
+              <div class="content">ficou bom assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:28 PM</div>
+              <div class="content">assim ta ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:30 PM</div>
+              <div class="content">obrigado mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:10:41 PM</div>
+              <div class="content">esse é o padrao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:10:48 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:48 PM</div>
+              <div class="content">exatamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:10:55 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:55 PM</div>
+              <div class="content">se o tam pegar daquele jeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:10:58 PM</div>
+              <div class="content">vai rodar kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:11:05 PM</div>
+              <div class="content">tmj, boa jogarina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:11:06 PM</div>
+              <div class="content">tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:11:08 PM</div>
+              <div class="content">nao rodo mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:11:10 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:11:20 PM</div>
+              <div class="content">S2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/21/2024, 10:11:24 PM</div>
+              <div class="content">fui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">atbope</div>
+              <div class="timestamp">11/21/2024, 10:11:36 PM</div>
+              <div class="content">vlw </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
