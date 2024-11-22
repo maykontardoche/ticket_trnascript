@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・baiano-kfqofib5</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:22:56 AM</div>
+              <div class="content">Foi mal gordão, acordei agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:23:08 AM</div>
+              <div class="content">Sabe me dizer se o aranha já desfez a base dele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:26:37 AM</div>
+              <div class="content">Pô, não sei mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:38:04 AM</div>
+              <div class="content">Entendi l </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:38:26 AM</div>
+              <div class="content">Rapaz o cara é 100% + vanileiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:38:40 AM</div>
+              <div class="content">Você ver o loot dele, você dá risada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:48:56 AM</div>
+              <div class="content">76561198358034199 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:49:11 AM</div>
+              <div class="content">X X T - Toxic </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:49:14 AM</div>
+              <div class="content">vip platina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:50:27 AM</div>
+              <div class="content">Cadê o comprovante bb? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:50:57 AM</div>
+              <div class="content">Kkkkkkkkkkkkkkkkkkkkk só arma fraca? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:51:17 AM</div>
+              <div class="content">meu amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:51:25 AM</div>
+              <div class="content">da pra fazer uns 5 raid em base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:51:27 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:51:31 AM</div>
+              <div class="content">vou lhe mandar os print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:52:00 AM</div>
+              <div class="content">Mas é pq o cara joga sozinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:52:17 AM</div>
+              <div class="content">Mas o loot é bom ou ruim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:52:17 AM</div>
+              <div class="content">ele era do nalx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:52:33 AM</div>
+              <div class="content">ruim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:52:42 AM</div>
+              <div class="content">pelo menos o  me mandaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:52:43 AM</div>
+              <div class="content">Kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:52:57 AM</div>
+              <div class="content">gera um pagamento pelo cartao, por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:01 AM</div>
+              <div class="content">Cadê o comprovante desse aqui? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:16 AM</div>
+              <div class="content">Fica 106 no cartão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:53:17 AM</div>
+              <div class="content">e desse mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:19 AM</div>
+              <div class="content">Tá ligado né? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:53:20 AM</div>
+              <div class="content">nao po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:53:24 AM</div>
+              <div class="content">pelo mercado livre? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:53:34 AM</div>
+              <div class="content">fiz 2 pagamento, nao gerou taxa nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:35 AM</div>
+              <div class="content">É </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:41 AM</div>
+              <div class="content">Ué </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:49 AM</div>
+              <div class="content">Quando o Tam gera link pra cartao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:53:56 AM</div>
+              <div class="content">O mercado pago come uma parte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:54:09 AM</div>
+              <div class="content">vou olhar aqui, segura ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:54:11 AM</div>
+              <div class="content">Desconta 6 reais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:54:15 AM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:54:30 AM</div>
+              <div class="content">Mercado pago </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:56:32 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309502778997215232/IMG_0059.png?ex=6741d0ff&is=67407f7f&hm=0d5efcc3085248ff24f7a246bc4301f256f88f367691365d26dd124f978b253e&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309502779395543151/IMG_0058.png?ex=6741d0ff&is=67407f7f&hm=839e3ed37daf19cc13951b0ceab49cedbfc8321e76f6eb5c1494d33998ed18cd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:56:57 AM</div>
+              <div class="content">Ai foi um de 60 e 45 foi uma barret que o tam fez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:57:02 AM</div>
+              <div class="content">Que ela é 50 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:57:18 AM</div>
+              <div class="content">Sim, pra vc vai normal, mas pra ele entra desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:57:30 AM</div>
+              <div class="content">Antes ele não cobrava o desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:57:45 AM</div>
+              <div class="content">Agora ele cobra, pq quando tu parcela então, ele perde mais ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 9:58:01 AM</div>
+              <div class="content">O de 100 vai pra 106 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:58:13 AM</div>
+              <div class="content">Entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:58:21 AM</div>
+              <div class="content">Manda aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 9:59:24 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309503500618698783/fd53c14b-0003-4d59-acfe-1e44fbe04689.jpg?ex=6741d1ab&is=6740802b&hm=8be91c55de52d40ea1b889e7c107755d942028ec27e38d0983c0e6b002cb9a85&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309503501038125076/bc90713f-ac82-449f-ad89-0ce495605d92.jpg?ex=6741d1ac&is=6740802c&hm=a500ca12f544aa5a58d93ba33d0ae24d11e9b7922fb028c9fca68872682f6468&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:00:02 AM</div>
+              <div class="content">Kkkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:00:07 AM</div>
+              <div class="content">Vou pedir a esposa dele pra fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:00:09 AM</div>
+              <div class="content">Marca ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:01:17 AM</div>
+              <div class="content">marcar quem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:01:25 AM</div>
+              <div class="content">essa arma custa 20 reais? <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309504010520363110/image.png?ex=6741d225&is=674080a5&hm=905f88336a530f8aa2e585051f6989a485d95ce6090a7e3e79541583c376463b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:02:00 AM</div>
+              <div class="content">ou o mlk ta querendo me passar a perna, ta querendo vip, e quer me dar cheytec, e essa dai dizendo que e rara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:02:58 AM</div>
+              <div class="content">Vou fazer o link </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:03:09 AM</div>
+              <div class="content">blz meu amor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:03:19 AM</div>
+              <div class="content">Mas é mesmo, não? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:03:33 AM</div>
+              <div class="content">M200 eu acho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:03:37 AM</div>
+              <div class="content">Se acha pouco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:03:49 AM</div>
+              <div class="content">Vale 20 sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:04:10 AM</div>
+              <div class="content">Vou mandar o link no seu pv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:05:44 AM</div>
+              <div class="content">Ah </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:05:46 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309505106559111318/IMG_0062.png?ex=6741d32a&is=674081aa&hm=0f69542eab024e764ee2652a3129517982a44ac902d5cbe60d8c502c1a940b35&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:06:04 AM</div>
+              <div class="content">Quero é que ele der o resto no jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:06:05 AM</div>
+              <div class="content">Kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:06:16 AM</div>
+              <div class="content">Minhas 40 cheytec +2kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:06:24 AM</div>
+              <div class="content">Ele tá querendo me dar essa arma, to fora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:06:43 AM</div>
+              <div class="content">É, se vc já tem, não tem pq pegar né? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:07:19 AM</div>
+              <div class="content">pois e </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:21:53 AM</div>
+              <div class="content">TA FEITO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:22:00 AM</div>
+              <div class="content">DEPOIS DO PROXIMO RR ELE PODE SE MATAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:28:12 AM</div>
+              <div class="content">segura ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:28:15 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:28:18 AM</div>
+              <div class="content">vai ter outro vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 10:31:57 AM</div>
+              <div class="content">bl\ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:55:24 AM</div>
+              <div class="content">76561198394319621 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:55:32 AM</div>
+              <div class="content">[ATF] Th3y </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 10:56:36 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309450439871299685/1309517896422133880/IMG_0064.png?ex=6741df14&is=67408d94&hm=51611506860c610cbf945782ee1f7ff4824febcf3a32c0fca9c1822e99b5f809&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 11:09:30 AM</div>
+              <div class="content">Show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 11:09:37 AM</div>
+              <div class="content">Precisei dar uma saidinha agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 11:09:44 AM</div>
+              <div class="content">Assim que eu voltar eu coloco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 11:13:45 AM</div>
+              <div class="content">gordao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 11:13:49 AM</div>
+              <div class="content">ah blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 11:13:58 AM</div>
+              <div class="content">ia pedi pra da um pulo aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 11:16:43 AM</div>
+              <div class="content">Devo chegar em 30m </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 11:22:30 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 12:17:11 PM</div>
+              <div class="content">voltou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:18:44 PM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 12:19:06 PM</div>
+              <div class="content">blz, que o mlk ta me cobrando aqui o vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 12:19:14 PM</div>
+              <div class="content">chegar na base, vou pedi pra ir la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:20:51 PM</div>
+              <div class="content">FALA PRA ELE QUE DEPOIS DO  RR PODE SE MATAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 12:21:09 PM</div>
+              <div class="content">blz gordao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:22:58 PM</div>
+              <div class="content">MANDA ELE E O TOXIC ABRIR TICKET </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:23:01 PM</div>
+              <div class="content">PRA EU SETAR AQUI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/22/2024, 12:24:02 PM</div>
+              <div class="content">toxic foi trabalhar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:25:45 PM</div>
+              <div class="content">BLZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:25:52 PM</div>
+              <div class="content">E O THEY? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:27:05 PM</div>
+              <div class="content">TOXIC ACHEI AQUI JA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:27:10 PM</div>
+              <div class="content">FALTA O THEY SÓ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:28:24 PM</div>
+              <div class="content">JA FIZ DOS 2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/22/2024, 12:28:25 PM</div>
+              <div class="content">VLW </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
