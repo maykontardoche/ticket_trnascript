@@ -1,0 +1,473 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・biellost-mfdic4j0</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/23/2024, 3:57:54 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 3:58:07 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309956165483888640/image.png?ex=6743773f&is=674225bf&hm=88e777fcd9434b7829c33a72f27645bc28cfa4d6d313626475608521208ff6a8&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:07:25 PM</div>
+              <div class="content">Procurou direito? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:07:33 PM</div>
+              <div class="content">Já tentou em outra trade? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:07:54 PM</div>
+              <div class="content">Vai em munições e vê se alguma fica amarela com a arma na mão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:08:18 PM</div>
+              <div class="content">Eu estava na Klen procurei por muito tempo la nao achei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:08:28 PM</div>
+              <div class="content">desci para a Green procurei aq até agora nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:08:35 PM</div>
+              <div class="content">tentei isso tambem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:08:41 PM</div>
+              <div class="content">Foi em todas as máquinas de armas? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:08:45 PM</div>
+              <div class="content">pesquisei por nomes e nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:08:50 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:08:51 PM</div>
+              <div class="content">Não pesquisa por nomes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:08:57 PM</div>
+              <div class="content">Fica com a arma na mão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:09:07 PM</div>
+              <div class="content">Abre e vai olhando aba por aba </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:09:19 PM</div>
+              <div class="content">fiz isso em todas as abas de munição </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:09:29 PM</div>
+              <div class="content">Blz, vou olhar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:09:47 PM</div>
+              <div class="content">ela é 12.7x99 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:09:50 PM</div>
+              <div class="content">ou .50? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:10:03 PM</div>
+              <div class="content">.50 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:10:04 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309959169725698200/image.png?ex=67437a0b&is=6742288b&hm=b24b07bcc9c2e226acf1a0a1562c8cf26eb213d3fe59b4192650402d864f890c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:10:12 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:10:18 PM</div>
+              <div class="content">Simples mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:10:27 PM</div>
+              <div class="content">acho que to bugado man vou relogar pra ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:10:28 PM</div>
+              <div class="content">Tira uma munição desse carregador aí e veja o nome </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:10:39 PM</div>
+              <div class="content">pior que nao tem nada de muni kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:10:47 PM</div>
+              <div class="content">quase nao acho carregador tmb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:11:00 PM</div>
+              <div class="content">vou relogar aq talvez possa tar bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:11:06 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:11:09 PM</div>
+              <div class="content">Me avisa aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:11:23 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:13:09 PM</div>
+              <div class="content">Deu certo mano... <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309959946770579568/image.png?ex=67437ac5&is=67422945&hm=67ad7f8a1f845dbc8f0099ed297eedeeb7abb1f78d06b253f39e158bc9fe7dab&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:13:51 PM</div>
+              <div class="content">pra mim achar o silenciador dela mesma coisa ficar com ela na mão que aparece? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:37:47 PM</div>
+              <div class="content">Exatamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:37:52 PM</div>
+              <div class="content">Tudo que ficar laranja é dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:38:29 PM</div>
+              <div class="content">nada ficou F supressor desistir de procurar o supressor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:44:30 PM</div>
+              <div class="content">outra pergunta vocês faz bandeira personalizadas? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:47:06 PM</div>
+              <div class="content">Ainda não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 4:47:16 PM</div>
+              <div class="content">Mas podemos ver se é possível </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 4:56:09 PM</div>
+              <div class="content">verifica pra mim beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:03:41 PM</div>
+              <div class="content">MANO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:03:43 PM</div>
+              <div class="content">TEM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:03:48 PM</div>
+              <div class="content">TU QUE NÃO TA ACHANDO KK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:13:21 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:13:42 PM</div>
+              <div class="content">concerteza deve ter só não achei vou ter ir pvp sem silenciador desistir de procurar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:13:43 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:14:37 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309975418165792811/image.png?ex=6743892d&is=674237ad&hm=d406cb68d60c2c19236109262197659144c88f5d3f15cc4a08fd304c2da6a7d2&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:14:45 PM</div>
+              <div class="content">PROCURA POR ESSE NOME </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:15:41 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309975686630342717/image.png?ex=6743896d&is=674237ed&hm=18011d0a46bd2bb5b9767cc0790980b429dc5f528e9f986b67bd851601765f4a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:16:56 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1309956108114333736/1309975999735271525/image.png?ex=674389b8&is=67423838&hm=172f47a67f16c9e43213223d27b866193a38e86a2b93cb0ab969ff9eeacd913d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:17:04 PM</div>
+              <div class="content">Não cabe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:17:23 PM</div>
+              <div class="content">tenho deles já testei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:17:24 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:21:19 PM</div>
+              <div class="content">vai deixar ele aq? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:21:22 PM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/23/2024, 5:21:24 PM</div>
+              <div class="content">VLW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">biellost</div>
+              <div class="timestamp">11/23/2024, 5:21:29 PM</div>
+              <div class="content">vlw então obrigado </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
