@@ -1,0 +1,491 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・igorzineoo-143jrtzm</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/23/2024, 7:57:49 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 7:58:04 PM</div>
+              <div class="content">BOA NOITE TEM SIM AMIGO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 7:58:14 PM</div>
+              <div class="content">JA ESCOLHEU QUAL VAI QUERER ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 7:59:25 PM</div>
+              <div class="content">Sim, só tenho uma dúvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 7:59:32 PM</div>
+              <div class="content">PODE FALAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 7:59:36 PM</div>
+              <div class="content">QUAL DUVIDA ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 7:59:37 PM</div>
+              <div class="content">Vem com baús algo assim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 7:59:50 PM</div>
+              <div class="content">Eu ia dar boost pra pegar mochila, mas falta 3 dias para transferir para cá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 7:59:59 PM</div>
+              <div class="content">SIM VEM FECHADA COM CINCO PORTOES E 2MIL SLOTS DE ARMAZENAMENTO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:00:10 PM</div>
+              <div class="content">Portões com senha? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:00:33 PM</div>
+              <div class="content">SIM DROPO OS CODELOCKS E VOCE POE A SENHA A SUA ESCOLHA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:00:41 PM</div>
+              <div class="content">Ahh, perfeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:00:44 PM</div>
+              <div class="content">Última duvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:00:48 PM</div>
+              <div class="content">MANDA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:01:08 PM</div>
+              <div class="content">Sabe me dizer se só aceitam pix, ou cartão de crédito também? Eu arco com os juros caso necessário </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:01:24 PM</div>
+              <div class="content">pix ,cartao  voce escolhe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:01:45 PM</div>
+              <div class="content">Se puder ser cartão, melhor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:01:55 PM</div>
+              <div class="content">Pix ai tenho que entrar em contato com banco, meio burocrático </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:02:00 PM</div>
+              <div class="content">Ai cartão fica melhor para mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:02:04 PM</div>
+              <div class="content">Tenho interesse nesta aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:02:10 PM</div>
+              <div class="content">Não consigo enviar print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:02:17 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310016486408061060/1310017611928698911/torre_2.png?ex=6743b079&is=67425ef9&hm=bfaadb3358ac23638a3fbdb32c3b2e545d9fb20853d0081072b16d4a204de6ed&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:02:17 PM</div>
+              <div class="content">Está </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:02:22 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:02:35 PM</div>
+              <div class="content">vou fazer o linck pro cartao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:02:57 PM</div>
+              <div class="content">tu vai querer so a base ou mais alguma coisa ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:03:16 PM</div>
+              <div class="content">Vou pegar a base, e talvez mais tarde um carro ou vip, vai depender da minha esposa kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:03:24 PM</div>
+              <div class="content">Ela me controla, se não gasto demais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:03:30 PM</div>
+              <div class="content">kkkkk faz parte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:03:37 PM</div>
+              <div class="content">sou assim tambem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:03:40 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:03:47 PM</div>
+              <div class="content">Kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:05:14 PM</div>
+              <div class="content">Eu posso escolher aonde colocar ela? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:05:50 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:05:55 PM</div>
+              <div class="content">Ahh, perfeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:06:07 PM</div>
+              <div class="content">so precisa ver se esta dentro das regras </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:06:19 PM</div>
+              <div class="content">Quais regras? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:06:52 PM</div>
+              <div class="content"><#1296022670671876116> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:08:44 PM</div>
+              <div class="content"><span class="mention">@igoorszz</span>  vou te mandar no PV o linck </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:09:17 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310016486408061060/1310019374156877844/image.png?ex=6743b21d&is=6742609d&hm=fc103058608fa2f8665524e6214ec1537f7bfe0b7b76d542ef91d387b46a112e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:09:24 PM</div>
+              <div class="content">Pode ser em baixo deste circulo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:11:13 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310016486408061060/1310019859773653035/comprovante_93927802471.pdf?ex=6743b291&is=67426111&hm=a50bad5a66b611a488df26b1da381dd05284cc7e86b25d17aa3dc3cca80c9fba&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:11:20 PM</div>
+              <div class="content">Prontinho meu querido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:11:27 PM</div>
+              <div class="content">Show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:11:39 PM</div>
+              <div class="content">Vai até o local e me chame que já faço sua base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:11:46 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:16:56 PM</div>
+              <div class="content">Uma duvida meu querido, como vejo meu dinheiro? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:17:28 PM</div>
+              <div class="content">so ir ate o atm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 8:17:34 PM</div>
+              <div class="content">fica nas trades </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:18:23 PM</div>
+              <div class="content">Ahh, ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:31:15 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310016486408061060/1310024900253323404/image.png?ex=6743b743&is=674265c3&hm=15a9f79703986f17691ab1dc6d7617aca2dabb79d3f3c8a44e2b875a1c0fecf2&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:31:19 PM</div>
+              <div class="content">Pode ser aqui Rodrigo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:31:30 PM</div>
+              <div class="content">Em pulkovo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:31:35 PM</div>
+              <div class="content">Se não for incomodo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:32:36 PM</div>
+              <div class="content">Porque ai fica próximo da área de troca e caça </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 8:32:47 PM</div>
+              <div class="content">Nossa ideia de começo é fazer dinheiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/23/2024, 9:00:01 PM</div>
+              <div class="content">manda teu id stean por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">igoorszz</div>
+              <div class="timestamp">11/23/2024, 9:00:32 PM</div>
+              <div class="content">76561199012836934 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozinho2589</div>
+              <div class="timestamp">11/23/2024, 9:04:43 PM</div>
+              <div class="content">76561199004844847 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
