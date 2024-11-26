@@ -1,0 +1,455 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・aritter-10vhpti7</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/25/2024, 9:32:39 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:32:51 PM</div>
+              <div class="content"><span class="mention">@tam8181</span> ta ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:34:19 PM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:34:21 PM</div>
+              <div class="content">Falae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:34:38 PM</div>
+              <div class="content">me tira uma duvida....  antes de continuarmos... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:35:01 PM</div>
+              <div class="content">vc banio o  los santos do discord... ate quando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:35:22 PM</div>
+              <div class="content">Vou tirar hoke </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:35:28 PM</div>
+              <div class="content">Pede a ele o id dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:35:40 PM</div>
+              <div class="content">blz.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:35:50 PM</div>
+              <div class="content">passa pro tam ai meu pagamento do vip... fazendo favor.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:36:29 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310765128832258200/1310766091940663410/image.png?ex=6746698d&is=6745180d&hm=caebe01048600593129ad7c135e544542abd3059ff8b9414a4fd84625cbed331&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:37:20 PM</div>
+              <div class="content">vc quer o id do discord ou da steam dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:37:48 PM</div>
+              <div class="content">do discord é esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:37:50 PM</div>
+              <div class="content">lossantos6600 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:38:08 PM</div>
+              <div class="content">Pega o id steam dele pra mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:38:10 PM</div>
+              <div class="content">Ops </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:38:13 PM</div>
+              <div class="content">ID Steam: 76561198824259846 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:38:14 PM</div>
+              <div class="content">Id do Discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:38:18 PM</div>
+              <div class="content">Dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:38:21 PM</div>
+              <div class="content">Do Los santos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:38:38 PM</div>
+              <div class="content">lossantos6600 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:38:41 PM</div>
+              <div class="content">discord esse ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:40:05 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310765128832258200/1310766997226917928/image.png?ex=67466a65&is=674518e5&hm=5b299ac4cfe45c2b4880b237813053322f3c3a619be98abf8d6545460c5667ad&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:40:08 PM</div>
+              <div class="content">kkk ai o </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:40:31 PM</div>
+              <div class="content">Clica com o botão direito no nome xele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:40:38 PM</div>
+              <div class="content">Vai lá embaixo em copiar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:42:34 PM</div>
+              <div class="content">398693507344236555 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:43:19 PM</div>
+              <div class="content">ai deu certo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:45:34 PM</div>
+              <div class="content">Ban dele foi rerirado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:45:48 PM</div>
+              <div class="content">valeu... nao esquece de pasa pro tam meu pagamento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:45:55 PM</div>
+              <div class="content">Já avisa a ele.ai que se ficar tratando no chat errado, no próximo é 7 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:04 PM</div>
+              <div class="content">Depois perma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:46:07 PM</div>
+              <div class="content">ja comi o cu dele aki kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:22 PM</div>
+              <div class="content">Criamos a caralha do chat pra geral se comer lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:31 PM</div>
+              <div class="content">Aí quer discutir em chat de clips </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:32 PM</div>
+              <div class="content">Foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:43 PM</div>
+              <div class="content">Tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:46:48 PM</div>
+              <div class="content">valeu mano obrigadu.. tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:46:55 PM</div>
+              <div class="content">Assim que Tam chegar ele coloca seu vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:47:00 PM</div>
+              <div class="content">Já acabou o seu? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 9:47:08 PM</div>
+              <div class="content">ele ja ativo .. tava fiado kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:47:15 PM</div>
+              <div class="content">Ah, então fechou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/25/2024, 9:47:56 PM</div>
+              <div class="content">Vou só conferir se ele colocou na planilha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 11:02:51 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310765128832258200/1310787829197967360/image.png?ex=67467dcb&is=67452c4b&hm=c65be5ba141b3436f3268f92a3598f949d0a0dba6ad90e24ed462567a1b48862&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 11:02:55 PM</div>
+              <div class="content">TO SEM VIP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 11:24:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1310765128832258200/1310793288705638421/image.png?ex=674682e1&is=67453161&hm=1d7cfab2cb7c52d4fcd44e56034b6d8452124e560ff158097a2564b5a318834c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/25/2024, 11:25:36 PM</div>
+              <div class="content">um segundo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/25/2024, 11:25:57 PM</div>
+              <div class="content">me passa teu id stean ai de novo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 11:28:12 PM</div>
+              <div class="content">76561198174224519 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">a.ritter</div>
+              <div class="timestamp">11/25/2024, 11:48:11 PM</div>
+              <div class="content">meu vip é platina é porque o tam faz a 85 pra nois.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/25/2024, 11:52:05 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/25/2024, 11:52:35 PM</div>
+              <div class="content">eu to esperando o tam pr apor porque estou sem acesso a maquina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/26/2024, 12:26:32 AM</div>
+              <div class="content">dez minutos pode se matar </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
