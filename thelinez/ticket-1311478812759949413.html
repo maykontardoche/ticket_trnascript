@@ -1,0 +1,533 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・alissonw0007-wubqmij6</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/27/2024, 8:48:35 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 8:50:21 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 8:50:26 PM</div>
+              <div class="content">qual bug amigo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:05:05 PM</div>
+              <div class="content">então é que a historia e complicado mais e bug como battelet do servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:05:25 PM</div>
+              <div class="content">não conseguia jogar por mais de 1 min ser crasha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:05:36 PM</div>
+              <div class="content">dai por conta disso morri em sona de pve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:06:00 PM</div>
+              <div class="content">e por conta de não conmseguir entrar no servidor perdi meu carro e meu loot todo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:06:26 PM</div>
+              <div class="content">tentei de tudo ate formatar o pc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:06:56 PM</div>
+              <div class="content">vc loga e cracha? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:07:28 PM</div>
+              <div class="content">EXATAMENTE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:07:41 PM</div>
+              <div class="content">ai aparece algum erro? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:07:43 PM</div>
+              <div class="content">POR CONTA DISSO PERDI MEU LOOT TODO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:07:46 PM</div>
+              <div class="content">manda print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:07:51 PM</div>
+              <div class="content">APARECE ERRO NO BATTELET </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:12:46 PM</div>
+              <div class="content">AGORA MEU JOGO DEMORA PARA ABRIR MAIS ABRE SO QUE ANTES FECHAVA DE 1 A 1 MIN CARA <a href="https://cdn.discordapp.com/attachments/1311478812759949413/1311484901736054875/image.png?ex=674906fe&is=6747b57e&hm=c4baf496cd5309f5609496e59766f38fed0721849cb47fe9f9a61d3f1ef40bfa&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:14:41 PM</div>
+              <div class="content">toda hora <a href="https://cdn.discordapp.com/attachments/1311478812759949413/1311485382252167209/image.png?ex=67490771&is=6747b5f1&hm=6a027a05604ccfd6c2c9dd85aaa76beb36fada1c869b2a9f021cc61ba1368f7f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:15:19 PM</div>
+              <div class="content">eu entro e da esse erro de 1 a 1 min cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:15:23 PM</div>
+              <div class="content">da ate raiva </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:15:27 PM</div>
+              <div class="content">ja tentei de tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:15:37 PM</div>
+              <div class="content">ja instalei e baixe o jogo de novo mais nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:18:58 PM</div>
+              <div class="content">DELETA A PASTA DO BATLEYE NOS TEUS ARQUIVOS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:19:08 PM</div>
+              <div class="content">TENTA ENTRAR QUE VAI CRIAR OUTRA PASTA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:19:10 PM</div>
+              <div class="content">JÁ FIZ ISSO 100 VEZES CARA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:19:15 PM</div>
+              <div class="content">JA FIZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:19:48 PM</div>
+              <div class="content">então, eu estou tentando ajudar vc, mas este erro não é no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:19:52 PM</div>
+              <div class="content">JA DELETEI O JOGO DO PC FORMATEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:19:54 PM</div>
+              <div class="content">E NADA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:20:13 PM</div>
+              <div class="content">ESSE ERRO É DO JOGO ENTÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:20:23 PM</div>
+              <div class="content">manda seu id steam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:20:28 PM</div>
+              <div class="content"><#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:26:18 PM</div>
+              <div class="content">76561198795897712 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:26:44 PM</div>
+              <div class="content">steamcommunity.com/profiles/76561198795897712 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:28:13 PM</div>
+              <div class="content">o maior problema é que perde meu carro e meu loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:28:53 PM</div>
+              <div class="content">PARA SOLUÇÃO DESTE PROBLEMA SÓ SE VC TIVER CLIP, MI REFIRO AO LOOT </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:29:04 PM</div>
+              <div class="content">O CARRO FICOU ABERTO E PEGARAM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:29:38 PM</div>
+              <div class="content">COMO VC PERDEU ESTE VEICULO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:35:44 PM</div>
+              <div class="content">OLHA ENTREI NO SERVIDOR BLZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:35:56 PM</div>
+              <div class="content">DAI O JOGO FEZ ESSE ERRO QUE TE MANDEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:36:20 PM</div>
+              <div class="content">MEU CARRO TEM CADEADO SO QUE  EU ESTAVA DIRIGINDO ELE QUANDO MEU JOGO FECHOU E NÃO CONSEGUI ENTRAR MAIS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:36:30 PM</div>
+              <div class="content">POR CONTA DESSE ERRO MEU JOGO N ABRIA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:36:56 PM</div>
+              <div class="content">PROVAVELMENTE ELE VOU LIMPADO AS 3 DA MANHA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:37:43 PM</div>
+              <div class="content">no restart do servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:50:13 PM</div>
+              <div class="content">NÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:50:16 PM</div>
+              <div class="content">ESTA LÁ AINDA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:50:41 PM</div>
+              <div class="content">NÃO ACHEI ELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:50:50 PM</div>
+              <div class="content">JA TEM UNS 4 A 5 DIAS ISSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:50:54 PM</div>
+              <div class="content">VEJA SE MELHOROU SUA CONEXÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:51:05 PM</div>
+              <div class="content">QUAL COR E MODELO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:51:26 PM</div>
+              <div class="content">MODELO É AQUELE CARRO MAIS BASICO A COR AZUL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:51:43 PM</div>
+              <div class="content">ONDE VC DEIXOU POR ULTIMO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:51:50 PM</div>
+              <div class="content">CONSEGUE VE ESSE ELE ESTA  ESTA CMOMO MEU VEICULO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:53:02 PM</div>
+              <div class="content">NÃO SABE ONDE DEIXOU POR ULTIMO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:53:22 PM</div>
+              <div class="content">SEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:53:27 PM</div>
+              <div class="content">ESPERA QUE VOU LOGAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:53:33 PM</div>
+              <div class="content">CONSEGUE DA TP EM MIM DAI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:53:44 PM</div>
+              <div class="content">QUAL SEU NICK IN GAME?} </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:55:29 PM</div>
+              <div class="content">AlissonW0007 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:55:34 PM</div>
+              <div class="content">estou na fila agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 9:55:41 PM</div>
+              <div class="content">OK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 9:56:00 PM</div>
+              <div class="content">dai ja mando a localização pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 10:30:02 PM</div>
+              <div class="content">CONSEGUE DAR TP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/27/2024, 10:32:14 PM</div>
+              <div class="content">VOU AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 10:33:08 PM</div>
+              <div class="content">BLZ ENTOU NO LUGAR QUE ESTIVE COM O CARRO POR ULTIMO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 10:33:58 PM</div>
+              <div class="content">MEU CARRO É AZUL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 10:34:17 PM</div>
+              <div class="content">LEMBRO DE ESTAR PASSANDO POR AQUI COM ELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alissonwaltmann</div>
+              <div class="timestamp">11/27/2024, 10:37:35 PM</div>
+              <div class="content">SENHA 20502050 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
