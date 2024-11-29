@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・drobadisa-0aa0mdng</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:11:47 PM</div>
+              <div class="content">sei que tu ta nos outros buxo ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:11:53 PM</div>
+              <div class="content">ver com dev, se tem algo que eu possa fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:12:14 PM</div>
+              <div class="content">tenta achar pelo da steam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:17:13 PM</div>
+              <div class="content">nada tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:17:34 PM</div>
+              <div class="content">😢 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:17:45 PM</div>
+              <div class="content">marca ai então mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:17:57 PM</div>
+              <div class="content">hum ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:18:04 PM</div>
+              <div class="content">como assim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:18:17 PM</div>
+              <div class="content">espera eu resolver as coisas aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:18:19 PM</div>
+              <div class="content">que tento te ajudar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:19:08 PM</div>
+              <div class="content">beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:19:10 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312075392517148702/image.png?ex=674b2cee&is=6749db6e&hm=1d1499f7968e4686801a49338b71cbcdfae50c1146bb8988b033d914240b5652&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:19:10 PM</div>
+              <div class="content">arrocha ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:19:12 PM</div>
+              <div class="content">pq aqui ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:19:21 PM</div>
+              <div class="content">ver logo os passa fome </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:19:24 PM</div>
+              <div class="content">dps tu vem aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:21:16 PM</div>
+              <div class="content">ta foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:21:22 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312075946131591178/image.png?ex=674b2d72&is=6749dbf2&hm=dcd9a2bf94eb37af8c56628cd782aacb25e296120799061d49c82f3b92c0b8b5&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:22:34 PM</div>
+              <div class="content">tá porra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:22:35 PM</div>
+              <div class="content">kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:22:40 PM</div>
+              <div class="content">resolve logo eles ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:22:44 PM</div>
+              <div class="content">to de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:28:55 PM</div>
+              <div class="content">ow coloca um aviso, ou fixa la, que vão devolver as armas PELO AMOR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:29:34 PM</div>
+              <div class="content">KKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:43:40 PM</div>
+              <div class="content">conseguiu logar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 12:44:35 PM</div>
+              <div class="content">mesma coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:09:32 PM</div>
+              <div class="content">ja tirou os mod? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:10:17 PM</div>
+              <div class="content">ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:10:29 PM</div>
+              <div class="content">ja ate desinstalei o launch </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:10:39 PM</div>
+              <div class="content">ja verifiquei os arquivos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:10:51 PM</div>
+              <div class="content">no launch da steaam n aparece o serv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:11:06 PM</div>
+              <div class="content">ja desabilitei o Defender </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:11:18 PM</div>
+              <div class="content">que poderia ser ele bloqueando a conexão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:11:41 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312088605375856650/image.png?ex=674b393c&is=6749e7bc&hm=f4c1eccbd85b216869a32dd8170c8ef17a304ac5c33e2e37ad262b1f210e024e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:11:49 PM</div>
+              <div class="content">de todos, ele o unico que não muda nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:11:55 PM</div>
+              <div class="content">nao atualiza, não sai do off </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:12:13 PM</div>
+              <div class="content">ja reiniciou o pc depois de fazer tudo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:12:20 PM</div>
+              <div class="content">pera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:12:28 PM</div>
+              <div class="content">ja clicou pra entrar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:12:34 PM</div>
+              <div class="content">depois de baixar todos os mods </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:14:24 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:14:37 PM</div>
+              <div class="content">eu reinciei aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:14:39 PM</div>
+              <div class="content">vou testar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:14:41 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:14:45 PM</div>
+              <div class="content">clica pra entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:14:49 PM</div>
+              <div class="content">ve qual erro vai dar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:14:50 PM</div>
+              <div class="content">manda aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:14:54 PM</div>
+              <div class="content">o print do erro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:15:38 PM</div>
+              <div class="content">E NO LAUCHER ORIGINAL? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:15:46 PM</div>
+              <div class="content">naõ aparece o serv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:15:49 PM</div>
+              <div class="content">nem nos favoritos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:15:53 PM</div>
+              <div class="content">nem na comunidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:16:06 PM</div>
+              <div class="content">o problema ta ai mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:15 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312090513632919683/image.png?ex=674b3b03&is=6749e983&hm=b92fc69439ecb36f2bee0e653bc4a814d3dc4e88851662c5eeef33b188f5be27&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:19 PM</div>
+              <div class="content">pior que ja fiz de tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:24 PM</div>
+              <div class="content">é mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:25 PM</div>
+              <div class="content">so faltar formatar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:28 PM</div>
+              <div class="content">aqui ta normalzao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:36 PM</div>
+              <div class="content">se não tiver problema </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:38 PM</div>
+              <div class="content">formata ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:47 PM</div>
+              <div class="content">:/ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:49 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:54 PM</div>
+              <div class="content">é o jeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:19:58 PM</div>
+              <div class="content">vou apagar o jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:19:59 PM</div>
+              <div class="content">pq aqui ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:20:02 PM</div>
+              <div class="content">aparecendo em tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:20:02 PM</div>
+              <div class="content">e launch </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:20:07 PM</div>
+              <div class="content">e ver se vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:20:12 PM</div>
+              <div class="content">faz a limpeza antes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:20:18 PM</div>
+              <div class="content">ja formatei esses dias, devido o ssd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:54:30 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312099382438658098/image.png?ex=674b4346&is=6749f1c6&hm=d882b57c6b7f40d016edc8fda03578caab7f883b8e78d0b2ebb16c51d09b9df4&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:54:31 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:54:33 PM</div>
+              <div class="content">AI AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:54:59 PM</div>
+              <div class="content">ja reinstalou o dzsa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:55:30 PM</div>
+              <div class="content">tudop </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 1:55:37 PM</div>
+              <div class="content">ele  e o jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:56:33 PM</div>
+              <div class="content">ai é foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:57:10 PM</div>
+              <div class="content">vai em documentos, deleta a pasta dayz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 1:57:16 PM</div>
+              <div class="content">e verifica arquivos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:00:31 PM</div>
+              <div class="content">ja fiz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:00:33 PM</div>
+              <div class="content">kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:00:41 PM</div>
+              <div class="content">fiz na verdade antes de baixar de nouvo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 2:02:10 PM</div>
+              <div class="content">então nem sei oque ti dizer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:02:34 PM</div>
+              <div class="content">ja dei uma pesquisada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:02:40 PM</div>
+              <div class="content">é conflito de mod </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:25 PM</div>
+              <div class="content">pior que quando eu abro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:26 PM</div>
+              <div class="content">o launck </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:29 PM</div>
+              <div class="content">launch </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:31 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312036898700787743/1312104170622292111/image.png?ex=674b47bb&is=6749f63b&hm=5a5f0f3833a7abbdc4f5205029f2c4571b03c607b6581e8d274a8b4d5e6e549d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:33 PM</div>
+              <div class="content">ele fica assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:35 PM</div>
+              <div class="content">ai dps </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:13:36 PM</div>
+              <div class="content">Off </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:35:52 PM</div>
+              <div class="content">é foda que nos oficiais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:35:53 PM</div>
+              <div class="content">entra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:35:55 PM</div>
+              <div class="content">normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 2:36:10 PM</div>
+              <div class="content">e outros servers? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:36:32 PM</div>
+              <div class="content">eu n tentei, fiquei meio que com receio de encher de mod </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:36:35 PM</div>
+              <div class="content">mais vou testar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 2:37:21 PM</div>
+              <div class="content">cola call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/29/2024, 2:37:52 PM</div>
+              <div class="content">bp 1 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
