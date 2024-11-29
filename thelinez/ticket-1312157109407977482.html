@@ -1,0 +1,587 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・they-x2to11s4</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/29/2024, 5:43:53 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:44:00 PM</div>
+              <div class="content">o tinha falado no ticket lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:44:03 PM</div>
+              <div class="content">sobre heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:45:52 PM</div>
+              <div class="content">ue </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:45:58 PM</div>
+              <div class="content">so vi vc falando do barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:46:01 PM</div>
+              <div class="content">que heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:46:02 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:04 PM</div>
+              <div class="content">ent man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:24 PM</div>
+              <div class="content">tinha dito lá q fui ter a brilhante ideia de pegar os cara q spawno cmg na praia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:32 PM</div>
+              <div class="content">leva eles no heli cmg e me deixa no barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:38 PM</div>
+              <div class="content">mais ai peguei heli no lugar do barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:40 PM</div>
+              <div class="content">e ele afundo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:46:53 PM</div>
+              <div class="content">pow pique n so idiota de spawna negocio errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:47:25 PM</div>
+              <div class="content">mas pelo momento ali q tava acontecendo monte de coisa acabei fazendo a merda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:47:34 PM</div>
+              <div class="content">tem como puxar ele ? ta bem na beirinha eu acho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:47:38 PM</div>
+              <div class="content">ta bem aonde puxa barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:47:42 PM</div>
+              <div class="content">n sei c é mt fundo] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:51:02 PM</div>
+              <div class="content">heli de trade mano? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:51:17 PM</div>
+              <div class="content">é </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:51:29 PM</div>
+              <div class="content">então chorou meu amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:51:43 PM</div>
+              <div class="content">infelizmente não tem seguro pra itens de trade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:01 PM</div>
+              <div class="content">é sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:52:21 PM</div>
+              <div class="content">blz só isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:23 PM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:27 PM</div>
+              <div class="content">tem o seguro na loja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:29 PM</div>
+              <div class="content">5 pratas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:35 PM</div>
+              <div class="content">tu paga e eu dropo outro pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 5:52:40 PM</div>
+              <div class="content">sem loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:52:52 PM</div>
+              <div class="content">pdser mas pode ser outra hora ? tenho q sair agr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:53:03 PM</div>
+              <div class="content">se quiser ja pago agr dps te lembro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 5:53:06 PM</div>
+              <div class="content">só passar pix </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:03:39 PM</div>
+              <div class="content">CEL 53 984653110 EVERTON JESKE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:05:20 PM</div>
+              <div class="content">mandando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:06:17 PM</div>
+              <div class="content">ou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:06:32 PM</div>
+              <div class="content">se eu mandar 15 consigo pegar minha raptor de volta n ? pow vcs sabem o tanto q eu fiquei online no sv dps do wipe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:06:58 PM</div>
+              <div class="content">por mais q foi erro meu admito mas pow erro mt bobinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:07:09 PM</div>
+              <div class="content">pra deixar mt tempo passar invão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:07:14 PM</div>
+              <div class="content">tanto q o heli até farmei de volta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:07:27 PM</div>
+              <div class="content">NOW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:07:38 PM</div>
+              <div class="content">O HELI SEI QUE ESTAVA LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:07:45 PM</div>
+              <div class="content">oloko tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:03 PM</div>
+              <div class="content">só n vai porq n tenho prova ? cara aposto 1k q tu olhar as logs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:05 PM</div>
+              <div class="content">vai estar lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:07 PM</div>
+              <div class="content">eu comrpando a raptor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:09 PM</div>
+              <div class="content">e n passando pra ngm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:14 PM</div>
+              <div class="content">roubo staff n man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:22 PM</div>
+              <div class="content">n preciso disso tenho mt tempo pra ficar farmando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:08:22 PM</div>
+              <div class="content">FAZ 2 SEMANAS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:28 PM</div>
+              <div class="content">até mais eu acho man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:33 PM</div>
+              <div class="content">mas eu to sendo sincero man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:41 PM</div>
+              <div class="content">eu só tiltei na hora q cai com ele na agua e kitei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:50 PM</div>
+              <div class="content">juro pra ti q n passei nem vendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:08:55 PM</div>
+              <div class="content">realmente perdi de bobeira era de manhazinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:09:06 PM</div>
+              <div class="content">tava indo da klen pro pier de berezino </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:09:07 PM</div>
+              <div class="content">pq estava sem heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:09:23 PM</div>
+              <div class="content">ai na virada do pier </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:09:30 PM</div>
+              <div class="content">ela derrapo e me lasquei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:09:35 PM</div>
+              <div class="content">MANDA AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:09:39 PM</div>
+              <div class="content">DEVOLVO PRA VC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:09:45 PM</div>
+              <div class="content">PQP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:10:05 PM</div>
+              <div class="content">GANHOU PQ SUA CHATISSE SE SOBREPOS A MINHA FIRMAZA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:10:11 PM</div>
+              <div class="content">KKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:10:11 PM</div>
+              <div class="content">a boa kkkkk pdp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:12:44 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312157109407977482/1312164367550255114/Comprovante_20241129T181211685157.png?ex=674b7fcc&is=674a2e4c&hm=e8466894ef93b2be93d9bfd5735fd891f5d26a20dda1a76732224ca3585e7cb6&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:06 PM</div>
+              <div class="content">ow e da uma perguntada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:20 PM</div>
+              <div class="content">agr sem mod de apes a toxica meio q deu uma nerfada bruta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:34 PM</div>
+              <div class="content">vai aumentar loot das armas q ficaram lá ? cheytac normal e as snafu rust pkp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 6:13:34 PM</div>
+              <div class="content">VAMOS MECHER </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:37 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:40 PM</div>
+              <div class="content">to logando ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:13:45 PM</div>
+              <div class="content">pra pegar os veic </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 6:14:06 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 6:14:08 PM</div>
+              <div class="content">logar avise </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:15:14 PM</div>
+              <div class="content">estou aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">11/29/2024, 6:15:15 PM</div>
+              <div class="content">no pier </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
