@@ -1,0 +1,590 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・baiano-plfbacsk</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/28/2024, 8:34:49 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:35:02 PM</div>
+              <div class="content">tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:35:07 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:35:09 PM</div>
+              <div class="content">boa noite senhores </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 8:36:35 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 8:36:39 PM</div>
+              <div class="content">posso ajudar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:36:45 PM</div>
+              <div class="content">meu amor, deixe eu pertubar logo voce </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:37:03 PM</div>
+              <div class="content">voce ta acompanhando essa treta do airfield? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 8:37:04 PM</div>
+              <div class="content">qq deu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:37:51 PM</div>
+              <div class="content">tem alguma coisa errado com o drack, a banana do meu nvidia nao ta clipando.
+mas ta imorrivel ele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:38:06 PM</div>
+              <div class="content">e parece que ate mualck ele fez. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 8:38:20 PM</div>
+              <div class="content">não clipou né? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 8:38:33 PM</div>
+              <div class="content">vou telar lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:38:37 PM</div>
+              <div class="content">a misera do nvidia ta bugado essa merda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 8:38:57 PM</div>
+              <div class="content">agradeço. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:21:11 PM</div>
+              <div class="content">meu lindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:21:22 PM</div>
+              <div class="content">to com um clip aqui para lhe mostrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:21:39 PM</div>
+              <div class="content">manda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:21:43 PM</div>
+              <div class="content">pegando aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:21:45 PM</div>
+              <div class="content">server tava bem lagado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:21:52 PM</div>
+              <div class="content">tive que reiniciar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:21:58 PM</div>
+              <div class="content">vai ter bastate tiquet </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:22:10 PM</div>
+              <div class="content">tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:27:49 PM</div>
+              <div class="content">tem como puxar ? geral 3 to </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:36:37 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1311837734809243741/1311853290828595200/wAJX7yTUyeE-aVGEJOefUQ.mp4?ex=674a5e15&is=67490c95&hm=7e003e295c25c75ae09f1f398850f6362b9db6f529b5701a1813da533eebd85c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:37:04 PM</div>
+              <div class="content">sem ter dado um tiro, o cara ja saiu mirado, sem contar que ele atira a primeira vez, e depois mata o boneco sem ter mirado? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:55:14 PM</div>
+              <div class="content">É O ZOOM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 9:57:01 PM</div>
+              <div class="content">drack </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:57:19 PM</div>
+              <div class="content">HUMM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 9:57:30 PM</div>
+              <div class="content">MESMA MOVIMENTAÇÃO QUE O ZOOM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:02:16 PM</div>
+              <div class="content">O zoom tava sem ghilie </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:02:40 PM</div>
+              <div class="content">Pintado de verde. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:03:05 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:03:07 PM</div>
+              <div class="content">MAS NÃO FOI ESTE AI QUE MATOU VC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:03:13 PM</div>
+              <div class="content">ALI ÉRA O ZOOM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:03:20 PM</div>
+              <div class="content">ERROU E OUTRO QUE TI MATOU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:03:35 PM</div>
+              <div class="content">CERTEZA QUE ESTE ALI ÉRA O ZOOM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:03:43 PM</div>
+              <div class="content">O DRACK NÃO SE MOVIMENTA ASIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:04:04 PM</div>
+              <div class="content">Eu acertei o drack  e muito, na minha morte, eu vi ele sangrando. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:04:08 PM</div>
+              <div class="content">Esse clip é do lone </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:04:11 PM</div>
+              <div class="content">TAVA TELANDO ATÉ AGORA POUCO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:04:26 PM</div>
+              <div class="content">ELE NÃO TAVA SE MOVIMENTANDO NORMAL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:04:30 PM</div>
+              <div class="content">. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:06:34 PM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:06:44 PM</div>
+              <div class="content">MAS ELE NÃO MORREU PARA ESTE QUE ATIROU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:07:35 PM</div>
+              <div class="content">Ta certo, consegue me mandar o clipe dele ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:07:37 PM</div>
+              <div class="content">DA PRA OUVIR 2 TIROS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:07:48 PM</div>
+              <div class="content">FOI O DRACK? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:08:05 PM</div>
+              <div class="content">MANDA O PRINT DO <#1295739367662551090> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:08:09 PM</div>
+              <div class="content">VOU VER SE ELE TEM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:08:21 PM</div>
+              <div class="content">COMO NÃO É OBRIGATÓRIO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:08:54 PM</div>
+              <div class="content">Pode colar call? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:08:59 PM</div>
+              <div class="content">Ficar mandando mensagem, da certo não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:09:08 PM</div>
+              <div class="content">Isso. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:09:16 PM</div>
+              <div class="content">SÓ PEGAR KILLFEAD LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:09:23 PM</div>
+              <div class="content">VOU SOLICITAR A ELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:09:29 PM</div>
+              <div class="content">AGORA NÃO DA CALL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:09:39 PM</div>
+              <div class="content">TO TENTANDO RETIRAR UM HELI DA AGUA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:10:12 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1311837734809243741/1311861743013855315/IMG_0177.png?ex=674a65f4&is=67491474&hm=df1b997a15cb63be4fb7ca68946e23f72905d1be2ac910606a474f54753a054c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:10:54 PM</div>
+              <div class="content">Pode olhar até a kilfeed.
+O lone morreu só de cheytec para o drack.
+A outra morte dele foi para o emisu e foi de pkp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:11:37 PM</div>
+              <div class="content">E a hora do clip dele foi esse horário aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:26:12 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1311837734809243741/1311865767649607800/image.png?ex=674a69b4&is=67491834&hm=ffd25fed9ba77593c9344653146999b7d439e99bdfeba38638e51628c5d2aa25&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:26:15 PM</div>
+              <div class="content">FICA TRANQUILO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:28:44 PM</div>
+              <div class="content">ta certo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:29:00 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1311837734809243741/1311866472980680774/image.png?ex=674a6a5c&is=674918dc&hm=5117eaaa22842e9b77ee3821aef1904d4b9c9c7fb70519417c17b076d3db1331&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:29:06 PM</div>
+              <div class="content">CARA QUE MATOU ELE TAVA ALI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:29:14 PM</div>
+              <div class="content">OLHA AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:31:36 PM</div>
+              <div class="content">quem e ai ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:31:48 PM</div>
+              <div class="content">DRACK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:33:58 PM</div>
+              <div class="content">conseguir observar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:39:28 PM</div>
+              <div class="content">DEU NADA MANO, PC DELE TA IGUAL AULTIMA TELAGEM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:39:30 PM</div>
+              <div class="content">MSM COISA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:55:22 PM</div>
+              <div class="content">Blz TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">sd.br22</div>
+              <div class="timestamp">11/28/2024, 10:55:32 PM</div>
+              <div class="content">Obrigado, e desculpe pelo incômodo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/28/2024, 10:58:51 PM</div>
+              <div class="content">NADA </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
