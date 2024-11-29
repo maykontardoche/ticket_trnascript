@@ -1,0 +1,740 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・acabpt-finufg9j</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:01:29 AM</div>
+              <div class="content">Qual é a configuração do seu Pc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:01:44 AM</div>
+              <div class="content">configuraçao ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:01:50 AM</div>
+              <div class="content">as estatisticas do meu pc ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:01:54 AM</div>
+              <div class="content">Sim, quantidade de memória </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:01:59 AM</div>
+              <div class="content">Processador </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:02:08 AM</div>
+              <div class="content">Se o jogo tá no SSD ou HD </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:02:17 AM</div>
+              <div class="content">Tudo isso influência </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:02:53 AM</div>
+              <div class="content">16gb ddr4 3200
+amd ryzen 5 3600
+geforce rtx 2060 6gb 
+o jogo ta no hd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:03:35 AM</div>
+              <div class="content">mano eu tenho curso de informatica, e nao sei pq me ta dando esse erro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:03:47 AM</div>
+              <div class="content">Não tem SSD? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:03:56 AM</div>
+              <div class="content">ontem joguei di boa no servidor ate as 4 damanha aqui em portugal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:04:01 AM</div>
+              <div class="content">Isso não muda nada prós jogos meu querido kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:04:06 AM</div>
+              <div class="content">tenho mas ta o windows </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:04:20 AM</div>
+              <div class="content">Não tem espaço pro game nele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:04:25 AM</div>
+              <div class="content">Só pro dayz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:04:38 AM</div>
+              <div class="content">é de 120 gb o ssd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:04:53 AM</div>
+              <div class="content">ta mesmo para o windows mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:05:00 AM</div>
+              <div class="content">ta com 50gb de espaço </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:04 AM</div>
+              <div class="content">É </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:08 AM</div>
+              <div class="content">Aí complica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:12 AM</div>
+              <div class="content">Seria pra um teste </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:05:17 AM</div>
+              <div class="content">haa pdc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:20 AM</div>
+              <div class="content">Ficaria ruim vc formatar seu pc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:24 AM</div>
+              <div class="content">Que aí tu formatava </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:30 AM</div>
+              <div class="content">Jogava o windows no hd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:34 AM</div>
+              <div class="content">Jogava ele no ssd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:36 AM</div>
+              <div class="content">Testava </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:05:47 AM</div>
+              <div class="content">nunca deu errado mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:05:53 AM</div>
+              <div class="content">posso ver de comprar novo disco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:05:55 AM</div>
+              <div class="content">Se desse a mesma coisa, repetia o processo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:05:56 AM</div>
+              <div class="content">mas nao seria hoje </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:06:06 AM</div>
+              <div class="content">Entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:06:09 AM</div>
+              <div class="content">É uma boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:06:12 AM</div>
+              <div class="content">Mas vai tentando entrar ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:06:15 AM</div>
+              <div class="content">Que uma hora vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:06:46 AM</div>
+              <div class="content">pdc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:06:57 AM</div>
+              <div class="content">Mas te aconselho 2 coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:09 AM</div>
+              <div class="content">Aumentar a memória, pq o DayZ puxa muuuuiiiita memória </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:18 AM</div>
+              <div class="content">16 ainda é pouco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:24 AM</div>
+              <div class="content">E colocar ele em um ssd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:07:27 AM</div>
+              <div class="content">16 gb ddr4 3200 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:32 AM</div>
+              <div class="content">Vai melhorar sua vida em 1000% </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:07:37 AM</div>
+              <div class="content">sempre joguei com 140 fps mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:50 AM</div>
+              <div class="content">Depois abre o DayZ e olha o quanto ele puxa de memoria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:07:58 AM</div>
+              <div class="content">Talvez por causa da placa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:08:17 AM</div>
+              <div class="content">Eu tinha isso e uma 1060 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:08:20 AM</div>
+              <div class="content">Sofria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:08:31 AM</div>
+              <div class="content">Só coloquei mais 16 de memória e nunca mais sofri </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:08:36 AM</div>
+              <div class="content">pdc mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:08:39 AM</div>
+              <div class="content">Jogo não trava por nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:08:45 AM</div>
+              <div class="content">vou ver se compro memorias entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:09:02 AM</div>
+              <div class="content">SSD acho bem importante agora tbm se conseguir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:09:17 AM</div>
+              <div class="content">Tu mexe com informática, sabe que é melhor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:09:55 AM</div>
+              <div class="content">sim mano, mas sempre joguei di boa com ele sem erro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:29:14 AM</div>
+              <div class="content">Mas DayZ é dayz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:29:16 AM</div>
+              <div class="content">Kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 10:29:25 AM</div>
+              <div class="content">Tá entrando pelo launcher da steam? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:58:28 AM</div>
+              <div class="content">ja consegui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 10:58:42 AM</div>
+              <div class="content">actualizei as drives </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:01:03 AM</div>
+              <div class="content">tou sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:05:36 AM</div>
+              <div class="content">Vai tentando entrar ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:05:39 AM</div>
+              <div class="content">Uma hora vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:07:08 AM</div>
+              <div class="content">consegui ja, mas agora o servidor esta sempre a ir abaixo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:09:00 AM</div>
+              <div class="content">Abaixo que vc diz é cair? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:10:32 AM</div>
+              <div class="content">siim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:10:35 AM</div>
+              <div class="content">servidor offline </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:40:30 AM</div>
+              <div class="content">uma pergunta, eu quando abro o dayz tenho sempre qe mudar a configuraçao pq nao me salva sabe o porque que isso acontece ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:48:41 AM</div>
+              <div class="content">não sei manin </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:49:36 AM</div>
+              <div class="content">pdc mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:49:59 AM</div>
+              <div class="content">conseguiu entrar ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:53:52 AM</div>
+              <div class="content">consegui sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:53:59 AM</div>
+              <div class="content">mas preciso de remover uma coisa aqui na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:54:05 AM</div>
+              <div class="content">qe nao da para abrir a porta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:55:42 AM</div>
+              <div class="content">como nao da pra abrir? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:55:47 AM</div>
+              <div class="content">ta bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:55:59 AM</div>
+              <div class="content">preciso de vc aqui pra remover isto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:57:50 AM</div>
+              <div class="content">removeram alguma arma ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:58:19 AM</div>
+              <div class="content">desapareceu minha beu wolf .50 by df carregadores e balas todas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:58:39 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:58:46 AM</div>
+              <div class="content">olha em <#1295739323727216724> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:58:52 AM</div>
+              <div class="content">era vip a sua? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:59:24 AM</div>
+              <div class="content">era minha sim mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:59:39 AM</div>
+              <div class="content">nao vi nos avisos mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 11:59:47 AM</div>
+              <div class="content">era vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 11:59:53 AM</div>
+              <div class="content">ainda ontem comprei muita bala </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:00:04 PM</div>
+              <div class="content">era mano, tinha a skin de weed amarela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:00:17 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:00:23 PM</div>
+              <div class="content">vou ter que te dar outra .50 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:00:25 PM</div>
+              <div class="content">pode ser? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:00:38 PM</div>
+              <div class="content">eu morri uma vez com uma pcausa de bug , e um admin me passou outraves ela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:00:52 PM</div>
+              <div class="content">pode mano, se for semelhante a outra di boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:00:58 PM</div>
+              <div class="content">é sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:01:50 PM</div>
+              <div class="content">pdc mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:06:25 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:06:30 PM</div>
+              <div class="content">meu dayz ta atualizando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:10:58 PM</div>
+              <div class="content">pdc mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:45:57 PM</div>
+              <div class="content">a beu wolf dizia .50 BMG BEUWOLF BY DF OU FD </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:46:01 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">acabpt</div>
+              <div class="timestamp">11/29/2024, 12:46:52 PM</div>
+              <div class="content">a descriçao dela falava so " by fd " ou "by df " </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:47:44 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
