@@ -1,0 +1,413 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・theuw-hi317ph9</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/29/2024, 12:41:20 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:41:31 PM</div>
+              <div class="content">boa tard </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:41:34 PM</div>
+              <div class="content">id steam por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:42:52 PM</div>
+              <div class="content">76561199614164271 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 12:46:42 PM</div>
+              <div class="content">tem 3 contas ligdas a sua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">11/29/2024, 12:46:51 PM</div>
+              <div class="content">as 3 tem ban publico </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:46:57 PM</div>
+              <div class="content">como assim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:48:26 PM</div>
+              <div class="content">voce fala logada em dispositivos ou em familia? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:56:55 PM</div>
+              <div class="content">contas ligadas a sua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:56:59 PM</div>
+              <div class="content">via ip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:57:04 PM</div>
+              <div class="content">agora como é, não sabemos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:57:25 PM</div>
+              <div class="content">e essa sua conta ai tem 3 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:57:26 PM</div>
+              <div class="content">dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:57:30 PM</div>
+              <div class="content">2 na verdade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:57:32 PM</div>
+              <div class="content">entendi, sim sao contas minhas conectadas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:57:42 PM</div>
+              <div class="content">e as tem tem ban por hack irmão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:57:50 PM</div>
+              <div class="content">so que todas sao minhas, 1 e do opera, 1 do google e outro pelo meu celular </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:58:06 PM</div>
+              <div class="content">contas do dayz mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:58:09 PM</div>
+              <div class="content">e eu nao tenho nenhum programa baixado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:58:14 PM</div>
+              <div class="content">ue </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:58:17 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312080966763941888/1312085234413600880/image.png?ex=674b3619&is=6749e499&hm=728fc2c3c1eab527a670e81ad706ad02cf48e2f1694850794a141878d4cb5132&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:58:27 PM</div>
+              <div class="content">tem como eu ver isso pelo meu? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:58:40 PM</div>
+              <div class="content">todas essas 3 contas foram logadas pelo seu ip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:59:28 PM</div>
+              <div class="content">pela minha steam eu consigo ver isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:59:36 PM</div>
+              <div class="content">não sei te dizer irmão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:59:41 PM</div>
+              <div class="content">não fazemos essa parte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:59:44 PM</div>
+              <div class="content">apenas verificamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:59:47 PM</div>
+              <div class="content">blz? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:59:49 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 12:59:51 PM</div>
+              <div class="content">tmj e boa sorte ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 12:59:59 PM</div>
+              <div class="content">mas tipo se eu conseguir arrumar isso o ban sai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:00:12 PM</div>
+              <div class="content">pq qualquer coisa eu mostro tela, ou ate os arquivos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:00:18 PM</div>
+              <div class="content">não fomos nós que banimos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:00:31 PM</div>
+              <div class="content">ta banido pela black list </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:00:40 PM</div>
+              <div class="content">que temos junto a outros servidores </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:00:49 PM</div>
+              <div class="content">tem que ser desbanido nos outros pra sair o daqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:01:23 PM</div>
+              <div class="content">puts, mas nao tem como me ajudar nem a saber como que ve isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:01:26 PM</div>
+              <div class="content">se nao tiver blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:01:32 PM</div>
+              <div class="content">eu tento dar um jeito aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:02:01 PM</div>
+              <div class="content">não tem como irmão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:02:15 PM</div>
+              <div class="content">o maximo que posso te ajudar é mostrando os serves que esta banido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:02:20 PM</div>
+              <div class="content">pode ser entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:05:21 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312080966763941888/1312087012471345152/image.png?ex=674b37c1&is=6749e641&hm=5f6c76ae3889ace0d4f2442019b7d5253def6eb02f9990d012e10ea710c4298a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:05:35 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312080966763941888/1312087070763647017/image.png?ex=674b37cf&is=6749e64f&hm=b2180fdbf87c69859179ca651861bcdb7a566979973929cc5de2567ff75145e9&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pr11n__</div>
+              <div class="timestamp">11/29/2024, 1:05:53 PM</div>
+              <div class="content">ta ok, obrigado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/29/2024, 1:06:10 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312080966763941888/1312087217706893322/image.png?ex=674b37f2&is=6749e672&hm=6675c6ae282d2d48d42cdc91b436d12fb4c6138c61703452e574c61eaf734297&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
