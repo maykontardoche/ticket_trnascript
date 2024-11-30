@@ -1,0 +1,377 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・lobosfarrapo-u8hgn9gi</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/30/2024, 9:36:02 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:36:08 AM</div>
+              <div class="content">bom dia.... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:36:41 AM</div>
+              <div class="content">as armas novas que não estão vendendo na TRADE, elas vendem na black ou ainda não foi colocado para vender na trade?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:39:25 AM</div>
+              <div class="content">Farrapo, vou confirmar pra vc assim que eu chegar em casa, pode ser </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:39:35 AM</div>
+              <div class="content">Mas acredito que esteja em todas as trades sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:39:40 AM</div>
+              <div class="content">Pq quem faz é o dev </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:39:46 AM</div>
+              <div class="content">mas não estão vendendo agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:39:56 AM</div>
+              <div class="content">ou deve estar com problema.... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:40:01 AM</div>
+              <div class="content">mas aguardo tua confirmação.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:40:06 AM</div>
+              <div class="content">aproveitando.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:40:13 AM</div>
+              <div class="content">qual foi a do gringo?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:40:19 AM</div>
+              <div class="content">o que ele aloprou com vcs?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:40:25 AM</div>
+              <div class="content">Ah, se não estão, eu peço pra colocar sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:40:35 AM</div>
+              <div class="content">Sim irmão, infelizmente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:40:45 AM</div>
+              <div class="content">Pelo fato das armas e tal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:40:51 AM</div>
+              <div class="content">Acabou ofendendo a gente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:41:06 AM</div>
+              <div class="content">Eu ainda antes falei, gringo, não piora as coisas, quando ele começou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:41:10 AM</div>
+              <div class="content">Mas não me ouviu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:42:07 AM</div>
+              <div class="content">Como vc sabe, sempre tentamos atender todos que podemos, sempre bem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:42:33 AM</div>
+              <div class="content">As vezes sendo mais diretos, as vezes conseguimos dar mais atenção </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:42:52 AM</div>
+              <div class="content">Depende da quantidade de trabalho do momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:43:01 AM</div>
+              <div class="content">Mas sempre trabalhamos com respeito a todos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:43:07 AM</div>
+              <div class="content">sim sim, eu entendo!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:43:18 AM</div>
+              <div class="content">foi permanente, confere?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:43:29 AM</div>
+              <div class="content">Cara, foi o Tam que deu, eu não sei qual foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:43:40 AM</div>
+              <div class="content">Mas eu fiquei de acordo com o ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:43:43 AM</div>
+              <div class="content">Pois foi merecido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:43:51 AM</div>
+              <div class="content">Mas não sei qual foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:44:03 AM</div>
+              <div class="content">Acredito que por ofensa, tenha sido perma sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:45:11 AM</div>
+              <div class="content">ta blz... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:45:18 AM</div>
+              <div class="content">tranquilo... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:45:29 AM</div>
+              <div class="content">Tmj, vou falar com o dev referente as armas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:45:35 AM</div>
+              <div class="content">sim sim, por favor! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:45:38 AM</div>
+              <div class="content">vlw gordão! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">11/30/2024, 9:46:31 AM</div>
+              <div class="content">Vlw, boa jogatina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 9:50:02 AM</div>
+              <div class="content">Bom dia. As armas ainda não foram colocadas em trade e black pois precisam passar pela analise do Tam quanto a preços e variedades </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:58:15 AM</div>
+              <div class="content">ah blz.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:58:22 AM</div>
+              <div class="content">vlw pelo esclarecimento! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:58:23 AM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">11/30/2024, 9:58:26 AM</div>
+              <div class="content">abs, senhores </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
