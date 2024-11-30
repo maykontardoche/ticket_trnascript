@@ -1,0 +1,531 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・drobadisa-oxjrkj6n</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">11/30/2024, 3:41:22 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:41:38 PM</div>
+              <div class="content">resolveu não men </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:41:47 PM</div>
+              <div class="content">att la e tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:42:04 PM</div>
+              <div class="content">pra mudar o ip tenho que deixar 6h o roteador desligado '-' </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:10 PM</div>
+              <div class="content">nao tem o que fazer irmao internet </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:19 PM</div>
+              <div class="content">e com voce </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:44:22 PM</div>
+              <div class="content">macho, cd o tam ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:44:26 PM</div>
+              <div class="content">tam resolveu ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:34 PM</div>
+              <div class="content">ta entao espera ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:38 PM</div>
+              <div class="content">quando ele voltar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:44:40 PM</div>
+              <div class="content">bereza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:45 PM</div>
+              <div class="content">ele faza magica pra ti ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:44:54 PM</div>
+              <div class="content">se tu tivesse o quanto a gnt bateu cabeça pra resolver isso ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:44:55 PM</div>
+              <div class="content">ele deve ter o poder </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:45:03 PM</div>
+              <div class="content">se tem n sei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:45:09 PM</div>
+              <div class="content">mais que resolveu, resolveu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:45:10 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:45:24 PM</div>
+              <div class="content">ate vpn eu coloquei aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:45:27 PM</div>
+              <div class="content">e não foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">11/30/2024, 3:45:45 PM</div>
+              <div class="content">bom  espera pelo tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 3:47:27 PM</div>
+              <div class="content">bls, sem pressa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:24:43 PM</div>
+              <div class="content">VPN nao resolve? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:24:57 PM</div>
+              <div class="content">Ou ta usando VPN? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:25:18 PM</div>
+              <div class="content">Manda a ID Steam para eu adicionar a whitlist de VPN, pode ser isso o bloqueio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:25:52 PM</div>
+              <div class="content"><span class="mention">@lf0410</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:31:57 PM</div>
+              <div class="content">76561198368701131 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:00 PM</div>
+              <div class="content">foi mal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:02 PM</div>
+              <div class="content">n tava aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:05 PM</div>
+              <div class="content">n to usando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:10 PM</div>
+              <div class="content">mais antes usava o cloud </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:15 PM</div>
+              <div class="content">mais ai tirei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:27 PM</div>
+              <div class="content">coloquei porq ja que é problema de rota </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:32:27 PM</div>
+              <div class="content">tenta agora, adicionei a whitlist </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:32:30 PM</div>
+              <div class="content">podia resolver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:33:34 PM</div>
+              <div class="content">nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:33:37 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312488663493644454/1312501811726385152/image.png?ex=674cba11&is=674b6891&hm=7ec1dd9ac552a69dadbd209c1c202d61ebcae3581bd5e9a7ca0df33247b3c14a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:33:43 PM</div>
+              <div class="content">Vi aqui nos teus IPs que usou ip da Excon uma vez, se usa alguma rota deles la precisa ver pois a excon bloqueia IPs da Flame Host que eh nossa host </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:33:57 PM</div>
+              <div class="content">excon ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:34:01 PM</div>
+              <div class="content">fale minha lingua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:34:01 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:34:14 PM</div>
+              <div class="content">eu sei que tem uma rapeze, tentando me hack direto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:34:24 PM</div>
+              <div class="content">Todos os IPS que voce ja usou aqui no servidor <a href="https://cdn.discordapp.com/attachments/1312488663493644454/1312502010230341652/image.png?ex=674cba40&is=674b68c0&hm=79635477a776e33d8fdb2d69461b65bb0dcfd26e1f34134a0ca6a78d7772a373&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:34:48 PM</div>
+              <div class="content">Tenta entrar em contato com tua operadora e pedir para eles analisar a rota </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:34:55 PM</div>
+              <div class="content">eu ligeui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:34:58 PM</div>
+              <div class="content">liguei* </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:35:05 PM</div>
+              <div class="content">fizeram att do modenm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:35:10 PM</div>
+              <div class="content">e da rota </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:35:14 PM</div>
+              <div class="content">executa o CMD do windows e faz um tracert e manda um print para eles verem onde a rota ta parando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:35:25 PM</div>
+              <div class="content">tinha que deixar tudo desligado por 6h pra alterar o ip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:35:45 PM</div>
+              <div class="content">como que faz? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:35:49 PM</div>
+              <div class="content">kkkkkk eles tao loko </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:35:54 PM</div>
+              <div class="content">tbm achei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:36:01 PM</div>
+              <div class="content">mais fazer o que mullher que me atendeu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:36:27 PM</div>
+              <div class="content">imagina ai desligar o moden e roteator por 6h pra mudar ip kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:36:29 PM</div>
+              <div class="content">nunca vi isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:36:51 PM</div>
+              <div class="content">como que faz? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:36:53 PM</div>
+              <div class="content">qual comando alias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:37:17 PM</div>
+              <div class="content">desde o RR de ontem das 9h que ficou assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:37:21 PM</div>
+              <div class="content">Para executar o comando tracert no Windows, siga os seguintes passos:
+Abra a caixa Executar pressionando as teclas Windows + R
+Digite cmd e clique em OK
+Digite tracert e o endereço de IP ou domínio que deseja testar
+Pressione ENTER para executar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">11/30/2024, 4:37:46 PM</div>
+              <div class="content">escreve tracert 189.127.165.162 e da enter </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:39:32 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312488663493644454/1312503302180700241/image.png?ex=674cbb74&is=674b69f4&hm=bcdcccfcb802023b9345338873ce162c9a5b804134090cb3b9439d53df2e4758&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:40:31 PM</div>
+              <div class="content">até o 24 ja, ta a mesma coisa as " * " e esgotando o tempo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:41:35 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312488663493644454/1312503816553238659/image.png?ex=674cbbef&is=674b6a6f&hm=1fb13298b0f0f0909f75cb189c2ca97333a3f25840fcdb1406b2d0bc23f366cf&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:42:15 PM</div>
+              <div class="content">é foda, quando o tam spanw arma top, eu fico sem jogar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">11/30/2024, 4:48:19 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312488663493644454/1312505508124561488/image.png?ex=674cbd82&is=674b6c02&hm=33b4e627cbd951607405be05a7c2983ff997feba323fd1c6db576a7e3ff32429&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
