@@ -1,0 +1,359 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・bilbombado-80ui5om4</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/3/2024, 1:11:21 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:11:58 PM</div>
+              <div class="content">comprei agora o onibus </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:12:05 PM</div>
+              <div class="content">resetou o servidor e ele sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:12:06 PM</div>
+              <div class="content">ajuda rapido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:12:42 PM</div>
+              <div class="content">se conseguir ajudar rapidão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:16:18 PM</div>
+              <div class="content"><span class="mention">@1rodrigocs</span> <span class="mention">@tam8181</span> <span class="mention">@serginhogordaum</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:17:16 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:17:30 PM</div>
+              <div class="content">tardee </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:17:46 PM</div>
+              <div class="content">Não está na garagem do lado do vendedor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:17:48 PM</div>
+              <div class="content">mal a pressa, to indo trampar jaja mano kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:17:49 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:17:54 PM</div>
+              <div class="content">eu spawnei ele antes do reset </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:17:57 PM</div>
+              <div class="content">ai resetou ele sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:18:30 PM</div>
+              <div class="content">Vou verificar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:18:37 PM</div>
+              <div class="content">Quando vc voltar do trabalho, avisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:19:02 PM</div>
+              <div class="content">vou as 14h só men </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:19:37 PM</div>
+              <div class="content">não consegue dar essa moral agora? cipa não volto hoje pro game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:19:38 PM</div>
+              <div class="content">É que não tô no Pc agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:19:44 PM</div>
+              <div class="content">Tô em uma consulta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:19:49 PM</div>
+              <div class="content">ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:20:01 PM</div>
+              <div class="content">Tu sacou o dinheiro pra comprar ele, certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:20:11 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:20:18 PM</div>
+              <div class="content">to sem dinheiro e sem onibus </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/3/2024, 1:21:07 PM</div>
+              <div class="content">Blz, vou conferir tudo quando chegar e depois resolvemos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 1:21:15 PM</div>
+              <div class="content">ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/3/2024, 1:46:40 PM</div>
+              <div class="content">TA AI? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 5:22:03 PM</div>
+              <div class="content">To no trampo agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 5:22:11 PM</div>
+              <div class="content">Volto umas 21:30 por ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 9:54:38 PM</div>
+              <div class="content">cheguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 9:54:48 PM</div>
+              <div class="content">ta ai <span class="mention">@serginhogordaum</span>  <span class="mention">@tam8181</span> ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/3/2024, 9:55:53 PM</div>
+              <div class="content">To </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 9:56:44 PM</div>
+              <div class="content">to logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 9:56:47 PM</div>
+              <div class="content">perae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 9:57:07 PM</div>
+              <div class="content">pegando fila kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 10:06:51 PM</div>
+              <div class="content">loguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/3/2024, 10:07:04 PM</div>
+              <div class="content">to logando aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">henriqe3</div>
+              <div class="timestamp">12/3/2024, 10:07:29 PM</div>
+              <div class="content">BELE </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
