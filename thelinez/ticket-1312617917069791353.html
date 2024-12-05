@@ -1,0 +1,413 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・rimuru-92zhegab</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/1/2024, 12:14:59 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:15:58 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:16:01 AM</div>
+              <div class="content">no que posso te ajudar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/1/2024, 12:16:16 AM</div>
+              <div class="content">Gostaria de comprar o mh6 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:16:24 AM</div>
+              <div class="content">ja escolheu a cor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/1/2024, 12:16:34 AM</div>
+              <div class="content">Número 6 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:16:52 AM</div>
+              <div class="content">só mandar o comprovante pra mim aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:16:56 AM</div>
+              <div class="content">e o <#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:17:00 AM</div>
+              <div class="content">e o nome no jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/1/2024, 12:18:22 AM</div>
+              <div class="content">Tem como eu pagar dia 2 quando eu receber? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:20:54 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:21:01 AM</div>
+              <div class="content">manda id steam e nome no jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:21:14 AM</div>
+              <div class="content"><#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/1/2024, 12:28:00 AM</div>
+              <div class="content">76561199217434117 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/1/2024, 12:28:15 AM</div>
+              <div class="content">nome é rimuru </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:30:12 AM</div>
+              <div class="content">TA ON? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:48:51 AM</div>
+              <div class="content"><span class="role-mention">@Administrador</span> não fechar o ticket </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:58:17 AM</div>
+              <div class="content">MH6 - 80 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:58:25 AM</div>
+              <div class="content">BASE TORRE - 35 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/1/2024, 12:58:45 AM</div>
+              <div class="content">VALOR TOTAL - 115 PRO DIA 02/12/2024 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/3/2024, 10:20:35 PM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/3/2024, 10:20:43 PM</div>
+              <div class="content">Não tô conseguindo tranca meu Heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/4/2024, 1:03:28 PM</div>
+              <div class="content">vc ja efetuou o pagamento deste heli? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/4/2024, 1:03:38 PM</div>
+              <div class="content">éra para dia 2 correto? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:03:44 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:03:50 PM</div>
+              <div class="content">Acho que consigo pagar hj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:03:56 PM</div>
+              <div class="content">Vou receber hj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:04:03 PM</div>
+              <div class="content">Quer que eu mande metade do valor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:04:08 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/4/2024, 1:04:12 PM</div>
+              <div class="content">consegue o comprovante para anexar no cadastro, só para finalizar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/4/2024, 1:04:35 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/4/2024, 1:04:54 PM</div>
+              <div class="content">assim que pagar mande aqui para eu salvar e encerrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/4/2024, 1:04:59 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 4:19:45 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 4:19:48 PM</div>
+              <div class="content">deu certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 7:45:30 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 7:45:36 PM</div>
+              <div class="content">vou manda ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 7:46:25 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 8:01:55 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1312617917069791353/1314366171947995226/comprovante_picpay_PIX_05122024190127.pdf?ex=67538263&is=675230e3&hm=b6a89af2fbef4984247f2a0216c0a3fea3781deab40c37129bd867a4ce59e6dd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 8:02:06 PM</div>
+              <div class="content">fiz mais 3 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 8:02:09 PM</div>
+              <div class="content">30 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 8:02:21 PM</div>
+              <div class="content">coloca um vip de 30 pra mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 8:02:53 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 8:03:01 PM</div>
+              <div class="content">mande seu <#1306272321148813445> pfvr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_heisenberg12</div>
+              <div class="timestamp">12/5/2024, 8:15:37 PM</div>
+              <div class="content">76561199217434117 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/5/2024, 8:19:01 PM</div>
+              <div class="content">em 10 min pode se matar </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
