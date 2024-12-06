@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・they-aoguvgyz</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:29:42 PM</div>
+              <div class="content">tirando q eu ja estava dropando os loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:29:46 PM</div>
+              <div class="content">coisa q eu acho injusta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:29:48 PM</div>
+              <div class="content">e ainda me matou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:29:51 PM</div>
+              <div class="content">com mminha roupa nbq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:29:54 PM</div>
+              <div class="content">e meus carvao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:30:22 PM</div>
+              <div class="content">E TALVEZ PERCA SEU HELI, NÃO SE ESQUEÇA DE RELAMAR DISSO TBM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:24 PM</div>
+              <div class="content">man vo na toxica papo de umas 5 vezes no dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:30 PM</div>
+              <div class="content">sempre vo de barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:33 PM</div>
+              <div class="content">n tem nem pra q ir de heli agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:38 PM</div>
+              <div class="content">só fui pq realmente mais cedo tava bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:46 PM</div>
+              <div class="content">e pensei q estava bugado ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:30:48 PM</div>
+              <div class="content">por isso peguei o heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:31:47 PM</div>
+              <div class="content">engraçado demais q nunca faço algo na sacanagem sempre respeitando e vcs tão sempre atrasando o lado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:32:00 PM</div>
+              <div class="content">ja perdi mt coisa por conta de bobeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:32:04 PM</div>
+              <div class="content">e sempre dando chance pro sv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:32:11 PM</div>
+              <div class="content">pq gosto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:32:19 PM</div>
+              <div class="content">on sempre umas 8 hrs por dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:34:05 PM</div>
+              <div class="content">e chega a ser vergonhoso vcs n querer escutar o player vcs são adm man c vcs n escuta as versões e chega a um bom senso fecha o servidor só pra vcs ai fica brincando de manda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:34:18 PM</div>
+              <div class="content">minimo q faz é escutar o jogador </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:34:30 PM</div>
+              <div class="content">ainda mas um q gasta mt do seu tempo pra joga nele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:36:16 PM</div>
+              <div class="content">EU ESCUTEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:36:29 PM</div>
+              <div class="content">PERGUNTEI QUEM TI AUTORIZOU POUSAR LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:36:58 PM</div>
+              <div class="content">E VC RESPONDEU QUE POUSOU PQ OS BARCO ESTÃO BUGADOS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:37:13 PM</div>
+              <div class="content">DESCUMPRIU REGRA QUE JA CONHECE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:37:48 PM</div>
+              <div class="content">E a primeira solução q veio na cabeça era matar e pronto ? gordao foi conversa nem falo direito já matou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:37:50 PM</div>
+              <div class="content">era só chegar numa boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:37:51 PM</div>
+              <div class="content">vai call sla oq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:37:56 PM</div>
+              <div class="content">conversavamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:04 PM</div>
+              <div class="content">ia falar meu lado q o barco tava bugado mais cedo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:08 PM</div>
+              <div class="content">vcs iam falar q ja consertaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:11 PM</div>
+              <div class="content">eu ia devolver os loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:13 PM</div>
+              <div class="content">tacar no chao sla </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:14 PM</div>
+              <div class="content">e simples </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:18 PM</div>
+              <div class="content">mas n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:28 PM</div>
+              <div class="content">mata sem falar nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:30 PM</div>
+              <div class="content">todo ignorante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:35 PM</div>
+              <div class="content">e ta na razão né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:38:59 PM</div>
+              <div class="content">peço pra ir call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:03 PM</div>
+              <div class="content">a q sla oq n tem q estou errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:09 PM</div>
+              <div class="content">n tem 1 min pra escuta e resolver namoral </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:23 PM</div>
+              <div class="content">prefere q o player perca paciencia saia xingando todo mundo e tome ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:32 PM</div>
+              <div class="content">n é só vcs staff q fica puto n man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:39 PM</div>
+              <div class="content">sei q da mt trabalho ai ficar olhando 80 marmanjo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:45 PM</div>
+              <div class="content">mas player tmb perde seu tempo buscando itens e farmando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:39:59 PM</div>
+              <div class="content">e perde todo seu tempo farmando em 10 s </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:40:34 PM</div>
+              <div class="content">é o nome disso é punição é pra ficar fudido msm, se fosse para ficar feliz éra bonificação. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:42:26 PM</div>
+              <div class="content">Legal então vcs estão na razão ai 5 estrela pro tratamento vip só agradece 👍 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:43:17 PM</div>
+              <div class="content">se quer ser bajulado pq comprou vip ta no serve errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:43:25 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:43:27 PM</div>
+              <div class="content">bajulado ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:43:46 PM</div>
+              <div class="content">Então parabens c isso q pedi for ser bajulado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:43:56 PM</div>
+              <div class="content">só falei pra ter noçao como tratar player do teu servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:43:57 PM</div>
+              <div class="content">simples </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:03 PM</div>
+              <div class="content">n pedi pra ser bajulado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:44:09 PM</div>
+              <div class="content">é tipo, iso ai não se faz com vip, mas com os free pode , ai foda-se </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:19 PM</div>
+              <div class="content">falei isso foi ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:28 PM</div>
+              <div class="content">citei meu vip em algum momento }? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:31 PM</div>
+              <div class="content">unica coisa q falei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:44:33 PM</div>
+              <div class="content">to perguntando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:34 PM</div>
+              <div class="content">é o tempo q gasto no servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:35 PM</div>
+              <div class="content">n falei dwe graça </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:44:41 PM</div>
+              <div class="content">tudo q eu disse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:45:02 PM</div>
+              <div class="content">é pra ser com qualqer player </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:45:04 PM</div>
+              <div class="content">vip ou n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:45:31 PM</div>
+              <div class="content">o tratamento n foi certo vcs simplesmente n quis conversar tomou atitude q quiseram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:45:44 PM</div>
+              <div class="content">pedi pra gente conversar só disseram q estava errado e fds </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:46:33 PM</div>
+              <div class="content">e estava msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:46:49 PM</div>
+              <div class="content">Engraçado q foi falar de vip e simplesmente n sou eu q compro vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:46:55 PM</div>
+              <div class="content">na real eu perco meu tempo farmando pra um cara ir e pagar o vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:46:58 PM</div>
+              <div class="content">ou seja eu farmo no teu servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:47:00 PM</div>
+              <div class="content">pra tu ganhar dinheiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:47:06 PM</div>
+              <div class="content">pra pagar o cara pra te dar 100 reais é tipo isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:47:11 PM</div>
+              <div class="content">sim vou tomar atitude de quem mais, tem que ser a minha msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:47:29 PM</div>
+              <div class="content">cara tu é adm mas tu tem q ver os dois lados </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:47:31 PM</div>
+              <div class="content">independente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:48:31 PM</div>
+              <div class="content">isso ai nem faz sentido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:48:31 PM</div>
+              <div class="content">como c um cara matasse outro a 1 km como c isso fosse impossivel e metesse um ban só por isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:48:35 PM</div>
+              <div class="content">nem nem pedir clipe ou algo assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:00 PM</div>
+              <div class="content">ué como não ? fico farmando toxica vendo as arma na black planto maconha pra pegar 15 milhao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:49:00 PM</div>
+              <div class="content">ai que esta eu vi seu ládo, poderia ter tomado 10 dias de ban, vc prefere? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:12 PM</div>
+              <div class="content">eu dou pra um cara e ele te da 100 reais pra pagar o vip pra mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:15 PM</div>
+              <div class="content">lgc q faz sentido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:49:36 PM</div>
+              <div class="content">é um mercado que vcs inventaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:47 PM</div>
+              <div class="content">eu sei mas tu sai no lucro de qualqer jeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:51 PM</div>
+              <div class="content">e n tem problema nisso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:49:52 PM</div>
+              <div class="content">se o server é meu lógico que tem que comprar o vip de mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:49:54 PM</div>
+              <div class="content">o assunto na real nem é esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:09 PM</div>
+              <div class="content">cara olha só </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:13 PM</div>
+              <div class="content">eu n ligo de ter perdido os itens da toxica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:17 PM</div>
+              <div class="content">e a roupa tanto faz tenho outras 10 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:29 PM</div>
+              <div class="content">o problema q a atitude q vcs tomaram n foi a melhor dava pra ter conversado mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:31 PM</div>
+              <div class="content">sla chama pra call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:36 PM</div>
+              <div class="content">to falando isso pra melhora do servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:50:39 PM</div>
+              <div class="content">n pra beneficio meu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:50:44 PM</div>
+              <div class="content">É SÓ NÃO IR NA TOXICA DE HELI QUE VC VAI TER PAZ. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:50:48 PM</div>
+              <div class="content">. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:51:46 PM</div>
+              <div class="content">Ok não irei mais fazer isso blz ? titio tam <a:CryingManAnimated:1224207495908556830> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:52:13 PM</div>
+              <div class="content">obrigado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/6/2024, 6:52:20 PM</div>
+              <div class="content">😘 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/6/2024, 6:52:29 PM</div>
+              <div class="content"><:ItemModBanHammer:1232826173764010104> </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
