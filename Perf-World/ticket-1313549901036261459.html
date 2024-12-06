@@ -1,0 +1,267 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・yup-f052x1co</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/3/2024, 1:58:21 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/3/2024, 2:04:32 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/3/2024, 2:04:49 PM</div>
+              <div class="content">Já já o <span class="mention">@curseasc</span> te atende </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/3/2024, 2:14:32 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/3/2024, 6:52:06 PM</div>
+              <div class="content">Opa! <span class="mention">@yupyui</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/3/2024, 6:52:09 PM</div>
+              <div class="content">Boa noite querido! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/3/2024, 6:57:34 PM</div>
+              <div class="content">Segue nossas categorias de parceria, da uma olhadinha e vê onde você se encaixa melhor. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/3/2024, 6:58:21 PM</div>
+              <div class="content">**Streamer**
+Criador de conteúdo que realiza transmissões ao vivo em momentos específicos e estratégicos, como lançamento do servidor, apresentação de novos recursos (ex.: farms) ou eventos PvP. Ideal para quem busca exclusividade e impacto pontual.
+
+**Produtor**
+Responsável pela criação de vídeos sob demanda, com foco em conteúdos específicos e previamente alinhados. Produções limitadas e direcionadas para maximizar o engajamento. 
+
+**Criador Dinâmico**
+Uma combinação de transmissões ao vivo e produção de vídeos, focada em temas específicos do servidor. Ideal para criadores versáteis que desejam explorar diferentes formatos de conteúdo. 
+
+**Streamer Parceiro**
+Criador comprometido com transmissões semanais, atendendo metas de horas ao vivo previamente definidas. Perfeito para quem busca construir uma conexão contínua com a comunidade do servidor. 
+
+**Produtor Parceiro**
+Criador responsável por entregar vídeos semanais, com quantidade e conteúdos definidos em parceria com a equipe do servidor. Um papel chave para manter o engajamento da comunidade com conteúdos regulares e relevantes.       
+
+**Parceiro Social Media**
+Criador de conteudo que utiliza redes sociais como: Instagram, Tik Tok, ou qualquer outro meio de redes sociais para divulgar e deseja ter retornos de acordo com a relevancia dos conteudos e pessoas atigindas. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/3/2024, 8:52:30 PM</div>
+              <div class="content">Boa noite, a parceira encaixa mais em Parceiro Social Media </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/3/2024, 8:52:36 PM</div>
+              <div class="content">Posso mandar a proposta? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/3/2024, 10:55:20 PM</div>
+              <div class="content">Claro, pode sim! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/4/2024, 6:02:56 PM</div>
+              <div class="content">Na proposta está inclusa isso aqui:
+
+-Post fixado com divulgação do servidor.
+-Estratégia para trazer mais log para o server.
+-Divulgação de benefícios para clãs, marechal e PT's.
+-Publicações de novidades do servidor.
+
+Os valores são esses aqui:
+1 mês: R$100,00
+2 meses: R$120,00
+3 meses: R$150,00
+
+No grupo só deixamos exclusivo os posts que tem parceira com a gente, ai não fica com spam de vários privates na comunidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/4/2024, 6:03:28 PM</div>
+              <div class="content">Assim que a gente fechasse a parceria, já colocaria todas publicações do PW pré-aprovadas. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/4/2024, 7:22:54 PM</div>
+              <div class="content">Pw Pegasus? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/4/2024, 7:23:07 PM</div>
+              <div class="content">E qual seria essa página? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">yupyui</div>
+              <div class="timestamp">12/4/2024, 7:57:55 PM</div>
+              <div class="content">Seria esse aqui: https://www.facebook.com/groups/o621668569066312/ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/5/2024, 10:49:03 PM</div>
+              <div class="content">Agradecemos pela proposta e pelo interesse em realizar a parceria. No entanto, no momento, decidimos não seguir com esse tipo de divulgação. </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
