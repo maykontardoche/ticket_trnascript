@@ -1,0 +1,416 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・_y0sh1d4-0nlt48x9</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">11/26/2024, 10:18:37 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/26/2024, 10:27:38 PM</div>
+                  <div class="content">Opa fala comigo <span class="mention">@yoshidacria</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/26/2024, 10:27:44 PM</div>
+                  <div class="content">O que voce precisa meu Rei </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/26/2024, 10:49:28 PM</div>
+                  <div class="content">TIcket, Bem vindo, setar cargo e mudar apelido </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/26/2024, 10:49:35 PM</div>
+                  <div class="content">COisas parecido com o da polícia </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/26/2024, 11:16:14 PM</div>
+                  <div class="content">Certo, <span class="mention">@yoshidacria</span> consegue entrar em call amanhã e me explicar o que você precisa certinho que aí consigo te passar o valor e a data de entrega mais rápido </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/26/2024, 11:17:43 PM</div>
+                  <div class="content">Sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/26/2024, 11:48:44 PM</div>
+                  <div class="content">Consegue as 18:30 ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 7:24:57 AM</div>
+                  <div class="content">Sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/27/2024, 8:32:53 AM</div>
+                  <div class="content">Combinado entao hoje as 18:30 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 8:47:01 AM</div>
+                  <div class="content">Se você tiver diposnibilidade agora </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 8:47:06 AM</div>
+                  <div class="content">Estou disponível também </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/27/2024, 8:50:22 AM</div>
+                  <div class="content">Agora eu to no batalhão irmão nao consigo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 9:58:58 AM</div>
+                  <div class="content">Blz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/27/2024, 6:16:58 PM</div>
+                  <div class="content"><span class="mention">@yoshidacria</span> ta por ae irmao? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 7:33:19 PM</div>
+                  <div class="content">Fala Yoshi </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 7:33:22 PM</div>
+                  <div class="content">Ainda no trampo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 7:33:26 PM</div>
+                  <div class="content">Quando eu chegar te aviso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 7:33:32 PM</div>
+                  <div class="content">Se puder a gente conversa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/27/2024, 7:37:16 PM</div>
+                  <div class="content">Beleza </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 10:23:22 PM</div>
+                  <div class="content">EU ainda to no trampo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/27/2024, 10:23:35 PM</div>
+                  <div class="content">Mas basicamente seria algo muito parecido com os DCs da polícia que tu faz tlgd </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/27/2024, 10:40:51 PM</div>
+                  <div class="content">Faz seguinte mano, me envia tudo que voce precisa do bot que te passo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/28/2024, 9:46:56 AM</div>
+                  <div class="content">Chegou novo membro:
+
+Entrar call visitante;
+Fazer cadastro com nome e ID in Game;
+Gerente de Recrutamento Aprovar;
+Alterar a apelido para o [MEM] - Nome | ID;
+
+
+Ticket de Farm:
+
+Abrir ticket;
+Somente quem abriu e quem tem tag Gerente de Farm pode visualizar:
+Só o Gerente pode encerrar;
+
+
+Promoção:
+
+Formulário para pedir promoção;
+Bot para puxar quantos ticket de farms foram fechados para cumprimento da meta;
+
+Bem-vindo;
+
+Informar quem chegou no DC:
+
+Saída:
+
+Informar quem saiu;
+
+Comando para adv;
+Comando para Banir;
+
+E ajustar algumas permissões do DC que peguei como modelo na net. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/28/2024, 10:51:39 AM</div>
+                  <div class="content">Fechou irmão vou olhar aqui e te passo o retorno </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/198877717138112513/9ec1ddc9c927d7d2ca566b2b4a4efc49.webp?size=128" alt="yoshidacria" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshidacria</div>
+                  <div class="timestamp">11/28/2024, 1:58:09 PM</div>
+                  <div class="content">Blz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/29/2024, 9:19:16 AM</div>
+                  <div class="content"><span class="mention">@yoshidacria</span> consigo fazer esse bota pra voce mensal por 60,00 reais </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
