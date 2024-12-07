@@ -1,0 +1,545 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・lucastone-pitoco-lrmxh6sk</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/7/2024, 8:06:38 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:06:53 AM</div>
+              <div class="content">Bom dia! <span class="mention">@lucastone.</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:07:18 AM</div>
+              <div class="content">Atualizou o pw até a versão mais recente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:11:42 AM</div>
+              <div class="content">Sim att </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:11:50 AM</div>
+              <div class="content">É uma atiradora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:13:10 AM</div>
+              <div class="content">Só que fui donatar no painel e vi que ela está como um paladino </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:13:49 AM</div>
+              <div class="content">Hmm, ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:13:59 AM</div>
+              <div class="content">Testei atiradora aqui e está normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:14:08 AM</div>
+              <div class="content">Mas, quando o <span class="mention">@belialpw</span> aparecer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:14:18 AM</div>
+              <div class="content">ele verifica pra você </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:14:32 AM</div>
+              <div class="content">Meu login é brunilda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:14:53 AM</div>
+              <div class="content">Ok, agradeço </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:15:02 AM</div>
+              <div class="content">Assim que ele aparecer, ele entra em contato por aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:15:13 AM</div>
+              <div class="content">Tá eu vou trabalhar mais tarde eu tô em casa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:15:41 AM</div>
+              <div class="content">Há outra coisa onde Farma kks aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:15:51 AM</div>
+              <div class="content">N vi Farme de moedas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:18:24 AM</div>
+              <div class="content">Temos o farm solo da Nirvana, la voce abre baus e nele voce consegue moedas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pwascensao</div>
+              <div class="timestamp">12/7/2024, 9:18:38 AM</div>
+              <div class="content">Além de nossas diárias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:32:32 AM</div>
+              <div class="content">Mais eu abri 400 bau </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:32:42 AM</div>
+              <div class="content">N veio moeda n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 9:33:13 AM</div>
+              <div class="content">Alem de q os elemtais tá uma merda pra matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:26:54 AM</div>
+              <div class="content">Foram editados, estão bem tranquilos pra matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:26:59 AM</div>
+              <div class="content">Mas é recomendado matar em PT </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:27:26 AM</div>
+              <div class="content">Quando você upar seu céu, você vai ganhar bastante moeda de prata nas diárias e kks de ouro você farma através do baú, mas ai é sorte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:28:10 AM</div>
+              <div class="content">E a respeito do meu chi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:28:33 AM</div>
+              <div class="content">Tô relogando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:31:56 AM</div>
+              <div class="content">Está sem chi? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:32:01 AM</div>
+              <div class="content">Me passa seu login e desloga pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:32:12 AM</div>
+              <div class="content">Deixa eu verificar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:32:16 AM</div>
+              <div class="content">brunilda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:32:31 AM</div>
+              <div class="content">Tô deslogando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:32:34 AM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:32:55 AM</div>
+              <div class="content">É a atiradora n a tm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:33:06 AM</div>
+              <div class="content">Ah </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:33:08 AM</div>
+              <div class="content">Posso forçar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:33:21 AM</div>
+              <div class="content">Simm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:33:26 AM</div>
+              <div class="content">Ela ta pra excluir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:33:29 AM</div>
+              <div class="content">Pode cancelar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:33:33 AM</div>
+              <div class="content">Já desloguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:34:20 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1314910942965923871/1314948110145032202/image.png?ex=6755a05c&is=67544edc&hm=e09adc1275754bc78802ff9f7a1c9680c394d32f0c55391504eccd3da009173d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:34:23 AM</div>
+              <div class="content">Aqui ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:34:27 AM</div>
+              <div class="content">A tiradorA, </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:34:31 AM</div>
+              <div class="content">Atiradora ou TM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:34:42 AM</div>
+              <div class="content">Atiradora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:34:46 AM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:34:47 AM</div>
+              <div class="content">Vou ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:34:47 AM</div>
+              <div class="content">Tá sem chi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:35:01 AM</div>
+              <div class="content">Eu upei até o céu dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:35:14 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1314910942965923871/1314948339883839498/image.png?ex=6755a092&is=67544f12&hm=c4a357cc54c3064d18c8be342543b3d19367ff803c070e4610b7e14e76b595c9&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:35:17 AM</div>
+              <div class="content">Ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:35:29 AM</div>
+              <div class="content">Cadê o chi 3 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:35:33 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1314910942965923871/1314948419076362271/image.png?ex=6755a0a5&is=67544f25&hm=a204119daf070956f1ea4ac0971676faf8de999ca7172dec97ae546da161a089&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:35:37 AM</div>
+              <div class="content">N tem Man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:35:40 AM</div>
+              <div class="content">Oxi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:35:42 AM</div>
+              <div class="content">'-' </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:35:44 AM</div>
+              <div class="content">Mas eu to usando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:36:03 AM</div>
+              <div class="content">A versão é a 8 neh? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:36:11 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1314910942965923871/1314948576610095115/image.png?ex=6755a0cb&is=67544f4b&hm=65cf3ac236f09ae5f5097a5cf78b4a9cc5d160c54ab212fe907809da1af161ff&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:36:12 AM</div>
+              <div class="content">8 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:36:26 AM</div>
+              <div class="content">Já desloguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:36:28 AM</div>
+              <div class="content">Aqui n tava aparecendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:36:32 AM</div>
+              <div class="content">Vou logar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:38:32 AM</div>
+              <div class="content">Que doideira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:39:25 AM</div>
+              <div class="content">Vou rushar o cultivo agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:39:33 AM</div>
+              <div class="content">Obg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:39:36 AM</div>
+              <div class="content">Por nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 10:39:39 AM</div>
+              <div class="content">Vou fechar aqui, blz? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lucastone.</div>
+              <div class="timestamp">12/7/2024, 10:40:28 AM</div>
+              <div class="content">Vlw </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
