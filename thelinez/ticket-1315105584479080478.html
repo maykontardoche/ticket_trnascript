@@ -1,0 +1,467 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・々hakkai々-lzjvmqp2</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/7/2024, 9:00:05 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 9:00:29 PM</div>
+              <div class="content">Boa noite <span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:02:29 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 9:02:50 PM</div>
+              <div class="content">Boa <span class="mention">@1rodrigocs</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:02:53 PM</div>
+              <div class="content">ja escolheu qual vai querer ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 9:05:06 PM</div>
+              <div class="content">Escolhi não  to falando com uma turma aqui pra jogar vou criar um clã só que agora mais focado em pvp, ainda vou escolher o local, da base o white tinha falado com o Tam pra gente tirar um duvidas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:05:38 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:05:50 PM</div>
+              <div class="content">quer entrar call ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 9:06:08 PM</div>
+              <div class="content">Vamo sim! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:06:32 PM</div>
+              <div class="content">entral bate papo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:06:37 PM</div>
+              <div class="content">que te puxo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 9:08:34 PM</div>
+              <div class="content">to la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:24:51 PM</div>
+              <div class="content">Voltei! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:25:05 PM</div>
+              <div class="content">ta ae? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:25:36 PM</div>
+              <div class="content">OPA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:26:02 PM</div>
+              <div class="content">to fazendo o calculos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:26:27 PM</div>
+              <div class="content">BLZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:39:00 PM</div>
+              <div class="content">2 Helicoptero MH6 = R$160
+3 vip prata = R$90
+2 vip Platina = R$200
+1 Base Caçador Moderna = R$65
+
+atualmente seria isso! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:39:18 PM</div>
+              <div class="content">consegue pra mim um desconto de 30% </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:39:33 PM</div>
+              <div class="content">3 PRATA DA 90 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:39:42 PM</div>
+              <div class="content">2 vip desses pratas sou eu que  to pagando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:39:47 PM</div>
+              <div class="content">pra uns membros </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:39:59 PM</div>
+              <div class="content">15 EU CONSIGO MAIS NAO TEM COMO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:40:00 PM</div>
+              <div class="content">errei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:41:39 PM</div>
+              <div class="content">me ajude nesse desconto!
+vou ta pegando pra mim, 1 heli 1 vip platina e a base e ainda vou ta pagando pra 2 players o vip platina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:41:39 PM</div>
+              <div class="content">O TOTAL E 515 COM DESCONTO DE 15% FICA POR 437,75 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:41:59 PM</div>
+              <div class="content">O MAXIMO QUE CONSIGO KKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:42:06 PM</div>
+              <div class="content">SE NAO O TAM ME MATA KKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:42:38 PM</div>
+              <div class="content">Mata não fale </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:42:45 PM</div>
+              <div class="content">com ele diga que é pro Hakkai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:42:50 PM</div>
+              <div class="content">ele vai aceitar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:42:58 PM</div>
+              <div class="content">ELE ESTA AQUI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:43:07 PM</div>
+              <div class="content">DEU 78 REAIS DE DESCONTO AMIGO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:43:18 PM</div>
+              <div class="content">BAITA DESCONTO POR QUE E PRA TI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:43:19 PM</div>
+              <div class="content"><span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:43:35 PM</div>
+              <div class="content">rodrigo ja falou ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:44:26 PM</div>
+              <div class="content">por min éra 10% kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:44:34 PM</div>
+              <div class="content">rodrigo é muito bonzinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:51:11 PM</div>
+              <div class="content">os outros do clã conseguir a grana do vip deles continua com esse desconto de 15%? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:51:36 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:51:45 PM</div>
+              <div class="content">Obrigado!!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:52:35 PM</div>
+              <div class="content">2 Helicoptero MH6 = R$160
+1vip prata = R$30
+2 vip Platina = R$200
+1 Base Caçador Moderna = R$65
+
+então vamos nesse 
+assim que eles conseguir a grana deles do vip eles ja add </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:52:54 PM</div>
+              <div class="content">vamo em call pra escolher o local? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:52:56 PM</div>
+              <div class="content">da base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:53:24 PM</div>
+              <div class="content">e so ir ate onde voce escolher e chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:53:31 PM</div>
+              <div class="content">to aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:53:35 PM</div>
+              <div class="content">ja coloca a bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 10:54:06 PM</div>
+              <div class="content">pode entrar call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 10:54:26 PM</div>
+              <div class="content">Pode chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 11:25:58 PM</div>
+              <div class="content">H4Kai Vip Platina: 76561198969761352 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 11:43:00 PM</div>
+              <div class="content">Kanashi Vip platina: 76561198403756177 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 11:43:57 PM</div>
+              <div class="content">CEL: 53 984653110 EVERTON DE PAULI JESKE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">hakkai.sz</div>
+              <div class="timestamp">12/7/2024, 11:47:36 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315105584479080478/1315147745727746149/comprovante_picpay_pix_07-12-2024-23-47-12.pdf?ex=67565a48&is=675508c8&hm=328c5662348403d5069b27d615057793c1d439fe1744575475ef984c25867d6b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
