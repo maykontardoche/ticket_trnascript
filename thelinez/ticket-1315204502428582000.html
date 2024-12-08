@@ -1,0 +1,636 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・they-quc5lodm</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/8/2024, 3:33:08 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 3:33:16 AM</div>
+              <div class="content">entao estava plantando a maconha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 3:33:21 AM</div>
+              <div class="content">e o server caiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 3:33:23 AM</div>
+              <div class="content">e perdi a maconha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 3:33:29 AM</div>
+              <div class="content">como resolve essa situação? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 3:39:18 AM</div>
+              <div class="content">estava com 6 canteiros da future foi perda de 1kk100 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:44:35 AM</div>
+              <div class="content">Infelizmente não temos o que fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:44:48 AM</div>
+              <div class="content">O aviso de restart está aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:44:57 AM</div>
+              <div class="content">Vcs querem fazer as coisas perto do restart </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:50:55 AM</div>
+              <div class="content">ahhhh mais ai q ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:50:59 AM</div>
+              <div class="content">o restart era as 4 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:03 AM</div>
+              <div class="content">o servidor caiu era 3 30 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:10 AM</div>
+              <div class="content">mas tranquilo agr outra coisa gordao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:18 AM</div>
+              <div class="content">eu ontem fui tira cara do clan e desfiz o clan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:23 AM</div>
+              <div class="content">mas até ai tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:25 AM</div>
+              <div class="content">eu criei outro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:51:30 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315204502428582000/1315314819783725088/image.png?ex=6756f5e2&is=6755a462&hm=a5a4b8602f4979ee38b09d716824770aab8d13d42ac8418604ee37d36a4189fe&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:32 AM</div>
+              <div class="content">troquei a bandeira certin </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:51:42 AM</div>
+              <div class="content">só se caiu pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:51:51 AM</div>
+              <div class="content">nenhuma queda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:51:52 AM</div>
+              <div class="content">caiu pra mim e pra mais 2 na call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:11 AM</div>
+              <div class="content">ta mas outra coisa aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:15 AM</div>
+              <div class="content">ai criei outro clan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:18 AM</div>
+              <div class="content">so q ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:52:23 AM</div>
+              <div class="content">com mesmo nome? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:34 AM</div>
+              <div class="content">n sei man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:37 AM</div>
+              <div class="content">nem lembro como era nome do clan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:44 AM</div>
+              <div class="content">mas a tag botei a mesma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:52:52 AM</div>
+              <div class="content">então tem que trocar a bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:55 AM</div>
+              <div class="content">s </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:52:57 AM</div>
+              <div class="content">eu troquei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:01 AM</div>
+              <div class="content">mas o problema foi os carro do grupo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:08 AM</div>
+              <div class="content">o razor conseguiu ficar no outro clan q exclui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:53:11 AM</div>
+              <div class="content">excluiu o masstro e colocou outro? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:14 AM</div>
+              <div class="content">s </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:53:23 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:27 AM</div>
+              <div class="content">ai o razor tiro os veiculo qttava no grupo do q eu desfiz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:53:29 AM</div>
+              <div class="content">consigo resolver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:29 AM</div>
+              <div class="content">e coloco no privado dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:37 AM</div>
+              <div class="content">pra colocar no grupo de agora q eu fiz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:41 AM</div>
+              <div class="content">e aparentemente os carro sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:53:48 AM</div>
+              <div class="content">oxi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:53:59 AM</div>
+              <div class="content">consegue dar uma olhada no ticket do razor ai ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:02 AM</div>
+              <div class="content">tem ticket dele aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:03 AM</div>
+              <div class="content">ele disse q abriu ai um para falar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:11 AM</div>
+              <div class="content">deixa eu ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:11 AM</div>
+              <div class="content">é o mohammed </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:13 AM</div>
+              <div class="content">fecho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:14 AM</div>
+              <div class="content">faxc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:23 AM</div>
+              <div class="content">facil de resolver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:26 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:32 AM</div>
+              <div class="content">tu ta on? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:44 AM</div>
+              <div class="content">to logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:54:48 AM</div>
+              <div class="content">ja estou on na real </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:54:56 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:55:13 AM</div>
+              <div class="content">qualquer coisa, dropo pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:55:21 AM</div>
+              <div class="content">Os veiculos ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:55:53 AM</div>
+              <div class="content">É 111111 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:55:53 AM</div>
+              <div class="content">SENHA DA GARAGEM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:56:46 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315204502428582000/1315316145389174784/image.png?ex=6756f71e&is=6755a59e&hm=6d0991deac3cc71922f6b182e2b4e47d2c8d62b1ba3bc4817107e01a55e7edbd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:56:55 AM</div>
+              <div class="content">ESSES CARROS ESTAO NA GARAGEM DELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:57:16 AM</div>
+              <div class="content">osh </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:57:32 AM</div>
+              <div class="content">man ele vai loga pra ver dnv ent </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:57:36 AM</div>
+              <div class="content">pq ele disse q clipou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:57:38 AM</div>
+              <div class="content">KKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:57:45 AM</div>
+              <div class="content">ele n sabia q ia sumir ent cosneguiu clipar só 1 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 10:58:06 AM</div>
+              <div class="content">ESTAO TODOS AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:58:40 AM</div>
+              <div class="content">tá ele ta terminando lá e ja vai loga ent </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 10:58:42 AM</div>
+              <div class="content">pra conferir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:00:02 AM</div>
+              <div class="content">QUANDO ACONTECER ALGO ASSIM, TENTE RELOGAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:00:10 AM</div>
+              <div class="content">PODE SER BUG VISUAL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 11:00:23 AM</div>
+              <div class="content">fecho ó ele me mandou aki sumindo o caminhao mas certeza q foi visual ent </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 11:00:23 AM</div>
+              <div class="content">https://medal.tv/games/dayz/clips/jf0tDVtXTqjutRmlE?invite=cr-MSxrSXQsMjcyNTU1MTU1LA
+Medal - 🔴 Record & share unforgettable gaming moments. HD w/ no lag. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:04:58 AM</div>
+              <div class="content">ENGANO DELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:05:02 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315204502428582000/1315318225302585454/image.png?ex=6756f90e&is=6755a78e&hm=99d4d61ecd71ca3c4e26eae2042b4e5a2ada0df6637cff41868aaa07079e605a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:05:16 AM</div>
+              <div class="content">OLHA O CANTO DIREITO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:05:20 AM</div>
+              <div class="content">TEM UMA BARRA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:05:28 AM</div>
+              <div class="content">ELE NAO FOI ATE O FINAL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:05:43 AM</div>
+              <div class="content">SO FOI ATE O HELI E PAROU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 11:05:50 AM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkkkk krl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">theyzinnn</div>
+              <div class="timestamp">12/8/2024, 11:05:51 AM</div>
+              <div class="content">q bixo burro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:06:00 AM</div>
+              <div class="content">KKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/8/2024, 11:06:07 AM</div>
+              <div class="content">COLA CALL </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
