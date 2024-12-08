@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・㟼-vnzc-1jp319ei</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:46:30 PM</div>
+              <div class="content">estava off e deixou fora da garegem a quantos dias ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:46:43 PM</div>
+              <div class="content">foi avisado da limpa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:47:28 PM</div>
+              <div class="content">ent deixa eu te exeplicar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:47:43 PM</div>
+              <div class="content">tava off no dia fiquei no medico ate meia noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:47:47 PM</div>
+              <div class="content">qndo cheguei fui dormir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:47:52 PM</div>
+              <div class="content">e os mlk n aviso no gp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:03 PM</div>
+              <div class="content">ent nem me preocupei em ir guardar o heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:12 PM</div>
+              <div class="content">ai no outro dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:16 PM</div>
+              <div class="content">no caso ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:34 PM</div>
+              <div class="content">abri um ticket e disseram q so as 3 da am de hj q poderiam me dropar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:39 PM</div>
+              <div class="content">so q n estava on </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:48:51 PM</div>
+              <div class="content">cheguei do trampo agr pouco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:49:06 PM</div>
+              <div class="content">e ai abri o ticket aq pra poder pegar o heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:49:23 PM</div>
+              <div class="content">tendeu?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:49:47 PM</div>
+              <div class="content">tendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:50:45 PM</div>
+              <div class="content">cara se o tam liberar eu de dropo outro mas ele nao esta fazendo isso pra ninguem pois tinha mais de cem veiculos jogados pelo mapa e existe garagem justamente pra isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:51:04 PM</div>
+              <div class="content">isso consome muito do servidor sem necessidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:51:19 PM</div>
+              <div class="content">so por voces deixarem jogados </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:51:40 PM</div>
+              <div class="content">depois sao os primeiros a reclamar do servidor lagado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:52:16 PM</div>
+              <div class="content">po irmao sempre guardo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:52:33 PM</div>
+              <div class="content">e n e por causa do meu heli q vai lagar o server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:52:44 PM</div>
+              <div class="content">e n reclamo de server lagado n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:52:50 PM</div>
+              <div class="content">so faço minha play e boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:52:59 PM</div>
+              <div class="content">so preciso de meu heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:53:05 PM</div>
+              <div class="content">pq estamos de mudança de base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:53:21 PM</div>
+              <div class="content">e fica dificil transportar loot sem o heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:53:43 PM</div>
+              <div class="content">ele n ta fazendo nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:53:57 PM</div>
+              <div class="content">mais ele n ta on pra poder dropar tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:54:04 PM</div>
+              <div class="content">ai fica foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:54:08 PM</div>
+              <div class="content">tava doente nop dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:54:12 PM</div>
+              <div class="content">n tinha como entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:54:32 PM</div>
+              <div class="content">meu heli nunca fica pelo mapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:54:37 PM</div>
+              <div class="content">primeira vez q deixo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">1rodrigocs</div>
+              <div class="timestamp">12/7/2024, 9:54:50 PM</div>
+              <div class="content">ele esta on amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:55:21 PM</div>
+              <div class="content">e pq disseram q tinha q esperar prazo de 24 hrs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:55:48 PM</div>
+              <div class="content">se é de trade e foi deletado na limpeza não tem devolução </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:56:02 PM</div>
+              <div class="content">sodevolvemos veiculos com seguro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:56:11 PM</div>
+              <div class="content">a mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:56:13 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:56:22 PM</div>
+              <div class="content">mds </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:57:09 PM</div>
+              <div class="content">como n devolve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:57:28 PM</div>
+              <div class="content">cara fiquei uma semana jogando direto pra comprar o heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:57:36 PM</div>
+              <div class="content">pra vc fazer uma limpeza do nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:57:43 PM</div>
+              <div class="content">e falar q n vai devolver meu heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:57:45 PM</div>
+              <div class="content">pprt? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:58:52 PM</div>
+              <div class="content">NÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:58:55 PM</div>
+              <div class="content">PERDEU MSM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:59:08 PM</div>
+              <div class="content">EU AVISEI PREVIAMENTE SIM DETA LIMPEZA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:59:09 PM</div>
+              <div class="content">po dahora mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:59:16 PM</div>
+              <div class="content">msm de sempre ne </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:59:22 PM</div>
+              <div class="content">fds os player ne </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:59:25 PM</div>
+              <div class="content">VLW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 9:59:26 PM</div>
+              <div class="content">tendeu e isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:59:47 PM</div>
+              <div class="content">FODA-SE QUEM DEIXA VEICULO JOGADO SABENDO QUE TEM QUE GUARDAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 9:59:52 PM</div>
+              <div class="content">AI TA CERTINHO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:18 PM</div>
+              <div class="content">po mn em momento algum te faltei cm respeito mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:24 PM</div>
+              <div class="content">pelo contrario so queria oq e meu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:37 PM</div>
+              <div class="content">mais tu me xinga pra q </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:47 PM</div>
+              <div class="content">sou um player q sempre esta on no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:49 PM</div>
+              <div class="content">gastando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:00:50 PM</div>
+              <div class="content">SE  DEIXOU FORA DA GARAGE E FOI DELETADO NÃO É MAIS SEU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:00:50 PM</div>
+              <div class="content">jogando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:01:14 PM</div>
+              <div class="content">e isso mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:01:18 PM</div>
+              <div class="content">SÓ USEI O MSM CALÃO QUE VC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:01:27 PM</div>
+              <div class="content">n entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:01:32 PM</div>
+              <div class="content">eu te xinguei mn? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:01:37 PM</div>
+              <div class="content">negativo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:01:51 PM</div>
+              <div class="content">VC USOU UMA PALAVRA DE BAIXO CALÃO E EU USEI TBM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:01:52 PM</div>
+              <div class="content">em momento algum faltei cm respeito cntg mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:01:57 PM</div>
+              <div class="content">MSM NIVEL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:02:02 PM</div>
+              <div class="content">NÃO ACHA JUSTO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:02:27 PM</div>
+              <div class="content">smpre msm nivel, gasta no server tem respeito, nao gasta so vira um player normal qualquer e fds </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:02:39 PM</div>
+              <div class="content">e isso mn igual a tds </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:02:56 PM</div>
+              <div class="content">fzr oq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:03:02 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315114245775691929/1315121427979960320/image.png?ex=675641c6&is=6754f046&hm=c85b379cc3240467da2cf68aa0a72ab8a8a80096f7c636b23b2582c2bcc34e1e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:03:16 PM</div>
+              <div class="content">AQUI VC DISSE FODA-SE OS PLAYERS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:03:19 PM</div>
+              <div class="content">NÃO FOI? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:03:26 PM</div>
+              <div class="content">oque eu disse e q os player q smp se lascam e vc n esta nem ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:03:34 PM</div>
+              <div class="content">a nao ser q foer um cara q gasta muito no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:03:39 PM</div>
+              <div class="content">ja deu pra ver isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:03:54 PM</div>
+              <div class="content">quero mais heli nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:03:56 PM</div>
+              <div class="content">EU ESTOU, SÓNÃO POSSO FAZER NADA SE VC NÃO GUARDOU O HELI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:04:05 PM</div>
+              <div class="content">irmao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:04:18 PM</div>
+              <div class="content">pode perguntar para capone para o chuck mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:04:22 PM</div>
+              <div class="content">NÃO SOU SEU IRMÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:04:29 PM</div>
+              <div class="content">eu estava cm 39 de febre no hospital no dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:04:32 PM</div>
+              <div class="content">todo fudido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:04:39 PM</div>
+              <div class="content">n consegui entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:03 PM</div>
+              <div class="content">para guardar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:06 PM</div>
+              <div class="content">infelizmente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:05:13 PM</div>
+              <div class="content">TA MAIS AI VC TEM QUE AVISAR UM DE NÓS UM DE SEU GRUPO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:25 PM</div>
+              <div class="content">eu disse la em cima mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:05:28 PM</div>
+              <div class="content">E NÃO CHEGAR EXIGINDO UM HELI DE TRADE UMA SEMANA DEPOIS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:34 PM</div>
+              <div class="content">ngm avisou q ia resetar os veiculos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:38 PM</div>
+              <div class="content">no gp nosso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:05:50 PM</div>
+              <div class="content">e eu n tinha tempo pra ver discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:06:14 PM</div>
+              <div class="content">mn o cara q eu abri o ticket ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:06:21 PM</div>
+              <div class="content">disse q so 24 hrs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/7/2024, 10:06:29 PM</div>
+              <div class="content">ESSA CONVERSA NÃO VAI CHEGAR A LUGAR NENHUM, BOA NOITE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">brkvinizin</div>
+              <div class="timestamp">12/7/2024, 10:06:33 PM</div>
+              <div class="content">eu cheguei do mtrampo agr e fui pedir o heli mn </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
