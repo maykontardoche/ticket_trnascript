@@ -1,0 +1,437 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・jon_segundo-7ntms8br</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/9/2024, 12:00:03 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:00:35 PM</div>
+              <div class="content">estou tentando colocar o barril de 1000 slots e não vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:01:03 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315694452752384061/1315694711004070010/image.png?ex=675857af&is=6757062f&hm=0119e465e8375f243edaa41f86e800cd9e8ec09d279d7133e893ab856b229efd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:04:13 PM</div>
+              <div class="content">Sua bandeira mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:04:21 PM</div>
+              <div class="content">Vc saiu do grupo em algum momento? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:04:47 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:05:07 PM</div>
+              <div class="content">Esse grupo foi vc que criou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:05:14 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:05:21 PM</div>
+              <div class="content">Tem bandeira aí? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:05:24 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:05:31 PM</div>
+              <div class="content">Vc que colocou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:05:39 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315694452752384061/1315695870116892782/20241209120503_1.jpg?ex=675858c3&is=67570743&hm=bd151002f8ab3272f7f4059c6aa6b023f04503bb3b6849438371684c7e7aca87&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:05:41 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:05:59 PM</div>
+              <div class="content">Tá no alto a bandeira certinho? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:06:05 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:06:09 PM</div>
+              <div class="content">Ué </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:06:24 PM</div>
+              <div class="content">Vc joga solo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:06:35 PM</div>
+              <div class="content">não joga eu mais 2 cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:06:45 PM</div>
+              <div class="content">E eles tbm tem bases? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:06:54 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:07:00 PM</div>
+              <div class="content">Certeza? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:07:04 PM</div>
+              <div class="content">começamos a jogar sabado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:08:11 PM</div>
+              <div class="content">Estranho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:08:14 PM</div>
+              <div class="content">Perai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:14:03 PM</div>
+              <div class="content">acho que pode ser a localização da base <a href="https://cdn.discordapp.com/attachments/1315694452752384061/1315697980212252792/20241209121325_1.jpg?ex=67585aba&is=6757093a&hm=ac85d18ea0ab2e48e0a381d63a21fc44081043fd50addd10839aafd73761e2e9&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:17:48 PM</div>
+              <div class="content">meu jogo bugou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:17:51 PM</div>
+              <div class="content">ja volto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:26:04 PM</div>
+              <div class="content">Talvez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:26:33 PM</div>
+              <div class="content">voltei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:27:41 PM</div>
+              <div class="content">a minha base ta a 184 metros da pve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:29:29 PM</div>
+              <div class="content">Não tem problema </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:29:34 PM</div>
+              <div class="content">Acho que bugou sua bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:29:45 PM</div>
+              <div class="content">puts </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:29:47 PM</div>
+              <div class="content">Eu tive que dar uma saída rápida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:29:55 PM</div>
+              <div class="content">Daqui uns 20m tô em casa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:30:03 PM</div>
+              <div class="content">Te procuro no jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:30:08 PM</div>
+              <div class="content">Pra resolver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:30:12 PM</div>
+              <div class="content">bl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:30:21 PM</div>
+              <div class="content">vou tomar um banho gelado enguanto isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:30:23 PM</div>
+              <div class="content">mds </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:30:30 PM</div>
+              <div class="content">ta muito calor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 12:30:47 PM</div>
+              <div class="content">coloca o chuveiro no gelado e ficar la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:32:06 PM</div>
+              <div class="content">Tá calor pra caralho mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:32:13 PM</div>
+              <div class="content">Sou do rio de janeiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 12:32:17 PM</div>
+              <div class="content">E tá foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 12:54:33 PM</div>
+              <div class="content">ta por ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 12:54:43 PM</div>
+              <div class="content">quando estiver na base avise </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 1:03:57 PM</div>
+              <div class="content">voltei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 1:07:42 PM</div>
+              <div class="content">vlw ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/9/2024, 1:07:43 PM</div>
+              <div class="content">flw </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
