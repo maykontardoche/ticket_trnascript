@@ -1,0 +1,431 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・whiite-hv2dlug8</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/9/2024, 3:35:41 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:35:51 PM</div>
+              <div class="content">Opa Gordão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:36:01 PM</div>
+              <div class="content">consegue vir aq na base pra eu pegar aqueles pacotes que sumiram ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:36:02 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:36:04 PM</div>
+              <div class="content">vou tentar plantar dnv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:36:08 PM</div>
+              <div class="content">Opa TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:36:08 PM</div>
+              <div class="content">em que posso ajdar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:36:19 PM</div>
+              <div class="content">tinha falado com o Gordão mais cedo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:36:30 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315748725112438796/1315748931652681728/Screenshot_228.png?ex=67588a2e&is=675738ae&hm=6b0e3ec444c1611462aabac5a0fcb1e34d5a0ed17f8739c309693d8608f336e8&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:37:08 PM</div>
+              <div class="content">sumiu uns canteiros ontem a noite com umas maconhas e elas n cresciam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:37:31 PM</div>
+              <div class="content">vc precisa plantar na sequencia correta, primeiro o call depois as sementes e por ultimo a agua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:37:41 PM</div>
+              <div class="content">call, semente e agua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:38:08 PM</div>
+              <div class="content">mas a maconha ficou com o simbolo de chavezinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:38:11 PM</div>
+              <div class="content">como se tivesse ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:38:19 PM</div>
+              <div class="content">dai sai pra ir buscar minha esposa no trabalho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:38:25 PM</div>
+              <div class="content">e qnd voltei hakkai me avisou q sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:38:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315748725112438796/1315749447388364881/Screenshot_227.png?ex=67588aa9&is=67573929&hm=52ebac24a65767bfc3b7ff9b5bf4a667c27505237722701039ac7302aaeafe84&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:38:56 PM</div>
+              <div class="content">ela fica sim, mas não cresce </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:39:41 PM</div>
+              <div class="content">cara do meu clã colocou semente, cal e dps agua e deu certo agora a pouco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:42:01 PM</div>
+              <div class="content">geralmente não funciona </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:42:02 PM</div>
+              <div class="content">mas ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:44:04 PM</div>
+              <div class="content">ai queria ver se tinha como pegar os pacotinhos que perdi ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:44:20 PM</div>
+              <div class="content">foi 3 black e 1 normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 3:44:50 PM</div>
+              <div class="content">eu não estou reembolsando, se o gordão prometeu ai deixo com ele msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:46:14 PM</div>
+              <div class="content">blz, qnd ele tiver on vejo se chamo ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:46:18 PM</div>
+              <div class="content">vlw TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:46:26 PM</div>
+              <div class="content">proximo vou plantar nessa sequencia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 3:46:28 PM</div>
+              <div class="content">so por garantia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 4:42:32 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 4:42:39 PM</div>
+              <div class="content">Só vou entrar amanhã de manhã agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/9/2024, 4:42:50 PM</div>
+              <div class="content">Se estiver on amanhã de manhã, me chama </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 4:52:48 PM</div>
+              <div class="content">blz tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:06:51 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315748725112438796/1315847166538813521/Comprovante_20241209T220640012418.png?ex=6758e5ab&is=6757942b&hm=40a6d304dfcd3b80c5f51d13a4d44d19bc5f7824ee8196a1a56b82d9f6b13df9&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:07:10 PM</div>
+              <div class="content">ID Steam: 76561199003000061 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:07:14 PM</div>
+              <div class="content">opa TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:07:18 PM</div>
+              <div class="content">VIP PRATA pra esse ID </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 10:07:27 PM</div>
+              <div class="content">qual nome do cara no game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:09:47 PM</div>
+              <div class="content">[KING] Jepro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 10:16:50 PM</div>
+              <div class="content">prontinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 10:16:59 PM</div>
+              <div class="content">10 min ele pode se matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:17:49 PM</div>
+              <div class="content">Tam, 15 pila n consegue consertar essa arma não kkkkkk ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:18:02 PM</div>
+              <div class="content">martelinho de ouro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:21:08 PM</div>
+              <div class="content">pq tinha mta coisa danificada dentro daquele heli, é como se o tiro dos cara tivesse danificado no inventario, n faz sentido os cara guardar coisa danificada/gasta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:21:13 PM</div>
+              <div class="content">se der pra desenrolar esse conserto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:21:16 PM</div>
+              <div class="content">martelinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:21:21 PM</div>
+              <div class="content">ja mando aqui o comprovante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/9/2024, 10:28:34 PM</div>
+              <div class="content">da não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:29:34 PM</div>
+              <div class="content">de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">whiite.exe</div>
+              <div class="timestamp">12/9/2024, 10:29:38 PM</div>
+              <div class="content"><a:CryingManAnimated:1224207495908556830> </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
