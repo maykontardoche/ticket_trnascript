@@ -1,0 +1,479 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・jon_segundo-ghuc4qcq</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/11/2024, 10:27:25 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:27:36 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1316395921449156648/1316395970358935643/image.png?ex=675ae4c8&is=67599348&hm=013e3f450b4fa262411c8bd593822083539feb5b5092ae7f47aa71a21e222899&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:28:17 AM</div>
+              <div class="content">tipo aparece isso umas 3 vezes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:28:23 AM</div>
+              <div class="content">e dps eu consigo logar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:28:28 AM</div>
+              <div class="content">SUA NET MANO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:28:30 AM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:28:36 AM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:28:44 AM</div>
+              <div class="content">acontece isso mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:28:49 AM</div>
+              <div class="content">pqp agora meu jogo saiu soznho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:28:49 AM</div>
+              <div class="content">vai tentando que uma hora loga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:28:58 AM</div>
+              <div class="content">seu jogo ta no hd? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:04 AM</div>
+              <div class="content">ssd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:16 AM</div>
+              <div class="content">e qual sua conf do pc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:20 AM</div>
+              <div class="content">quanto de memoria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:20 AM</div>
+              <div class="content">]? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:28 AM</div>
+              <div class="content">e o notebook </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:31 AM</div>
+              <div class="content">gtx 1650 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:40 AM</div>
+              <div class="content">16gb memoria ram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:42 AM</div>
+              <div class="content">16 de memoria né? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:45 AM</div>
+              <div class="content">kkk imaginei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:46 AM</div>
+              <div class="content">3200 mhz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:29:52 AM</div>
+              <div class="content">sim, é isso mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:29:56 AM</div>
+              <div class="content">veio com 8gb man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:30:05 AM</div>
+              <div class="content">vai tentando que uma hora loga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:30:06 AM</div>
+              <div class="content">custou 4400 essa bosta aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:30:33 AM</div>
+              <div class="content">processador e uma batata tem 4 nucleos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:30:59 AM</div>
+              <div class="content">cheio de bug sa bosta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:31:04 AM</div>
+              <div class="content">a man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:31:13 AM</div>
+              <div class="content">reshade e proibido ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:31:17 AM</div>
+              <div class="content">xhair </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:31:23 AM</div>
+              <div class="content">a mira que fica na tela? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:31:38 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:31:47 AM</div>
+              <div class="content">se for só isso não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:31:54 AM</div>
+              <div class="content">tenha um clipador ativo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:31:57 AM</div>
+              <div class="content">ata blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:31:59 AM</div>
+              <div class="content">que um adm pode colar em vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:04 AM</div>
+              <div class="content">e pedir pra clipar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:09 AM</div>
+              <div class="content">1m pelo menos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:32:15 AM</div>
+              <div class="content">puts meu pc num aguenta carqa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:30 AM</div>
+              <div class="content">então é melhor nem usar mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:40 AM</div>
+              <div class="content">pq se for em vc e tu não clipar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:42 AM</div>
+              <div class="content">vai de ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:45 AM</div>
+              <div class="content">melhor nem usar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:32:46 AM</div>
+              <div class="content">PQP ESSA MERDA TA SAINDO SOZINHOOOOOOOOOOO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:32:55 AM</div>
+              <div class="content">é pq ta no discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:32:58 AM</div>
+              <div class="content">NUM TA DANDO NEM AVISO DE CRASH </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:00 AM</div>
+              <div class="content">ta dando alt+tab </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:33:07 AM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:33:15 AM</div>
+              <div class="content">so cliquei pra entra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:28 AM</div>
+              <div class="content">fecha o discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:33:28 AM</div>
+              <div class="content">quando tava 5 segundos saiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:33:31 AM</div>
+              <div class="content">bl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:33 AM</div>
+              <div class="content">reinicia a maquina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:37 AM</div>
+              <div class="content">e tenta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jon_segundo</div>
+              <div class="timestamp">12/11/2024, 10:33:41 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:48 AM</div>
+              <div class="content">boa jogatina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/11/2024, 10:33:52 AM</div>
+              <div class="content">cuidado com o rashade </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
