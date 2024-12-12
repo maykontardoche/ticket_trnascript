@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Transcrições</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transcrições Disponíveis</h1>
+    <ul id="file-list">
+        <!-- Os arquivos serão inseridos aqui automaticamente -->
+    </ul>
+    <p><a href="../index.html">Voltar</a></p>
+
+    <script>
+        // Função para buscar os arquivos dinamicamente
+        async function fetchFiles() {
+            // URL da API do GitHub Pages para listar os arquivos
+            const response = await fetch('./'); // Pega o diretório atual
+            const text = await response.text();
+
+            // Cria um DOMParser para ler os arquivos listados
+            const parser = new DOMParser();
+            const html = parser.parseFromString(text, 'text/html');
+
+            // Seleciona todos os links do diretório
+            const links = html.querySelectorAll('a');
+            const ul = document.getElementById('file-list');
+
+            links.forEach(link => {
+                const href = link.getAttribute('href');
+
+                // Filtra apenas arquivos HTML
+                if (href.endsWith('.html') && href !== 'index.html') {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="${href}">${href}</a>`;
+                    ul.appendChild(li);
+                }
+            });
+        }
+
+        // Chama a função para buscar os arquivos
+        fetchFiles();
+    </script>
+</body>
+</html>
