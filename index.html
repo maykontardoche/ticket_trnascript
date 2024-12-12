@@ -1,189 +1,39 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transcripts</title>
-</head>
-<body>
-    <h1>Transcripts do Ticket</h1>
-    <p>Acesse os transcripts gerados na pasta <a href="transcripts/">Transcripts</a>.</p>
-</body>
-</html>
- -->
-
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transcripts</title>
+    <title>Lista de Transcrições</title>
     <style>
-        /* Estilos base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: "ROBOTO", sans-serif;
-            background-color: #1e1f26;
-            color: #faebd7;
-            padding: 20px;
-            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
         }
-
         h1 {
-            font-family: "Josefin Sans", sans-serif;
-            font-size: 5vw;
-            margin-bottom: 20px;
-            color: #03dac6;
-            letter-spacing: 0.5rem;
-            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            color: #333;
         }
-
-        h1:hover {
-            transform: translate3d(0, -10px, 22px);
-            color: #ff0266;
-            transition: all 0.3s ease;
+        .folder, .file {
+            margin: 10px 0;
         }
-
-        p {
-            font-size: 1.2em;
-            margin: 20px 0;
-            color: #faebd7;
-        }
-
         a {
-            color: #03dac6;
             text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
+            color: #1a73e8;
         }
-
         a:hover {
-            color: #ff0266;
-        }
-
-        /* Loader animation */
-        h3.span.loader {
-            font-size: 2vw;
-            letter-spacing: 0.7em;
-            font-family: "ROBOTO", sans-serif;
-            font-weight: 300;
-            color: #faebd7;
-            text-shadow: 0 0 10px #faebd7;
-        }
-
-        span:hover {
-            color: #ff0266;
-            font-weight: 500;
-            font-size: 2.2vw;
-        }
-
-        .loader span {
-            color: #faebd7;
-            -webkit-animation: loading 1s ease-in-out infinite alternate;
-        }
-
-        @-webkit-keyframes loading {
-            to {
-                text-shadow: 20px 0 70px #ff0266;
-                color: #ff0266;
-            }
-        }
-
-        .loader span:nth-child(2) {
-            -webkit-animation-delay: 0.1s;
-        }
-        .loader span:nth-child(3) {
-            -webkit-animation-delay: 0.2s;
-        }
-        /* ... Continue para todas as letras com o mesmo delay */
-
-        /* Transição e interação */
-        .nav-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100px;
-            background-color: #1e1f26;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-            transition: all 0.5s ease;
-        }
-
-        .nav-tab {
-            flex: 1;
-            color: #03dac6;
-            text-align: center;
-            padding: 20px;
-            font-size: 2vw;
-            cursor: pointer;
-        }
-
-        .nav-tab:hover {
-            background-color: #03dac6;
-            color: #1e1f26;
-        }
-
-        /* Background animation */
-        canvas.background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: -1;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 8vw;
-            }
-
-            .nav-tab {
-                font-size: 4vw;
-            }
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Transcripts do Ticket</h1>
-    <p>Acesse os transcripts gerados na pasta <a href="transcripts/">Transcripts</a>.</p>
-
-    <section class="nav">
-        <h3 class="span loader">
-            <span class="m">T</span>
-            <span class="m">R</span>
-            <span class="m">A</span>
-            <span class="m">N</span>
-            <span class="m">S</span>
-            <span class="m">C</span>
-            <span class="m">R</span>
-            <span class="m">I</span>
-            <span class="m">P</span>
-            <span class="m">T</span>
-        </h3>
-        <div class="nav-container">
-            <a class="nav-tab" href="#tab-svelte">SVELTE</a>
-            <a class="nav-tab" href="#tab-esbuild">ESBUILD</a>
-            <a class="nav-tab" href="#tab-next">NEXT.JS</a>
-            <a class="nav-tab" href="#tab-typescript">TYPESCRIPT</a>
-            <a class="nav-tab" href="#tab-vite">VITE</a>
-        </div>
-    </section>
-
-    <canvas class="background"></canvas>
-
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0"></script>
-    <script>
-        Particles.init({
-            selector: ".background",
-            color: ["#03dac6", "#ff0266", "#faebd7"],
-            connectParticles: true,
-            maxParticles: 120
-        });
-    </script>
+    <h1>Lista de Transcrições</h1>
+    <ul>
+        <li class="folder"><a href="Perf-World/">Perf-World</a></li>
+        <li class="folder"><a href="infinityapp/">Infinity App</a></li>
+        <li class="folder"><a href="thelinez/">The Linez</a></li>
+        <li class="folder"><a href="ticket-alpha/">Ticket Alpha</a></li>
+        <li class="folder"><a href="transcripts/">Transcripts</a></li>
+    </ul>
+    <p>Escolha uma pasta para visualizar as transcrições.</p>
 </body>
 </html>
