@@ -1,0 +1,342 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: daniel</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">12/12/2024, 7:59:48 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:00:38 PM</div>
+              <div class="content">Boa noite Gostaria de Saber se Tem Algum Emprego Legal Para Esta Assumindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:25:58 PM</div>
+              <div class="content">Opa boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:26:02 PM</div>
+              <div class="content">tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:26:30 PM</div>
+              <div class="content">sobre empregos legais para assumir na cidade, temos os padroes, policia e por enquanto o hospital, que ainda estamos a procura de um diretor/diretora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:26:54 PM</div>
+              <div class="content">o que mais ou menos interessa a você? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:27:10 PM</div>
+              <div class="content">Me tira uma dúvida quais polícias tem pra assumir? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:27:43 PM</div>
+              <div class="content">quem pode tirar essa duvida pra você melhor é o resp policia vou estar adicionando ele aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:27:45 PM</div>
+              <div class="content">um minuto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:28:08 PM</div>
+              <div class="content">Certo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">fuzionmm1</div>
+              <div class="timestamp">12/12/2024, 8:28:16 PM</div>
+              <div class="content"><span class="mention">@onlylocutor</span> consegue responder pra ele por favor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:52:10 PM</div>
+              <div class="content">Boa noite Michael, tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:54:09 PM</div>
+              <div class="content">Opa boa noite td ss e tu? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:54:40 PM</div>
+              <div class="content">Estou ótimo! Bom, em que posso ajudar exatamente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:56:22 PM</div>
+              <div class="content">Queria Esta Sabendo Quais Corporações Tem Disponivel Para Esta Assumindo na Cidade e Quais os Requisitos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:57:10 PM</div>
+              <div class="content">Em questao de cororação, temos a Policia Militar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:57:20 PM</div>
+              <div class="content">Em quesito de Emprego legal, temos o Hospital apenas! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:57:34 PM</div>
+              <div class="content">Certo Quais Os Requisitos Para a Policia Militar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:58:32 PM</div>
+              <div class="content">Os Requesitos que estamos levando em consideração agora é um contigente de no mínimo 5 pessoas. Tendo em vista que temos a BOPE bem ativa na nossa cidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:58:56 PM</div>
+              <div class="content">E claro, um comando com disponibilidade e com vontade de querer fazer e acontecer. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 8:58:57 PM</div>
+              <div class="content">Certo E o Hp? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 8:59:42 PM</div>
+              <div class="content">O Hp estamos precisando de um Diretor para tomar as regis do Hp. Não coloquei nenhuma exigência ainda mas claro, a experiência é essencial. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 9:01:04 PM</div>
+              <div class="content">Certo em questão da Policia Militar Quais são os Veiculos Disponibilizados? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:01:56 PM</div>
+              <div class="content">Temos, Aguia, bicicleta, Blindado, bmw m7, bmw m5, dodge ram, nissan gtr(speed), r1250, audi rs6 e um skyline r34(speed) </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:02:03 PM</div>
+              <div class="content">Nosso tema é próprio só avisando. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:02:15 PM</div>
+              <div class="content">Então é tudo bem exclusivo. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 9:04:17 PM</div>
+              <div class="content">Certo vou está pegando a Polícia Militar só vou falar com o meu pessoal aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:04:32 PM</div>
+              <div class="content">Vocês estão em quantos exatamente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 9:05:51 PM</div>
+              <div class="content">Tipo assim conheço uma galera que e boa nessa parte de polícia por conta que já fui comando de várias unidades com esse pessoal aí tenho que ver quem vai querer colar mais consigo até uns 10 por ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:08:42 PM</div>
+              <div class="content">Que ótimo então! Então vamos fazer assim vê com o seu pessoal e me retorna o contato e a gente conversa em call sobre tudo no modo geral ok?
+Eu sou o responsável da policia, juntamente com o <span class="mention">@polaco7855</span>  que você possívelmente vai conhecer mais pra frente e todo assunto relacionado a Policia e sugestões pode estar contantando um de nós dois ok? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 9:09:27 PM</div>
+              <div class="content">Positivo vou está falando com meu pessoal e retorno aqui para a gente está subindo call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:09:35 PM</div>
+              <div class="content">Ótimo, estou no aguarde! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">onlylocutor</div>
+              <div class="timestamp">12/12/2024, 9:09:56 PM</div>
+              <div class="content">Vou estar fechando o ticket, assim que quiser subir call, pode estar me contatando pelo privado ok? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jbb714049</div>
+              <div class="timestamp">12/12/2024, 9:19:55 PM</div>
+              <div class="content">certo </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
