@@ -1,0 +1,461 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・gabe-cct4cf0k</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/15/2024, 4:31:32 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 4:34:33 PM</div>
+              <div class="content">muito suspeito o cara chegar assim e me matar depois olha quem foi ai da uma telada nele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 4:35:04 PM</div>
+              <div class="content">ainda nem aparece kill fed </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 4:47:22 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 4:59:54 PM</div>
+              <div class="content">só bugou o kilfied msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:00:38 PM</div>
+              <div class="content">conseguiu ver quem foi?w </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:01:07 PM</div>
+              <div class="content">bilie bruto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:01:18 PM</div>
+              <div class="content">blz tam obg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:01:22 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1317937104554164388/1317944616112099429/image.png?ex=67608712&is=675f3592&hm=e9cd82c3480b4ddad1345a6144421c2d379311c927b86e84033a74975ded69f6&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:01:31 PM</div>
+              <div class="content">este player ai é bem tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:01:38 PM</div>
+              <div class="content">verificado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:01:58 PM</div>
+              <div class="content">entao de boa fi vc falou ta falado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:02:46 PM</div>
+              <div class="content">oxi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:02:55 PM</div>
+              <div class="content">mais ai ta muito km </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:03:00 PM</div>
+              <div class="content">n foi esse dai n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:03:17 PM</div>
+              <div class="content">este foi o ultimo quematou vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:03:27 PM</div>
+              <div class="content">não é a ultima kill? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:03:41 PM</div>
+              <div class="content">o cara que me matou tava nem a 60 metros </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:03:47 PM</div>
+              <div class="content">o ultimo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:04:13 PM</div>
+              <div class="content">foi a ultima morte sua? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:04:17 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:04:22 PM</div>
+              <div class="content">queria saber quem foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:04:42 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1317937104554164388/1317945452695519252/image.png?ex=676087da&is=675f365a&hm=f3260d81cfea98c664f62fe31e956d03ed19a278033efc9610c7233847f1674f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:04:43 PM</div>
+              <div class="content">foi esta ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:05:08 PM</div>
+              <div class="content">kkk impossivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:05:21 PM</div>
+              <div class="content">enfim mano n vou tomar seu tempo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:05:31 PM</div>
+              <div class="content">po impossivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:05:34 PM</div>
+              <div class="content">e pq o cara veio direto em mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:05:39 PM</div>
+              <div class="content">sópra entender </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:05:41 PM</div>
+              <div class="content">eu tava full gilly no mato </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:05:47 PM</div>
+              <div class="content">deitado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:06:27 PM</div>
+              <div class="content">vc morreu da cidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:06:34 PM</div>
+              <div class="content">vou ver as posições </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:06:41 PM</div>
+              <div class="content">pode ver ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:07:05 PM</div>
+              <div class="content">da cidade n foi tam serio mesmo kk eu tava olhando cidade ai escutei o cara chegando do nada ai eu tomei quebrou as perna </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:07:15 PM</div>
+              <div class="content">ai ele so foi finalizando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:07:21 PM</div>
+              <div class="content">bem perto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:16:49 PM</div>
+              <div class="content">mas então não foi sua ultima morte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:18:00 PM</div>
+              <div class="content">por isso que eu to achando estranho mano pq n apareceu pow </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:18:08 PM</div>
+              <div class="content">na hora que eu morri eu fui olhar kill fed </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:18:27 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:18:35 PM</div>
+              <div class="content">mas vc morreu depois disso ja? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:18:39 PM</div>
+              <div class="content">n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:18:47 PM</div>
+              <div class="content">ta ate aqui meu local da morte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:18:52 PM</div>
+              <div class="content">to voltando pra la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:21:48 PM</div>
+              <div class="content">vi o clip dele aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:21:58 PM</div>
+              <div class="content">tinha visão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:22:42 PM</div>
+              <div class="content">ele atirou em vc de longe e chegou outro player </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:23:41 PM</div>
+              <div class="content">aaaaaa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:23:49 PM</div>
+              <div class="content">ta explicado entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:23:59 PM</div>
+              <div class="content">obrigado mano vc é fera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:34:48 PM</div>
+              <div class="content">tmj mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/15/2024, 5:34:52 PM</div>
+              <div class="content">boa tarde ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabecrdz</div>
+              <div class="timestamp">12/15/2024, 5:38:01 PM</div>
+              <div class="content">igualmente! </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
