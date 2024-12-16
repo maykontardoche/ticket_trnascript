@@ -1,0 +1,282 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・jaguara-kdt20gla</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">12/5/2024, 5:17:06 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/5/2024, 5:18:31 PM</div>
+                  <div class="content">Sempre pensei em, por exemplo, alguma coisa que permitisse incluir os materiais, a quantidade farmada e o período referente ao farm; junto à um anexo (fotos) para fins de comprovação 
+
+Não sei como é o daqui, poderia me esclarecer ou me mostrar via vídeo se houver? 
+
+Além disso, consegue me informar o valor dos planos? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/5/2024, 5:25:08 PM</div>
+                  <div class="content">Boa tarde <span class="mention">@jaguara_rp</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/5/2024, 5:25:26 PM</div>
+                  <div class="content">Você teria a possibilidade em entrar em call para que eu te mostrei como funciona os bot de fac? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/5/2024, 5:25:55 PM</div>
+                  <div class="content">Só mais tarde. O bot seria pra minha fac na Capital City </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/5/2024, 5:26:11 PM</div>
+                  <div class="content">Mais tarde rola? Te marco aqui. Meu receio são os valores serem exorbitantes kkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/5/2024, 5:37:13 PM</div>
+                  <div class="content">Está disponível depois das 18h30?
+Fique tranquilo pois nossos preços são os melhores do mercado, visando a qualidade que entregamos aos clientes. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/5/2024, 6:44:23 PM</div>
+                  <div class="content">Pode ser irmao so me falar o horario] </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/6/2024, 2:59:08 PM</div>
+                  <div class="content">opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/6/2024, 2:59:12 PM</div>
+                  <div class="content">tenho disponibilidade agora </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/6/2024, 2:59:29 PM</div>
+                  <div class="content">Pra entender como funciona e se os valores são de fato amigáveis kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/6/2024, 3:21:22 PM</div>
+                  <div class="content"><span class="mention">@jaguara_rp</span> pode ser anoite irmão esse horario estou no batalhão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/6/2024, 3:21:40 PM</div>
+                  <div class="content">tenho 3 tipos de bot de fac ai consigo te mostrar certinho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/282762248382840833/353bbd1dda07ef9fff003efa494c1a00.webp?size=128" alt="jaguara_rp" class="avatar">
+              <div class="message-content">
+                  <div class="author">jaguara_rp</div>
+                  <div class="timestamp">12/6/2024, 3:24:55 PM</div>
+                  <div class="content">Certo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/7/2024, 8:40:58 AM</div>
+                  <div class="content"><span class="mention">@jaguara_rp</span> consegue entrar em call hoje no perido da tarde ou anoite ? </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
