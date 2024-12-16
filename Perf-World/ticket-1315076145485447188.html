@@ -1,0 +1,225 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・joaomarcos-d9oyrlmr</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/7/2024, 7:03:06 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 7:05:13 PM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 7:05:15 PM</div>
+              <div class="content">Temos sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 7:05:30 PM</div>
+              <div class="content">O responsável por isso é o <span class="mention">@curseasc</span>, assim que ele estiver disponível ele fala com você. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaomacos</div>
+              <div class="timestamp">12/7/2024, 7:08:49 PM</div>
+              <div class="content">Beleza, obrigado. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/7/2024, 7:08:57 PM</div>
+              <div class="content">Por nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:16:55 PM</div>
+              <div class="content">Boa tarde! <@1207143655354269757> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:16:57 PM</div>
+              <div class="content">Tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:18:26 PM</div>
+              <div class="content">Vou te passar um forms, com ele você consegue saber quais categorias temos e quais você se encaixa, depois disso alinhamos o restante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:19:47 PM</div>
+              <div class="content">https://forms.gle/aMJUT6qcdqmxT7239 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaomacos</div>
+              <div class="timestamp">12/8/2024, 3:34:56 PM</div>
+              <div class="content">Boa tarde Curse.
+
+A categoria seria essa aqui: <a href="https://cdn.discordapp.com/attachments/1315076145485447188/1315386146393428040/image.png?ex=67611b8f&is=675fca0f&hm=5a8687293b59b0a0247829f55bf66d36bb551d6a0ba64ebb1765967f08a804ed&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:36:20 PM</div>
+              <div class="content">Beleza mano! 
+
+No caso os vídeos são sob demanda, tinhamos vários pedidos no começo do server e por agora, estamos alinhando a proxima leva de vídeos. Posso deixar salvo aqui e te chamar quando tivermos vídeos pra serem produzidos? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curseasc</div>
+              <div class="timestamp">12/8/2024, 3:36:38 PM</div>
+              <div class="content">Com isso, te mandamos o script quando tiver tudo certinho. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaomacos</div>
+              <div class="timestamp">12/8/2024, 3:38:26 PM</div>
+              <div class="content">Beleza, combinado 🤝 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
