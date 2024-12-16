@@ -1,0 +1,703 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・愛┇ʙɪʙɪᴀᴠᴋ¹⁵⁷-jwcnfhdu</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">12/12/2024, 12:39:03 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:39:11 PM</div>
+                  <div class="content">Opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:39:21 PM</div>
+                  <div class="content">Bom dia <span class="mention">@bibia_ana</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:39:24 PM</div>
+                  <div class="content">opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:39:27 PM</div>
+                  <div class="content">bom dia suave? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:39:31 PM</div>
+                  <div class="content">Qual bot voce precisa ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:39:40 PM</div>
+                  <div class="content">queria ver um pra fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:40:21 PM</div>
+                  <div class="content">tenho 3 modelos de bot de fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:40:30 PM</div>
+                  <div class="content">mais pro naipe de setagem e um de criar lista pra reações de mensagens </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:40:51 PM</div>
+                  <div class="content">criar lista pra reações nao entendi </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:41:00 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1316791436267749417/1316791927643049984/image.png?ex=6760f2cc&is=675fa14c&hm=f8cd75cdfd0a7b3bc6c441954d1e070cd87ac26f8426e92b605b0a7fd86af185&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:41:17 PM</div>
+                  <div class="content">quando a pessoa reage a mensagem o bot cria uma lista </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:41:18 PM</div>
+                  <div class="content">ah sistema de ações marcada isso ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:41:22 PM</div>
+                  <div class="content">ss </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:41:29 PM</div>
+                  <div class="content">Certo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:41:55 PM</div>
+                  <div class="content">Tem um que estava desenvolvendo e estou no final dele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:41:56 PM</div>
+                  <div class="content">https://discord.gg/QySzVnsf </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:42:06 PM</div>
+                  <div class="content">nao liga pro estilo do dc </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:42:10 PM</div>
+                  <div class="content">em paz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:42:13 PM</div>
+                  <div class="content">mas pode entrar nele pra voce fazer o teste </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:42:25 PM</div>
+                  <div class="content">o sistema de ações marcada eu teria que implementar nele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:42:46 PM</div>
+                  <div class="content">Se registra la so pra voce receber o cargo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:43:15 PM</div>
+                  <div class="content">mandei lá </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:44:22 PM</div>
+                  <div class="content">Te deixa cargo de lider e gerente la </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:44:51 PM</div>
+                  <div class="content">Criar call é nesse chat aqui 
+
+
+https://discord.com/channels/1184122932834873404/1316552769108181073 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:45:05 PM</div>
+                  <div class="content">só o bot do set fica quanto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:45:13 PM</div>
+                  <div class="content">achei melhor do que ta no dc </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:45:33 PM</div>
+                  <div class="content">Esse é o bot mais basico que temos ta saindo a 25,00 mensal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:45:54 PM</div>
+                  <div class="content">Se quiser com o sistema de ações nele fica a 40,00 mensal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:46:36 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1316791436267749417/1316793337763598366/image.png?ex=6760f41c&is=675fa29c&hm=6aea9c8787af96e59913b547bdebb9bb77adc8511490b6127017086c818c5a57&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1316791436267749417/1316793338384482375/image.png?ex=6760f41c&is=675fa29c&hm=0c6b8d293f013827a1e7d0153c608058b7bfcd82df31b4d6afd9bede2c09c7bc&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1316791436267749417/1316793338808238161/image.png?ex=6760f41c&is=675fa29c&hm=2383cf1b110bf1013132c1bd664249cf7f29cd472e70f16eafd4a4b557f9e087&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:46:43 PM</div>
+                  <div class="content">Sistema de ação mais o menos pra voce entender </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:47:30 PM</div>
+                  <div class="content">deica eu ver com o 00 aqui </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:48:31 PM</div>
+                  <div class="content">o de ação é 15 solo né </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:49:10 PM</div>
+                  <div class="content">Não o de ação é 15 pra implantar ele, se for so ele sai a 20 reais mensal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:49:21 PM</div>
+                  <div class="content">pode ser ele então </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:49:38 PM</div>
+                  <div class="content">pega o bot completo se vai gostar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:50:36 PM</div>
+                  <div class="content">quanto 😦 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:50:40 PM</div>
+                  <div class="content">kkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:50:49 PM</div>
+                  <div class="content">35 pra voce vai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:51:09 PM</div>
+                  <div class="content">o bot do jeito que ta la mais a implementação do de ação junto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:51:27 PM</div>
+                  <div class="content">https://discord.gg/WS757VP5 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:51:33 PM</div>
+                  <div class="content">entra no dc e ve como ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:51:41 PM</div>
+                  <div class="content">marca o manuel </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 12:52:14 PM</div>
+                  <div class="content">pronto marquei la ja </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:56:08 PM</div>
+                  <div class="content">olha lá </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 12:56:23 PM</div>
+                  <div class="content">e ve o que vc acha </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 1:05:07 PM</div>
+                  <div class="content">Da pra fazer sim no dicord la uso a config manual dele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 1:19:06 PM</div>
+                  <div class="content">o dono da fac falou que so o de ação ta bom </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 1:19:25 PM</div>
+                  <div class="content">é o que esta mais desorganizado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 1:33:46 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> vai ser só o de ação mesmo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 2:02:14 PM</div>
+                  <div class="content">Certo esse consigo entregar so no sabado ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 2:02:22 PM</div>
+                  <div class="content">pix do pagamento </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 2:02:25 PM</div>
+                  <div class="content">11 990054343 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 2:02:30 PM</div>
+                  <div class="content">Maykon Pablo Tardoche Barbosa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 2:55:49 PM</div>
+                  <div class="content">vc tem um que chega mensagem no pv </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 2:55:52 PM</div>
+                  <div class="content">de aviso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 3:58:55 PM</div>
+                  <div class="content">Como assim ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 4:03:57 PM</div>
+                  <div class="content">CHEGA UMA MENSAGEM DE AVISO PRA TODOS DO DC DA FAC </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 4:13:03 PM</div>
+                  <div class="content">que tipo de aviso ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 4:33:41 PM</div>
+                  <div class="content">quando eu pego meu registro no seu bot eu nn recebo uma mensagem no pv </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/733440483614916761/a8745f29eae55347575a330fc44819f8.webp?size=128" alt="bibia_ana" class="avatar">
+              <div class="message-content">
+                  <div class="author">bibia_ana</div>
+                  <div class="timestamp">12/12/2024, 4:33:54 PM</div>
+                  <div class="content">seria no mesmo napi so que de aviso da fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 4:47:10 PM</div>
+                  <div class="content">Sobre o aviso eu entendi, mas que tipo de aviso voce precisa que esse aviso seja acionado de onde ou um tipo de aviso manual </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
