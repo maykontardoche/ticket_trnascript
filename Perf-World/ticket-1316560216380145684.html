@@ -1,0 +1,533 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・curisco-9x66gg9t</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/11/2024, 9:20:16 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:20:28 PM</div>
+              <div class="content">fala nerd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:20:54 PM</div>
+              <div class="content">Aopa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:21:12 PM</div>
+              <div class="content">entao, tenho uns grupos de pw aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:21:18 PM</div>
+              <div class="content">rola uns goldzin por divulgação lá ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:21:25 PM</div>
+              <div class="content">mas dai tu tem q fazer 1 publi nova ne </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:21:30 PM</div>
+              <div class="content">das mudanças etc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:22:28 PM</div>
+              <div class="content">Rola sim, vou fazer essa publicação amanhã </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:22:51 PM</div>
+              <div class="content">ta show, so da um toque amanha quando tiver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:22:54 PM</div>
+              <div class="content">a publi já </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:23:01 PM</div>
+              <div class="content">Demoro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:23:02 PM</div>
+              <div class="content">dai posto nos grupo do face </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:23:04 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:23:08 PM</div>
+              <div class="content">Pode deixar aberto o ticket aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:23:11 PM</div>
+              <div class="content">ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:42:24 PM</div>
+              <div class="content">fala men </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:42:31 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> vc pagou algo pra project? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:42:50 PM</div>
+              <div class="content">Por enquanto não, to aguardando os players que ele disse que virão... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:43:13 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1316560216380145684/1316565992964624424/image.png?ex=67602061&is=675ecee1&hm=41414e6b87cd002d298b19dcb1abbf3a3975eb524304328a055d3eb9d68733e7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:43:15 PM</div>
+              <div class="content">fica entre a gente ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:43:20 PM</div>
+              <div class="content">la do battle </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:43:25 PM</div>
+              <div class="content">seven parece que vai pra lar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:43:33 PM</div>
+              <div class="content">Ixi kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:43:39 PM</div>
+              <div class="content">Mas será q ele tem esse clã mesmo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:44:13 PM</div>
+              <div class="content">eles tem 1 logzin </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:44:14 PM</div>
+              <div class="content">Pq tipo, quem conversou comigo foi o Pro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:44:15 PM</div>
+              <div class="content">porem tipo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:44:19 PM</div>
+              <div class="content">maioria gosta de chegar com bank </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:44:19 PM</div>
+              <div class="content">Parece que separou, entendi nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:44:58 PM</div>
+              <div class="content">ah </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:44:58 PM</div>
+              <div class="content">Entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:44:59 PM</div>
+              <div class="content">se separou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:45:02 PM</div>
+              <div class="content">entao n sei como ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:45:05 PM</div>
+              <div class="content">no pw oblivion </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:45:07 PM</div>
+              <div class="content">tinha log </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:45:24 PM</div>
+              <div class="content">Saquei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:45:27 PM</div>
+              <div class="content">Beleza, valeu pelo aviso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:46:19 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1316560216380145684/1316566773663010836/image.png?ex=6760211b&is=675ecf9b&hm=364ca14a35e1549e88708386f1cd765d8a421381880ff0b8a154266bb755763b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:46:21 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:46:24 PM</div>
+              <div class="content">é so pra ficar esperto msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:47:20 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:47:34 PM</div>
+              <div class="content">Mds kkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:50:41 PM</div>
+              <div class="content">ossada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:50:43 PM</div>
+              <div class="content">pw agora ta bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:50:46 PM</div>
+              <div class="content">so falta umas divulga msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 9:50:51 PM</div>
+              <div class="content">e clanzin </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:58:59 PM</div>
+              <div class="content">Então... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:59:06 PM</div>
+              <div class="content">Todo mundo quer bank cara, é foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:59:26 PM</div>
+              <div class="content">Pra tu ter noção, eu ofereci entrada em R$ e recusaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:00:23 PM</div>
+              <div class="content">é foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:00:56 PM</div>
+              <div class="content">set r8 up2 ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:00:57 PM</div>
+              <div class="content">basico </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:00:58 PM</div>
+              <div class="content">essas prada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:01:01 PM</div>
+              <div class="content">parada* </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:01:03 PM</div>
+              <div class="content">acho tranquiilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:01:05 PM</div>
+              <div class="content">uns gold </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:01:06 PM</div>
+              <div class="content">agora full do full </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:01:08 PM</div>
+              <div class="content">nao da </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:01:42 PM</div>
+              <div class="content">Ah cara, até isso eu acho zoado, já to dando gold semanal, entrada em R$ e R$ mensal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:01:47 PM</div>
+              <div class="content">Ter que bancar também é osso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:02:18 PM</div>
+              <div class="content">porra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:02:23 PM</div>
+              <div class="content">$ eu ja aceitava </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:02:25 PM</div>
+              <div class="content">ja farmei 2 set aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:02:45 PM</div>
+              <div class="content">Ta bem tranquilo agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:02:55 PM</div>
+              <div class="content">Mas ainda vão reclamar, já já acham alguma coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">curisco_</div>
+              <div class="timestamp">12/11/2024, 10:06:05 PM</div>
+              <div class="content">não duvido kkkkkkkkkkk </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
