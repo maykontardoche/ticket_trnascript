@@ -1,0 +1,507 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・amonk-trying-8d5n99re</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/11/2024, 9:48:02 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:48:16 PM</div>
+              <div class="content">entao eu e pessoal da pt que tinha pego o hiper farm do papai noel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:48:20 PM</div>
+              <div class="content">tava la 3 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:48:24 PM</div>
+              <div class="content">apos a 999 ela sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:48:31 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:48:37 PM</div>
+              <div class="content">ou tava com bug na descrição e era 1h </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:48:38 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:51:14 PM</div>
+              <div class="content">Não, é pq a missão do passe da 999 ta consumindo ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:51:18 PM</div>
+              <div class="content">Tem print da PT? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:51:30 PM</div>
+              <div class="content">foi essa pt <a href="https://cdn.discordapp.com/attachments/1316567205219008522/1316568078691074119/image.png?ex=67602252&is=675ed0d2&hm=711406331b928abdf4378c046d7d4db13c45ae485f864822d69befbbe57c2b4b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:51:38 PM</div>
+              <div class="content">entao so reparei agora na RP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:51:43 PM</div>
+              <div class="content">pq nois foi conferir se tava buffando kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:51:47 PM</div>
+              <div class="content">ai vimos q sumiu kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:52:33 PM</div>
+              <div class="content">Beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:54:05 PM</div>
+              <div class="content">a foi a 999 entao ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 9:54:08 PM</div>
+              <div class="content">f 3 dias de hipe kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:58:52 PM</div>
+              <div class="content">Eu vou devolver jaja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:04:31 PM</div>
+              <div class="content">ah sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:04:33 PM</div>
+              <div class="content">mt orbg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:40:00 PM</div>
+              <div class="content"><span class="mention">@try8794</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:40:08 PM</div>
+              <div class="content">oLima
+Bonox
+Celfadora
+Ozzy
+DAEMON
+Linger
+Infame
+Escocaina
+NoIdentify
+
+Consegue confirmar se são esses os nicks? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:48:41 PM</div>
+              <div class="content">esses mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:48:46 PM</div>
+              <div class="content">tinha mais 1 mais n lembro quem foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:48:49 PM</div>
+              <div class="content">pq ele saiu da pt antes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 10:48:50 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:48:56 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:06:19 PM</div>
+              <div class="content">jjogo ta com algum bug grafico, msm reduzindo tudo pra full ele continu estando FULL GRAFICO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:06:21 PM</div>
+              <div class="content">dropando mt fps </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:06:23 PM</div>
+              <div class="content">o.o </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:06:32 PM</div>
+              <div class="content">falaram que no ts tem mais gente tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:07:03 PM</div>
+              <div class="content">Isso não é BUG </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:07:45 PM</div>
+              <div class="content">uai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:08:27 PM</div>
+              <div class="content">o jogo mesmo com tudo no minimo, continua no full </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:08:28 PM</div>
+              <div class="content">e tem q relogar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:09:36 PM</div>
+              <div class="content">Quando reloga ele sai do full? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:10:25 PM</div>
+              <div class="content">a anne no ts, disse que apos relogar o ''drop'' do fps pelas textura sai, mas vou testar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:10:30 PM</div>
+              <div class="content">to matando 1 boss so, 1min </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:10:36 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:18:16 PM</div>
+              <div class="content">toda hr q tento logar <a href="https://cdn.discordapp.com/attachments/1316567205219008522/1316589912077893743/image.png?ex=676036a8&is=675ee528&hm=64e990b7459dd8ea3e457f3645040cbf6204ed7fbaed194ba7a166dd716c2372&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:18:16 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:18:23 PM</div>
+              <div class="content">fui relogar pra ver se tava abaixando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:18:38 PM</div>
+              <div class="content">loguei, vou ver se diminui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:18:45 PM</div>
+              <div class="content">Normal da versão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:19:10 PM</div>
+              <div class="content">é, o jogo ta como se tivesse FULL GRAFICOS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:19:14 PM</div>
+              <div class="content">com tudo no minimo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:19:20 PM</div>
+              <div class="content">falo em detalhes/skils </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:19:27 PM</div>
+              <div class="content">mas quando reloga o fps volta ao normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:19:57 PM</div>
+              <div class="content">Hm, depois dou uma olhada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:20:01 PM</div>
+              <div class="content">Os hypes chegaram ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:22:53 PM</div>
+              <div class="content">CHEGOU SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:22:54 PM</div>
+              <div class="content">obrg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:23:04 PM</div>
+              <div class="content">Show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:25:55 PM</div>
+              <div class="content">onde ta sendo o farm da perola astral 3? só na diaria aurora? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:26:29 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:57:41 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> aquele negocio do astro que tinha dado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/11/2024, 11:57:43 PM</div>
+              <div class="content">vc chegou ver? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/12/2024, 4:31:50 PM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/12/2024, 4:31:59 PM</div>
+              <div class="content">Não tive tempo, mas eu sei oq tá causando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">try8794</div>
+              <div class="timestamp">12/12/2024, 10:46:43 PM</div>
+              <div class="content">entao ta bugado mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/13/2024, 12:52:19 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
