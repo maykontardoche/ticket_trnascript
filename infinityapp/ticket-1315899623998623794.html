@@ -1,0 +1,682 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・gabrieel-3wsonsgr</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">12/10/2024, 1:35:18 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 7:31:23 AM</div>
+                  <div class="content"><span class="mention">@equisodieer</span> ????? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 11:44:38 AM</div>
+                  <div class="content">tipo relatorio desse integrante </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 11:44:42 AM</div>
+                  <div class="content">ja passou 1 semana </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 11:44:44 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1315899623998623794/1316052993417937070/image.png?ex=67662b9c&is=6764da1c&hm=729c1ed7fe6e7c927a704e529fd4f51be2d8ac4029715c91e6ea93dce1dcf2f3&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 11:44:53 AM</div>
+                  <div class="content">e ainda ta contando da semana passada </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 11:46:55 AM</div>
+                  <div class="content">e o bau 4 renomeia de  (   Bau Bangalo ) e o 3 de  (  Bau Casa ) </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:03:49 PM</div>
+                  <div class="content">Ok <span class="mention">@thxago</span>  vai verificar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:06:47 PM</div>
+                  <div class="content">Alterações de nomes layout ja se passaram 1 semana tem tempo irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:09:32 PM</div>
+                  <div class="content">oxi, vc havia falo que nomes poderiam ser feito sempre se não fosse com frequencia que nao tinha problema </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:09:48 PM</div>
+                  <div class="content">sim exatamente </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:10:07 PM</div>
+                  <div class="content">estou falando que alterações ja se expirarao e nao que nao vou trocar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:10:10 PM</div>
+                  <div class="content">kkkkkkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:10:21 PM</div>
+                  <div class="content">ata entendi </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:10:38 PM</div>
+                  <div class="content">O thiago vai ver a questao da meta la </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:10:57 PM</div>
+                  <div class="content">que nao ta resentando assim que tiver ok te aviso aqui </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:11:02 PM</div>
+                  <div class="content">blz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/10/2024, 12:11:05 PM</div>
+                  <div class="content">Gabriel </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:11:05 PM</div>
+                  <div class="content">Carma coração fio kkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/10/2024, 12:11:33 PM</div>
+                  <div class="content">Me dá acesso a um cargo de Líder </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/10/2024, 12:11:39 PM</div>
+                  <div class="content">Por favor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:13:15 PM</div>
+                  <div class="content"><span class="mention">@equisodieer</span> o gargo de DEV tem que ta acima de todos para que conseguimos realizar os teste antes de mexer no bot </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:13:40 PM</div>
+                  <div class="content">voce deixaram o carg dev abaixo de todos com permissao adm </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:14:57 PM</div>
+                  <div class="content"><span class="mention">@thxago</span> acho que só a menina consegue mexer nisso ai <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:15:01 PM</div>
+                  <div class="content">espera ela acorda e ja passo pra vcs </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:15:28 PM</div>
+                  <div class="content">Fechou </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:16:39 PM</div>
+                  <div class="content">ve se aquilo la é suficiente </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:16:43 PM</div>
+                  <div class="content">nao consigo subir mais </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:17:07 PM</div>
+                  <div class="content">tem que ta acima do cargo de lider </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:17:31 PM</div>
+                  <div class="content">tem que espera ela mesmo então </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:17:35 PM</div>
+                  <div class="content">jaja ela acorda ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:17:39 PM</div>
+                  <div class="content">kkk tranquilo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:18:08 PM</div>
+                  <div class="content">So vou consegui fazer a troca dos botao amanha fechou, estou de plantão hoje </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:18:31 PM</div>
+                  <div class="content">blz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:27:39 PM</div>
+                  <div class="content"><span class="mention">@equisodieer</span> voce apagou alguma mensagem desse canal aqui <#1309292111006273616> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:28:48 PM</div>
+                  <div class="content">acho que tinha apagado da menina que mando errado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:29:21 PM</div>
+                  <div class="content">Nao disfarça vi errado kkkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:29:28 PM</div>
+                  <div class="content">blz kk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:29:44 PM</div>
+                  <div class="content">é pq tava dando um erro aqui mas nao é do seu bot nao kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/10/2024, 12:29:46 PM</div>
+                  <div class="content">e de outro </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 12:30:00 PM</div>
+                  <div class="content">tendi </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/10/2024, 1:41:06 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> <span class="mention">@thxago</span> ta laagr </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/11/2024, 6:57:12 PM</div>
+                  <div class="content"><span class="mention">@equisodieer</span>  Acho que ainda nao tinha batido os 7 dias ainda rsrs <a href="https://cdn.discordapp.com/attachments/1315899623998623794/1316524215935045682/image.png?ex=676690f8&is=67653f78&hm=4331a47a5ef5c90e645bdf7234f81bcc15e2e014aa91354d5ee7f8141eb4eede&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/11/2024, 6:57:48 PM</div>
+                  <div class="content">Feito tambem ja 😄 <a href="https://cdn.discordapp.com/attachments/1315899623998623794/1316524364308418600/image.png?ex=6766911c&is=67653f9c&hm=c175575df5184c9c31eaeeb4e1ecec3f1eb947be1b28889601711888d209093d&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 6:01:33 AM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> e como reseta isso ai, era ter sido segunda a segunda a meta deles </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 7:23:24 AM</div>
+                  <div class="content"><span class="mention">@thxago</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/12/2024, 9:10:44 AM</div>
+                  <div class="content">Bom dia! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/12/2024, 9:10:56 AM</div>
+                  <div class="content">Faremos as modificações necessárias </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 9:30:04 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 9:30:23 AM</div>
+                  <div class="content">coloca essa imagem no perfil do bot pra nois <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 9:30:31 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 9:30:37 AM</div>
+                  <div class="content">e esse no banner dele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/12/2024, 9:31:29 AM</div>
+                  <div class="content">Assim que deu eu coloco la </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/12/2024, 9:40:45 AM</div>
+                  <div class="content">blz </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/16/2024, 9:56:15 PM</div>
+                  <div class="content">Após alguns testes internos e até mesmo no bots de vocês, aparentemente o problema foi resolvido. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/17/2024, 10:24:01 AM</div>
+                  <div class="content">opa, tem como resetar a meta de geral ai? pra ficar certinho agr </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/17/2024, 11:17:17 AM</div>
+                  <div class="content">Certeza? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/17/2024, 11:17:28 AM</div>
+                  <div class="content">A meta já está contando do domingo dessa semana </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1283872347656294516/a_a863ee77323be33a6b0f8be74981eb79.gif?size=128" alt="equisodieer" class="avatar">
+              <div class="message-content">
+                  <div class="author">equisodieer</div>
+                  <div class="timestamp">12/18/2024, 6:10:01 AM</div>
+                  <div class="content">se parar na segunda ta de boa pra mim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_f0412576f57db47a3fa380847136f9a7.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/18/2024, 8:02:43 AM</div>
+                  <div class="content">Toda semana vai resetar </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
