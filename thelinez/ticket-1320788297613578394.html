@@ -1,0 +1,474 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・britto-zggw55cv</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/23/2024, 1:21:09 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:21:33 PM</div>
+              <div class="content"><span class="role-mention">@・OWNER ★★★★★</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:21:34 PM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:21:37 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:22:02 PM</div>
+              <div class="content">o Sparda falou que vcs estão precisando de um bot que realiza vendas de vip e seta automaticamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:22:27 PM</div>
+              <div class="content">eu ja desenvolvi um bot assim para o warzoneZ se quiserem dar uma olhada discord.gg/warzonez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 1:22:35 PM</div>
+              <div class="content"><span class="mention">@ch_1983</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:23:01 PM</div>
+              <div class="content">ou podemos entrar em call pra eu mostrar o bot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 1:23:31 PM</div>
+              <div class="content">marquei nosso dev aqui e ele desenrola com vc, eu sou só o que paga kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:23:41 PM</div>
+              <div class="content">pdp kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 1:24:16 PM</div>
+              <div class="content"><span class="mention">@ch_1983</span> da uma olhada ai, vc que deve ter falado com o sparda lá. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:29:37 PM</div>
+              <div class="content">Boa tarde <span class="mention">@britto420</span> tudo certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:30:00 PM</div>
+              <div class="content">o Sparda me passou teu contato ontem, mas na correria de natal nao tinha entrado em contato ainda. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:30:51 PM</div>
+              <div class="content">td certo mano e cm vc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:31:01 PM</div>
+              <div class="content">assim imagino, td mundo ta assim, final de ano kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:31:05 PM</div>
+              <div class="content">A questao da Loja do Sparda ja conheco e ja tenho preco dele para adquirir, queria saber de voce como funciona o bot, se hospeda na propria maquina, se o pagamento eh unico ou mensal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:31:29 PM</div>
+              <div class="content">ainda fiquei sem luz hoje a manha toda, quase perdi tudo pro churrasco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:31:40 PM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:31:48 PM</div>
+              <div class="content">ent </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:31:52 PM</div>
+              <div class="content">o bot e mensal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:32:21 PM</div>
+              <div class="content">WarzoneZ paga 30% da receita para utilizar os Serviços que o BOT oferece </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:32:31 PM</div>
+              <div class="content">que e vender os vips e setar tudo automaticamente direto no servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:32:49 PM</div>
+              <div class="content">isso seria mensal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:33:13 PM</div>
+              <div class="content">mas isso com o mod do sparda junto ou somente o bot ja faz tudo automatico? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:33:51 PM</div>
+              <div class="content">isso no caso do WarzoneZ eu fiz a integração para aquele painel vip do sparda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:33:58 PM</div>
+              <div class="content">n sei se vcs utiliza esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:34:17 PM</div>
+              <div class="content">eu queria o sistema que voces fizeram no BRSurvivors.. foi o Kotter que me apresentou isso ate </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:34:43 PM</div>
+              <div class="content">vc utiliza o sistema de vip do sparda? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:34:58 PM</div>
+              <div class="content">to negociando com ele para comprar a loja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:35:07 PM</div>
+              <div class="content">assim, a loja que vende moedas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:35:10 PM</div>
+              <div class="content">isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:35:11 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:35:15 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:35:20 PM</div>
+              <div class="content">da pra fazer integração tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:35:38 PM</div>
+              <div class="content">se quiser entrar em call posso te mostrar mais do bot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:36:36 PM</div>
+              <div class="content"><span class="mention">@tam8181</span> quando tiver disponivel podemos olhar juntos, fica melhor eu acredito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:37:18 PM</div>
+              <div class="content">vc e dev do server primos tbm ne? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:37:33 PM</div>
+              <div class="content">o sparda disse q era o primos e o the line z que tava precisando desse sistema </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:37:34 PM</div>
+              <div class="content">SIm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:37:56 PM</div>
+              <div class="content">top </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:38:25 PM</div>
+              <div class="content">No Primos a gente tem um que faz tudo tbm, mas nao seta os vips, o que faco manual como aqui no TheLineZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:39:50 PM</div>
+              <div class="content">ent, seria melhor se a gnt entrasse em call e ja visse tudo isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:39:50 PM</div>
+              <div class="content">mas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:39:55 PM</div>
+              <div class="content">eu consigo fazer qualquer tipo de bot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:40:46 PM</div>
+              <div class="content">Vamos esperar o Tam, dai ele ja ve e tira duvidas tbm.. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ch_1983</div>
+              <div class="timestamp">12/23/2024, 1:40:51 PM</div>
+              <div class="content">E quanto custa o bot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:41:01 PM</div>
+              <div class="content">certo blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 1:41:07 PM</div>
+              <div class="content">so me chamar aq quando puderem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 2:43:23 PM</div>
+              <div class="content">quais os planos que vc tem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 3:03:22 PM</div>
+              <div class="content"># <a:BotBadge:1307836816816345170> Funcionalidades do Bot:
+Automação Completa: Configuração automática de VIP diretamente no arquivo do servidor.
+Banco de Dados de Pagamentos: Controle detalhado das transações e registro das vendas.
+Integração com MercadoPago: Pagamentos simplificados e automatizados.
+Gestão Avançada: Logs de atividades, cupons de desconto, relatórios de rendimento e muito mais.
+
+# <:saldo:1314488622614839346> Planos de Contratação
+
+**🔄 Plano Mensal:**
+30% da receita de vendas gerada pelo bot no seu servidor.
+
+**🔒 Pagamento Vitalício:**
+Apenas R$1.500, garantindo o bot para uso permanente e suporte por 3 meses.
+Bônus no Vitalício: Receba atualizações gratuitas do bot e suporte para integrações futuras. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 3:05:34 PM</div>
+              <div class="content">obrigado, o dev ch tem seu contato, se precisarmos entramos em contato. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 3:09:26 PM</div>
+              <div class="content">certo, vcs vão querer entrar em call para ver o bot? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 3:11:03 PM</div>
+              <div class="content">no momento não, é um investimento consideravel seu bot mais o o mod da loja, vamos entrar em contato quando realmente ja tiver ao menos a loja comprada, agradeço por seu tempo. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">britto420</div>
+              <div class="timestamp">12/23/2024, 3:22:41 PM</div>
+              <div class="content">blz, eu que agradeço! </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
