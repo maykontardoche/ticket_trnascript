@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・pablo_balestra-uudajg9j</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:37:39 PM</div>
+              <div class="content">vive criando secundaria esse porra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:38:10 PM</div>
+              <div class="content">de nada man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:38:17 PM</div>
+              <div class="content">tem publicação lá do ban dele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:38:19 PM</div>
+              <div class="content">sempre q eu ver um figurinha te aviso aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:38:32 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:38:42 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:38:49 PM</div>
+              <div class="content">esse ele tomou ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:38:56 PM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:38:58 PM</div>
+              <div class="content">ai sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:39:04 PM</div>
+              <div class="content">ja vou caçar ele aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:39:08 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:39:13 PM</div>
+              <div class="content">sempre q achar eu mando aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:39:14 PM</div>
+              <div class="content">s2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:40:24 PM</div>
+              <div class="content">tava em um sv de cheater tb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:40:31 PM</div>
+              <div class="content">mas saiu ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:40:40 PM</div>
+              <div class="content">tava no Mafia Community </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:40:50 PM</div>
+              <div class="content">n vou ter o print pra te ajudar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:40:55 PM</div>
+              <div class="content">;c </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:41:20 PM</div>
+              <div class="content">saiu do sv, assim q foi banido ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:46:26 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1320576621723254814/1320583267719839744/image.png?ex=676a2082&is=6768cf02&hm=e6e0aaca8673943f270fda86d1c21b949fc8e80cadf84130778a805e9c89f31d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:46:31 PM</div>
+              <div class="content">ele nunca jogou aqui não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:46:42 PM</div>
+              <div class="content">tem um com msm nick no kill feed </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:46:49 PM</div>
+              <div class="content">me guiei por ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:47:01 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:47:21 PM</div>
+              <div class="content">desculpa pela confusão ent kk 🫤 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:47:55 PM</div>
+              <div class="content">hj isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:48:04 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1320576621723254814/1320583681202458697/image.png?ex=676a20e4&is=6768cf64&hm=8161da2a80eabcae7947d8cbfa6cc62d01904112def22f1c63c15feafe7a57c7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:48:04 PM</div>
+              <div class="content">tem um tempinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:48:11 PM</div>
+              <div class="content">haa sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:48:20 PM</div>
+              <div class="content">este ai foi o ultimo visto aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:48:26 PM</div>
+              <div class="content">vou até conferir este </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:48:33 PM</div>
+              <div class="content">belezinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:49:23 PM</div>
+              <div class="content">vouficaresperto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:49:28 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:49:30 PM</div>
+              <div class="content">vlwww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:49:35 PM</div>
+              <div class="content">só reportei pq ele tem secundaria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:49:42 PM</div>
+              <div class="content">tmj ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:49:42 PM</div>
+              <div class="content">boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1320576621723254814/1320584556969201696/image.png?ex=676a21b5&is=6768d035&hm=176cf1e5c8005c5a039696c51c089c5ac8c16c10df516701e33450254c078a01&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:37 PM</div>
+              <div class="content">METI UM BANPOR IP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:39 PM</div>
+              <div class="content">KKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:50 PM</div>
+              <div class="content">AQUI NENHUMA DAS CONTAS DELE NO MSM IP VAI LOGAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:56 PM</div>
+              <div class="content">E VPN EU NÃO ACEITO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:51:59 PM</div>
+              <div class="content">TA FUDIDO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:52:01 PM</div>
+              <div class="content">VLWWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:52:26 PM</div>
+              <div class="content">boaa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:52:28 PM</div>
+              <div class="content">pera ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:52:36 PM</div>
+              <div class="content">fecha ainda n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:52:49 PM</div>
+              <div class="content">76561199138777703 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:52:54 PM</div>
+              <div class="content">da uma bizoiada nesse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:53:05 PM</div>
+              <div class="content">nome é comum </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:53:07 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1320576621723254814/1320584950403170304/image.png?ex=676a2213&is=6768d093&hm=8e39729ccbc13015bf5d6b8a47ad8a9def1a780bf19ce8c822f9a1325a242362&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:53:12 PM</div>
+              <div class="content">ÓIA QUE BONITO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:53:31 PM</div>
+              <div class="content">passa o pente fino </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:53:40 PM</div>
+              <div class="content">esse é xitado tb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:53:48 PM</div>
+              <div class="content">mas o nick dele era JOTA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:53:50 PM</div>
+              <div class="content">nick comum </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:53:53 PM</div>
+              <div class="content">TEM NADA NA CONTA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:54:00 PM</div>
+              <div class="content">VOU VER AS SECUNDARIAS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:54:03 PM</div>
+              <div class="content">blzinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:54:18 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:54:26 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:54:32 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:54:58 PM</div>
+              <div class="content">tudo esse mes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:55:03 PM</div>
+              <div class="content">nunca vi tanto cheater man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:55:23 PM</div>
+              <div class="content">ONDE ISSO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:55:35 PM</div>
+              <div class="content">esse foi no refugio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:57:30 PM</div>
+              <div class="content">OS CARA NÃO DA BAN PUBLICO ,NÃO ENTENDO ISSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:37 PM</div>
+              <div class="content">foda man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:44 PM</div>
+              <div class="content">o rafael </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/22/2024, 11:57:45 PM</div>
+              <div class="content">MEDO DE PROCESSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:48 PM</div>
+              <div class="content">dono do epidemic </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:51 PM</div>
+              <div class="content">é um nojo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:57 PM</div>
+              <div class="content">n da ban publico nunca </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:57:59 PM</div>
+              <div class="content">saporra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:58:10 PM</div>
+              <div class="content">mas ta tudo banido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:58:39 PM</div>
+              <div class="content">qnd eu questinei isso nele né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:58:54 PM</div>
+              <div class="content">ele disse q tem que deixar os adms de outros servidores trabalharem tb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/22/2024, 11:59:24 PM</div>
+              <div class="content">tudo por ego, por isso a comunidade ta assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:00:03 AM</div>
+              <div class="content">QUE BABACA KKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:00:07 AM</div>
+              <div class="content">MAS NÃO DA NADA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:00:12 AM</div>
+              <div class="content">AQUI NÃO PASSA TBM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:00:30 AM</div>
+              <div class="content">no monster eles n estão mt preocupados com isso n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:00:32 AM</div>
+              <div class="content">MEDO DE PROCESSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:00:36 AM</div>
+              <div class="content">tava sem tempo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:00:43 AM</div>
+              <div class="content">ai acabei largando a staff lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:00:58 AM</div>
+              <div class="content">ALEX DEVE TA RICO JA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:02 AM</div>
+              <div class="content">kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:01:03 AM</div>
+              <div class="content">SE JOGOU NAS CORDA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:13 AM</div>
+              <div class="content">ta pagando os staff po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:20 AM</div>
+              <div class="content">10% cada venda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:01:29 AM</div>
+              <div class="content">IMAGINEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:30 AM</div>
+              <div class="content">fica com o staff q vendeu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:44 AM</div>
+              <div class="content">mas é isso meu mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:47 AM</div>
+              <div class="content">sempre q eu ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:53 AM</div>
+              <div class="content">jogo aqui no ticket </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:01:59 AM</div>
+              <div class="content">e tu da uma olhada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:02:01 AM</div>
+              <div class="content">VLWW O ESFORÇO AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">balestra22</div>
+              <div class="timestamp">12/23/2024, 12:02:04 AM</div>
+              <div class="content">tmjj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/23/2024, 12:02:08 AM</div>
+              <div class="content">TMJ </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
