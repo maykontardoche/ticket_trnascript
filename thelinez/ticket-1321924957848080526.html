@@ -1,0 +1,347 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・henry-5cto2lcm</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/26/2024, 4:37:50 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 4:50:25 PM</div>
+              <div class="content">meu barco nao anda e dentro dele parece q estou dentro da agua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 4:53:23 PM</div>
+              <div class="content">perco muita vida pelo frio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 4:55:11 PM</div>
+              <div class="content">Tá com problema no barco manin, desde a última att do DayZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 4:56:08 PM</div>
+              <div class="content">simmen </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 4:59:22 PM</div>
+              <div class="content">pode me ajuda ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:00:51 PM</div>
+              <div class="content">Vc está no meio do mar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:01:13 PM</div>
+              <div class="content">nao nos veiculos pra compra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:01:21 PM</div>
+              <div class="content">E precisa ajuda no que? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:01:39 PM</div>
+              <div class="content">preciso do barco pra poder ir pra toxica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:01:49 PM</div>
+              <div class="content">Não tem Heli? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:01:55 PM</div>
+              <div class="content">nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:02:10 PM</div>
+              <div class="content">Mas o barco não está funcionando meu querido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:02:13 PM</div>
+              <div class="content">Como vai usar ele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:02:48 PM</div>
+              <div class="content">pro isso q eu quero ajuda princeso pra ver se tem como ele funciona pq vc disse pra eu espera ate o rr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:03:13 PM</div>
+              <div class="content">eu joguei a madrugada toda pra fazer o dinheiro pra compra esse barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:03:50 PM</div>
+              <div class="content">Se quiser, podemos te devolver o dinheiro dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:03:56 PM</div>
+              <div class="content">O pouso tá liberado lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:03:58 PM</div>
+              <div class="content">TROCA EM UM HELI MANO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:04:00 PM</div>
+              <div class="content">Aí vc compra um heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:04:04 PM</div>
+              <div class="content">POSSO FAZER UM REEMBOLSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:04:07 PM</div>
+              <div class="content">PODE SER? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:04:16 PM</div>
+              <div class="content">mais eu nao tenho mais dinheiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:04:58 PM</div>
+              <div class="content">O BARCO VALE 6KK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:05:03 PM</div>
+              <div class="content">SÓ JUNTAR MAIS 2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:05:23 PM</div>
+              <div class="content">se eu nao tiver opcao eu vou ter q aceita ne mais eu queria msm o barco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:05:42 PM</div>
+              <div class="content">os outros barco nao funciona tbm ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:05:57 PM</div>
+              <div class="content">TA TUDO ZUADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/26/2024, 5:05:57 PM</div>
+              <div class="content">Todos os barcos deram b.o depois da att </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:06:07 PM</div>
+              <div class="content">AS VEZES FUNCIONA AS VEZES NÃO FUNCIONA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:06:10 PM</div>
+              <div class="content">TA RUIN </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:06:29 PM</div>
+              <div class="content">eu tava com o heli de um amigo meu e vc teve q me salva na trend pq eu nao sabia sair com ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:06:47 PM</div>
+              <div class="content">entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 5:06:47 PM</div>
+              <div class="content">vai para o game ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">12/26/2024, 5:06:54 PM</div>
+              <div class="content">tudo bem </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
