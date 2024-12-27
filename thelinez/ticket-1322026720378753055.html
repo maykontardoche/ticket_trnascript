@@ -1,0 +1,481 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・titi-nar8l96y</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/26/2024, 11:22:12 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:22:15 PM</div>
+              <div class="content">boas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:22:20 PM</div>
+              <div class="content">acho que alguem roubou meu mh6 na pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:22:26 PM</div>
+              <div class="content">consegue dar uma verificada ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:24:32 PM</div>
+              <div class="content">QUAL COR, MODELO E SENHA? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:25:14 PM</div>
+              <div class="content">MH6 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:25:18 PM</div>
+              <div class="content">Preto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:25:20 PM</div>
+              <div class="content">15091994 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:25:42 PM</div>
+              <div class="content">ele estava aqui na montanha de vybor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:25:48 PM</div>
+              <div class="content">mas acho que alguem que saiu do clan deve ter roubado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:26:11 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322027726139424789/image.png?ex=676f61c3&is=676e1043&hm=b5d6b87c07076011707f178acd3da6829ed8c018ba757279441d761ff75fa7ef&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:26:13 PM</div>
+              <div class="content">ESTA COR? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:26:40 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:27:31 PM</div>
+              <div class="content">QUEM É O CARA QUE VC DESCONFIA? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:27:44 PM</div>
+              <div class="content">QUANDO VC VIU POR ULTIMO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:28:36 PM</div>
+              <div class="content">foi hoje mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:28:42 PM</div>
+              <div class="content">pior que nao faço ideia tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:28:57 PM</div>
+              <div class="content">tem menos de 1h isso ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:28:57 PM</div>
+              <div class="content">VOU VER AQUI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:29:00 PM</div>
+              <div class="content">menos ou menos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:29:34 PM</div>
+              <div class="content">eu devia ter mudado a senha tambem, assim que a galera parou de jogar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:31:58 PM</div>
+              <div class="content">TA EM SUA GARAGEM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:33:04 PM</div>
+              <div class="content">ue </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:33:07 PM</div>
+              <div class="content">mas alguem tinha pegado ne? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:34:10 PM</div>
+              <div class="content">SIM
+BOTEI NA SUA GARAGEM AGORA
+LAELE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:34:17 PM</div>
+              <div class="content">kakaka </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:34:28 PM</div>
+              <div class="content">podes dizer quem que pegou ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:34:36 PM</div>
+              <div class="content">NEM SEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:34:39 PM</div>
+              <div class="content">só pra eu ficar ciente do pilantra kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:34:42 PM</div>
+              <div class="content">tendeuu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:34:46 PM</div>
+              <div class="content">fecho entaoo, agradecee tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:38:39 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322030860765233282/image.png?ex=676f64af&is=676e132f&hm=436759835cd76212986b84ee82d038783852d843f6be25ba21c1707d2652ea1b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:38:44 PM</div>
+              <div class="content">ESTAVA NA BASE SEDTE CARA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:38:50 PM</div>
+              <div class="content">AGORA QUEM PEGOU NEM SEU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:39:52 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322031165477093377/image.png?ex=676f64f8&is=676e1378&hm=ab541236ad2c3a7ad4b67f5d6a7fe513e5bc064e11d58ca7cd10f827058369e3&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:39:55 PM</div>
+              <div class="content">ESTE CARA SERÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:40:00 PM</div>
+              <div class="content">NEM SEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:41:28 PM</div>
+              <div class="content">Shooww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:41:45 PM</div>
+              <div class="content">esse eu ja nao conheço </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:41:49 PM</div>
+              <div class="content">nem sei como ele pegou o heli entao kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:42:16 PM</div>
+              <div class="content">MANDA PRINT DE ONDE ESTAVA SEU HELI EXATAMENTE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:42:55 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322031935706632255/image.png?ex=676f65af&is=676e142f&hm=b9863fa51b5ee952b6405a4b82ba1598f123ccd67ab719493b4c4ad5fd2f260c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:43:00 PM</div>
+              <div class="content">ness area que esta o soldier </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:46:08 PM</div>
+              <div class="content">porq ngm saiu aqui do clan pra ir pra thk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:46:10 PM</div>
+              <div class="content">nao que eu saiba </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:46:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322032850220089444/image.png?ex=676f6689&is=676e1509&hm=6d8bd6360f8b99afd6069f74c79401bf658c32f180f6375a5c0249409ec9ab81&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:46:38 PM</div>
+              <div class="content">ESTES CARAS AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:46:46 PM</div>
+              <div class="content">A LOC TA BATENDO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:47:00 PM</div>
+              <div class="content">VC DEIXOU ELE ABERTO SERÁ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:48:16 PM</div>
+              <div class="content">cara a principio nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:48:36 PM</div>
+              <div class="content">mas pode ser que sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:48:39 PM</div>
+              <div class="content">q que eu vou te dizer kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:49:12 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322026720378753055/1322033517001052170/image.png?ex=676f6728&is=676e15a8&hm=8586bd838abe27a0dec2283c5097efc4b6a1600b089868bb0fe4d9f0310d82ce&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:50:40 PM</div>
+              <div class="content">kakakaka </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:50:42 PM</div>
+              <div class="content">mas deu boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">omacoeiro</div>
+              <div class="timestamp">12/26/2024, 11:50:44 PM</div>
+              <div class="content">ja troquei a senha aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/26/2024, 11:51:39 PM</div>
+              <div class="content">FLWW </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
