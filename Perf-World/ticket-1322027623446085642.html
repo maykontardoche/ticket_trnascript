@@ -1,0 +1,648 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・infame-x93vn8m7</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/26/2024, 11:25:47 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:26:13 PM</div>
+              <div class="content">Não consigo abrir a loja de gold. Nem apertando "O" nem pelo botão proximo ao minimapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:19 PM</div>
+              <div class="content">Salve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:29:23 PM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:29:34 PM</div>
+              <div class="content">não consigo usar o Q para as quests tmb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:37 PM</div>
+              <div class="content">Reseta a configuração de atalhos pra ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:42 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322027623446085642/1322028610730725396/image.png?ex=67700b56&is=676eb9d6&hm=c772779d7e5a572ca3e031f88f5c8da44e5124d6eba95275fbce608ecb72ac0e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:44 PM</div>
+              <div class="content">Volta ao padrão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:47 PM</div>
+              <div class="content">E da um aplicar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:29:48 PM</div>
+              <div class="content">e confirma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:30:04 PM</div>
+              <div class="content">ja fiz isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:30:18 PM</div>
+              <div class="content">Me manda seu login e desloga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:30:28 PM</div>
+              <div class="content">infame </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:30:30 PM</div>
+              <div class="content">vou deslogar la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:30:50 PM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:32:35 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322027623446085642/1322029333706964992/image.png?ex=67700c03&is=676eba83&hm=fd76eda265a15f9c5d844ab6dcba9ecc48df012d39f389b702bfa419365f5efd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:32:37 PM</div>
+              <div class="content">É algo no teu cliente mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:33:08 PM</div>
+              <div class="content">hmm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:33:19 PM</div>
+              <div class="content">ja atualizei tmb, antes de enviar o ticket </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:33:34 PM</div>
+              <div class="content">Tenta ai dnv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:33:36 PM</div>
+              <div class="content">Vê se vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:33:38 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:35:08 PM</div>
+              <div class="content">nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:35:10 PM</div>
+              <div class="content">ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:35:28 PM</div>
+              <div class="content">Rapaz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:35:35 PM</div>
+              <div class="content">Tem anydesk? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:36:07 PM</div>
+              <div class="content">n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:36:39 PM</div>
+              <div class="content">Cara, pior que sem fuçar eu não consigo saber oq ta rolando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:37:18 PM</div>
+              <div class="content">vou tentar reinstalar o jogo, se n funfar eu baixo o anydesk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:37:24 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:37:40 PM</div>
+              <div class="content">Tenta em outra conta tb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:37:41 PM</div>
+              <div class="content">Pra ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:38:04 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:39:36 PM</div>
+              <div class="content">na outra conta ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:42:20 PM</div>
+              <div class="content">Rapaz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:42:28 PM</div>
+              <div class="content">E tipo, não é a conta pq aqui ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:42:41 PM</div>
+              <div class="content">Que doideira kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:42:45 PM</div>
+              <div class="content">foi do nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:42:54 PM</div>
+              <div class="content">tava num pvpzinho ali e aconteceu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:43:21 PM</div>
+              <div class="content">vou reiniciar pc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:43:52 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:48:01 PM</div>
+              <div class="content">funcionou n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:48:07 PM</div>
+              <div class="content">Vou baixar o bglh aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:50:24 PM</div>
+              <div class="content">Baixei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:51:59 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/26/2024, 11:52:09 PM</div>
+              <div class="content">Me manda seu ID </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/26/2024, 11:52:42 PM</div>
+              <div class="content">1 232 583 065 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:01:40 AM</div>
+              <div class="content">Bizarro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:01:42 AM</div>
+              <div class="content">krl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:01:44 AM</div>
+              <div class="content">Teu char bugou só no seu PC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:02:07 AM</div>
+              <div class="content">Se não desbugar, posso manter o clone? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:02:34 AM</div>
+              <div class="content">Abre as runas ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:03:19 AM</div>
+              <div class="content">Pode uai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:24 AM</div>
+              <div class="content">Blz, mas vai perder o nick </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:26 AM</div>
+              <div class="content">Tem problema? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:03:34 AM</div>
+              <div class="content">Sim e não kkk. se for o jeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:36 AM</div>
+              <div class="content">Pelo menos até o char excluir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:44 AM</div>
+              <div class="content">Dps q excluir tu pode voltar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:03:47 AM</div>
+              <div class="content">ah ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:53 AM</div>
+              <div class="content">Tira um print das tuas runas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:03:55 AM</div>
+              <div class="content">E manda ak pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:04:15 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322027623446085642/1322037303174234155/image.png?ex=6770136f&is=676ec1ef&hm=42c927b0d5944df264f5300825fc6637c5980fa45c8d4689bf331545a0841c1b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:04:34 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322027623446085642/1322037384245940285/image.png?ex=67701382&is=676ec202&hm=3dcdcdbf5512171f5de3e55f9b69ac998470bbecd3b7e169e9cfda0312f30d47&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:04:49 AM</div>
+              <div class="content">Blz, vou logar ai pra passar as runas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:04:51 AM</div>
+              <div class="content">Pq a runa não clona </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:04:56 AM</div>
+              <div class="content">ah ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:05:26 AM</div>
+              <div class="content">Quiser vir aqui no suporte enquanto eu faço, tu vai vendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:40:31 AM</div>
+              <div class="content">Esqueci de perguntar, mano, a att amanhã será que horas? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:41:37 AM</div>
+              <div class="content">Vou tentar fazer a tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:41:45 AM</div>
+              <div class="content">É uma att bem rápida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:43:21 AM</div>
+              <div class="content">Tranquilo, só pra ter uma ideia, boa noite ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:43:27 AM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 11:49:55 AM</div>
+              <div class="content">Salve meu mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 11:49:57 AM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 11:50:12 AM</div>
+              <div class="content">Cara, tava mexendo aqui, acredito que já esteja 1d pra excluir o personagem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 11:50:26 AM</div>
+              <div class="content">Então se você não cancelou, hoje umas 00h deve excluir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 12:09:32 PM</div>
+              <div class="content">Salve brother, beleza!! Brigadão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 2:02:15 PM</div>
+              <div class="content">Quando logar faz o teste do repositório pfv <span class="mention">@gusbumps</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 2:40:36 PM</div>
+              <div class="content">Faala </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 2:40:44 PM</div>
+              <div class="content">O repositório funfou de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 2:43:48 PM</div>
+              <div class="content">Show mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gusbumps</div>
+              <div class="timestamp">12/27/2024, 2:45:03 PM</div>
+              <div class="content">Acho que ficou tudo certo então, mano
+Muito obrigado pela ajuda!! Servidor tá top demais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 2:46:53 PM</div>
+              <div class="content">Perfeito, aí tu vê se o char vai excluir hoje </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 2:46:56 PM</div>
+              <div class="content">Qualquer coisa me avisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 2:47:00 PM</div>
+              <div class="content">Vou fechar o ticket aqui </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
