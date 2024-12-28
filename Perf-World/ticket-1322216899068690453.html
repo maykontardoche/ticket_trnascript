@@ -1,0 +1,437 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・tremonetaps-82by1eaf</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">12/27/2024, 11:57:54 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:01:28 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:01:30 PM</div>
+              <div class="content">É conta nova? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:02:14 PM</div>
+              <div class="content">s] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:02:17 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:02:19 PM</div>
+              <div class="content">criei ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:02:20 PM</div>
+              <div class="content">bial </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:02:23 PM</div>
+              <div class="content">bilal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:30:37 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322216899068690453/1322225131673878538/image.png?ex=67716b1d&is=6770199d&hm=033dc49e47acb2848446b4f441d5274ffa1d49196921cbde494302624bfd7fec&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:30:39 PM</div>
+              <div class="content">o mapa tambem so liberou metada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:30:41 PM</div>
+              <div class="content">da conta nova </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:30:44 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:33:04 PM</div>
+              <div class="content">Blz, vou dar uma olhada nisso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:33:17 PM</div>
+              <div class="content">como vou fazer rp se nao consigo mandar gb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:33:24 PM</div>
+              <div class="content">bilal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:33:32 PM</div>
+              <div class="content">😳 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:33:38 PM</div>
+              <div class="content">Não sei, preciso ver oq ta acontecendo primeiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:33:40 PM</div>
+              <div class="content">Nunca vi isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:33:43 PM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:00 PM</div>
+              <div class="content">Cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:05 PM</div>
+              <div class="content">Tem certeza que o mapa não ta liberando? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:10 PM</div>
+              <div class="content">Testei aqui e foi normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:36:17 PM</div>
+              <div class="content">e pq so liberou metade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:36:19 PM</div>
+              <div class="content">que porr é essa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:36 PM</div>
+              <div class="content">Vou olhar aqui pra ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:37 PM</div>
+              <div class="content">Perai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:36:40 PM</div>
+              <div class="content">] <a href="https://cdn.discordapp.com/attachments/1322216899068690453/1322226653895852122/image.png?ex=67716c88&is=67701b08&hm=98d179ff8970add6c2a33ea765dc6ea789325515f5590a8c493067be472bbcd5&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:36:44 PM</div>
+              <div class="content">comprei o item novamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:48 PM</div>
+              <div class="content">Cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:36:48 PM</div>
+              <div class="content">ta dizendo que a missao ja existe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:51 PM</div>
+              <div class="content">Aperta Q </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:53 PM</div>
+              <div class="content">Deve ta lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:55 PM</div>
+              <div class="content">Cancela ela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:36:57 PM</div>
+              <div class="content">E abre dnv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:37:18 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322216899068690453/1322226815086891141/image.png?ex=67716cae&is=67701b2e&hm=484c97bffe616e2f56c56f47460c86fa1505775e6fdffeb09414518d2712306e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:37:20 PM</div>
+              <div class="content">nao da pra sair dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:37:31 PM</div>
+              <div class="content">Tentou relogar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:37:37 PM</div>
+              <div class="content">ja reloguei mil vez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 12:37:40 PM</div>
+              <div class="content">pq tomei 30 report bug </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 12:37:40 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/27/2024, 3:24:08 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> resolveu bilal gostoso ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/27/2024, 6:17:26 PM</div>
+              <div class="content">Ainda não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:21:35 AM</div>
+              <div class="content"><span class="mention">@belialpw</span> parou de da report no global </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:22 AM</div>
+              <div class="content"><span class="mention">@belialpw</span> bilal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:24 AM</div>
+              <div class="content">ja descobrir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:30 AM</div>
+              <div class="content">foi o task,data da nirvana </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:32 AM</div>
+              <div class="content">KKKKKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:36 AM</div>
+              <div class="content">atualizei ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tremonetaps</div>
+              <div class="timestamp">12/28/2024, 10:40:56 AM</div>
+              <div class="content">ate o mapa liberei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/28/2024, 5:55:11 PM</div>
+              <div class="content">Beleza </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
