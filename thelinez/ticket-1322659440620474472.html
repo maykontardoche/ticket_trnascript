@@ -1,0 +1,485 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・donafifi-m5plzewa</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/28/2024, 5:16:24 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:19:01 PM</div>
+              <div class="content">BOA TARDE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:19:03 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:19:07 PM</div>
+              <div class="content">qual o b.o? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:19:37 PM</div>
+              <div class="content">boa tarde comecei a jogar no servidor ontem ja gostei da jogabilidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:19:49 PM</div>
+              <div class="content">tem uns colegas que quer vim jogar outros estao comprando game ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:20:11 PM</div>
+              <div class="content">outros estao si programando ainda para a noite ingressar no servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:20:20 PM</div>
+              <div class="content">eu sou novato e queria ja adiantar a base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:20:26 PM</div>
+              <div class="content">teria como me ajudar a fazer uma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:20:35 PM</div>
+              <div class="content">so para me estabelecer melhor ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:21:11 PM</div>
+              <div class="content">não podemos ti ajudar a fazer a base em sí, posso passar alguns tutoriais. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:21:22 PM</div>
+              <div class="content">primeiro vc tem que fazer seu <#1308377772468600842> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:21:42 PM</div>
+              <div class="content">depois vc acha um local para por sua <#1308376323449950249> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:22:02 PM</div>
+              <div class="content">ai é só construir usando o <#1308375033449549927> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:22:29 PM</div>
+              <div class="content">ou pode usar construções vanila, como vc preferir. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:23:18 PM</div>
+              <div class="content">to com uma casa aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:23:21 PM</div>
+              <div class="content">q escolhi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 5:23:23 PM</div>
+              <div class="content">Caso tentar colocar a bandeira e na mensagem aparecer alguma coisa com 300, é pq tem uma base de outro jogador a 300 metros de onde está tentando colocar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:23:32 PM</div>
+              <div class="content">e so botar a parede vedar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:23:35 PM</div>
+              <div class="content">e levantar bandeira ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 5:23:38 PM</div>
+              <div class="content">Se aparecer no build, é que não pode construir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 5:24:00 PM</div>
+              <div class="content">Segue as instruções que ele te deu ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:28:17 PM</div>
+              <div class="content">uma duvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:28:27 PM</div>
+              <div class="content">eu comprar os carro e os heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:28:32 PM</div>
+              <div class="content">e botar em volta da base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:28:36 PM</div>
+              <div class="content">os carro some n ne ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:29:03 PM</div>
+              <div class="content">vc precisa guardar na garagem virtual se vc não estiver usando. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 5:31:14 PM</div>
+              <div class="content">como guarda o carro na garagem virtual ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 5:31:28 PM</div>
+              <div class="content"><#1308376514328268800> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:28:09 PM</div>
+              <div class="content">poderia dar tp em mim no game ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:28:13 PM</div>
+              <div class="content">nick donafifi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:28:54 PM</div>
+              <div class="content">qual o b.o in game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:29:24 PM</div>
+              <div class="content">a garagem q ja tem porta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:29:29 PM</div>
+              <div class="content">so botar aquele codlock </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:29:36 PM</div>
+              <div class="content">ja bloqueia de abrir a porta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:29:44 PM</div>
+              <div class="content">ou vou ter q fazer outra por cima </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:29:45 PM</div>
+              <div class="content">manda print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:30:16 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322659440620474472/1322678031310917633/image.png?ex=6771bf68&is=67706de8&hm=161b12927fc2293b657ff0c2b795f80313e958156c12cb129eea19d0c86ffe69&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:30:31 PM</div>
+              <div class="content">tem que fazer porta do mod </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:30:41 PM</div>
+              <div class="content">esta porta de cenario não server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:31:08 PM</div>
+              <div class="content">tem tutorial </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:31:11 PM</div>
+              <div class="content">de como fazer uma ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:31:20 PM</div>
+              <div class="content"><#1308375033449549927> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:31:55 PM</div>
+              <div class="content">https://www.youtube.com/watch?v=dFtgJTejgz0 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:55:06 PM</div>
+              <div class="content">boa noite aprendi com minha coroa que perguntar n ofende </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 6:55:18 PM</div>
+              <div class="content">daria para fazer um heli por 50 reais ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 6:56:18 PM</div>
+              <div class="content">infelizmente os veiculos ja estão no valor minimo amigo. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:30:36 PM</div>
+              <div class="content">aonde compro carro mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:30:44 PM</div>
+              <div class="content">e no outro discord e loja ne ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 7:30:51 PM</div>
+              <div class="content"><#1295739345939988480> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:34:09 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322659440620474472/1322694107176636466/IMG_Comprovante_Neon_1735425196026.png?ex=6771ce61&is=67707ce1&hm=59e623852f1321ff53c94a8ef9de86538655759f89ab3e0df41ef5be1a9f4910&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:34:21 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322659440620474472/1322694158250410097/image.png?ex=6771ce6d&is=67707ced&hm=99616410ff19c9f8cdc3a2ff0d9c6fdb3d7bc2fe5d2578385b06305ec4fa8110&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:34:24 PM</div>
+              <div class="content">quero esse heli aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 7:35:49 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 7:35:56 PM</div>
+              <div class="content">mande seu <#1306272321148813445> pfvr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">donaffi</div>
+              <div class="timestamp">12/28/2024, 7:36:43 PM</div>
+              <div class="content">76561198275825645 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 7:44:53 PM</div>
+              <div class="content"><#1296022346192388096> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/28/2024, 7:45:03 PM</div>
+              <div class="content"><#1308377631451910184> </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
