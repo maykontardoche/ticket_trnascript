@@ -1,0 +1,739 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: facebook-dj-fox</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 9:08:24 PM</div>
+              <div class="content">Gold eviado. Já te mando o comprovante do pix </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:08:18 PM</div>
+              <div class="content"><span class="mention">@belialpw</span>  depos rever classe magica pra fazer nirvana </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:08:38 PM</div>
+              <div class="content">as classe fisica ta fazendo mt mais rapido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:10:59 PM</div>
+              <div class="content">Isso é normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:11:03 PM</div>
+              <div class="content">Por isso tem a bolsa de -99 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:11:07 PM</div>
+              <div class="content">Pra auxiliar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:11:46 PM</div>
+              <div class="content">mais ta mt diferente po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:11 PM</div>
+              <div class="content">ate wb ta fazendo mais rapido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:12:14 PM</div>
+              <div class="content">Vou ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:18 PM</div>
+              <div class="content">e olha q to com arma +10 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:23 PM</div>
+              <div class="content">eles com +7 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:41 PM</div>
+              <div class="content">e de apelotao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:48 PM</div>
+              <div class="content">na real pelotao tinha q ser free </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/6/2024, 10:12:56 PM</div>
+              <div class="content">po ele soma quando vc sai da dg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:14:49 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/6/2024, 10:14:50 PM</div>
+              <div class="content">Vou mexer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/7/2024, 7:57:47 PM</div>
+              <div class="content">uma ddica tbm era liberar bau donate ou paleta po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:43:50 PM</div>
+              <div class="content">eae man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:43:58 PM</div>
+              <div class="content">rapaz poderia dar uma ajuda numa coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:44:21 PM</div>
+              <div class="content">eu comoçei joga no dia mais acabei ficando sem net por esses dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:44:47 PM</div>
+              <div class="content">so fiz o personagem e comprei o full meridiano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:45:03 PM</div>
+              <div class="content">que acabei fazendo acada de fazer classe errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:50:44 PM</div>
+              <div class="content">consegue sei la tira do char pra mim e devolver o gold </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:50:47 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/9/2024, 5:50:51 PM</div>
+              <div class="content">da pra dar essa moral </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/9/2024, 6:18:37 PM</div>
+              <div class="content">Não posso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:17:10 PM</div>
+              <div class="content">uma sugestao boa agr como vai dar wipe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:17:22 PM</div>
+              <div class="content">e fazer um sorteio no discord aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:17:44 PM</div>
+              <div class="content">com 3 lugares pra manter pessoal ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:18:22 PM</div>
+              <div class="content">1 lugar tipo 200k gold 
+2 lugar 100k 
+3 lugar 50k </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:18:25 PM</div>
+              <div class="content">tipo isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/10/2024, 4:26:41 PM</div>
+              <div class="content">Fiz dois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/10/2024, 4:26:46 PM</div>
+              <div class="content">1 com dinheiro e outro com gold </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/10/2024, 4:26:54 PM</div>
+              <div class="content">3 vencedores no total </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:48:11 PM</div>
+              <div class="content">e isso ai po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:48:16 PM</div>
+              <div class="content">ponhe pra torar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:48:20 PM</div>
+              <div class="content">pra dar bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/10/2024, 4:48:50 PM</div>
+              <div class="content">agr poderia aumentar esse salario de 50k semanal em kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 2:26:14 PM</div>
+              <div class="content">eae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 2:26:42 PM</div>
+              <div class="content">daria pra liberar pra mim da uma testada pra ver como ta ficando ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 2:26:44 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 2:28:57 PM</div>
+              <div class="content">Não da </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 2:29:31 PM</div>
+              <div class="content">Já estou fazendo as mudanças em produção </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 2:29:35 PM</div>
+              <div class="content">E já foi feito o wipe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 2:30:42 PM</div>
+              <div class="content">a entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 4:04:51 PM</div>
+              <div class="content">se viu bateu uma galera ali no sorteios </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 4:08:06 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:47:19 PM</div>
+              <div class="content">opa meu aki ja ta aberto la ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:47:53 PM</div>
+              <div class="content">loguin ; lefaraa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 6:47:58 PM</div>
+              <div class="content">Abre outro pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:48:01 PM</div>
+              <div class="content">foi 250k </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 6:48:37 PM</div>
+              <div class="content">Abre outro ticket </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:48:37 PM</div>
+              <div class="content">mais o meu foi divulgaçao e o premio de convite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:49:16 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:49:49 PM</div>
+              <div class="content">nao da pra abrir 2 tickets </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 6:52:07 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:52:35 PM</div>
+              <div class="content">o meu foi 250k </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 6:52:42 PM</div>
+              <div class="content">loguin ; lefaraa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 7:34:27 PM</div>
+              <div class="content">Enviado <span class="mention">@_djfox</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 8:12:01 PM</div>
+              <div class="content">qual vai ser tempo do boneco de neve padrao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 9:47:46 PM</div>
+              <div class="content">O HYPER DE 3 DIAS TA SUMINDO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 9:52:41 PM</div>
+              <div class="content">Calma, tu já reportou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 9:59:04 PM</div>
+              <div class="content">kkk foi mal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 9:59:08 PM</div>
+              <div class="content">tava na dg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 9:59:12 PM</div>
+              <div class="content">falei rapido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 9:59:15 PM</div>
+              <div class="content">se nao ia morre kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 10:54:41 PM</div>
+              <div class="content">depois tu me manda o hyper 3 dias q perdi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 10:55:20 PM</div>
+              <div class="content">Nick </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 11:10:13 PM</div>
+              <div class="content">Ceifadora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:10:26 PM</div>
+              <div class="content">Já foi enviado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:10:28 PM</div>
+              <div class="content">No correio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 11:25:42 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1308123135970906188/1316591782863306774/image.png?ex=67715be6&is=67700a66&hm=720ee5a7d1acf07ed5c896082b509a2e2fff6da502320982a1a46bcbf9b627d1&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:26:18 PM</div>
+              <div class="content">Vê ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:26:20 PM</div>
+              <div class="content"><span class="mention">@_djfox</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/11/2024, 11:27:38 PM</div>
+              <div class="content">agr foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/11/2024, 11:27:47 PM</div>
+              <div class="content">Boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/12/2024, 12:27:18 AM</div>
+              <div class="content">recall ta bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/12/2024, 12:27:29 AM</div>
+              <div class="content">ate o do psy ta bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/12/2024, 6:23:14 PM</div>
+              <div class="content">vou mandar o de hj adm tu poderia me adiantar 10k de gold so pra mim fecha 80k pra pegar paleta aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/12/2024, 6:25:36 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/13/2024, 5:20:34 PM</div>
+              <div class="content">pode ver pra mim ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/13/2024, 5:24:29 PM</div>
+              <div class="content">Se eu ficar adiantando sai do controle aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/13/2024, 5:25:59 PM</div>
+              <div class="content">so essa vez msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/13/2024, 5:26:16 PM</div>
+              <div class="content">e 10k so </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/13/2024, 9:47:53 PM</div>
+              <div class="content">quebra essa ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">12/14/2024, 2:59:48 PM</div>
+              <div class="content">Não dá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:43:09 PM</div>
+              <div class="content">dps se tem fazer uma farme pra gow melhor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:43:27 PM</div>
+              <div class="content">pq pessoal ta fazendo 10 accs e indo semanal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:43:36 PM</div>
+              <div class="content">tem gente que nao consegue fazer isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:43:46 PM</div>
+              <div class="content">fica desbalanceado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:44:58 PM</div>
+              <div class="content">uam ideia boa era aumentar os baus por nirvana </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:45:23 PM</div>
+              <div class="content">pq cada personagem que pessoal leva pra fazer semanal e 2k de bau </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:45:37 PM</div>
+              <div class="content">10 char 20k de bau </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/15/2024, 2:45:39 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/17/2024, 11:54:31 PM</div>
+              <div class="content">Antes <a href="https://cdn.discordapp.com/attachments/1308123135970906188/1318773361391960104/Screenshot_20241217-235232.png?ex=677162a6&is=67701126&hm=9bd02c1c3142fdafc8e377adb8b82436312c0abcdd1705cc36c5ba537100d667&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/17/2024, 11:55:21 PM</div>
+              <div class="content">10 compartilhamentos <a href="https://cdn.discordapp.com/attachments/1308123135970906188/1318773572902326386/Screenshot_20241217-235348.png?ex=677162d9&is=67701159&hm=ef70ec3d24f3aa98a363bb3884486142e8e0c3d127cad3e4875a08397dc4921a&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/17/2024, 11:55:25 PM</div>
+              <div class="content">Pros 30k de gold la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/17/2024, 11:55:32 PM</div>
+              <div class="content">Loguin : lefaraa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_djfox</div>
+              <div class="timestamp">12/17/2024, 11:55:43 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">cifeer_.</div>
+              <div class="timestamp">12/17/2024, 11:57:58 PM</div>
+              <div class="content">Enviado </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
