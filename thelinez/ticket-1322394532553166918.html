@@ -1,0 +1,587 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・demon-oqeqpevu</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/27/2024, 11:43:45 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:43:53 PM</div>
+              <div class="content"><span class="mention">@serginhogordaum</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:44:40 PM</div>
+              <div class="content">Fala irmão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:44:43 PM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:45:12 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:45:51 PM</div>
+              <div class="content">entao, sobre o assunto do meu banimento, fui fazr oq tu pediu, falei com o dono do primos, e ai ta o resultado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:46:29 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:49:16 PM</div>
+              <div class="content">Pede ela pra colocar em um banoff </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:49:20 PM</div>
+              <div class="content">Offban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:49:24 PM</div>
+              <div class="content">entao mn, como pode ver nas prints, esse tipo de pessoa nao ta nem ai pra ngm, ou seja, se ele me fudeu pq achava q eu tava xitando estando num servidor de skinzinha de valorant por isso vozes da cabeça dele indicaram para ele que eu tinha um amigo imaginario xitado que eu estava jogando junto, nao posso fzr nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:49:42 PM</div>
+              <div class="content">Abre outro e pede pra colocar no em uma lista off </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:50:04 PM</div>
+              <div class="content">Pq tem servidores que usam a lista compartilhada deles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:50:21 PM</div>
+              <div class="content">mano, qria muito jogar aqui, mas se for pra depender do dono primos, infelizmente nao consiguirem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:50:36 PM</div>
+              <div class="content">É mano, não dá pra tirar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:51:20 PM</div>
+              <div class="content">Por causa da atitude desse tipo de pessoa nao consiguirei jogar em outro servidor? so se eu comprar outra conta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:51:54 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1322394532553166918/1322396585086418944/image.png?ex=6770b94a&is=676f67ca&hm=235e8fe68efcfdc7ec5f81c00fa08a3c2865172c085cbe4d5bdc87107de342d9&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:52:12 PM</div>
+              <div class="content">Exatamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:52:15 PM</div>
+              <div class="content">ele falou por ultimo ''nao e problema meu, infelizmente'' </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:52:21 PM</div>
+              <div class="content">Talvez em serves gringos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:52:29 PM</div>
+              <div class="content">Na maioria dos servidores brs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:52:41 PM</div>
+              <div class="content">Tô lendo aqui os prints </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:53:17 PM</div>
+              <div class="content">Abre outro ticket e pergunta se eles não tem um banoff </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:53:31 PM</div>
+              <div class="content">É uma lista offline que só fica no servidor deles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:53:48 PM</div>
+              <div class="content">Mas não fica mandando os prints da minha fala lá mano, isso pode me trazer problemas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:53:58 PM</div>
+              <div class="content">nem esquenta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:54:13 PM</div>
+              <div class="content">entao mn, to banido KKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:54:27 PM</div>
+              <div class="content">Mano, tem nos temos uma lista off </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:54:40 PM</div>
+              <div class="content">Banimos tbm caras em servidores de xiters que vende dauz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:54:55 PM</div>
+              <div class="content">Independente se o cara comprou de GTA ou outro jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:55:04 PM</div>
+              <div class="content">Se no servidor vender de DayZ, banimos tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:55:11 PM</div>
+              <div class="content">Mas deixamos em uma lista offline </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:55:19 PM</div>
+              <div class="content">Que é só pra não entrar em nosso server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:55:40 PM</div>
+              <div class="content">consegue deixar o ticket aberto?] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:55:55 PM</div>
+              <div class="content">Pode abrir outro quando precisar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:57:05 PM</div>
+              <div class="content">Estamos aqui pra ajudar no que der </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:57:58 PM</div>
+              <div class="content">nessa parte aqui, o adm nem ligou pro ticket tlgd, subimos call, nao atenderam, abrimos 4 ticket e no 4 eles atenderam <a href="https://cdn.discordapp.com/attachments/1322394532553166918/1322398108373483601/image.png?ex=6770bab6&is=676f6936&hm=32ec5b6eeda480d5400358870708505726237142c001e159d884b44430975e55&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:57:58 PM</div>
+              <div class="content">É só me marcar que colo aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:58:11 PM</div>
+              <div class="content">realmente nao tem como falar com ngm ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:58:24 PM</div>
+              <div class="content">Nós não mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:58:27 PM</div>
+              <div class="content">pq de todos os servidor, esse aqui e o melhor disparado tlgd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:58:37 PM</div>
+              <div class="content">Ricco é o dono do servidor lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/27/2024, 11:58:45 PM</div>
+              <div class="content">cm assim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:58:50 PM</div>
+              <div class="content">Tô ciente, graças a Deus </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:59:06 PM</div>
+              <div class="content">Esse cara que atendeu seu ticket é o dono do servidor lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:59:46 PM</div>
+              <div class="content">Bloqueia automático </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/27/2024, 11:59:54 PM</div>
+              <div class="content">Por causa da lista </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:00:06 AM</div>
+              <div class="content">Todos os servidores brs tem lista compartilhada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:00:16 AM</div>
+              <div class="content">Se tomar ban público, já era </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:01:28 AM</div>
+              <div class="content">Infelizmente só consigo te ajudar com isso, informações </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:01:53 AM</div>
+              <div class="content">Depois vê esse lance do off ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:02:03 AM</div>
+              <div class="content">o que voce me recomenda a fzr? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:02:16 AM</div>
+              <div class="content">Primeiro ver com eles o lance do off ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:02:30 AM</div>
+              <div class="content">Se eles não tiverem, aí não tem o que fazer mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:02:44 AM</div>
+              <div class="content">Talvez outra conta resolva </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:02:49 AM</div>
+              <div class="content">essa opçao esquece, pq ele ta bem fds, o Ricco ta cagando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:02:58 AM</div>
+              <div class="content">porra KKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:03:13 AM</div>
+              <div class="content">Mas as vezes tu não deu essa opção lá, as vezes pode acontecer de ele ter e colocar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:03:41 AM</div>
+              <div class="content">o foda que ele me baniu do server do discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:03:59 AM</div>
+              <div class="content">Entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:04:06 AM</div>
+              <div class="content">É mano, não sei o que fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:04:08 AM</div>
+              <div class="content">Infelizmente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:06:04 AM</div>
+              <div class="content">mano, eu joguei em servidores com essa lista compartilhada, BRSURVIVORS é um deles, eles falaram a mesma coisa, que eu tinha essa caso de banimento, porem, na hora que eles viram que nao tenho envolvimento nenhuma com cheat, removeram o ban na hora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:06:46 AM</div>
+              <div class="content">Pô mano, não sei se é possível </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:06:55 AM</div>
+              <div class="content">Talvez o dono do servidor consiga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:07:25 AM</div>
+              <div class="content">Talvez o dono daqui consegue, mas daí tu passaria por uma varredura </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:07:37 AM</div>
+              <div class="content">sem nenhum problema </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:07:42 AM</div>
+              <div class="content">Passariam o Scan e um telador entraria na sua máquina pra procurar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:07:44 AM</div>
+              <div class="content">pode ver ate meu celular </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:07:51 AM</div>
+              <div class="content">Não, apenas o Pc kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:07:57 AM</div>
+              <div class="content">Mas ele é mais difícil de aparecer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:08:06 AM</div>
+              <div class="content">Abre um ticket mais tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:08:11 AM</div>
+              <div class="content">que hrs? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:08:19 AM</div>
+              <div class="content">Umas 1h por ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">why.exe1</div>
+              <div class="timestamp">12/28/2024, 12:09:14 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">12/28/2024, 12:09:19 AM</div>
+              <div class="content">Vlw </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
