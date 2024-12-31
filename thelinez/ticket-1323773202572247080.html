@@ -1,0 +1,549 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・line-71e1uykg</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">12/31/2024, 7:02:06 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:02:52 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:02:57 PM</div>
+              <div class="content">vc ja tem base? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:03:03 PM</div>
+              <div class="content">e quer cercar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:03:13 PM</div>
+              <div class="content">Não, gostaria de contruir dentro desse muro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:03:17 PM</div>
+              <div class="content">Pode? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:03:28 PM</div>
+              <div class="content">pode sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:03:44 PM</div>
+              <div class="content">só preciso que vc ache um local e ponha sua <#1308376323449950249> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:04:01 PM</div>
+              <div class="content">Pode deixar, to fazendo isso e ja te chamo ok? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:04:23 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:06:06 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1323773202572247080/1323774209369051296/image.png?ex=6775bc4e&is=67746ace&hm=bd088dca3faf24aa7b21d3342814fbbb79e1c29d2f54ac6ced02871ed39f580d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:06:13 PM</div>
+              <div class="content">vou querer essa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:06:20 PM</div>
+              <div class="content">precisa de bandeira tbm? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:06:39 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:06:47 PM</div>
+              <div class="content">tem que ser um local bem grnde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:06:51 PM</div>
+              <div class="content">a base é enorme </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:07:14 PM</div>
+              <div class="content">meu esposo e eu ja jogamos aqui antes a nossa era essa ,tava procurando ela que nem doida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:08:20 PM</div>
+              <div class="content">na época do thewalkingz? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:15:08 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:15:26 PM</div>
+              <div class="content">ja achei o local, meu nick no game é Pandora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:15:44 PM</div>
+              <div class="content">vamos querer um heli tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:15:50 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1323773202572247080/1323776661719613470/image.png?ex=6775be96&is=67746d16&hm=71386999e0fd51d3fa5776c811e5f75bab5a805d1f90093bb87e127460061263&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:15:59 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:16:02 PM</div>
+              <div class="content">vou ai[ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:38:28 PM</div>
+              <div class="content">145 reais
+chave pix
+celular
+53984653110 everton jeske </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:39:50 PM</div>
+              <div class="content">ja fiz, to pegando o comprovante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:40:37 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:40:43 PM</div>
+              <div class="content">espero que se divirtam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:40:52 PM</div>
+              <div class="content">vou ver as armas aqui e ja te falo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:41:45 PM</div>
+              <div class="content">qual vip da pra mudar as roupinhas de cor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:43:18 PM</div>
+              <div class="content">OK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:43:27 PM</div>
+              <div class="content">do vip gold em diante ja tem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:43:30 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1323773202572247080/1323783622418759773/WhatsApp_Image_2024-12-31_at_19.39.31_1.jpeg?ex=6775c512&is=67747392&hm=122d3adae1fec3e9d09af26e0e39f51f0aedf8a6f49c2a1c06ff71f3c96a727d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:43:59 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:44:04 PM</div>
+              <div class="content">e as armas de matar os nemesis? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:44:15 PM</div>
+              <div class="content">e os bichinhos da area de caça </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:44:26 PM</div>
+              <div class="content">as mais fortes é arbiter e denel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:47:33 PM</div>
+              <div class="content">da 2 denel la pra gente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:47:35 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:47:43 PM</div>
+              <div class="content">80 reais cada ne? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:47:57 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:48:01 PM</div>
+              <div class="content">vou lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:48:02 PM</div>
+              <div class="content">qual das 2 é mais forte ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:48:07 PM</div>
+              <div class="content">ou é a mesma coisa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:48:27 PM</div>
+              <div class="content">a denel é melhor de manuzeio que a arbiter </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:48:29 PM</div>
+              <div class="content">mass </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:48:38 PM</div>
+              <div class="content">são as duas a mesma potencia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:48:52 PM</div>
+              <div class="content">2 denel mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:48:56 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:49:01 PM</div>
+              <div class="content">vou fazer o pix </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:49:12 PM</div>
+              <div class="content">160? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:50:34 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:52:15 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1323773202572247080/1323785827234349166/WhatsApp_Image_2024-12-31_at_19.51.31.jpeg?ex=6775c71f&is=6774759f&hm=3a3c564ea122dd7ab860f2f8e67155d9d48133226f73af082c0f3d76da585b8b&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:52:35 PM</div>
+              <div class="content">obrigado
+qualquer problema pode chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:52:51 PM</div>
+              <div class="content">estou sempre por aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:52:54 PM</div>
+              <div class="content">Ok, obrigada semana que vem pego o vip de roupas , estou falida agora kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:54:04 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:54:17 PM</div>
+              <div class="content">vou dar 15 dias de vip gold para vcs de brinde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:54:23 PM</div>
+              <div class="content">Ebaaaaaaaaa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 7:54:30 PM</div>
+              <div class="content">mande o <#1306272321148813445> do seu esposo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:55:15 PM</div>
+              <div class="content">Nosso filho joga com a gente ,ele se amarra em pvp anima pra caramba </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:55:52 PM</div>
+              <div class="content">ID Steam: 76561199052356227  esse é meu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:56:17 PM</div>
+              <div class="content">esse é do lobenho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">jaqueline8755</div>
+              <div class="timestamp">12/31/2024, 7:56:17 PM</div>
+              <div class="content">ID Steam: 76561199052442964 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 8:00:36 PM</div>
+              <div class="content">ja colo ai para ajustar os vips </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 8:00:39 PM</div>
+              <div class="content">5 min </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 8:09:11 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">12/31/2024, 8:09:15 PM</div>
+              <div class="content">BOAS FESTAS AI </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
