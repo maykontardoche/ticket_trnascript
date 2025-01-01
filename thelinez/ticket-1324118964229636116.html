@@ -1,0 +1,467 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・oleocarvalho-l5kbx1um</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/1/2025, 5:56:03 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 5:56:16 PM</div>
+              <div class="content">tem como vc me atender ingame ??? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 5:58:40 PM</div>
+              <div class="content">outra coisa ... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 5:58:56 PM</div>
+              <div class="content">porque o meu nome esta esse dentro do chat do ticket ??? <a href="https://cdn.discordapp.com/attachments/1324118964229636116/1324119695758200842/image.png?ex=6776fe10&is=6775ac90&hm=6138b706f735a466af2a76f2f8df309f7a04f3c81a38c5a5ffc5ddcda047695d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 5:59:16 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324118964229636116/1324119781808406569/image.png?ex=6776fe24&is=6775aca4&hm=81e1062a9767743757a1b8827eb0ceee3454b9b2b0930bd1c8604c17c0d664f3&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:00:20 PM</div>
+              <div class="content">não entendi essa ***!!!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:03:01 PM</div>
+              <div class="content"><span class="role-mention">@Administrador</span> <span class="role-mention">@Moderador</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:04:19 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324118964229636116/1324121049800900721/image.png?ex=6776ff53&is=6775add3&hm=d8e0672d27815d70bc3d135d9d0250527de8aff6367a24b782b5c135cb07a977&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:04:22 PM</div>
+              <div class="content">seu nick in game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:04:36 PM</div>
+              <div class="content">para oferecer um suporte rapido tem que ser o mesmo nos dois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:05:04 PM</div>
+              <div class="content">o mesmo do nick do servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:05:20 PM</div>
+              <div class="content">mas pq esta "PCU não "? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:06:25 PM</div>
+              <div class="content">ai é seu discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:06:33 PM</div>
+              <div class="content">não consigo alterar isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:06:37 PM</div>
+              <div class="content">só vc consegue </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:06:46 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:06:50 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324118964229636116/1324121685414252555/image.png?ex=6776ffea&is=6775ae6a&hm=4c24c4343f0203d22ecc1ab7f3cc3ed56398218510ffe4ff9a4f411a617ef6ce&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:06:58 PM</div>
+              <div class="content">alterei seu apelido aqui no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:07:02 PM</div>
+              <div class="content">menhum lugar  coloquei isso !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:07:12 PM</div>
+              <div class="content">nem no meu perfil e tão pouco no servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:08:46 PM</div>
+              <div class="content">não sei o que ouve ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:08:49 PM</div>
+              <div class="content">mas deixa pra la, só peço que se vcs tiverem alguma coisa parafalar ao meu respeito, que sejam transparente comigo e venha falar diretamente comigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:08:52 PM</div>
+              <div class="content">não foi aqui no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:09:09 PM</div>
+              <div class="content">viu entra ingame </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:09:10 PM</div>
+              <div class="content">de que vc ta falando? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:09:15 PM</div>
+              <div class="content">tem uma base abandonada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:09:37 PM</div>
+              <div class="content">tô de olho nos pregos da construção </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:09:50 PM</div>
+              <div class="content">de nada , só estou falando , de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:09:51 PM</div>
+              <div class="content">não, segura ai. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:10:05 PM</div>
+              <div class="content">sobre que é esta frase? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:10:13 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:10:21 PM</div>
+              <div class="content">é só um pedido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:10:33 PM</div>
+              <div class="content">quem falou algo de vc aqui da administração? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:10:40 PM</div>
+              <div class="content">nada , </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:02 PM</div>
+              <div class="content">é que ja tive problemas em outros servers de esta fazendo errado achando que estava verto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:06 PM</div>
+              <div class="content">e ser banido !!1 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:10 PM</div>
+              <div class="content">só isso !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:11 PM</div>
+              <div class="content">rlx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:11:23 PM</div>
+              <div class="content">é sobre seu nome ali do discor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:34 PM</div>
+              <div class="content">rlx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:11:41 PM</div>
+              <div class="content">vira a pagina ... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:11:49 PM</div>
+              <div class="content">tirei ali o nome que eu tinha botado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:11:59 PM</div>
+              <div class="content">saiu aquilo msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:12:08 PM</div>
+              <div class="content">mas se eu fiz algo foi sem querer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:12:09 PM</div>
+              <div class="content">e vem aqui onde estou ingame ... analisar o meu pedido !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:12:24 PM</div>
+              <div class="content">achei uma base abandonada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:12:32 PM</div>
+              <div class="content">e quero desmontala </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:12:36 PM</div>
+              <div class="content">para pegar os pregos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:12:41 PM</div>
+              <div class="content">vem ver se é possivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:13:21 PM</div>
+              <div class="content">vc não vai conseguir desmontar se não estiver no raio de sua bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:13:41 PM</div>
+              <div class="content">se vc por uma bandeira no locale a base estiver abandonada vc pode desmontar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:14:01 PM</div>
+              <div class="content">vem ve^, tyem bandeira .... mas ela esta baixa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:14:35 PM</div>
+              <div class="content">vou ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:14:38 PM</div>
+              <div class="content">mas posso erguer ou reclamar esse território para desmanchar neh ??? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/1/2025, 6:14:46 PM</div>
+              <div class="content">melhor </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
