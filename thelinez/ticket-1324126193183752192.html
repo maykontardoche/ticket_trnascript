@@ -1,0 +1,366 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・loc-8hc28o6p</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/1/2025, 6:24:45 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:25:15 PM</div>
+              <div class="content">SIM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:25:20 PM</div>
+              <div class="content">qual duvida? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:25:26 PM</div>
+              <div class="content">boa tarde tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:25:29 PM</div>
+              <div class="content">tdo bom? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:25:36 PM</div>
+              <div class="content">entao, me tira uma duvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:25:44 PM</div>
+              <div class="content">dois clans podem jogar juntos? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:27:16 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:27:37 PM</div>
+              <div class="content">entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:27:42 PM</div>
+              <div class="content">tem dois clans aqui jogando junstos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:27:44 PM</div>
+              <div class="content">king e ubl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:27:50 PM</div>
+              <div class="content">aqui na ponta do aeroporto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:27:56 PM</div>
+              <div class="content">sentido toponic </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:28:20 PM</div>
+              <div class="content">tao tdo um do lado do outro e ngm se mata </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:28:30 PM</div>
+              <div class="content">e nos aqui se ferrando com os dois jogando juntos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:29:02 PM</div>
+              <div class="content">e precisa  de novo daquele anti nvdia spector, tem mto cara aqui enxergando mto nos matos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:29:17 PM</div>
+              <div class="content">ubl nem ai esta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:29:37 PM</div>
+              <div class="content">e não é pq os caras se não se mata que estão jogando juntos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:30:12 PM</div>
+              <div class="content">ache uma prova contundente para fazer sua denuncia.
+os caras não estão se matando não quer dizer nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:35:20 PM</div>
+              <div class="content">entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:36:09 PM</div>
+              <div class="content">tenho como ver quem esta na party de quem, e nada tbm. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:36:10 PM</div>
+              <div class="content">teve uma hora q eu morri pra um cara de um clan, e o parceiro meu pro outro cara do king, os dois pertos e ngm se atirou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:36:44 PM</div>
+              <div class="content">e como sabem que eram do msm clã? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:37:47 PM</div>
+              <div class="content">bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:37:51 PM</div>
+              <div class="content">tem 4 clans aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:37:59 PM</div>
+              <div class="content">king, xxt, ubl e o nosso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:38:18 PM</div>
+              <div class="content">geral morre </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:38:26 PM</div>
+              <div class="content">mas ubl e king nao se matam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:39:04 PM</div>
+              <div class="content">qse 1 hra de treta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:39:08 PM</div>
+              <div class="content">e nenhum deles se matam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:39:11 PM</div>
+              <div class="content">estranho isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:39:36 PM</div>
+              <div class="content">sim, estou falando que para uma denuncia não é suficiente, se for na mesma hora ja verificamos, tanto que quando vc denunciou fui lá ver. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:39:46 PM</div>
+              <div class="content">e os ubl não estavam lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:40:08 PM</div>
+              <div class="content">a nao ser q eu grave o jogo tdo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:40:18 PM</div>
+              <div class="content">porem acho q na kill feed da pra ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:40:34 PM</div>
+              <div class="content">ou clipe 1 min de seu game quando vc ver algo estranho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/1/2025, 6:40:41 PM</div>
+              <div class="content">ai manda o clipe e analizamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">loc82</div>
+              <div class="timestamp">1/1/2025, 6:40:55 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
