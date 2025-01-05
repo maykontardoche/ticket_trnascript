@@ -1,0 +1,494 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・luz-mq4n08nn</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/4/2025, 9:25:08 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:27:16 PM</div>
+              <div class="content">tenho esse receio de perder algo comprado pq perdi duas caixas do evento do palhaço </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:27:17 PM</div>
+              <div class="content">Boa noite
+Com seguro não temos infelizmente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:27:26 PM</div>
+              <div class="content">e nao tenho como comprovar, pelo pc fraco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:28:01 PM</div>
+              <div class="content">Qual o caso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:28:44 PM</div>
+              <div class="content">A uns dias eu e meu duo fizemos uma especie de evento de matar palhaço la em balota e eu perdi duas caixas de 1000 e ele uma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:29:04 PM</div>
+              <div class="content">nao abrimos ticket pra nao ficar parecendo estranho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:29:15 PM</div>
+              <div class="content">ai ficamos nos perguntando sobre seguros de armas e carros </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:29:49 PM</div>
+              <div class="content">se tivesse a chance de comprar um carro por um mes, já que estamos começando no jogo é nosso primeiro server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:30:14 PM</div>
+              <div class="content">tambem nao sei se essa m82a1 tem na olx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:31:06 PM</div>
+              <div class="content">Tem barret que são boas tbm na olx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:31:29 PM</div>
+              <div class="content">O nome dela é gcgn barret </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:31:41 PM</div>
+              <div class="content">poderia me indicar uma nao tao cara? quero começar a matar ursos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:31:48 PM</div>
+              <div class="content">Provavelmente vc consegue vendedor lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:31:50 PM</div>
+              <div class="content">mas nao sei o retorno deles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:32:10 PM</div>
+              <div class="content">a respeito das 3 caixas tem algo a se fazer, ou deixa baixo ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:32:24 PM</div>
+              <div class="content">como nao tem clip nem nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:32:33 PM</div>
+              <div class="content">Eu não entendi está parte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:32:50 PM</div>
+              <div class="content">Nós palhaços não dropam estas caixas de base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:33:16 PM</div>
+              <div class="content">é uma caixa que eles droparam, nao sei qual a especificidade dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:33:37 PM</div>
+              <div class="content">nome e nem essas coisas, como sou novo nao sei muito das coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:34:24 PM</div>
+              <div class="content">mas foi um evento la, que começou de noite e logo antes de colocar no chao ele somiu com as 3 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:34:24 PM</div>
+              <div class="content">Haa
+Sim
+Os bois tem uma chance de 70% de dropar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:34:36 PM</div>
+              <div class="content">Tem uma chance de não dropar msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:35:22 PM</div>
+              <div class="content">e a respeito dos carros, teria venda por 1 mes ou somente 3 ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:35:31 PM</div>
+              <div class="content">aluguel, no caso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:37:10 PM</div>
+              <div class="content">qual modelo vc gostaria? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:37:20 PM</div>
+              <div class="content">raptor full </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:39:07 PM</div>
+              <div class="content">um preço legal por um mes com esse seguro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:39:13 PM</div>
+              <div class="content">pq nao sei nada como funciona </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:39:23 PM</div>
+              <div class="content">nem spawn e nem como ele pode somir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:41:05 PM</div>
+              <div class="content">posso fazer o 30 dias sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:41:14 PM</div>
+              <div class="content">fica 1 terço do valor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:41:45 PM</div>
+              <div class="content">show de bola </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:42:17 PM</div>
+              <div class="content">a respeito dele sumir as 3 horas da manha, ele volta para aqueles posteszinhos ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:42:23 PM</div>
+              <div class="content">mas sem os itens dentro né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:43:28 PM</div>
+              <div class="content">não, geralmente eu recolho e guardo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:43:33 PM</div>
+              <div class="content">vc aciona o seguro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:43:43 PM</div>
+              <div class="content">exato </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:43:47 PM</div>
+              <div class="content">perfeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:44:01 PM</div>
+              <div class="content">esse seguro é nesse poste ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:44:07 PM</div>
+              <div class="content">como funciona </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:49:32 PM</div>
+              <div class="content">Não, vc vai uar este poste depois de terminar sua play para não ficar no mapa. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:49:50 PM</div>
+              <div class="content">seguro vc aciona caso vc perca seu veiculo por qualquer mootivo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:50:45 PM</div>
+              <div class="content">entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:50:51 PM</div>
+              <div class="content">é diretamente com voce ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:50:55 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:51:07 PM</div>
+              <div class="content">perfeito, pensei que era algum mecanismo in-game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:51:11 PM</div>
+              <div class="content">ja vou efetuar o pix </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:51:13 PM</div>
+              <div class="content">40 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:51:36 PM</div>
+              <div class="content">tem sistema de abastecimento tambem ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:51:49 PM</div>
+              <div class="content">pra voce ver que realmente sou novo no jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:56:02 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1325258749572812953/1325266529410875512/Comprovante_20250104T215518325089.png?ex=677b2a22&is=6779d8a2&hm=f548c73e6685fcc0790b30a1182d1e836682939d4ac7aa0fdf0389863397a15c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:56:29 PM</div>
+              <div class="content">perfeito mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:56:35 PM</div>
+              <div class="content">vou em vc no game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:58:10 PM</div>
+              <div class="content">reiniciou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/4/2025, 9:58:11 PM</div>
+              <div class="content">JA RETORNO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:58:14 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">luz01</div>
+              <div class="timestamp">1/4/2025, 9:58:47 PM</div>
+              <div class="content">sem preça chefe </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
