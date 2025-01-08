@@ -1,0 +1,1054 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・maximo_fxz-tdb3a8ph</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/3/2025, 10:17:20 AM</div>
+                  <div class="content">ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/5/2025, 7:05:57 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> Alguem da sua staff n pos fazer o bot ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/5/2025, 8:06:53 PM</div>
+                  <div class="content">O bot é só comigo irmão, eu chego amanhã em casa já </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/5/2025, 8:07:36 PM</div>
+                  <div class="content">Fecho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 3:27:24 PM</div>
+                  <div class="content">Opa <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 3:27:27 PM</div>
+                  <div class="content">Ta ai  ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 3:34:52 PM</div>
+                  <div class="content">Opa fala ai irmão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 4:29:51 PM</div>
+                  <div class="content">Ja chegou em casa ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 4:46:11 PM</div>
+                  <div class="content">Ja sim, cheguei agorinha mesmo. Anoite ja vou dar andamento no projeto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 4:46:35 PM</div>
+                  <div class="content">uma duvida que me surgiu o de mostar o pix voce precisa que seja como ele nao fez muito sentido pra mim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 4:47:38 PM</div>
+                  <div class="content">voce que so que usa o comando /pix e ele mostra o pix isso ou /pagamento e ai ele mostra uma embed com 3 botao 
+
+Pix 01
+Pix 02
+Bitcoins
+
+e ai cada um ele vai mostrar o pix de cada botao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 4:53:38 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 4:57:31 PM</div>
+                  <div class="content">/pix </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 4:57:34 PM</div>
+                  <div class="content">Normal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 4:57:38 PM</div>
+                  <div class="content">E tem o /say </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 4:57:40 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:01:37 PM</div>
+                  <div class="content">sim sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:01:57 PM</div>
+                  <div class="content">Quer que eu recapitule ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:04:14 PM</div>
+                  <div class="content">ta tranquilo ja to fazendo ja kkkk <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325917868210262088/image.png?ex=677f82fe&is=677e317e&hm=c636a5ce520c8837fa715786461ee4e8dbd3ebf86a8bb05553a1141ca0d2661e&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:04:26 PM</div>
+                  <div class="content">Certo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:04:39 PM</div>
+                  <div class="content">O <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:04:46 PM</div>
+                  <div class="content">Mas invez de pix 1 e pix 2 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:04:52 PM</div>
+                  <div class="content">Coloca pix Maximo e Pix Aysh </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:04:56 PM</div>
+                  <div class="content">Pode ser ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:06:58 PM</div>
+                  <div class="content">sim sim kkkk coloquei pix 01 so pra entender mesmo a logica </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:07:07 PM</div>
+                  <div class="content">Okay </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:07:18 PM</div>
+                  <div class="content">acho que termino entre hoje e amanha pra voce isso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:07:25 PM</div>
+                  <div class="content">Fecho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:07:32 PM</div>
+                  <div class="content">passei o seu na frente de 8 pessoas kkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:07:38 PM</div>
+                  <div class="content">Porra </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:07:41 PM</div>
+                  <div class="content">Ai to forte em </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:25:24 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> o bitcoins ele funciona como é foto texto que aparece como que é ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:26:18 PM</div>
+                  <div class="content">Nada man </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:26:25 PM</div>
+                  <div class="content">Vai ser um texto que eu tenho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:26:37 PM</div>
+                  <div class="content">Só quero que o bot quando eu der o comando ele dê esse texto tlg </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:30:54 PM</div>
+                  <div class="content">pode ser assim, so que com os nomes que voce passou e ai mostra o que precisa pro usuario ? <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325924578450735125/image.png?ex=677f893d&is=677e37bd&hm=8f6401583fd0455e536f99c8668678107c2e4c77b19674e5b355cd18f075e3b0&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 5:32:53 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 5:35:21 PM</div>
+                  <div class="content">Pode </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 7:57:36 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> Alguma novidade ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 8:08:15 PM</div>
+                  <div class="content">Irmao at amanha ta pronto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 8:08:21 PM</div>
+                  <div class="content">fica tranquilo 😄 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 8:14:28 PM</div>
+                  <div class="content">Fica </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:24:35 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:24:42 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325983415710908436/image.png?ex=677fc009&is=677e6e89&hm=87080ad322278e2877719df89d0102f7407ed48cca1febb5169bd778c4b6d184&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325983415979348070/image.png?ex=677fc009&is=677e6e89&hm=6363d2d794603d111f85e2afebe84ea6d34c0c34a778f0405bbc3a167e37b35b&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:24:47 PM</div>
+                  <div class="content"># Parte de config do PIX </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:24:58 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325983486359769108/image.png?ex=677fc01a&is=677e6e9a&hm=f6328bfb75f507420fc3055757431fffe0272e31d308159bbce47ba537d9dfaa&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325983486560960602/image.png?ex=677fc01a&is=677e6e9a&hm=46e417a1d339a2881bf8955fdb6f1e134288e8ffed76fb650fc1a686d044cacb&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:25:04 PM</div>
+                  <div class="content"># Parte do pix </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:35:00 PM</div>
+                  <div class="content">Invez do Bitcoins </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:35:02 PM</div>
+                  <div class="content">Coloca Binance </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:35:08 PM</div>
+                  <div class="content">E tem como deixar o fundo amarelo ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:36:49 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:38:30 PM</div>
+                  <div class="content">verdade kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:38:39 PM</div>
+                  <div class="content">fundo de onde irmao ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 9:38:53 PM</div>
+                  <div class="content">voce diz aquela barrinha lateral ali ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:44:02 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1325988282961629225/image.png?ex=677fc492&is=677e7312&hm=fcec00c9e5993400ba1304fbd4386ae196365fb893755545f3d90064d597793d&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/6/2025, 9:44:14 PM</div>
+                  <div class="content">A lateral eu queria roxo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/6/2025, 10:56:55 PM</div>
+                  <div class="content">Botão só tem 4 cores mano, azul, verde, vermelho e cinza </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 9:25:45 AM</div>
+                  <div class="content">Ah </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 3:17:57 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> boa tarde irmão. Eu chego em casa as 21h ate 23h te entrego seu bot fechou </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 3:18:55 PM</div>
+                  <div class="content">O pix para pagamento da primeira mensalidade, so clicar aqui mostrar QR Code e fazer o pagamento de **R$15,00** e enviar o comprovante aqui em seguida </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 3:42:04 PM</div>
+                  <div class="content">Ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 3:43:16 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1326259879991574568/IMG_3285.png?ex=677f7004&is=677e1e84&hm=b21513e3bdbbc001b34d0fd32c70cd6ba24ec48a142288fa7259359dece0c1d1&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 3:43:20 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 3:57:01 PM</div>
+                  <div class="content">Show </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 3:57:06 PM</div>
+                  <div class="content">recebi aqui ja </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 3:57:09 PM</div>
+                  <div class="content">obrigado meu rei </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 4:35:19 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> Como que funciona pra add o bot no meu server ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 4:57:19 PM</div>
+                  <div class="content">Na hs que for puxar ele vou te chamar na call </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 4:57:42 PM</div>
+                  <div class="content">ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:01:52 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> me passa o discord onde vai ser colocado o bot ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:02:11 PM</div>
+                  <div class="content">e me da permisao adm la pra adicionar e assim que coloca ja pode tirar a permissao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:03:31 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1326325374937731144/image.png?ex=677fad03&is=677e5b83&hm=45c04fd17c5797cc2eb09993d7d00abc8ec9a43c0c25917fcf26ff7937deece0&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:04:56 PM</div>
+                  <div class="content">Ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:05:04 PM</div>
+                  <div class="content">https://discord.gg/E3cZgfrZ </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:07:08 PM</div>
+                  <div class="content">Posso tira la ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:07:29 PM</div>
+                  <div class="content">pode </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:07:35 PM</div>
+                  <div class="content">3 comando o bot tem tas </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:07:44 PM</div>
+                  <div class="content">/anuncio
+
+/config
+
+/pix </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:07:58 PM</div>
+                  <div class="content">Fecho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:07:59 PM</div>
+                  <div class="content">Tmj man </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:08:32 PM</div>
+                  <div class="content">so usar e abusar kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:11:16 PM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span>  se precisar de site pra pegar as cores em Hex pra colocar nas embed ta na mao o site
+
+https://coreshex.vercel.app/ </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:13:47 PM</div>
+                  <div class="content">Ta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:13:51 PM</div>
+                  <div class="content">O <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:13:59 PM</div>
+                  <div class="content">Oq é esse negocio de foto ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:14:24 PM</div>
+                  <div class="content">Quando vai configurar o pix ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:15:55 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1326328493985890405/image.png?ex=677fafea&is=677e5e6a&hm=d21d25f665fbf496d7b494ddde645f7344b393b15b001ab59a42adb33798eb3a&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:17:11 PM</div>
+                  <div class="content">link da foto do qr code meu rei </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:17:17 PM</div>
+                  <div class="content">Ah </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:17:23 PM</div>
+                  <div class="content">Pdp vlw ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:17:31 PM</div>
+                  <div class="content">O <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:17:45 PM</div>
+                  <div class="content">Quando estiver perto da mensalidade acabar me manda uma msg no meu pv </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:17:47 PM</div>
+                  <div class="content">Pfv </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:18:03 PM</div>
+                  <div class="content">sim vou te adicionar no bot aqui ele mesmo vai te notificar kkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:18:13 PM</div>
+                  <div class="content">deixa depois um feedback pra nos ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 8:18:23 PM</div>
+                  <div class="content">https://discord.com/channels/1209978061403979856/1232683735712006154 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/7/2025, 8:18:49 PM</div>
+                  <div class="content">pode deixa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/8/2025, 8:29:18 AM</div>
+                  <div class="content"><span class="mention">@maximo_fxz</span> 30 dias adicionado quando faltar 5 dias para o encimento o bot ja te avisa <a href="https://cdn.discordapp.com/attachments/1324718762057793657/1326513057765261394/image.png?ex=677fb30e&is=677e618e&hm=ab276cc12a8e0d64507ef50d315ece333be6a25ada834d0874867e6430e54c32&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/8/2025, 11:19:56 AM</div>
+                  <div class="content">Fecho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1029483531698708543/06ee57a1088b7d26f31f4f43bf9060ee.webp?size=128" alt="maximo_fxz" class="avatar">
+              <div class="message-content">
+                  <div class="author">maximo_fxz</div>
+                  <div class="timestamp">1/8/2025, 11:19:57 AM</div>
+                  <div class="content">tmj </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
