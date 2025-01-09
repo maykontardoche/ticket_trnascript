@@ -1,0 +1,725 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・drobadisa-lligdadh</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/9/2025, 1:08:19 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:08:24 AM</div>
+              <div class="content">Boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:08:49 AM</div>
+              <div class="content">alguem poderia so vim fazer um spanw de 3 veiculos, so pra mim ver a questão de slot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:09:05 AM</div>
+              <div class="content">precisando mudar a base, mais n tenho espaço ai né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:09:09 AM</div>
+              <div class="content">recorrer a um veiculo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:09:10 AM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:09:33 AM</div>
+              <div class="content">fala qual que eu digo quantos slots </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:09:38 AM</div>
+              <div class="content">Onibus </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:09:44 AM</div>
+              <div class="content">600 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:09:54 AM</div>
+              <div class="content">carrega muito player </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:09:55 AM</div>
+              <div class="content">Landrover </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:10:05 AM</div>
+              <div class="content">bom pra um putaria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:10:06 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:10:19 AM</div>
+              <div class="content">M3S </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:10:41 AM</div>
+              <div class="content">MTVR Military </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:10:54 AM</div>
+              <div class="content">e o Hammer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:11:08 AM</div>
+              <div class="content">500slots+3caixas + 1 bau marinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:11:18 AM</div>
+              <div class="content">1000 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:11:24 AM</div>
+              <div class="content">10000 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:11:36 AM</div>
+              <div class="content">mais o MTVR da pra colocar caixa ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:12:04 AM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:12:27 AM</div>
+              <div class="content">600slots+4caixa  4 barris </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:12:45 AM</div>
+              <div class="content">as caixas é a quelas de 250? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:12:54 AM</div>
+              <div class="content">150 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:13:06 AM</div>
+              <div class="content">avemaria </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:13:12 AM</div>
+              <div class="content">e o barril ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:13:18 AM</div>
+              <div class="content">é 150 tbm ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:13:24 AM</div>
+              <div class="content">s </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:13:42 AM</div>
+              <div class="content">e o HUMV ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:13:55 AM</div>
+              <div class="content">so to com 6M , foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:14:30 AM</div>
+              <div class="content">500slots </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:14:40 AM</div>
+              <div class="content">tu fez a devolução do money dos barcos ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:14:49 AM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:15:12 AM</div>
+              <div class="content">esse titus é muito espaço ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:15:44 AM</div>
+              <div class="content">nop </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:16:01 AM</div>
+              <div class="content">MO PAIA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:16:08 AM</div>
+              <div class="content">chamar o celso Russomano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:16:39 AM</div>
+              <div class="content">1000+5caixas e 4 barris </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:16:59 AM</div>
+              <div class="content">o maior é o motorhome mesmo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:17:06 AM</div>
+              <div class="content">não lembro mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:18:11 AM</div>
+              <div class="content">ah, o bau marinho é o que 100S ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:18:42 AM</div>
+              <div class="content">ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:18:56 AM</div>
+              <div class="content">é </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:19:02 AM</div>
+              <div class="content">pera ai pra mim anotar aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:19:06 AM</div>
+              <div class="content">fecha o ticket n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:29:43 AM</div>
+              <div class="content">melhor é pogar o m3s </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:29:43 AM</div>
+              <div class="content">mais o barulho é horrivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:29:43 AM</div>
+              <div class="content">kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:30:47 AM</div>
+              <div class="content">Ow </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:30:49 AM</div>
+              <div class="content">Tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:30:53 AM</div>
+              <div class="content">Minha Net caiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:30:58 AM</div>
+              <div class="content">Meu Heli ficou fora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:31:02 AM</div>
+              <div class="content">Tu pode guardar ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:31:08 AM</div>
+              <div class="content">Amanhã quando eu entrar eu pego </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:31:11 AM</div>
+              <div class="content">Ou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:31:21 AM</div>
+              <div class="content">Eu te passo a senha aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:31:31 AM</div>
+              <div class="content">Tá na loja de veículos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:32:10 AM</div>
+              <div class="content">Trancado? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:32:15 AM</div>
+              <div class="content">Tá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:32:27 AM</div>
+              <div class="content">Ta no spaw de veículo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:32:39 AM</div>
+              <div class="content">Tá não , tá pertinho do muro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:33:19 AM</div>
+              <div class="content">Tentei entrar pelos dados móveis </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:33:22 AM</div>
+              <div class="content">Mais não entra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:34:45 AM</div>
+              <div class="content">Precisar eu te passo a senha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:34:51 AM</div>
+              <div class="content">Dele e da garagem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 1:38:52 AM</div>
+              <div class="content">Deu certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:53:53 AM</div>
+              <div class="content">deixa ele lá msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/9/2025, 1:53:56 AM</div>
+              <div class="content">ta de boas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:01:21 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:01:25 AM</div>
+              <div class="content">ta por aio ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:01:28 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1326764469103362068/1326913739479580816/image.png?ex=67812838&is=677fd6b8&hm=4f4a29dda9f078e5d74bcafe5e39c743f5701a0ed3a05ef3d3abf8e9551bb114&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:01:36 AM</div>
+              <div class="content">galera levanta as bandeiras mais n ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:01:41 AM</div>
+              <div class="content">ou ta abandonado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:02:33 AM</div>
+              <div class="content">esse cod ta é bugado, bandeira baixa total </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:02:38 AM</div>
+              <div class="content">e não caiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:03:36 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1326764469103362068/1326914276044046458/image.png?ex=678128b8&is=677fd738&hm=a2fdc9d633b0569e59e1492ac7c0bf826be1698b01eb844dfba31ccec8d763d1&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:03:42 AM</div>
+              <div class="content">ah n , acho que tá 100% não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/9/2025, 11:20:30 AM</div>
+              <div class="content">Só olhando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:29:02 AM</div>
+              <div class="content">VEISH </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:32:11 AM</div>
+              <div class="content">ow o que é esse Cash ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:32:23 AM</div>
+              <div class="content">eu sei que é dinheiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:32:24 AM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:32:33 AM</div>
+              <div class="content">mais é o mesmo do que fica caindo de 20k ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:38:37 AM</div>
+              <div class="content">ow desmanchei a torre de bandeira, acaba a base e a area? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/9/2025, 11:46:44 AM</div>
+              <div class="content">Não entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:48:56 AM</div>
+              <div class="content">tipo, eu desmanchei a bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:49:00 AM</div>
+              <div class="content">o mastro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:49:05 AM</div>
+              <div class="content">eu ja perdo a area ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 11:50:48 AM</div>
+              <div class="content">outra coisa, se eu derrubar umas arvores, e construir por cima, depois do RR, elas volta? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/9/2025, 11:55:53 AM</div>
+              <div class="content">não sei mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:06:21 PM</div>
+              <div class="content">imaginava </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:06:21 PM</div>
+              <div class="content">kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:07:06 PM</div>
+              <div class="content">to tentando fazer um muro, mais n pega </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:07:07 PM</div>
+              <div class="content">:/ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:20:58 PM</div>
+              <div class="content">se forem olhar la a base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:21:01 PM</div>
+              <div class="content">eu mando a loc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:21:02 PM</div>
+              <div class="content">se n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">lf0410</div>
+              <div class="timestamp">1/9/2025, 12:21:06 PM</div>
+              <div class="content">pode fechar o tickt </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
