@@ -1,0 +1,462 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・joão-vmbu3tpx</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/12/2025, 12:34:49 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:34:58 PM</div>
+              <div class="content">sim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:35:04 PM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:35:05 PM</div>
+              <div class="content">tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:35:09 PM</div>
+              <div class="content">queria tirar umas duvidas por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:35:20 PM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:35:21 PM</div>
+              <div class="content">ao adquirir o vip de 30 reais... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:35:26 PM</div>
+              <div class="content">tem seguro? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:35:49 PM</div>
+              <div class="content">sempre que vc morrer vc volta com os itens descritos no vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:36:24 PM</div>
+              <div class="content">durante quantos dias? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:40:22 PM</div>
+              <div class="content">30 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:40:38 PM</div>
+              <div class="content">entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:40:44 PM</div>
+              <div class="content">o servidor deu wipe tem muito tempo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:41:50 PM</div>
+              <div class="content">2 meses epouco mais oumenos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:45:35 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:45:42 PM</div>
+              <div class="content">quero adquirir o vip de 30 reais por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:45:55 PM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:46:02 PM</div>
+              <div class="content">cel 53 984653110 everton jeske </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:46:13 PM</div>
+              <div class="content">mande o comprovante e seu <#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:46:56 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:46:58 PM</div>
+              <div class="content">so um minuto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:49:34 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328024395272294433/1328028109957759036/WhatsApp_Image_2025-01-12_at_12.48.29.jpeg?ex=6785360e&is=6783e48e&hm=cb764b9bc324b1671ee05ee9c9585ba911586bf080ff5e6a52c1303feeb18533&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:50:01 PM</div>
+              <div class="content">ID Steam seria o codigo de amigo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:51:56 PM</div>
+              <div class="content">NÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:52:01 PM</div>
+              <div class="content">CLICA NESTE LINK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:52:04 PM</div>
+              <div class="content"><#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:52:18 PM</div>
+              <div class="content">ESTE AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:52:27 PM</div>
+              <div class="content">TEM UM TUTORIAL AI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:53:14 PM</div>
+              <div class="content">76561199678951895 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:53:16 PM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:53:22 PM</div>
+              <div class="content">OK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:53:24 PM</div>
+              <div class="content">VOU POR AQUI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:53:42 PM</div>
+              <div class="content">em 10 min pode se matar no game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:53:51 PM</div>
+              <div class="content">ja vai voltar com os itens vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:55:18 PM</div>
+              <div class="content">vai dar reset </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:55:21 PM</div>
+              <div class="content">em 5 min </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:55:35 PM</div>
+              <div class="content">pronto
+depois do reset pode e matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:55:40 PM</div>
+              <div class="content">ta bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:55:43 PM</div>
+              <div class="content">muito obrigado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:55:46 PM</div>
+              <div class="content">posso perguntar mais uma coisa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:56:44 PM</div>
+              <div class="content">claro pode sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:57:27 PM</div>
+              <div class="content">o proximo wipe ta previsto para daqui uns 2 meses e meio também? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:57:31 PM</div>
+              <div class="content">geralmente dizem que e 5 meses </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:58:10 PM</div>
+              <div class="content">geralmente 5 meses </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 12:58:19 PM</div>
+              <div class="content">o ultimo foi 5 meses e meio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:00 PM</div>
+              <div class="content">entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:11 PM</div>
+              <div class="content">houve um wipe a 2 meses e pouco igual você falou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:19 PM</div>
+              <div class="content">entao vai demorar mais uns 2 meses e pouco tambem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:22 PM</div>
+              <div class="content">show de bola </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:25 PM</div>
+              <div class="content">obrigado pela atenção </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:31 PM</div>
+              <div class="content">e parabéns aí pelo servidor! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">krauszer1</div>
+              <div class="timestamp">1/12/2025, 12:59:34 PM</div>
+              <div class="content">Top de linha! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 1:00:24 PM</div>
+              <div class="content">vlw mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 1:00:29 PM</div>
+              <div class="content">boa jogatina pra vc </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
