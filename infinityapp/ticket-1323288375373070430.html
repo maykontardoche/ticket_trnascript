@@ -1,0 +1,531 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・felipe-almeida-ldn8fvff</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">12/30/2024, 10:55:34 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">12/30/2024, 10:55:34 AM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 10:55:53 AM</div>
+                  <div class="content">Opa bom dia </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 10:56:39 AM</div>
+                  <div class="content">Estou trabalhando em uma cidade pra abrir em breve, ainda não tenho discord, vi que vocês montam. Quais os valores ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:01:39 AM</div>
+                  <div class="content"><@1203392236667150430> bom dia felipe </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:01:54 AM</div>
+                  <div class="content">Voce precisa do que especificamente o discord ou bot para a staff ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:05:37 AM</div>
+                  <div class="content">Discord </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:06:02 AM</div>
+                  <div class="content">Voce tem algum modele em especifico que gostaria, ou quer um completo ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:06:14 AM</div>
+                  <div class="content">e o discord sera para a cidade correto ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:06:47 AM</div>
+                  <div class="content">Sim tenho um modelo que quero parecido 
+Isso pra cidade </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:06:50 AM</div>
+                  <div class="content">Mando aqui já já </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:09:02 AM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:09:07 AM</div>
+                  <div class="content">fico aguardando </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:13:23 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1323288375373070430/1323292861147517018/ScreenRecording_12-30-2024_09-12-43_1.mov?ex=6783ce03&is=67827c83&hm=9e8af5ae409d0caca45d8c7f319629be515a16afda3837333f29b522f209273b&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:13:24 AM</div>
+                  <div class="content">Nessa pegada </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:13:48 AM</div>
+                  <div class="content">Tem o legal também, mas não to nesse </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:21:29 AM</div>
+                  <div class="content">Pera entao voce precisa do discord da cidade discord dos serviços legais discord do ilegal ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">12/30/2024, 11:22:32 AM</div>
+                  <div class="content">Isso, e alguns boots </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:23:08 AM</div>
+                  <div class="content">Certo me pessa então tudo que voce precisa, no geral para que eu consiga gerar um orçamento para você </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/30/2024, 11:23:29 AM</div>
+                  <div class="content">O discord da cidade eu crio baseado no da cidade do bahamas, paraisopolis ta  completo ele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/2/2025, 3:01:19 PM</div>
+                  <div class="content">Boa tarde brother
+Amanhã eu volto de viagem e já vemos isso OK </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/2/2025, 3:37:54 PM</div>
+                  <div class="content">Combinado irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 12:45:29 PM</div>
+                  <div class="content">Opa boa tarde man </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 12:46:36 PM</div>
+                  <div class="content">Oque você me recomenda pra começar ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 12:47:33 PM</div>
+                  <div class="content">Preciso de um bot de whitelist  e um discord pro ilegal e legal. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/8/2025, 12:57:40 PM</div>
+                  <div class="content">Boa tarde <@1203392236667150430> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/8/2025, 12:57:47 PM</div>
+                  <div class="content">irmao voce ja tem o discord da cidade ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 1:55:00 PM</div>
+                  <div class="content">Ainda não man. Tenho criado mas não mexi em nada cara </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 3:17:34 PM</div>
+                  <div class="content">Você tem template de alguma cidade ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 3:17:39 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/8/2025, 3:35:41 PM</div>
+                  <div class="content">os discord de cidade eu realizo baseado nos da fusion group </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/8/2025, 3:36:09 PM</div>
+                  <div class="content">Consegue me mostrar um exemplo? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/10/2025, 9:05:00 AM</div>
+                  <div class="content"><@1203392236667150430> desculpa irmao a dmr correria aqui danada </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/10/2025, 9:05:12 AM</div>
+                  <div class="content">Consegue entrar em call amanha ai te mostro como é fica mais facil </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:04:37 AM</div>
+                  <div class="content">Boa noite </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:04:53 AM</div>
+                  <div class="content">Amanha estou de folga </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:05:02 AM</div>
+                  <div class="content">te chamo logo pela manha </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:46:24 PM</div>
+                  <div class="content">Opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:46:36 PM</div>
+                  <div class="content">ta por ai ? <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/11/2025, 12:50:41 PM</div>
+                  <div class="content">To no trampo chego em casa umas 16h mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1203392236667150430/d00effa80e7e506c8bdcfc40d38e4133.webp?size=128" alt="the_punisher_55776" class="avatar">
+              <div class="message-content">
+                  <div class="author">the_punisher_55776</div>
+                  <div class="timestamp">1/11/2025, 12:56:18 PM</div>
+                  <div class="content">ok, ai voce me chama aqui por favor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/11/2025, 9:13:49 PM</div>
+                  <div class="content"><@1203392236667150430> esta ai irmao? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/11/2025, 9:13:52 PM</div>
+                  <div class="content">Cheguei agora em casa </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
