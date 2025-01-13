@@ -1,0 +1,701 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・diogoxy_-k9jx9npm</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Perf World Ascensão#6098</div>
+              <div class="timestamp">1/10/2025, 5:41:02 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 5:42:02 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1327376680460746783/1327376934597951579/IMG_1882.jpg?ex=6786235a&is=6784d1da&hm=f8a2d98ca814f8c2a61f4f5373a6b202a86868ac50403d7f8226eac3b11e4cda&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1327376680460746783/1327376935226970152/IMG_1883.jpg?ex=6786235a&is=6784d1da&hm=ed07c14fb3e13b92ee0bf963ee39f34e8777fe59c6d78e8bb937a28d7e64db31&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 5:42:03 PM</div>
+              <div class="content">2010 esp sem ornamento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 5:42:19 PM</div>
+              <div class="content">2045 com ornamento sendo que tem 2 add de 35 na gravura </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 5:48:21 PM</div>
+              <div class="content">E tb estou com 150 pontos em int e não consigo tirar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 5:48:37 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1327376680460746783/1327378591251562610/IMG_1884.jpg?ex=678624e5&is=6784d365&hm=d373deb9b225b545822325c6c2ca745b0fc0681f0f365e974210407ab9fb2068&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 6:12:06 PM</div>
+              <div class="content">A conta toda bugou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 6:12:15 PM</div>
+              <div class="content">Paraíso não conta e não consigo atk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 7:59:23 PM</div>
+              <div class="content">Salve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 7:59:55 PM</div>
+              <div class="content">O espírito que não ta funcionando é um problema na Gravura, sobre os demais problemas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 7:59:59 PM</div>
+              <div class="content">Ainda estão bugados? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 8:14:05 PM</div>
+              <div class="content">O int tá sim, mas nada que atrapalhe eu acho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 8:14:14 PM</div>
+              <div class="content">Acho que é só </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 8:14:23 PM</div>
+              <div class="content">Caso eu encontre mais bugs eu reporto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 8:24:12 PM</div>
+              <div class="content">Belezaa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 8:24:15 PM</div>
+              <div class="content">Obg meu querido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:13:19 PM</div>
+              <div class="content">Oi adm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:13:22 PM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:13:26 PM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:13:33 PM</div>
+              <div class="content">Cara, isso ta acontecendo com frequência? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:13:35 PM</div>
+              <div class="content">Como q aconteceu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:13:39 PM</div>
+              <div class="content">Me explica melhor pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:13:47 PM</div>
+              <div class="content">Arena? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:13:56 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:14:17 PM</div>
+              <div class="content">Foi só agora, entrei e ele tava com hp 0/0 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:14:23 PM</div>
+              <div class="content">Não consigo bater nem nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:14:26 PM</div>
+              <div class="content">Só deixei ele me matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:15:33 PM</div>
+              <div class="content">Que estranho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:15:35 PM</div>
+              <div class="content">Acabei de tomar report bug </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:15:41 PM</div>
+              <div class="content">Ta usando modo HD? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:15:42 PM</div>
+              <div class="content">Entrando na lista da arena </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:15:46 PM</div>
+              <div class="content">N </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:16:18 PM</div>
+              <div class="content">No teu char, oq ta bugado? Além do espírito da gravura </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:16:38 PM</div>
+              <div class="content">Paraíso, ele trava e não consigo usar skills e nem telar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:17:42 PM</div>
+              <div class="content">Quando acabar a arena, me manda teu login e desloga pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:17:51 PM</div>
+              <div class="content">Já terminei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:17:54 PM</div>
+              <div class="content">Vou deslogar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:18:01 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:18:02 PM</div>
+              <div class="content">Meu login é ayato01 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:18:11 PM</div>
+              <div class="content">To deslogado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:19:39 PM</div>
+              <div class="content">Oq exatamente tu não consegue fazer aqui dentro? <a href="https://cdn.discordapp.com/attachments/1327376680460746783/1327446799543173120/image.png?ex=6786646b&is=678512eb&hm=dea6166eae3c38a237583a92b5793931e6a4a34877d04034d5bd08597e298f3d&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:20:31 PM</div>
+              <div class="content">Cara, aqui ta normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:20:39 PM</div>
+              <div class="content">Sim na hora de telar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:20:42 PM</div>
+              <div class="content">As vezes buga </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:20:52 PM</div>
+              <div class="content">Não consigo usar skills </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:06 PM</div>
+              <div class="content">Ahhhh, isso é normal do paraíso, buga as vezes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:07 PM</div>
+              <div class="content">Pra todos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:10 PM</div>
+              <div class="content">Mas tipo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:21:10 PM</div>
+              <div class="content">falaram que é pq eu tava transformado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:12 PM</div>
+              <div class="content">MUITO raro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:17 PM</div>
+              <div class="content">E n pode telar transformado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:21:29 PM</div>
+              <div class="content">Ahhhhhhh </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:21:34 PM</div>
+              <div class="content">então tá suave </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/10/2025, 10:21:56 PM</div>
+              <div class="content">Loga ai, vai me avisando se acontecer algo diferente kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/10/2025, 10:22:32 PM</div>
+              <div class="content">Blz kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:32:31 AM</div>
+              <div class="content"><span class="mention">@belialpw</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:32:51 AM</div>
+              <div class="content">Forjei elmo celestial lá do reino, passou uns 30 minutos o elmo sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:33:08 AM</div>
+              <div class="content">KKKKKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:33:08 AM</div>
+              <div class="content">Todo gravurado affs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:33:16 AM</div>
+              <div class="content">Pode olhar log se quiser </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:34:22 AM</div>
+              <div class="content">Foi quando abri o codice e comecei a coletar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:34:50 AM</div>
+              <div class="content">Poxa farmei pra crl pra conseguir o elmo😢 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:36:27 AM</div>
+              <div class="content">Ahhhhhhh esquece reloguei e ele apareceu no banqueiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:36:27 AM</div>
+              <div class="content">Sendo que tava equipado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 2:36:32 AM</div>
+              <div class="content">Mano meu wb tá todo bugado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 10:39:29 AM</div>
+              <div class="content">Mano, não é o seu char, essa versão 1.7.4 é full emulada, não é uma versão oficial da China, esse tipo de BUG acontece, normalmente quando reloga resolve. É a mesma coisa dos bugs de Runa, as vezes some todas do R, daí tem que relogar pra voltar. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 11:31:21 AM</div>
+              <div class="content">Gm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 11:31:25 AM</div>
+              <div class="content">Quero reportar um bug </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 11:31:30 AM</div>
+              <div class="content">Paraísozada? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 11:31:34 AM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 11:31:36 AM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 11:31:40 AM</div>
+              <div class="content">Já to consertando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 11:31:50 AM</div>
+              <div class="content">Pode abusar enquanto isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 11:31:55 AM</div>
+              <div class="content">GG </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:18:41 PM</div>
+              <div class="content">Gm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:18:47 PM</div>
+              <div class="content">Ainda está bugado algumas gravuras </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:19:19 PM</div>
+              <div class="content">Anel, manta, ornamento e elmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 1:21:28 PM</div>
+              <div class="content">Tu gravurou dnv? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:24:56 PM</div>
+              <div class="content">Precisa escolher os novos atributos ou pode manter o antigo pra funcionar? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 1:25:56 PM</div>
+              <div class="content">Tem q ser novos, pq tipo, a gravura q tu ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 1:26:02 PM</div>
+              <div class="content">Ela ta dando int ao invés de espírito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:26:13 PM</div>
+              <div class="content">Putssss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/11/2025, 1:26:16 PM</div>
+              <div class="content">Ahhh entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 1:26:32 PM</div>
+              <div class="content">Por isso tu ta com essa int toda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/11/2025, 1:26:33 PM</div>
+              <div class="content">kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:30:55 AM</div>
+              <div class="content">Ae adm gravei pvpzin de ontem e rendeu 7 minutos de video com as edições e tal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:31:15 AM</div>
+              <div class="content">To sem canal no youtube mas vou criar um pra postar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:53:54 AM</div>
+              <div class="content">https://youtube.com/watch?v=cHF1xdukV9g&si=pQDrlbbfkzR2N50o </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:54:18 AM</div>
+              <div class="content">Coloquei os links no comentário </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:54:18 AM</div>
+              <div class="content">Discord e cadastro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 5:54:40 AM</div>
+              <div class="content">Se puder jogar lá na aba de video </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/12/2025, 1:06:23 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">belialpw</div>
+              <div class="timestamp">1/12/2025, 1:06:32 PM</div>
+              <div class="content">Vou te dar permissão lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">diogoxy_</div>
+              <div class="timestamp">1/12/2025, 1:09:14 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
