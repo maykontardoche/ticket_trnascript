@@ -1,0 +1,589 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・tiudastreta-chpviyn7</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/11/2025, 5:21:53 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:22:04 PM</div>
+              <div class="content">Tá por ai <span class="mention">@tam8181</span> ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:22:18 PM</div>
+              <div class="content">Achei um recurso para o servidor que acho que vc vai querer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:22:54 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:22:57 PM</div>
+              <div class="content">Solta a voz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:23:14 PM</div>
+              <div class="content">Eae gordão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:23:23 PM</div>
+              <div class="content">Querendo cvs com tam msm man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:24:11 PM</div>
+              <div class="content">Que isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:24:17 PM</div>
+              <div class="content">Então eu não conto? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:23 PM</div>
+              <div class="content">kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:27 PM</div>
+              <div class="content">Foi mal mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:31 PM</div>
+              <div class="content">Não quis ofender </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:42 PM</div>
+              <div class="content">é pq eu já tava trocando uma ideia com ele hj de madrugada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:50 PM</div>
+              <div class="content">Ai achei oq tava falando com ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:24:57 PM</div>
+              <div class="content">Mas se quiser me puxar call ai te mostro tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:26:14 PM</div>
+              <div class="content">Tô de sacanagem pô </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/11/2025, 5:26:18 PM</div>
+              <div class="content">Já já ele aparece aí kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:27:06 PM</div>
+              <div class="content">CHORA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:27:12 PM</div>
+              <div class="content">QUE RECURSO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:27:22 PM</div>
+              <div class="content">o bunker que te falei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:27:40 PM</div>
+              <div class="content">MANDA AI QUE PASSO PARA O CH DAR UMA PLHADA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:28:10 PM</div>
+              <div class="content">Vai ter que fazer uns ajustes no dayz editor pelo que to vendo aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:28:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1327734245841436775/1327735926759358587/Bunker_Severograd.dze?ex=67857771&is=678425f1&hm=0341627ead9e1291c477468807f73fe1a60116a6aba1a2cc5393e824fbcae272&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:28:37 PM</div>
+              <div class="content">Tá na mão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:29:36 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:29:43 PM</div>
+              <div class="content">PASSO PARA ELE AQUI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:29:57 PM</div>
+              <div class="content">AS MODIFICAÇÕES SÃO DE BOA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:32:21 PM</div>
+              <div class="content">depois dessa ultima att do dz editor ficou meio bugado algumas coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:32:23 PM</div>
+              <div class="content">Ai ta foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/11/2025, 5:33:17 PM</div>
+              <div class="content">não foi só o editor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:34:12 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1327734245841436775/1327737350494621736/Bunker_Severograd.c?ex=678578c4&is=67842744&hm=3476ce913e6b596eb4a8a2e5ef2e66a534ac2536f6989985082d190227a1b183&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:34:20 PM</div>
+              <div class="content">Esse arquivo aqui vai estar melhor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:34:30 PM</div>
+              <div class="content">Estou olhando aqui direitinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:36:33 PM</div>
+              <div class="content">Só fazer os ajustes na paisagem mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:36:41 PM</div>
+              <div class="content">Mas a interna do bunker ta integra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/11/2025, 5:36:49 PM</div>
+              <div class="content">dá para fazer uma boa dinamica no server </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:19:45 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> Dá um silence nesse deep ai fazendo um favor mano. Cara entrando na call aqui para xingar os outros e agora fica em chat ai ofendendo os outros atoa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:20:00 AM</div>
+              <div class="content">passando dos limites já </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:20:03 AM</div>
+              <div class="content">mlk chato pra krl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 1:20:36 AM</div>
+              <div class="content">deep é um militante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:35:38 AM</div>
+              <div class="content">éuma criança mimada isso sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:59:42 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> Meu uh6 sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 1:59:49 AM</div>
+              <div class="content">consegue ver onde está pfv? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:02:30 AM</div>
+              <div class="content">qual cor e modelo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:02:40 AM</div>
+              <div class="content">black hawk preto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:03:03 AM</div>
+              <div class="content">black hawk ou mh6? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:03:15 AM</div>
+              <div class="content">uh60 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:03:23 AM</div>
+              <div class="content">o grandão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:03:39 AM</div>
+              <div class="content">o hawk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:03:46 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1327734245841436775/1327865585115332618/image.png?ex=67854772&is=6783f5f2&hm=4c11b3a303c0c4d22a9a693561431247558b758d84beaeafdcd36bc2418465d5&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:03:47 AM</div>
+              <div class="content">qual cor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:03:55 AM</div>
+              <div class="content">esse do meio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:04:15 AM</div>
+              <div class="content">perdeu no pvp?
+ou só esqueceu onde pois? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:04:51 AM</div>
+              <div class="content">Tava na garagem do grupo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 2:05:07 AM</div>
+              <div class="content">ai perguntei todos aqui e ninguem sabe onde está </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:17:32 AM</div>
+              <div class="content">NO MAPA NÃO TA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:17:42 AM</div>
+              <div class="content">VOU VER NA GARAGEM DA GALERA DO CLÃ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:21:12 AM</div>
+              <div class="content">DE QUEM É O HELI? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:21:26 AM</div>
+              <div class="content">MI DA UMA LISTA AI DE QUEM TA ON NO CLÃ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:21:36 AM</div>
+              <div class="content">DEVE TER UNS 40 COM ESTA TAG </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:35:20 AM</div>
+              <div class="content">achei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:35:26 AM</div>
+              <div class="content">esta com o avlar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 2:35:28 AM</div>
+              <div class="content">X X T - Avlar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:55:40 AM</div>
+              <div class="content">blz obgd </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:55:50 AM</div>
+              <div class="content">O jogador [X X T - TiuDasTreta] foi morto por [[THK] TROUS] usando M200 CheyTac Black a 594.08 metros de distancia. 03:56 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:55:54 AM</div>
+              <div class="content">Quero clip dessa morte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 3:58:14 AM</div>
+              <div class="content">Tenho não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:58:35 AM</div>
+              <div class="content">Eu sei pow kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:58:37 AM</div>
+              <div class="content">pede ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">alansda</div>
+              <div class="timestamp">1/12/2025, 3:58:43 AM</div>
+              <div class="content">pq foi muito estranha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 4:01:48 AM</div>
+              <div class="content">Posso ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 4:02:02 AM</div>
+              <div class="content">Que horas foi? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 4:02:14 AM</div>
+              <div class="content">Posso refazer a kill </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 4:05:07 AM</div>
+              <div class="content">Vi a hora ali
+Vou refazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/12/2025, 4:05:36 AM</div>
+              <div class="content">Manda o clip ai para ver como foi? </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
