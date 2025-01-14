@@ -1,0 +1,653 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・henry-ejy3b8pv</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/13/2025, 6:34:29 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 6:36:18 PM</div>
+              <div class="content">e to afim de pegar outra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 6:41:19 PM</div>
+              <div class="content">OK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 6:41:25 PM</div>
+              <div class="content">SABE QUAL MODELO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 6:43:10 PM</div>
+              <div class="content">base caçador mod </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 6:43:21 PM</div>
+              <div class="content">a q eu tinha era a torre </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 6:46:05 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 6:46:35 PM</div>
+              <div class="content">cel 53 984653110 everton jeske </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 6:48:54 PM</div>
+              <div class="content">to tentando entra no serve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 6:59:38 PM</div>
+              <div class="content">eu nao vou querer mais a torre vou pegar so a do cacador </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:00:02 PM</div>
+              <div class="content">a da torre ainda nao venceu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:01:39 PM</div>
+              <div class="content">eu to com o vip prata tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:01:51 PM</div>
+              <div class="content">consegue fazer a base e o vip 70 ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:06:17 PM</div>
+              <div class="content">vip prata? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:06:23 PM</div>
+              <div class="content">seu vip venceu:? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:06:28 PM</div>
+              <div class="content">mande seu <#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:07:14 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:07:29 PM</div>
+              <div class="content">nao tem uns 20 dia ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:07:46 PM</div>
+              <div class="content"><#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:08:46 PM</div>
+              <div class="content">76561199580743019 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:10:25 PM</div>
+              <div class="content">vc tem 14 reais do seu vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:10:44 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328477296150974566/1328486421794787388/image.png?ex=6786e0e5&is=67858f65&hm=7d82ea760a1ff2073fd3afe01f08d7521fa4fb53b70669abf2cf72b7271a5c53&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:10:51 PM</div>
+              <div class="content">este valor ai que fica </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:23:27 PM</div>
+              <div class="content">mais e o desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:23:31 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:24:05 PM</div>
+              <div class="content">da um descontinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:24:43 PM</div>
+              <div class="content">pq os 14 nao e desconto isso e oq eu tenho do vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:29:53 PM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:30:09 PM</div>
+              <div class="content">75 fechamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:36:49 PM</div>
+              <div class="content">po 5 de desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:37:03 PM</div>
+              <div class="content">manda o pix pra eu fazer os 70 vai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:41:35 PM</div>
+              <div class="content">5 não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:41:37 PM</div>
+              <div class="content">6 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:41:53 PM</div>
+              <div class="content">cel 53 984653110 everton jeske </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:42:11 PM</div>
+              <div class="content">faz ai os 70, pqp. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:42:19 PM</div>
+              <div class="content">choradeira aqui kkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:43:20 PM</div>
+              <div class="content">kkkkkkkkkkkkk criança q nao chora nao mama </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:44:42 PM</div>
+              <div class="content">ta feito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:45:51 PM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:45:59 PM</div>
+              <div class="content">vc ja tem o local com a bandeira? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:46:17 PM</div>
+              <div class="content">ainda nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:47:23 PM</div>
+              <div class="content">mais ja sei onde vou fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:47:27 PM</div>
+              <div class="content">vc tem loot na torre? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:47:34 PM</div>
+              <div class="content">tenho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:47:45 PM</div>
+              <div class="content">ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:47:55 PM</div>
+              <div class="content">vou deixar até vc transferir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:47:59 PM</div>
+              <div class="content">creio eu q nao e muita coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:48:18 PM</div>
+              <div class="content">vamo transferir hj ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:48:32 PM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:49:24 PM</div>
+              <div class="content">quer ir ver onde vai ficar a base ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 7:49:50 PM</div>
+              <div class="content">vc põe a bandeira e eu vou em vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 7:50:43 PM</div>
+              <div class="content">como faz a badeira ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 8:02:46 PM</div>
+              <div class="content"><#1308376323449950249> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 8:16:08 PM</div>
+              <div class="content">nao to conseguindo por a bandeira por causa do limite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 8:16:46 PM</div>
+              <div class="content">LIMITE DE QUE? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 8:19:34 PM</div>
+              <div class="content">de bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 8:23:12 PM</div>
+              <div class="content">ja achei o lugar e fiz o mastro so q nao consigo por </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 8:23:46 PM</div>
+              <div class="content">VC TER QUE DESMONTAR A OUTRA LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 8:24:31 PM</div>
+              <div class="content">dmr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 8:25:29 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328477296150974566/1328505232367292478/image.png?ex=6786f269&is=6785a0e9&hm=ce3ec7bf8f49a70b74932951f850e44daaa0b7d1d4d88a55f3f691734f3b0971&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 8:34:55 PM</div>
+              <div class="content">machado q tira bandeira? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 8:35:07 PM</div>
+              <div class="content">machadinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:01:54 PM</div>
+              <div class="content">é, tem q ser o henry pra tirar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:02:02 PM</div>
+              <div class="content">eu já tirei tudo lá já </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:02:06 PM</div>
+              <div class="content">td q tinha pra pegar eu peguei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:02:25 PM</div>
+              <div class="content">da torre? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:02:32 PM</div>
+              <div class="content">vc esta no local? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:02:39 PM</div>
+              <div class="content">nn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:02:58 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328477296150974566/1328514664639893514/image.png?ex=6786fb32&is=6785a9b2&hm=ac169c1b15fd92844f28ffeb237150c9ceed13c0f9a38dee12f157416389bf84&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:03:01 PM</div>
+              <div class="content">era lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:03:03 PM</div>
+              <div class="content">posso deletar a torre enyão? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:03:03 PM</div>
+              <div class="content">já tirei tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:03:05 PM</div>
+              <div class="content">pode </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:04:09 PM</div>
+              <div class="content">se for por a base lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:04:14 PM</div>
+              <div class="content">quiser me puxar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:05:14 PM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:05:23 PM</div>
+              <div class="content">pode por a bandeira no novo local </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:05:35 PM</div>
+              <div class="content">coloca a bandeira primeiro e vc coloca a base? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:05:49 PM</div>
+              <div class="content">bandeira primeiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:05:52 PM</div>
+              <div class="content">fxo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:05:56 PM</div>
+              <div class="content">o henry ta com a bandeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gabrielhdsalves</div>
+              <div class="timestamp">1/13/2025, 9:05:59 PM</div>
+              <div class="content">assim q ele voltar ele já coloca ent </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 9:06:20 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 10:06:20 PM</div>
+              <div class="content">bandeira no lugar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/13/2025, 10:06:43 PM</div>
+              <div class="content">logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">arthurshelbyjnr.</div>
+              <div class="timestamp">1/13/2025, 10:08:37 PM</div>
+              <div class="content">dmr </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
