@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・murilo-h-qnt70a8b</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:12:56 AM</div>
+              <div class="content">pois achei uma chave </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:12:58 AM</div>
+              <div class="content">de fenda aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:12:59 AM</div>
+              <div class="content">usada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:02 AM</div>
+              <div class="content">que ngm deixou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:09 AM</div>
+              <div class="content">e sumiu varias hit kill </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:12 AM</div>
+              <div class="content">dos investarios </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:22 AM</div>
+              <div class="content">e sumiu um cofre igual o meu do hs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:28 AM</div>
+              <div class="content">q ele pegou no bunker </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:40 AM</div>
+              <div class="content">esta chave nao estava na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:13:43 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328562668943966359/image.png?ex=6787d0a7&is=67867f27&hm=bcb2a573546f18509c24e5eca8bdcbaf0cbe1a9773c1dc95d4131f37910b0a7f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:14:05 AM</div>
+              <div class="content">removeram o radiador </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:14:08 AM</div>
+              <div class="content">do carro aqui tambem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:14:11 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328562784627068998/image.png?ex=6787d0c3&is=67867f43&hm=90c6d9ac6c9bc5dc3acf071b010fa9d4e6523a50fa40fea6ed78034c9d1cedd7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:14:15 AM</div>
+              <div class="content">e a vela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:14:36 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328562889371422972/image.png?ex=6787d0dc&is=67867f5c&hm=4c99b09e9ed17b10ce16ac98f994420b8d25a448111afb3c7b02d0ae8fda4610&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:18:51 AM</div>
+              <div class="content">to indo jantar caso me chame em game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:36:42 AM</div>
+              <div class="content">posso ver sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:37:15 AM</div>
+              <div class="content">ache um barril que sumiu coisa e eu digo quem mechei nele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:04 AM</div>
+              <div class="content">tem o painel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:08 AM</div>
+              <div class="content">do hs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:12 AM</div>
+              <div class="content">onde tava ate </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:14 AM</div>
+              <div class="content">aquela arma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:17 AM</div>
+              <div class="content">q ele pegou quando te matou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:18 AM</div>
+              <div class="content">sabe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:23 AM</div>
+              <div class="content">a vsk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:40:27 AM</div>
+              <div class="content">eu acho nome dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:41:31 AM</div>
+              <div class="content">painel da parede os 2 foi mexido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:41:39 AM</div>
+              <div class="content">tinha colete </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:41:43 AM</div>
+              <div class="content">a arma vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:41:44 AM</div>
+              <div class="content">la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:41:47 AM</div>
+              <div class="content">umas hit kill </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:43:49 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328570242774990928/image.png?ex=6787d7b5&is=67868635&hm=f6172f70962e6d9a47b0be778579de340fc98094e74d7932b51e029c5de70976&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:43:54 AM</div>
+              <div class="content">este da direita? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:28 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:29 AM</div>
+              <div class="content">dos dois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:31 AM</div>
+              <div class="content">na verdade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:37 AM</div>
+              <div class="content">e tinha outro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:42 AM</div>
+              <div class="content">cofre na esquerda deles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:45 AM</div>
+              <div class="content">igual o meu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:44:46 AM</div>
+              <div class="content">q sumiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:46:14 AM</div>
+              <div class="content">qualquer coisa eu to na call la pra se falarmos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:47:04 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328571058986684436/image.png?ex=6787d878&is=678686f8&hm=7ca0f0b2547034b2685c1f36b42533be0af2d1a4b95ae8cfdd0be451c96c2bed&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:47:13 AM</div>
+              <div class="content">quem é este? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 12:47:26 AM</div>
+              <div class="content">nao e do nosso clan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 12:58:34 AM</div>
+              <div class="content">76561199382285895 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 2:50:56 AM</div>
+              <div class="content"><span class="mention">@tam8181</span>  eu vou sair do game se precisar que eu entre me avisa por aqui por favor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 2:59:29 AM</div>
+              <div class="content">[AKRA] - CLEITON </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:22:07 PM</div>
+              <div class="content">quando estiver por ai avise </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 6:38:52 PM</div>
+              <div class="content">OPa tam acabei de ligar pc aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:45:33 PM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 6:52:35 PM</div>
+              <div class="content">o cara mostro video ou nao  ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:57:25 PM</div>
+              <div class="content">tem não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:58:29 PM</div>
+              <div class="content">dificilmente eu mi vejo nesta situação, eu acho que a base estava abert, mas meu log não mostra alguem fechando portão, por isso eu não vou nem tirar o loot dos caras e vou reembolsar vc. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:58:37 PM</div>
+              <div class="content">quero ser justo com todos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 6:58:44 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 6:58:56 PM</div>
+              <div class="content">sem problemas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 6:59:13 PM</div>
+              <div class="content">eu ja logo e te aviso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 6:59:18 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:02:21 PM</div>
+              <div class="content">mas voce vai ver com os 2 oq foi pego e devover as coisas isso ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:02:37 PM</div>
+              <div class="content">eu falei com povo aqui q tava online e eles falaram que não deixaram aberto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 7:05:05 PM</div>
+              <div class="content">vou devolver seu loot </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 7:05:20 PM</div>
+              <div class="content">o que vc lembra e um pouco mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:05:26 PM</div>
+              <div class="content">a ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:06:19 PM</div>
+              <div class="content">asssim que eu entrar te aviso aqui então </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 7:06:35 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:56:52 PM</div>
+              <div class="content">tam falei com povo eles falaram q perderam isso eu eles pegaram varias hit kill mas nao faço ideia de quantas foram era melhor confirmar la no loot <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328860414989307955/image.png?ex=67883d33&is=6786ebb3&hm=2acad72bf6bb6584d43a3c1fff8e50ec9ccb180d930a2f5c64ebf77d542021ea&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 7:57:47 PM</div>
+              <div class="content">o dev ta vendo aqui se o maluco fechou o portão ontem, ele disse que tem um log aqui, é bem dificil, por isso ele ta vendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 7:58:05 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1328559259977256960/1328860721634611273/image.png?ex=67883d7d&is=6786ebfd&hm=80d6cf4369c6f22d9152b15535a8a2c9e7cd726c31f1345a5dff35a2b60f62ff&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 7:58:05 PM</div>
+              <div class="content">pelo q vi dos outros muleke nao foi pego nada ja to logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:04:11 PM</div>
+              <div class="content">então veja tambem quem q deixou aberto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:04:18 PM</div>
+              <div class="content">se for possivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:04:23 PM</div>
+              <div class="content">se e que foi deixado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:40:07 PM</div>
+              <div class="content">deu certo ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 8:51:54 PM</div>
+              <div class="content">deu sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 8:52:16 PM</div>
+              <div class="content">vou recolher o loot dele todo pq não tem interação dele fechando porta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:52:23 PM</div>
+              <div class="content">ixi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:52:32 PM</div>
+              <div class="content">em nenhuma das portas ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:53:32 PM</div>
+              <div class="content">e como ele entro então  ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:56:29 PM</div>
+              <div class="content">resumindo ele vao de arrasta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 8:59:15 PM</div>
+              <div class="content">é uma incognita, msm pousando como pegaram o loot? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:59:29 PM</div>
+              <div class="content">bug / </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:59:30 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 8:59:40 PM</div>
+              <div class="content">mas como sairam? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:59:46 PM</div>
+              <div class="content">carai kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:59:50 PM</div>
+              <div class="content">nao faz pergunta dificil </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 8:59:53 PM</div>
+              <div class="content">q eu nem imagino </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 8:59:56 PM</div>
+              <div class="content">o bug que conheço só da para entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 9:00:05 PM</div>
+              <div class="content">mas a base de vcs não tem como sair </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:00:28 PM</div>
+              <div class="content">alguem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:00:36 PM</div>
+              <div class="content">de um deles nao conseguiria dar tp dentro e re~mover eles dps </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:00:37 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 9:01:05 PM</div>
+              <div class="content">acho que cheat não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:01:58 PM</div>
+              <div class="content">vai so retirar o loot então deles? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 9:02:57 PM</div>
+              <div class="content">geralmente raid ilegal perde o loot e toma ban temporáreo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:03:57 PM</div>
+              <div class="content">me avisa dai como voce vai querer fazer pra transferir o loot q eles pegaram antes q torrem tudo kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 9:24:08 PM</div>
+              <div class="content">vai para a base que vou ti dropar pq se não vcs vão ficar no prejuiso eu acho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/14/2025, 9:24:17 PM</div>
+              <div class="content">lá não tinha muita coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:26:04 PM</div>
+              <div class="content">qual base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:26:05 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">murilo8818</div>
+              <div class="timestamp">1/14/2025, 9:26:18 PM</div>
+              <div class="content">deles ? </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
