@@ -1,0 +1,365 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・oleocarvalho-opwquhz0</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/16/2025, 8:13:13 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:13:38 AM</div>
+              <div class="content">Bom dia meus nobres </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:14:11 AM</div>
+              <div class="content">O armario de armas do server ele tem codlock ?! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:14:23 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:15:17 AM</div>
+              <div class="content">Se tiver , vamos negociar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:15:54 AM</div>
+              <div class="content">Troco 2 caixa militar por ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 8:16:16 AM</div>
+              <div class="content">Vc exclui essas e dropa o armario </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 9:54:20 AM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 9:54:27 AM</div>
+              <div class="content">nenhum pega codelock </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:25:22 AM</div>
+              <div class="content">Serio !? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:25:58 AM</div>
+              <div class="content">Qual e o tamanho deles !? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:26:34 AM</div>
+              <div class="content">em media 1000 slots todos eles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:26:55 AM</div>
+              <div class="content">Entao vamos fazer essa troca </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:27:12 AM</div>
+              <div class="content">Eu tenho muita caixa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:27:18 AM</div>
+              <div class="content">Vc viu la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:27:30 AM</div>
+              <div class="content">não trocamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:27:38 AM</div>
+              <div class="content">vc pode comprar na trade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:27:46 AM</div>
+              <div class="content">nende umas e compra outras </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:27:57 AM</div>
+              <div class="content">O armarios!? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:28:09 AM</div>
+              <div class="content">So vi caixa e barril </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:28:13 AM</div>
+              <div class="content">vou por lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:28:22 AM</div>
+              <div class="content">Ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:28:29 AM</div>
+              <div class="content">Ai dou valor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:28:41 AM</div>
+              <div class="content">Viu outra coisa tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:29:01 AM</div>
+              <div class="content">Libera para crafitar pedra de amolar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 10:29:50 AM</div>
+              <div class="content">pra que? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:30:15 AM</div>
+              <div class="content">Pra usar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:30:29 AM</div>
+              <div class="content">Afiar as coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:30:41 AM</div>
+              <div class="content">Veja vem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:30:46 AM</div>
+              <div class="content">Bem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:31:17 AM</div>
+              <div class="content">So da para crafitar pedra com picareta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:31:24 AM</div>
+              <div class="content">Que por sua vez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:31:33 AM</div>
+              <div class="content">So tem no mapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:32:13 AM</div>
+              <div class="content">Se liberar para crafitar pedra de amolar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:32:39 AM</div>
+              <div class="content">Nao tira a experiência de sobrevivencia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">1/16/2025, 10:32:47 AM</div>
+              <div class="content">Do jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 11:05:03 AM</div>
+              <div class="content">entendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/16/2025, 11:05:11 AM</div>
+              <div class="content">vou ver oque da pra fazer </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
