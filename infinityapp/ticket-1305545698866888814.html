@@ -1,0 +1,1043 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・funai-isqxqipb</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:11:51 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1305545698866888814/1311847057413111808/image.png?ex=678f8f07&is=678e3d87&hm=65cd3b56558650440a79af1d7154e0e17bc635dd6e06b292b53003bc196b701c&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:11:58 PM</div>
+                  <div class="content">man, ou eu to vacilando </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:12:05 PM</div>
+                  <div class="content">ou ta bugado alguma coisa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:12:30 PM</div>
+                  <div class="content">tipo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:14:43 PM</div>
+                  <div class="content">quando coloca a opção de "adicionar membro" </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:14:48 PM</div>
+                  <div class="content">ele buga aparentemente </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:14:57 PM</div>
+                  <div class="content">tipo, adiciona certinho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:15:12 PM</div>
+                  <div class="content">e quando vai escrever alguma outra </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:15:33 PM</div>
+                  <div class="content">da o problema de "não foi possivel encontrar" </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">11/28/2024, 9:15:40 PM</div>
+                  <div class="content">como se tivesse em um looping </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/28/2024, 9:25:13 PM</div>
+                  <div class="content">Mano acho que se tá fazendo errado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/28/2024, 9:25:28 PM</div>
+                  <div class="content">Vou ver aí com vc cheguei em casa agora </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">11/30/2024, 11:29:24 PM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> se voce precisar de Bot pro discord do ilegal da cidade tanho tambem, estilo o do bahamas <a href="https://cdn.discordapp.com/attachments/1305545698866888814/1312606447653359678/image.png?ex=678faf44&is=678e5dc4&hm=2273c8c8724a11db4cf68b8e71e32579a69c17792243e7233fa8b4f3e12b70b9&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/1/2024, 5:01:46 AM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/1/2024, 5:02:05 AM</div>
+                  <div class="content">é de se pensar mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/1/2024, 5:02:08 AM</div>
+                  <div class="content">como é esse bot? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/416654392297521152/a_9a779e316c603caf2dfddb89238480cc.gif?size=128" alt="thxago" class="avatar">
+              <div class="message-content">
+                  <div class="author">thxago</div>
+                  <div class="timestamp">12/1/2024, 10:38:33 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/2/2024, 8:21:06 AM</div>
+                  <div class="content">Vou te passar irmão, ontem eu sai estava fora </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/15/2024, 4:13:43 PM</div>
+                  <div class="content">Aoba <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/15/2024, 4:13:44 PM</div>
+                  <div class="content">mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/15/2024, 4:13:49 PM</div>
+                  <div class="content">pra que dia ficou a mensalidade de tudo? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/15/2024, 4:30:12 PM</div>
+                  <div class="content">Vou ver aqui e te passo irmão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/15/2024, 4:30:47 PM</div>
+                  <div class="content">O seu ficou pra todo dia 01 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:13:49 AM</div>
+                  <div class="content">beleza <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:13:51 AM</div>
+                  <div class="content">sem problema </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:13:54 AM</div>
+                  <div class="content">Cara </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:13:58 AM</div>
+                  <div class="content">você consegue me ajudar hoje </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:14:31 AM</div>
+                  <div class="content">a definir metas? eu to com a cabeça muito cheia e só eu to tomando iniciativa pra isso, sendo que tem gente que acompanhou as suas instruções </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:14:46 AM</div>
+                  <div class="content">enfim, vou fazer uma reunião hoje e gostaria de já definir as metas pro pessoal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">12/17/2024, 8:28:09 AM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> opa ajudo irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">12/17/2024, 8:31:00 AM</div>
+                  <div class="content">perfeitoo!! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/2/2025, 7:24:30 PM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> voce vai continuar com o bot esse mes meu rei? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/2/2025, 9:46:36 PM</div>
+                  <div class="content">Fala meu mano <span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/2/2025, 9:46:39 PM</div>
+                  <div class="content">sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/2/2025, 9:46:48 PM</div>
+                  <div class="content">por enquanto </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/2/2025, 9:46:57 PM</div>
+                  <div class="content">pelo menos nesse mês </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/2/2025, 9:47:15 PM</div>
+                  <div class="content">vou pegar o mensal novamente… mas no outro pego tri </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/3/2025, 7:17:08 AM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> fechou anoite eu te chamo então </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 9:00:18 AM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> irmão vai ficar com o bot, se nao ele vai se desligar hoje ate 12h ele vai esta ligado em seguida ele se desliga preciso saber </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 9:03:14 AM</div>
+                  <div class="content">opa, bom dia!! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 9:03:23 AM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> entao man, tava esperando tu me chamar kakakakka </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 9:03:38 AM</div>
+                  <div class="content">chegando em casa eu falo contigo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 9:03:41 AM</div>
+                  <div class="content">mas pode deixar o pix ja </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 9:39:20 AM</div>
+                  <div class="content">eita mano kkkkkkkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 9:39:45 AM</div>
+                  <div class="content">eu esqueci demanda foi foda por conta do recesso que tirei kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 9:39:49 AM</div>
+                  <div class="content">desculpa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/7/2025, 9:40:04 AM</div>
+                  <div class="content">Vou tentar ter chamar hoje anoite pra te mostrar um bot melhorado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 5:42:06 PM</div>
+                  <div class="content">kakakqak entendo mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/7/2025, 5:42:08 PM</div>
+                  <div class="content">tranquilo!! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/9/2025, 9:34:05 AM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> precisa de ajuda ainda pra ver a parte de meta las do bot ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/9/2025, 9:06:56 PM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/10/2025, 8:55:59 AM</div>
+                  <div class="content">11 990054343 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/10/2025, 8:56:14 AM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> segue o numero do pix irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:10:24 PM</div>
+                  <div class="content">fala meu mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:10:29 PM</div>
+                  <div class="content">cara </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:10:41 PM</div>
+                  <div class="content">por agora, o servidor tá mais parado pq estamos resolvendo umas coisas tlg </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:10:48 PM</div>
+                  <div class="content">então queria POR ENQUANTO </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:10:55 PM</div>
+                  <div class="content">ficar apenas com os essenciais </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:11:15 PM</div>
+                  <div class="content">que são WL </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:11:21 PM</div>
+                  <div class="content">e oq mais? tem outra coisa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:12:57 PM</div>
+                  <div class="content">os tickets o pessoal ainda não criaram a prática de abrir, como não são muitas pessoas, eles chamam ou no chat geral ou no PV... então da pra aguentar até mês que vem </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:13:22 PM</div>
+                  <div class="content">mas queria te pedir pra só deixar off o bot, nem t irar do servidor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/10/2025, 12:13:27 PM</div>
+                  <div class="content">pq vamos querer de volta </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/10/2025, 1:34:54 PM</div>
+                  <div class="content">Voce quem manda mano <span class="mention">@meninofunai</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/12/2025, 5:59:23 PM</div>
+                  <div class="content">então mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/12/2025, 5:59:26 PM</div>
+                  <div class="content">vou querer o de WL </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/12/2025, 5:59:35 PM</div>
+                  <div class="content">e staff </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/12/2025, 5:59:43 PM</div>
+                  <div class="content">pelo menos esse mês </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/13/2025, 1:38:41 PM</div>
+                  <div class="content"><span class="mention">@meninofunai</span> o de hack no discord nao vai manter ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/13/2025, 1:39:29 PM</div>
+                  <div class="content">se nao for o valor ficou em 120,00 staff + WL 
+se for manter o de hack é 160,00 staff + wl + hack </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/13/2025, 1:39:35 PM</div>
+                  <div class="content">Pix </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/13/2025, 1:39:40 PM</div>
+                  <div class="content">11 990054343 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/13/2025, 1:43:20 PM</div>
+                  <div class="content">manter eu quero </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/13/2025, 1:43:25 PM</div>
+                  <div class="content">mas pelo menos esse mes </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/13/2025, 1:43:32 PM</div>
+                  <div class="content">vou seguir sem </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/13/2025, 1:43:35 PM</div>
+                  <div class="content">e o ticket </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/13/2025, 1:43:45 PM</div>
+                  <div class="content">ta incluso? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/13/2025, 2:57:38 PM</div>
+                  <div class="content"><span class="mention">@meninofunai</span>o de ticket não voce me falou o de Staff e o WL com o de ticket tudo fica 205,00 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:33:09 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1305545698866888814/1328718554425462844/comprovantePix.pdf?ex=678fa215&is=678e5095&hm=10102a6c8c5da76cbbf792b8f99bbf46af421e5da8e29a6409563e451fc1552b&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:33:18 AM</div>
+                  <div class="content">Bom dia mano! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:33:21 AM</div>
+                  <div class="content">Segue o comprovante </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:34:10 AM</div>
+                  <div class="content">Show irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:34:23 AM</div>
+                  <div class="content">Obrigado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:35:18 AM</div>
+                  <div class="content">Eu que agradeço irmão! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:35:51 AM</div>
+                  <div class="content">Cara </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:35:54 AM</div>
+                  <div class="content">precisava de ajuda sua </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:36:00 AM</div>
+                  <div class="content">pra definir metas e etc </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:36:04 AM</div>
+                  <div class="content">eu já esqueci </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:36:05 AM</div>
+                  <div class="content">kkakkaka </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:37:43 AM</div>
+                  <div class="content">Irmao eu chego em casa hoje 21h </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:37:53 AM</div>
+                  <div class="content">e preciso falar com voce e com o DUDU tambem </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:38:02 AM</div>
+                  <div class="content">consegue entrar em call as 21:30 ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:38:11 AM</div>
+                  <div class="content">mas preciso que voce me cobre aqui se nao passa batido mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:38:17 AM</div>
+                  <div class="content">muita coisa na cabeça </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:38:17 AM</div>
+                  <div class="content">kkkk </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:43:32 AM</div>
+                  <div class="content">Sem problemas mano, espero! </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 10:43:42 AM</div>
+                  <div class="content">problemas man? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:47:49 AM</div>
+                  <div class="content">não nao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/14/2025, 10:48:12 AM</div>
+                  <div class="content">so conversar com voces dois mesmo passar umas ideias pra voces dois e explicar uma coisa sobre os bot pora voces </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120566324465254481/a_0a31ac4245bf368b49a61e6ab8cc3acb.gif?size=128" alt="meninofunai" class="avatar">
+              <div class="message-content">
+                  <div class="author">meninofunai</div>
+                  <div class="timestamp">1/14/2025, 1:50:48 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> perfeito então mano </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
