@@ -1,0 +1,432 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・zemi-jqdjdre0</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/20/2025, 2:53:32 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:53:39 AM</div>
+              <div class="content">Salve, boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:53:44 AM</div>
+              <div class="content">comprei vip pra mim e pra um amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:53:46 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:53:52 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:53:56 AM</div>
+              <div class="content">qual vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:53:59 AM</div>
+              <div class="content">a de 30 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:54:04 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:54:16 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1330777214442016830/1330777397183778857/image0.jpg?ex=678f3688&is=678de508&hm=ae8aaeef9c9190e3a910ba1f803e7245a4cca3c0a2d1b368976dd6ffcc2569f0&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:54:21 AM</div>
+              <div class="content">mande os <#1306272321148813445> com o nome do player o lado pfvr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:54:48 AM</div>
+              <div class="content">meu amigo - 76561198258736178 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:54:58 AM</div>
+              <div class="content">meu - 76561198078743990 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:55:14 AM</div>
+              <div class="content">eu tenho que renascer pra pegar os itens da vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:55:32 AM</div>
+              <div class="content">qual nick do seu amigo:? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:55:37 AM</div>
+              <div class="content">Konrad </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:55:40 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:55:51 AM</div>
+              <div class="content">em 10 min vcs pode se matar in game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 2:55:56 AM</div>
+              <div class="content">vou por aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 2:55:59 AM</div>
+              <div class="content">blzinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:01:40 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1330777214442016830/1330779259869859981/image.png?ex=678f3844&is=678de6c4&hm=5a0e424e9c9030439288c21fa05ed819348fa37d59e4152268d3dc3230fc3931&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:01:45 AM</div>
+              <div class="content">este é seu amigo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:07:36 AM</div>
+              <div class="content">isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:07:38 AM</div>
+              <div class="content">ele mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:07:58 AM</div>
+              <div class="content">aqui o meu deu certo o vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:08:06 AM</div>
+              <div class="content">uma duvida fora do vip agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:08:11 AM</div>
+              <div class="content">a gente comprou um heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:08:46 AM</div>
+              <div class="content">tem como fazer um  "upgrade"? pagar a diferença entre esse e o outro e voce apaga esse e nos da o outro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:09:48 AM</div>
+              <div class="content">vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:09:53 AM</div>
+              <div class="content">do heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:10:00 AM</div>
+              <div class="content">isso? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:10:12 AM</div>
+              <div class="content">fazer o upgrade do heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:10:34 AM</div>
+              <div class="content">mas este heli vc comprou de quem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:10:50 AM</div>
+              <div class="content">comprei de voce kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:11:16 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1330777214442016830/1330781675176722482/image.png?ex=678f3a84&is=678de904&hm=904b63facb45ca85703346b38b81233f8ef72ce0448d607b95995f95d7ea2c16&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:11:17 AM</div>
+              <div class="content">compramos esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:11:23 AM</div>
+              <div class="content">oxx não devo ter anotado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:11:28 AM</div>
+              <div class="content">comprou que dia? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:11:31 AM</div>
+              <div class="content">de 80 reais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:11:38 AM</div>
+              <div class="content">foi o konrad que comprou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:11:40 AM</div>
+              <div class="content">acho que tem uns 2 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:11:51 AM</div>
+              <div class="content">ata, agora sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:12:02 AM</div>
+              <div class="content">compramos a base junto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:12:39 AM</div>
+              <div class="content">tendi, tem como upar ele sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:12:49 AM</div>
+              <div class="content">só fazer a diferença e eu troco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:12:54 AM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:12:59 AM</div>
+              <div class="content">vamos decidir ainda qual vamos pegar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:13:06 AM</div>
+              <div class="content">ai eu abro outro ticket </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">thezemi</div>
+              <div class="timestamp">1/20/2025, 3:13:14 AM</div>
+              <div class="content">o vip dele deu certo tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/20/2025, 3:13:30 AM</div>
+              <div class="content">blz
+quando quiser </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
