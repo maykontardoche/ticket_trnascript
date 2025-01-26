@@ -1,0 +1,491 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・lobosfarrapo-vw2ha0vy</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/26/2025, 2:23:51 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:23:57 AM</div>
+              <div class="content">BOA NOITE TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:24:07 AM</div>
+              <div class="content">BONSAI deu combat log aqui em tisy </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:24:13 AM</div>
+              <div class="content">pegou todo o loot e deslogou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:24:17 AM</div>
+              <div class="content">consegue confirmar?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:24:26 AM</div>
+              <div class="content">BOA NOITE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:24:30 AM</div>
+              <div class="content">VOU AVERIGUAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:24:33 AM</div>
+              <div class="content">VLW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:25:17 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1332944071974584323/1332944433653612556/image.png?ex=679718bd&is=6795c73d&hm=737937e912c060e2bb4c120449788f91c2041175df0a0f73dcbd7740e52b5979&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:25:33 AM</div>
+              <div class="content">ELE MATOU O JAALD E DESLOGOU? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:25:41 AM</div>
+              <div class="content">ISSO.....ele estava cercado... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:25:46 AM</div>
+              <div class="content">VOU VER </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:26:11 AM</div>
+              <div class="content">SE ELE CAIU, MANDA CONECTAR DE NOVO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:28:22 AM</div>
+              <div class="content">os caras tudo desconectaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:28:24 AM</div>
+              <div class="content">só tem 2 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:28:29 AM</div>
+              <div class="content">eles quitaram... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:35:46 AM</div>
+              <div class="content">5 dias de ban no vivente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:35:53 AM</div>
+              <div class="content">EXCELENTE TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:35:58 AM</div>
+              <div class="content">vou avisar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:35:59 AM</div>
+              <div class="content">vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:36:20 AM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:36:28 AM</div>
+              <div class="content">os outros ai estavam cercados </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:36:32 AM</div>
+              <div class="content">mataram alguem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:36:36 AM</div>
+              <div class="content">como que foi? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:36:57 AM</div>
+              <div class="content">nós matamos eles e ficou somente 1......que era esse... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:37:03 AM</div>
+              <div class="content">ele ficou sozinho e quitou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:37:47 AM</div>
+              <div class="content">APROVEITANDO... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:37:57 AM</div>
+              <div class="content">esntendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:38:00 AM</div>
+              <div class="content">as armas quando o cara morre, está sumindo... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:38:05 AM</div>
+              <div class="content">ta sabendo?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:38:14 AM</div>
+              <div class="content">alguem ja relatou algo sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:38:33 AM</div>
+              <div class="content">não é sempre mas o bug ta ocorrendo msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:38:38 AM</div>
+              <div class="content">fechou! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:39:16 AM</div>
+              <div class="content">foda que todos tem este bug, quando éra a tombstone acontecia tbm, é a forma que o cara caino chão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:39:32 AM</div>
+              <div class="content">entendi... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:39:35 AM</div>
+              <div class="content">blz... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:39:49 AM</div>
+              <div class="content">fechou então TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:39:50 AM</div>
+              <div class="content">vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:39:51 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:40:12 AM</div>
+              <div class="content">boa noite man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:41:35 AM</div>
+              <div class="content">tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:41:52 AM</div>
+              <div class="content">parece que o tal do Rhyan tbm estava junto com ele... </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:41:57 AM</div>
+              <div class="content">na torre </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:42:48 AM</div>
+              <div class="content">tem o nick do cara? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:43:48 AM</div>
+              <div class="content">[X X T - iRuanxz] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:43:51 AM</div>
+              <div class="content">ESSE AE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:47:34 AM</div>
+              <div class="content">ban tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:47:36 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:47:43 AM</div>
+              <div class="content">HAHAHAHHA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:47:48 AM</div>
+              <div class="content">mas tava junto, mesmo! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:47:53 AM</div>
+              <div class="content">boaa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:47:55 AM</div>
+              <div class="content">agora fui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:47:57 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:48:13 AM</div>
+              <div class="content">msm hora de deslogue </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:48:17 AM</div>
+              <div class="content">msm, local </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:48:19 AM</div>
+              <div class="content">isso mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:48:24 AM</div>
+              <div class="content">boa noite ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:48:27 AM</div>
+              <div class="content">os caras fizeramd e sacanagem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_farrapo</div>
+              <div class="timestamp">1/26/2025, 2:48:29 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
