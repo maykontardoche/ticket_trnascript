@@ -1,0 +1,747 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・gdois-ut1j1fd3</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:56:38 AM</div>
+              <div class="content">agora varar ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:56:38 AM</div>
+              <div class="content">Tóxic, perdao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:56:41 AM</div>
+              <div class="content">e osso kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:56:51 AM</div>
+              <div class="content">Vamos ver o seu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:56:55 AM</div>
+              <div class="content">De onde tinha visão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:56:57 AM</div>
+              <div class="content">Marca ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:57:05 AM</div>
+              <div class="content">Vc chegou a morrer pra ele? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:57:50 AM</div>
+              <div class="content">Manda o <#1295739367662551090> da sua morte ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:59:04 AM</div>
+              <div class="content">no ultimo clipe n morri pra ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:59:08 AM</div>
+              <div class="content">outro rushou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:59:17 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1332919377250746419/1332922789320986765/Video_sem_titulo_Feito_com_o_Clipchamp_2.mp4?ex=67970495&is=6795b315&hm=b147eb5750cddc0c487a950589c9f1c3b1d13903498763cfb1440987cbb22638&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:59:25 AM</div>
+              <div class="content">esse clipe corri pro banheiro com o meu amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 12:59:26 AM</div>
+              <div class="content">MANDA O PRINT DO <#1295739367662551090> MANO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 12:59:33 AM</div>
+              <div class="content">ele tomou varado dentro do banheiro kkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 12:59:55 AM</div>
+              <div class="content">Mano, o banheiro é de frente pras janelas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 1:00:01 AM</div>
+              <div class="content">Vamos olhar aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:00:43 AM</div>
+              <div class="content">MANDA SEU <#1306272321148813445> E A HORA QUE VC TOMOU O TIRO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:01:47 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1332919377250746419/1332923416398921823/Video_sem_titulo_Feito_com_o_Clipchamp_3.mp4?ex=6797052a&is=6795b3aa&hm=cf29a483a17341cbdaeaa216997ecdeef08ca69d0c2b347041f135d662be855f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:01:55 AM</div>
+              <div class="content">mandei clipe errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:01:57 AM</div>
+              <div class="content">olha esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:01:59 AM</div>
+              <div class="content">ele varando kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:02:26 AM</div>
+              <div class="content">ele varando banheiro kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:02:34 AM</div>
+              <div class="content">TA
+EU JA ENTENDI QUE TEVE UM TIRO VARADO
+EU PRECISO DA HORA E DO <#1306272321148813445> DO CARA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:02:51 AM</div>
+              <div class="content">DO CARA QUE TOMOU O TIRO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:03:02 AM</div>
+              <div class="content">VCS TEM UM NOMENO DISCORD E UM NO GAME </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:03:07 AM</div>
+              <div class="content">76561199417629045 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:03:19 AM</div>
+              <div class="content">man n sei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:03:26 AM</div>
+              <div class="content">foi muita kil </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:03:31 AM</div>
+              <div class="content">meu nome e sofia no dayz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:03:39 AM</div>
+              <div class="content">tava com nick de sofia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 1:04:41 AM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">1/26/2025, 1:04:47 AM</div>
+              <div class="content">Vamos ver as posições aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:05:13 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:05:22 AM</div>
+              <div class="content">mais esse do banheiro foi demais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:18:28 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1332919377250746419/1332927618487422997/image.png?ex=67970914&is=6795b794&hm=bf8a4bd0b6fb98e15663b7c6db663c7d441ca6536f5a146d42bee10dfbd6874e&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:18:33 AM</div>
+              <div class="content">NESTA POSIÇÃO QUE ELE ESTAVA? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:20:07 AM</div>
+              <div class="content">no 2 clipe eu estava ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:20:36 AM</div>
+              <div class="content">colado na parede </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:20:43 AM</div>
+              <div class="content">talvez e bug de render </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:21:10 AM</div>
+              <div class="content">COLADO NA PAREDE AI PODE TER SIM QUE A GUILI OU A ARMA PASSOU PARA O OUTRO LADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:21:48 AM</div>
+              <div class="content">MAS ESTE BUG DE RENDER EU NÃO JULGO POR TER ATIRADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:22:17 AM</div>
+              <div class="content">no caso n teria cmo ver pela guilie pq tem uma escada atras </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:25:05 AM</div>
+              <div class="content">TEM, ACABEI DE CONFERIR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:25:12 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:25:18 AM</div>
+              <div class="content">do amarelo ele ve ali ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:26:17 AM</div>
+              <div class="content">consegue mandar print ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:28:10 AM</div>
+              <div class="content">EU TBM NÃO SEI SE TEVE ESTE BUG DE RENDER </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:28:17 AM</div>
+              <div class="content">ESTOUPRESUMINDO TBM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:28:25 AM</div>
+              <div class="content">JA SOLICITEI O CLIP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:28:34 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:28:34 AM</div>
+              <div class="content">FODA QUE ELE NÃO MORREU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:28:38 AM</div>
+              <div class="content">e k </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:28:41 AM</div>
+              <div class="content">esse era eu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:28:45 AM</div>
+              <div class="content">o do banheiro ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:28:46 AM</div>
+              <div class="content">VOU TERQUE DAR UMA GIRICA NESTE CARA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:28:49 AM</div>
+              <div class="content">n achou estranho n ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:29:04 AM</div>
+              <div class="content">sem duvidas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:06 AM</div>
+              <div class="content">o estranho tam e q esse cara ai n e normal ele varar assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:11 AM</div>
+              <div class="content">ele n tem QI pra isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:15 AM</div>
+              <div class="content">kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:30 AM</div>
+              <div class="content">nenhuma play esse cara varou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:32 AM</div>
+              <div class="content">1 vez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:29:39 AM</div>
+              <div class="content">não estou duvidando, só que se ouve bug da ghilie passando a parede ai é possivel a bala </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:29:53 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:30:02 AM</div>
+              <div class="content">e a do banheiro e a mais estranha tlg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:32:56 AM</div>
+              <div class="content">https://medal.tv/pt/games/dayz/clips/jz5SHzm1COhmo168d/EXFlFf6qzgG4?invite=cr-MSxtcGQsMjQ1NTU3OTg5LA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:33:00 AM</div>
+              <div class="content">o clipe dele ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:33:07 AM</div>
+              <div class="content">matando meu amigo q tava do mue lado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:33:24 AM</div>
+              <div class="content">se vc reparar ele n tem visao da minha guilie la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:33:32 AM</div>
+              <div class="content">ele tava bugando render </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:33:36 AM</div>
+              <div class="content">n acho q e hack </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:34:11 AM</div>
+              <div class="content">MAS ESTE AI É O TOXIC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:34:36 AM</div>
+              <div class="content">entao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:34:42 AM</div>
+              <div class="content">mais o cara q me varou tava ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:34:45 AM</div>
+              <div class="content">se pa foi o mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:35:16 AM</div>
+              <div class="content">NÃO ESTAVA ALINÃO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:35:20 AM</div>
+              <div class="content">ESTAVA EM UMA TORRE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:35:24 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:35:33 AM</div>
+              <div class="content">e o do banheiro ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:35:42 AM</div>
+              <div class="content">tava varando o guilie :? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:35:45 AM</div>
+              <div class="content">26.1.2025, 00:42:47    {$LFF} . Sofia foi danificado por [UBL] PENELOPE DO 762 (leftleg, GCGN M82 Barret Black, 203.56m, 389.79 damage) 
+damage: 389.79
+distance: 203.56
+murderer_position: <X: 1247.43, Y: 14552.83, Z: 468.7>
+player_position: <X: 1439.09, Y: 14484.31, Z: 465.41>
+weapon: GCGN M82 Barret Black
+weaponObject: gcgn_m82_barret
+zone: leftleg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:35:51 AM</div>
+              <div class="content">ESTA KILL QUE VERIFIQUEI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:36:02 AM</div>
+              <div class="content">mais eu n morri </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:36:05 AM</div>
+              <div class="content">so quebrou a minha perna </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:36:13 AM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:36:22 AM</div>
+              <div class="content">POR ISSO DIZ ALI FOI DANIFICADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:36:28 AM</div>
+              <div class="content">tendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:36:41 AM</div>
+              <div class="content">ESTA BALA AI FOI VARADO MSM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:36:43 AM</div>
+              <div class="content">ai de onde ele tava dava pra ver a minha guilie ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:36:52 AM</div>
+              <div class="content">ele mandou clipe ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:37:11 AM</div>
+              <div class="content">VAI MANDAR APARENTEMENTE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:37:16 AM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:37:33 AM</div>
+              <div class="content">Obrigatório gravar kill acima de 1000 metros, em casos de solicitações e não tenha o clipe será advertido.
+01.1   Obrigatório gravar kill onde você mata o outro jogador através da parede. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 1:38:06 AM</div>
+              <div class="content">ISSO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 1:38:09 AM</div>
+              <div class="content">top </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 2:09:00 AM</div>
+              <div class="content">vou dormir aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 2:09:09 AM</div>
+              <div class="content">qualquer coisa me manda pv pai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:09:11 AM</div>
+              <div class="content">TO TELANDO ELE AQUI JA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">_matheusgalvao</div>
+              <div class="timestamp">1/26/2025, 2:09:18 AM</div>
+              <div class="content">jae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/26/2025, 2:49:02 AM</div>
+              <div class="content">telado e liberado </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
