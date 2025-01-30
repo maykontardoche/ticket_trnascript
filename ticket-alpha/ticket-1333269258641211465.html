@@ -1,0 +1,527 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・👑𝖉𝖗𝖆𝖐-𝖉𝖊-𝖘𝖕👑-mnr8wwj9</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">1/26/2025, 11:56:02 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/26/2025, 11:56:24 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/26/2025, 11:56:32 PM</div>
+              <div class="content">queria ver se da pra pegar o exercito? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:01:31 AM</div>
+              <div class="content"><span class="role-mention">@RESP. POLICIA</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:05:10 AM</div>
+              <div class="content">Boa noite, tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:05:41 AM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:05:56 AM</div>
+              <div class="content">Tá na city? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:06:07 AM</div>
+              <div class="content">Mano não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:06:11 AM</div>
+              <div class="content">Mais FL ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:08:51 AM</div>
+              <div class="content">Beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:09:46 AM</div>
+              <div class="content">Então, o exécito não está add na cidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:10:07 AM</div>
+              <div class="content">Mas temos a prf, civil e bope disponível pra ser assumida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:10:30 AM</div>
+              <div class="content">Vou querer a bope </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:10:34 AM</div>
+              <div class="content">Pode ser mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:11:00 AM</div>
+              <div class="content">Tens contingente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:11:11 AM</div>
+              <div class="content">Tenho 5 cara pra ir mais tem que eu tá na painel daí ele entram queria pedir 1 dia pra colocar os 5 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:14:56 AM</div>
+              <div class="content">Não consegue entrar na city? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:15:15 AM</div>
+              <div class="content">Conseguiu mais não posso call </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:15:20 AM</div>
+              <div class="content">Pode ser </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:15:31 AM</div>
+              <div class="content">Pior que não hj não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:15:49 AM</div>
+              <div class="content">Só amanhã mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:15:54 AM</div>
+              <div class="content">Faz assim, quando for entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 12:16:20 AM</div>
+              <div class="content">Marca <span class="mention">@gust4vinsz</span>  ou o <span class="mention">@meninofunai</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:16:26 AM</div>
+              <div class="content">Bl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 12:16:32 AM</div>
+              <div class="content">Vlw mano boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:05:10 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:05:16 AM</div>
+              <div class="content"><span class="mention">@meninofunai</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:05:21 AM</div>
+              <div class="content">alguem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 10:11:20 AM</div>
+              <div class="content">Bom dia, meu jovem! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:12:32 AM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:12:40 AM</div>
+              <div class="content">tou entran na city </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/27/2025, 10:16:32 AM</div>
+              <div class="content">Beleza, o <span class="mention">@meninofunai</span> vai te auxiliar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:16:40 AM</div>
+              <div class="content">Opa <span class="mention">@terradatorcidas</span>, tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:17:04 AM</div>
+              <div class="content">opa tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:17:22 AM</div>
+              <div class="content">é sobre a bope? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:17:47 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:19:32 AM</div>
+              <div class="content">Você já tem um contingente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:19:49 AM</div>
+              <div class="content">Tenho 5 cara pra ir mais tem que eu tá na painel daí ele entram queria pedir 1 dia pra colocar os 5 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:20:12 AM</div>
+              <div class="content">Entendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:20:21 AM</div>
+              <div class="content">então em 1 dia consegue por 5 pessoa na bope? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:20:35 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:21:15 AM</div>
+              <div class="content">Certo, ai é só vc de Lider ou tem algum sub? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:21:27 AM</div>
+              <div class="content">tem o sub </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:22:26 AM</div>
+              <div class="content">Perfeito! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:22:31 AM</div>
+              <div class="content">você já conhece a bope? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:22:40 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:22:55 AM</div>
+              <div class="content">VTR's </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:22:59 AM</div>
+              <div class="content">e QG? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:23:06 AM</div>
+              <div class="content">mais o menos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:23:42 AM</div>
+              <div class="content">só 1 segundo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:23:45 AM</div>
+              <div class="content">bl </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:52:47 AM</div>
+              <div class="content">o script deu uma congelada kkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">1/27/2025, 10:52:49 AM</div>
+              <div class="content">dps vemos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/27/2025, 10:53:28 AM</div>
+              <div class="content">BL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 12:13:01 PM</div>
+              <div class="content">Bom dia, tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 12:13:23 PM</div>
+              <div class="content">Foi adicionado a nova base do exército </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 12:13:41 PM</div>
+              <div class="content"><span class="mention">@terradatorcidas</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/28/2025, 6:34:19 PM</div>
+              <div class="content">eu vi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/28/2025, 6:34:34 PM</div>
+              <div class="content"><span class="mention">@meninofunai</span> os blip vai ser no mesmo lugar onde eu mostrei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/28/2025, 6:34:42 PM</div>
+              <div class="content">e thur fl que é melhor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/28/2025, 7:42:03 PM</div>
+              <div class="content">O DEV CONSEGUI ARUMAR OS BLIP <span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 8:11:29 PM</div>
+              <div class="content">Boa noite! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 8:11:46 PM</div>
+              <div class="content">O Dev está meio ausente ( com problemas pessoais ) </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">1/28/2025, 8:12:09 PM</div>
+              <div class="content">Mas já colocamos na lista de prioridades </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">terradatorcidas</div>
+              <div class="timestamp">1/28/2025, 8:58:22 PM</div>
+              <div class="content">melhoras pra ele </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
