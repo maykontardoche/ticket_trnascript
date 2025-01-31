@@ -1,0 +1,487 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・vespasianogm-ux49yqxi</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/31/2025, 3:57:59 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 3:58:22 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 3:59:32 PM</div>
+              <div class="content">Vi um anuncio do seu servidor Deathmach no grupo do facebook </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 3:59:50 PM</div>
+              <div class="content">Quando fui entrar estava banido por hacker, nunca joguei no servidor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:00:28 PM</div>
+              <div class="content">Unico Ban que eu tenho e no OrigemZ por uma treta no discord deles </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:01:14 PM</div>
+              <div class="content">E por consequencia, alguns servidores usam a banlist do OrigemZ, nao ser o caso de vcs. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:02:04 PM</div>
+              <div class="content">Mais meu ban no Origem nao tem nada haver sobre uso de programas externos (Hacker ou cheat) </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:02:26 PM</div>
+              <div class="content">Por gentileza poderia revisar esse banimento ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:02:57 PM</div>
+              <div class="content">no banimento quando estava pra entrar no servidor seus, nele constava uso de hacker </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:03:09 PM</div>
+              <div class="content">Minha steam id 76561199156421220 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:03:27 PM</div>
+              <div class="content">E estou a disposiçao pra passarem o ECO no meu pc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:03:31 PM</div>
+              <div class="content">tranquilamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:04:09 PM</div>
+              <div class="content">Porque o CF tools e igual SPC, suja o nome ea reputaçao do player em outros servidores </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:04:42 PM</div>
+              <div class="content">Enfim queria gravar umas players no DM seus mais infelizmente teve esse ocorrido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:04:58 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:05:04 PM</div>
+              <div class="content">vou verificaragora msm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:05:31 PM</div>
+              <div class="content">Opa eo TAM lado TWD? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:05:42 PM</div>
+              <div class="content">Ok, obrigado. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:05:47 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334960894769365043/1334962855388119101/image.png?ex=679e708b&is=679d1f0b&hm=88caf0ccb176c1ad6d7e99b1265ba602350e3e0b9e4117206a93d7df11ec74c2&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:06:02 PM</div>
+              <div class="content">vc esta na ban list de 2 servers que seguimos a banlist </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:06:09 PM</div>
+              <div class="content">cmo vc pode ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:06:11 PM</div>
+              <div class="content">Renegados usa o banlist do origem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:06:36 PM</div>
+              <div class="content">mas neste caso ai oque pega é o motivo entende </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:06:39 PM</div>
+              <div class="content">Uai, estranho quando fui tentar entra nos seus deu como banido por hacker.kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:07:14 PM</div>
+              <div class="content">O motivo do ban no Origem, vou ate procurar o video aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:07:38 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334960894769365043/1334963324324024431/image.png?ex=679e70fa&is=679d1f7a&hm=f8157609f0306e1ede8c7c7684210e4554a6502d4ad3c197b45074601c6ed4c6&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:07:46 PM</div>
+              <div class="content">sua conta secundaria ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:09:04 PM</div>
+              <div class="content">Foi o seguinte, eu estava na call jogando com outros players e sem party pq nao havia party, matei um player que estava com a gente na call e ele apelou ofensas pesadas, relatei pra o ADM e nao ligaram.. voltei na call fica zuando com audios, foi algo infantil da minha parte mais esse foi o ban </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:09:18 PM</div>
+              <div class="content">Isso mesmo, era minha conta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:09:24 PM</div>
+              <div class="content">perdi a tempos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:09:33 PM</div>
+              <div class="content">perdi emails </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:09:48 PM</div>
+              <div class="content">quando cliquei no link do discord </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:10:32 PM</div>
+              <div class="content">Nao era a segundaria era a unica que tinha, como nao conseguir recuperar fiz essa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:10:41 PM</div>
+              <div class="content">jogo nessa a 3 anos ou mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:10:49 PM</div>
+              <div class="content">nunca tive problema com ela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:11:00 PM</div>
+              <div class="content">pode ver que tenho quase 10 mil horas nela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:11:29 PM</div>
+              <div class="content">essa do print tinha ela desde 2015 e perdi o acesso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:12:42 PM</div>
+              <div class="content">nao consigo mandar o link do video la no origem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:13:09 PM</div>
+              <div class="content">do motivo do banimento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:13:29 PM</div>
+              <div class="content">ate entao eu jogava la de boa mesmo com esse problema com a conta do print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:15:01 PM</div>
+              <div class="content">sim, mas este ban do batlleye é por trapaça, e o ban do renegadoz é por trapaça.
+infelizmente vc vai ter que rever estes ban nestes servers.
+como vc pode ver no print a cima, nós não banimos vc, vc foi barrado devido a bans por cheater em outro server. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:17:09 PM</div>
+              <div class="content">Renegados, acontenceu a mesma coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:17:17 PM</div>
+              <div class="content">quando fui entrar ja estava banido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:17:38 PM</div>
+              <div class="content">e segundo eles e pq usam a ban list do Origem z </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:17:47 PM</div>
+              <div class="content">Enfim tranquilo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:18:13 PM</div>
+              <div class="content">Vou conversar novamente com o dono do Renegados </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:18:20 PM</div>
+              <div class="content">e ver oque pode fazer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:18:22 PM</div>
+              <div class="content">desde ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:18:29 PM</div>
+              <div class="content">Desculpe o incomodo ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:18:37 PM</div>
+              <div class="content">e muito obrigado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:19:31 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334960894769365043/1334966312958431282/image202.webp?ex=679e73c3&is=679d2243&hm=427d38ff2aeb8a014469205d853914ca20a8ebeaa5d7a834c87706b085d22845&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:19:40 PM</div>
+              <div class="content">aconteceu a mesma coisa no infinity </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:19:54 PM</div>
+              <div class="content">mais conversei e foi explicado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:20:32 PM</div>
+              <div class="content">meu pc estava a mais de dois anos sem formatar eo Boss passou o eco e nao acusou nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:20:48 PM</div>
+              <div class="content">Mais so de nao ter o banimento no seus ja e um alivio </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vespasiano_games</div>
+              <div class="timestamp">1/31/2025, 4:21:00 PM</div>
+              <div class="content">muito obrigado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:35:51 PM</div>
+              <div class="content">denada amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:36:02 PM</div>
+              <div class="content">espero que consiga resolver este mal entendido </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
