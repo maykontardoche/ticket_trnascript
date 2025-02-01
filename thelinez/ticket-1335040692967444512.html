@@ -1,0 +1,551 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・rafaelreis-k6jrdg98</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/31/2025, 9:15:05 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:16:00 PM</div>
+              <div class="content">mande seu <#1306272321148813445> pfvr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:16:32 PM</div>
+              <div class="content">como vejo o id </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:17:25 PM</div>
+              <div class="content">76561198216485005 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:17:28 PM</div>
+              <div class="content">aí TAM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:17:35 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:17:39 PM</div>
+              <div class="content">um momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:17:43 PM</div>
+              <div class="content">flw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:18:12 PM</div>
+              <div class="content">nunca deixei ele fora da garagem man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:18:17 PM</div>
+              <div class="content">loguei agr e n ta la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:18:45 PM</div>
+              <div class="content">qual cor e modelo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:18:52 PM</div>
+              <div class="content">o de 10m </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:19:13 PM</div>
+              <div class="content">meus sets de fazer toxica, gullie de 100 slots </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:19:18 PM</div>
+              <div class="content">meu e do meu duo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:19:20 PM</div>
+              <div class="content">dentro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:19:42 PM</div>
+              <div class="content">pkps </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:19:58 PM</div>
+              <div class="content">quando vc viu ele por ultimo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:20:15 PM</div>
+              <div class="content">bankei ele no Green </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:20:28 PM</div>
+              <div class="content">depois de ir em um evento em Zeleno </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:20:34 PM</div>
+              <div class="content">na garagem pv? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:20:46 PM</div>
+              <div class="content">aquele de Misâo Insegura </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:21:00 PM</div>
+              <div class="content">man so joga eu eo Rick Meu duo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:21:04 PM</div>
+              <div class="content">ele tava no Grupo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:21:15 PM</div>
+              <div class="content">sendo que ele nem logou pq ta doente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:21:21 PM</div>
+              <div class="content">o ultimo a usar foi eu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:21:35 PM</div>
+              <div class="content">qual nick dele no game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:01 PM</div>
+              <div class="content">[AUG] Rick du Bob </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:22:01 PM</div>
+              <div class="content">hj isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:06 PM</div>
+              <div class="content">ontem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:12 PM</div>
+              <div class="content">cheguei agr do trampo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:16 PM</div>
+              <div class="content">entrei na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:21 PM</div>
+              <div class="content">ia puxar e n ta la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:22:38 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335040692967444512/1335042594148843602/image.png?ex=679ebace&is=679d694e&hm=8e6882677c64369767fba29336dec20e13f3c06f2fec5cef9488e43a27e2e418&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:23:02 PM</div>
+              <div class="content">chega desanimei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:23:22 PM</div>
+              <div class="content">2 conjuto de set, guillie, mochila, pkp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:23:31 PM</div>
+              <div class="content">pra um cara que tem que farmar é foda man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:24:45 PM</div>
+              <div class="content">qual a senha? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:25:46 PM</div>
+              <div class="content">97448897 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:26:18 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335040692967444512/1335043515750813726/image.png?ex=679ebbaa&is=679d6a2a&hm=c1502cef42d07484bd6f8866a3a211e30355a73cf7ca3becb4f7d9c532e26cd8&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:26:20 PM</div>
+              <div class="content">ta na trade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:26:30 PM</div>
+              <div class="content">eu bankei ele man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:26:38 PM</div>
+              <div class="content">tem nem como parar assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:26:48 PM</div>
+              <div class="content">vc puxou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:26:49 PM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:27:12 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:27:17 PM</div>
+              <div class="content">ta ai des de cedo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:27:23 PM</div>
+              <div class="content">vi ele ai 6 da manhã </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:27:24 PM</div>
+              <div class="content">vou resgatar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:27:46 PM</div>
+              <div class="content">tipo ontem tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:02 PM</div>
+              <div class="content">eu peguei um capa e um colete segundos antes do rr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:06 PM</div>
+              <div class="content">ai quando deu rr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:28:13 PM</div>
+              <div class="content">foi isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:15 PM</div>
+              <div class="content">n tava nem comigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:20 PM</div>
+              <div class="content">nem na base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:25 PM</div>
+              <div class="content">vou lar ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:28:27 PM</div>
+              <div class="content">e bankar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:30:35 PM</div>
+              <div class="content">vlw tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:30:37 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:30:40 PM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:30:42 PM</div>
+              <div class="content">lembrando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:30:48 PM</div>
+              <div class="content">que vc me deve um presente de Natal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:30:53 PM</div>
+              <div class="content">geral ganhou arma kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:30:59 PM</div>
+              <div class="content">kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:31:03 PM</div>
+              <div class="content">mentiram pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:31:10 PM</div>
+              <div class="content">to nesse inferno de The Line Z a meses  kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:31:17 PM</div>
+              <div class="content">vlw kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">rafaelreis3095</div>
+              <div class="timestamp">1/31/2025, 9:31:27 PM</div>
+              <div class="content">obrigado pela atenção sempre </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:32:35 PM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 9:32:41 PM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
