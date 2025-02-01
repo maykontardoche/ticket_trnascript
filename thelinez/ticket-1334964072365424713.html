@@ -1,0 +1,707 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・mortadela-0aytygwd</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">1/31/2025, 4:10:37 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:10:44 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334964101922689145/image.png?ex=679fc334&is=679e71b4&hm=e8081eaf22da9c288728d74fe96ea94639802006a9986e73f0fc15e977611d43&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:10:56 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:11:03 PM</div>
+              <div class="content">e gostaria de saber tbm se tem benefícios para streamers </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:11:09 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:11:15 PM</div>
+              <div class="content">qual seu nick in game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:11:41 PM</div>
+              <div class="content">Mortadela, estou relogando agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:11:51 PM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:14:22 PM</div>
+              <div class="content">enquanto nao entra aki kkkk como faz pra virar streamaer aki no servidor ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:15:40 PM</div>
+              <div class="content">vc pode stremar e ganha alguns itens por divulgar o server. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:15:57 PM</div>
+              <div class="content">manda o link das plataformas que vc strema </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:18:20 PM</div>
+              <div class="content">ha sim coisa boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:18:21 PM</div>
+              <div class="content">https://www.twitch.tv/moortadela_legion </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:18:25 PM</div>
+              <div class="content">ja estou no servidor ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:20:52 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334966654488150177/image.png?ex=679fc594&is=679e7414&hm=83d69638d646bf68550da300013968da76a8e5437cb6d5ca4d7671f582bc9d49&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:31:04 PM</div>
+              <div class="content">obg, depois vamos compra um vipzinho aki </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:31:11 PM</div>
+              <div class="content">e ver como funciona do streamer tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:34:01 PM</div>
+              <div class="content">VLWW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:34:07 PM</div>
+              <div class="content">BOM JOGO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:34:51 PM</div>
+              <div class="content">se vc fizer live no server vc ganha itens para fazer seus conteudos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:35:15 PM</div>
+              <div class="content">peço sómente que indique o server em troca </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:35:16 PM</div>
+              <div class="content">vc topa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:36:54 PM</div>
+              <div class="content">claro posso indicar tanto em live quanto no meu instagram tbm nao tem problema nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:37:34 PM</div>
+              <div class="content">mande seu <#1306272321148813445> pfvr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:37:50 PM</div>
+              <div class="content">sua e do seu amigo luanzinho ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:38:03 PM</div>
+              <div class="content">vou mostrar nosso vip pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:38:12 PM</div>
+              <div class="content">bom que ja da uma divulgada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:38:39 PM</div>
+              <div class="content">Claro perai vou pegar aki é numero da steam hex nhe que vc quer isso ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:39:00 PM</div>
+              <div class="content"><#1306272321148813445> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:39:12 PM</div>
+              <div class="content">só ver o tutorial ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:43:26 PM</div>
+              <div class="content">ID Steam: 76561199156253895 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:43:35 PM</div>
+              <div class="content">Luan: 76561199076839540 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:44:06 PM</div>
+              <div class="content">tem mais um que joga mais ele chega so a noite prefere que eu mande aki ja ou posso mandar mais tarde? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:44:12 PM</div>
+              <div class="content">que ai ele pega o kit inicial dele ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:44:37 PM</div>
+              <div class="content">pode manda o id aki sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:49:25 PM</div>
+              <div class="content">vc e o luam podem se matar in game em 5 min para obter os itens do vip diamante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:53:29 PM</div>
+              <div class="content">nao perde as coisas da mochila se se matar? kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:55:02 PM</div>
+              <div class="content">vou ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:55:18 PM</div>
+              <div class="content">TA BOM kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 4:55:41 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334975416246730863/image.png?ex=679fcdbd&is=679e7c3d&hm=d59db6c408e67c253d8efce83e7f6eaab6f851c1fde30a6c1dbc0656d0b77b80&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 4:55:43 PM</div>
+              <div class="content">se eu deixar aki ate eu ir compra mais bau some as muchilas ? a base ja ta trancada nossa <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334975421510455388/image.png?ex=679fcdbf&is=679e7c3f&hm=caab2dc1bded0b21f87aa4977291a55dc3842b090d6002bc8ae6fab94189dfab&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:06:36 PM</div>
+              <div class="content">32525692 1 heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:06:59 PM</div>
+              <div class="content">13061001 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:17:47 PM</div>
+              <div class="content"><#1296022346192388096> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:17:53 PM</div>
+              <div class="content"><#1308377631451910184> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:24:34 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334982682307989635/THE_LINE_Z_-_MAPA_ZONA_PVP_-_PVE_1.mp4?ex=679fd482&is=679e8302&hm=ca5755cf57f02ad7d0eeea61a7f77d45d40721c6aee5cbd5f38e0b3c1aa2a206&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:24:49 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334982727362936882/THE_LINE_Z_-_TELA_DE_LOADING_2.png?ex=679fd48c&is=679e830c&hm=2539308310abc03e91023e690d0be9cd5304e8b93f24d2a4550823b6109abdb6&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334982733914574920/THE_LINE_Z_-_TRAILER_SERVIDOR_2.mp4?ex=679fd48e&is=679e830e&hm=d426fde3eabf60e13315205b39d234310bff77852d7ad2fc7dffc4fe0308ae6c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:26:11 PM</div>
+              <div class="content">O Servidor Thelinez oferece uma experiência equilibrada com PVE e PVP, combinando áreas tranquilas para exploração e caças, com zonas intensas de combate. Inclui desafios como caçar animais modificados, explorar plataformas tóxicas, e enfrentar zumbis em bases militares. Há missões diversificadas e um sistema de comércio com itens raros e veículos. Mods como GPS, miras avançadas e melhorias de quedas são usados para aprimorar a jogabilidade. Áreas PVP como Tisy e Airfield garantem ação constante, além de eventos como King of the Hill. Administração ativa 24/7 garante uma experiência contínua e dinâmica para todos os tipos de jogadores. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:26:41 PM</div>
+              <div class="content">fiz um texto rapido caso precise ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:31:09 PM</div>
+              <div class="content">coisa boa deixa aberto aki que vou salvar tudo pra postar todo dia obg ❤️ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:31:52 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:41:58 PM</div>
+              <div class="content">mtu bom amei kkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:42:24 PM</div>
+              <div class="content">que bom que gostou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:43:26 PM</div>
+              <div class="content">eu ameiii mtu bom, da pra trocar cor de roupa normal tbm ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:44:00 PM</div>
+              <div class="content">da sim, troca até as cores das armas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:44:21 PM</div>
+              <div class="content">só por o item na mão e marcar a caixinha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:44:25 PM</div>
+              <div class="content">haaaaaa nem fodendo amei kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:44:32 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1334987707398623322/image.png?ex=679fd930&is=679e87b0&hm=139a5e5bc5e210bccd300f79726e40b01a313e850ae8a44740febc7aab7c3156&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:44:58 PM</div>
+              <div class="content">vou me ajeita aki e abrir live, so estou esperando o pacheco me mandar i ID dele da steam e ja te mando aki ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:45:04 PM</div>
+              <div class="content">obg mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:45:12 PM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:45:24 PM</div>
+              <div class="content">steam pacheco: 1100001359ade81 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 5:45:29 PM</div>
+              <div class="content">manda o link para divulgar no DC </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:45:41 PM</div>
+              <div class="content">se precisar dele estar online ai ele chegando te aviso ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 5:45:42 PM</div>
+              <div class="content">mando sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">1/31/2025, 6:26:51 PM</div>
+              <div class="content">https://www.twitch.tv/moortadela_legion </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">1/31/2025, 6:28:12 PM</div>
+              <div class="content">posta lá em <#1295739349140508705> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:02:12 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> boa noite esta por ai ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:05:04 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:05:07 AM</div>
+              <div class="content">estou sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:05:12 AM</div>
+              <div class="content">qq manda? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:09:39 AM</div>
+              <div class="content">1100001359ade81 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:09:44 AM</div>
+              <div class="content">id do pacheco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:25:46 AM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:25:57 AM</div>
+              <div class="content">em 5 min ele pode se matar no game </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:30:02 AM</div>
+              <div class="content">fechou, <span class="mention">@tam8181</span> me manda o insta do servidor pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:31:08 AM</div>
+              <div class="content">tem não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:31:16 AM</div>
+              <div class="content">só youtube </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:31:30 AM</div>
+              <div class="content">https://www.youtube.com/@Thelinez-u1c </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:31:48 AM</div>
+              <div class="content">eu ia postar os videos e marca vcs kkkkkk mais posto mesmo assim pra ir divulgando ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:31:58 AM</div>
+              <div class="content">vou seguir la tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:32:01 AM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 2:32:23 AM</div>
+              <div class="content">magina ❤️ vou mandar o meu insta ai vcs vao vendo la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 2:32:36 AM</div>
+              <div class="content">blzz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 3:52:30 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> a shey tec a sniper que vc me deu as duas eu fui tirar do bau pra por na mochila elas sumiram e nao sei se chega equipar em algum lugar mais nao acho elas depois vc nao ve aki pra mim o que aconteceu ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 3:53:13 AM</div>
+              <div class="content">devem estar nos slots da mochila </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 3:53:15 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334964072365424713/1335140897888927804/image.png?ex=679fbf1b&is=679e6d9b&hm=04fcdaa69c5f55bed442dcc835a690a089fe1d94e6d815713ec34928edc08007&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 3:53:20 AM</div>
+              <div class="content">da uma olhada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:13:49 PM</div>
+              <div class="content">achou as armas? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:13:54 PM</div>
+              <div class="content"><span class="mention">@mortadelalegion</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 5:24:57 PM</div>
+              <div class="content">oii boa tarde nao achei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:44:48 PM</div>
+              <div class="content">assim que estiver on avise </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 6:58:02 PM</div>
+              <div class="content">estou logando agora <span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:01:32 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">mortadelalegion</div>
+              <div class="timestamp">2/1/2025, 7:05:03 PM</div>
+              <div class="content">estou aki </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
