@@ -1,0 +1,583 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・vitorpavanate-lpoht9wc</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">2/1/2025, 5:17:32 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/1/2025, 5:36:41 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/1/2025, 5:36:46 PM</div>
+              <div class="content">Já vai ser verificado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 5:36:50 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:43:07 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335343294737158216/1335349740509991016/image.png?ex=679fd8db&is=679e875b&hm=f1564e5a3efe0f96a5cceb30b59c216394066c42618a55a26f71ff0595595dbf&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:43:10 PM</div>
+              <div class="content">boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:43:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335343294737158216/1335349848454463628/image.png?ex=679fd8f5&is=679e8775&hm=1172d286e165f019fbf27a772d3c3203a527051694e9b04c2179f17c9e0d6bcc&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:45:20 PM</div>
+              <div class="content">vip- 3 dias
+base- 11 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 5:45:51 PM</div>
+              <div class="content">raptor-6 dias
+heli- 13 dias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 5:52:45 PM</div>
+              <div class="content">Ponha vip platina renova base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 5:53:01 PM</div>
+              <div class="content">Raptor e o heli some depois q acaba ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 5:59:52 PM</div>
+              <div class="content">Vê pra mim quando que dá vou manda o Pix </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:00:19 PM</div>
+              <div class="content">OK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:00:25 PM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:00:45 PM</div>
+              <div class="content">vai renovar quais deles? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:00:58 PM</div>
+              <div class="content">Ponha vip platina e a base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:01:27 PM</div>
+              <div class="content">O heli é a raptor acho q vou pega na trade fica muito caro eu compra eles denovo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:03:12 PM</div>
+              <div class="content">Só se vc fizer um desconto top pra mim aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:03:20 PM</div>
+              <div class="content">Aí nós pode negocia kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:08:13 PM</div>
+              <div class="content">DEIXA EU CALCULAR O TOTAL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:08:17 PM</div>
+              <div class="content">só um momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:10:40 PM</div>
+              <div class="content">tudo da 460 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:10:42 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335343294737158216/1335356681873522709/image.png?ex=679fdf52&is=679e8dd2&hm=944f58036bc5ea4ed6df3f63d8891095d1d671a2ca42f0c43c1a9cc696a667ca&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:10:58 PM</div>
+              <div class="content">se renovar ti dou o heli comseguro gratis </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:11:02 PM</div>
+              <div class="content">ficando 360 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:26:58 PM</div>
+              <div class="content">Tá vou manda aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:27:16 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1335343294737158216/1335360848285270106/image.png?ex=679fe334&is=679e91b4&hm=1dd8f80b37c995999796d4cd5bca44d17324f58adaed56ec71d5d3faa8fb5b40&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:28:07 PM</div>
+              <div class="content">Mandei naquele Pix lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:28:12 PM</div>
+              <div class="content">Mandei comprovante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:28:17 PM</div>
+              <div class="content">No zap </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:28:20 PM</div>
+              <div class="content">ata de boas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:28:27 PM</div>
+              <div class="content">vou renovar o vip aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:28:32 PM</div>
+              <div class="content">um momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:32:27 PM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:32:32 PM</div>
+              <div class="content">em 5 min pode se matar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:32:36 PM</div>
+              <div class="content">ta tudo renovado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:32:38 PM</div>
+              <div class="content">vlww </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:39:01 PM</div>
+              <div class="content">vlw tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:39:04 PM</div>
+              <div class="content">tamo junto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:52:33 PM</div>
+              <div class="content">TAM? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:53:23 PM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:53:25 PM</div>
+              <div class="content">vlw mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:54:21 PM</div>
+              <div class="content">EIN O VIP VOU FALEI PLATINA MAS QUERIA O DIAMANTE KKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:54:35 PM</div>
+              <div class="content">FALEI ERRADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:55:14 PM</div>
+              <div class="content">vixx </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 6:55:20 PM</div>
+              <div class="content">quer pagar a diferença? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:57:26 PM</div>
+              <div class="content">SIM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:57:31 PM</div>
+              <div class="content">DA MUITO TRABALHO? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:57:39 PM</div>
+              <div class="content">SE NAO DEIXA ASSIM MSM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 6:57:42 PM</div>
+              <div class="content">KKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:00:29 PM</div>
+              <div class="content">QUERIA TIRA UMA DUVIDA SOBRE A TOXICA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:00:42 PM</div>
+              <div class="content">nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:00:50 PM</div>
+              <div class="content">qual duvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:01:15 PM</div>
+              <div class="content">NA TOXICA OS ITENS QUE DROPA LA SO TROCA NO RESTART OU DEPOIS DE UM TEMPO ELA DROPA DNV </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:27:41 PM</div>
+              <div class="content">geralmente os itens mais baratos vai renovando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:28:01 PM</div>
+              <div class="content">os mais raros tem um tempo mais alto de restoque </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:34:11 PM</div>
+              <div class="content">vai upar o vip então? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:35:10 PM</div>
+              <div class="content">Sim pode ponha diamante </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:35:18 PM</div>
+              <div class="content">Tenho q retorna quanto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:35:58 PM</div>
+              <div class="content">Tem cara querendo troca money do jogo por vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:36:04 PM</div>
+              <div class="content">Quanto posso pedi no platina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:36:19 PM</div>
+              <div class="content">Ele tá oferecendo 25 kk nele tá no preço ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:40:00 PM</div>
+              <div class="content">50 REAIS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:40:23 PM</div>
+              <div class="content">ACHO QUE 10KK É DE BOAS </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:40:40 PM</div>
+              <div class="content">KKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:40:45 PM</div>
+              <div class="content">eitah entao ele ta pagando demais kkkk to no lucro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:40:45 PM</div>
+              <div class="content">TA MUITO ACIMA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:40:52 PM</div>
+              <div class="content">SE TA OFERECENDO ACEITA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:40:57 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:41:05 PM</div>
+              <div class="content">vou  manda os 50 ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:41:17 PM</div>
+              <div class="content">se ele entra pa negocia chamo dai pra nos faze o dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:43:14 PM</div>
+              <div class="content">EM 5 MIN PODE SE MATAR </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/1/2025, 7:43:17 PM</div>
+              <div class="content">BLZZ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vitorpavanate3380</div>
+              <div class="timestamp">2/1/2025, 7:48:57 PM</div>
+              <div class="content">ok vlw </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
