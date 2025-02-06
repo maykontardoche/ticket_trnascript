@@ -1,0 +1,575 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・rodrigodasilvaferreira-iqzywstg</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">1/29/2025, 6:06:48 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_15f755adb9999672bdcd4d36d8602856.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">1/29/2025, 6:06:48 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/29/2025, 9:00:15 PM</div>
+                  <div class="content"><span class="mention">@rodrigodasilvaferreira.</span> qual bot irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 9:36:45 AM</div>
+                  <div class="content">Queria um pra quando o pessoal entra na minha fac eles poderem fazer a setagem sabe </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 11:05:25 AM</div>
+                  <div class="content">Certo, irmao eu tenho um bot completo de faccao que ja vem incluso tudo isso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 11:23:27 AM</div>
+                  <div class="content">Quanto e ??? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 11:23:30 AM</div>
+                  <div class="content">Fala comigo?? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 11:23:33 AM</div>
+                  <div class="content">Pra por logo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 11:23:36 AM</div>
+                  <div class="content">Preciso urgente </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 11:26:50 AM</div>
+                  <div class="content">Valor do bot e 30,00 reais mensal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:07:34 PM</div>
+                  <div class="content">Oque esse bot faz ?? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:07:40 PM</div>
+                  <div class="content">Tem nenhum desconto ?? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:20:47 PM</div>
+                  <div class="content">Aqui vou querer mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:20:47 PM</div>
+                  <div class="content">Vamos colocar logo esse bot pra funcionar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 12:26:24 PM</div>
+                  <div class="content">Adicione o bot ao seu servidor: Use o link abaixo, escolha seu plano com o comando **/adquirir_plano**, efetue o pagamento e comece a usar!
+https://discord.com/api/oauth2/authorize?client_id=1253452629950992414&scope=bot&permissions=46 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:38:35 PM</div>
+                  <div class="content">Vamos colocar logo esse bot pra funcionar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:38:36 PM</div>
+                  <div class="content">Aqui vou querer mano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:39:12 PM</div>
+                  <div class="content">Mano eu não sei por não </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:39:18 PM</div>
+                  <div class="content">Vcs coloca correto ?? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:48:03 PM</div>
+                  <div class="content">TEM QUE COLOCAR PRA MIM ZE O BOT </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 12:55:12 PM</div>
+                  <div class="content">/adquirir_plano </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:00:28 PM</div>
+                  <div class="content">mano so nao sei configurar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:00:55 PM</div>
+                  <div class="content">https://discord.gg/M8XyyT7U </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:01:03 PM</div>
+                  <div class="content">entra aii e mim ajuda uai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 1:01:43 PM</div>
+                  <div class="content">Mano vou sair pra almocar e ja entro ai te ajudar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 1:01:50 PM</div>
+                  <div class="content">guenta ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:20:10 PM</div>
+                  <div class="content">Fecho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:20:24 PM</div>
+                  <div class="content">Entra lá vou te dá cargo configura pra mim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 1:20:39 PM</div>
+                  <div class="content">Coloca pra pessoa ter que fazer a setagem </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 1:55:46 PM</div>
+                  <div class="content">Entrei la </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:02:28 PM</div>
+                  <div class="content">Vou te dá cargo lá </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:05:28 PM</div>
+                  <div class="content">Deu cargo a vc de líder </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:05:34 PM</div>
+                  <div class="content">Já dá pra mecher correto ?? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:05:39 PM</div>
+                  <div class="content">Vê lá pra mim por favor </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:15:33 PM</div>
+                  <div class="content">Mano deixa pra mim os cargos certos por favor e quando entra ter a aba de fazer a setagem porque não tava indo pra essa aba </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:17:46 PM</div>
+                  <div class="content"><span class="mention">@rodrigodasilvaferreira.</span> feito irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:18:30 PM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1334268534662107258/1334573468032958576/image.png?ex=67a64065&is=67a4eee5&hm=b82f8b93e23cade782b325103ad01abd67d67327ec0bb0348a8d387a044b9b40&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1334268534662107258/1334573468569702481/image.png?ex=67a64066&is=67a4eee6&hm=2f7dfe392d1e7e096cbab6cb3a781a8463e68810684c25e97e42489c2f53fc75&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">1/30/2025, 2:21:24 PM</div>
+                  <div class="content">Pronto só que quando eu entro pelo celular da minha mulher não aparece o canal setagem </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:23:09 PM</div>
+                  <div class="content">ai e configuracao de discord que voces que tem que realizar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:23:18 PM</div>
+                  <div class="content">eu nao realizo config permissoes de discord </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:23:27 PM</div>
+                  <div class="content">esse e um trampo aparte realizado pelo <span class="mention">@lukeblt.</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:23:52 PM</div>
+                  <div class="content">vou deixar esse canal liberado pra voce </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:24:15 PM</div>
+                  <div class="content">mas se quiser uma config 100% top o <span class="mention">@lukeblt.</span> realizar e deixamos o discord montado para fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:24:50 PM</div>
+                  <div class="content">https://discord.com/channels/1333396380139651096/1333396380655292520 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">1/30/2025, 2:24:55 PM</div>
+                  <div class="content">liberei esse canal la </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120846954239377479/10035f1eede25cb36c5a395f79e8b42a.webp?size=128" alt="lukeblt." class="avatar">
+              <div class="message-content">
+                  <div class="author">lukeblt.</div>
+                  <div class="timestamp">1/30/2025, 4:28:56 PM</div>
+                  <div class="content">Boa tarde, <span class="mention">@rodrigodasilvaferreira.</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/850812128943276112/91069aa11eb84062d47c22c7bb4ba036.webp?size=128" alt="rodrigodasilvaferreira." class="avatar">
+              <div class="message-content">
+                  <div class="author">rodrigodasilvaferreira.</div>
+                  <div class="timestamp">2/3/2025, 11:23:25 AM</div>
+                  <div class="content">Boa tarde </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120846954239377479/10035f1eede25cb36c5a395f79e8b42a.webp?size=128" alt="lukeblt." class="avatar">
+              <div class="message-content">
+                  <div class="author">lukeblt.</div>
+                  <div class="timestamp">2/3/2025, 8:54:14 PM</div>
+                  <div class="content">Boa noite, vai querer a configuração no discord? </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
