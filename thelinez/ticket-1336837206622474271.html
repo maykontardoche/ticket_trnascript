@@ -1,0 +1,629 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・torresss-lwsybmm1</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">2/5/2025, 8:13:48 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:13:59 PM</div>
+              <div class="content">Coe rola uma promoçao na compra do vip ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:14:03 PM</div>
+              <div class="content">se for mais de 5 cabeças </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:16:30 PM</div>
+              <div class="content">qual vip? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:16:42 PM</div>
+              <div class="content">provavelmente o gold </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:16:49 PM</div>
+              <div class="content">ou platina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:16:52 PM</div>
+              <div class="content">ai depende do desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:19:19 PM</div>
+              <div class="content">gold faço 15% nos 5 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:19:25 PM</div>
+              <div class="content">platina 20% </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:19:32 PM</div>
+              <div class="content">pra vc osso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:19:38 PM</div>
+              <div class="content">que é do peito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:20:38 PM</div>
+              <div class="content">fechou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:20:44 PM</div>
+              <div class="content">vou ver com a rapaziada aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:21:58 PM</div>
+              <div class="content">po vei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:22:02 PM</div>
+              <div class="content">os caras tao meio desanimado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:22:06 PM</div>
+              <div class="content">da um incetivo ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:22:13 PM</div>
+              <div class="content">ngm ta querendo jogar eu que to animando aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:24:36 PM</div>
+              <div class="content">de que tipo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:25:01 PM</div>
+              <div class="content">eu ti chamei para ir call em um projeto e vc nem mi respondeu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:25:42 PM</div>
+              <div class="content">respondi sim po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:25:45 PM</div>
+              <div class="content">mas nao tive tempo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:25:52 PM</div>
+              <div class="content">correria danada bagulho do trabalho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:25:53 PM</div>
+              <div class="content">ta osso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:27:03 PM</div>
+              <div class="content">tu que n me respondeu dps kkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:34:40 PM</div>
+              <div class="content">TA MALUCO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:34:52 PM</div>
+              <div class="content">CHAMEI CALL E VC RESPONDEU JAÉ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:35:36 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1336837206622474271/1336842696001847316/image.png?ex=67a54748&is=67a3f5c8&hm=e250407e5eb78b2cc03c363b437a37a68f622c1981ae237b8f12018ee03d72b7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:41:17 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1336837206622474271/1336844129409175642/image.png?ex=67a5489d&is=67a3f71d&hm=16c64d6d02d00117bfe408fa0e0169a849dc3a67c21418e838b0f1671eb102f6&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:41:18 PM</div>
+              <div class="content">ta viajando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:41:47 PM</div>
+              <div class="content">ARESPOSTA QUE VI FOI AQUELA ALI </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:42:27 PM</div>
+              <div class="content">tava ocupado po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:42:31 PM</div>
+              <div class="content">e tu queria falar oq afinal? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:46:20 PM</div>
+              <div class="content">É uma parada de fac que to fazendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 8:46:31 PM</div>
+              <div class="content">para rolar raid entre as facs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:49:57 PM</div>
+              <div class="content">ah pode pa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 8:49:58 PM</div>
+              <div class="content">dahora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 9:01:40 PM</div>
+              <div class="content">mas ve com a rapaziada ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 9:15:26 PM</div>
+              <div class="content">PDP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:20:18 PM</div>
+              <div class="content"><span class="mention">@tam8181</span> da uma olhada nesse tal de gabriel peixe ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:20:56 PM</div>
+              <div class="content">pode ir que ta xitado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:20:59 PM</div>
+              <div class="content">e n é pouco nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 10:21:09 PM</div>
+              <div class="content">telando ja </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:21:41 PM</div>
+              <div class="content">pode passar scan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:21:43 PM</div>
+              <div class="content">esse ta xitado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 10:23:31 PM</div>
+              <div class="content">passou perto do amigo seu ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:23:31 PM</div>
+              <div class="content">https://medal.tv/pt/games/dayz/clips/jDA3YwgQgp07gFCJw?invite=cr-MSxkb0MsMjM5NjkxMjAxLA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 10:23:34 PM</div>
+              <div class="content">não achou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 10:23:37 PM</div>
+              <div class="content">vamos ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:23:38 PM</div>
+              <div class="content">ele se fez se besta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:23:46 PM</div>
+              <div class="content">tem condicao nao kkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:28:35 PM</div>
+              <div class="content">ta de brincadeira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:29:15 PM</div>
+              <div class="content">pede clipe da minha kill ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:29:42 PM</div>
+              <div class="content">KKKKKKKKKKKKKKKK </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:29:43 PM</div>
+              <div class="content">tu viu? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/5/2025, 10:57:04 PM</div>
+              <div class="content">Tá xitado esse aí, com certeza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:57:25 PM</div>
+              <div class="content">tem nem como </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 10:57:32 PM</div>
+              <div class="content">tem que ver a bala q ele me deu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/5/2025, 11:05:29 PM</div>
+              <div class="content">Só essa olhada aí, já diz tudo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 11:06:06 PM</div>
+              <div class="content">BANIDO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 11:07:13 PM</div>
+              <div class="content">e o loot? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 11:07:16 PM</div>
+              <div class="content">rsrs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 11:12:21 PM</div>
+              <div class="content">ELE TAVA SEM </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 11:12:23 PM</div>
+              <div class="content">MORREU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/5/2025, 11:12:57 PM</div>
+              <div class="content">QUANDO ESTIVER NA BASE AVISE </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/5/2025, 11:16:04 PM</div>
+              <div class="content">jae aviso aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:07:17 AM</div>
+              <div class="content">da p dropar as paradas aqui? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:07:26 AM</div>
+              <div class="content"><span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:07:40 AM</div>
+              <div class="content">era uma cheytac, 95% e pkp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:08:19 AM</div>
+              <div class="content">ta no pvp ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:08:24 AM</div>
+              <div class="content">na base eu dropo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:08:30 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:08:37 AM</div>
+              <div class="content">quem pegou o evento? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:20:04 AM</div>
+              <div class="content">encerrou a meia noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:20:11 AM</div>
+              <div class="content">amanhã vou fazer novamente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:20:19 AM</div>
+              <div class="content">mas sem a porta de entrada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/6/2025, 12:20:22 AM</div>
+              <div class="content">só as de dentro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:33 AM</div>
+              <div class="content">Pdp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:34 AM</div>
+              <div class="content">dahora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:40 AM</div>
+              <div class="content">dropa as paradas pra gente ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:55 AM</div>
+              <div class="content">pode dropar as minhas que eu pego amanha </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:57 AM</div>
+              <div class="content">pro samu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">manot777</div>
+              <div class="timestamp">2/6/2025, 12:22:59 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
