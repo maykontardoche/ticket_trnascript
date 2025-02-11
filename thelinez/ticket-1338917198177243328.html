@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・oleocarvalho-0i6mfgmt</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:01:19 PM</div>
+              <div class="content">raidaram no pve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:01:20 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1338917198177243328/1338917805122130082/MedalTVDayZ20250210192723.mp4?ex=67acd3e0&is=67ab8260&hm=6b93f0bde12a87e08903d26b195c6e134969c648b9fb9c4e8dac54b7c71f8ab0&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:01:30 PM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:01:37 PM</div>
+              <div class="content">me leva la !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:01:38 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1338917198177243328/1338917880497963068/image.png?ex=67acd3f2&is=67ab8272&hm=6cc55c72a5f5268aeb0f97fb724da445c4b907c5960ba306cff653cce3b82c89&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:01:54 PM</div>
+              <div class="content">então marcando errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:03 PM</div>
+              <div class="content">no meu não marcou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:12 PM</div>
+              <div class="content">esse lance da contagem esta errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:19 PM</div>
+              <div class="content">me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:24 PM</div>
+              <div class="content">e te mostro no meu mapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:02:28 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1338917198177243328/1338918091207475231/image.png?ex=67acd424&is=67ab82a4&hm=2eac841df74d7a85d2467fb001d321357ee118df542b49fb5bba9e269a54e294&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:35 PM</div>
+              <div class="content">que esta errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:02:40 PM</div>
+              <div class="content">EU VERIFIQUEI E ESTAVA NO PVP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:40 PM</div>
+              <div class="content">me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:44 PM</div>
+              <div class="content">por favor ] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:53 PM</div>
+              <div class="content">mas no meu mapa não marcou pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:02:59 PM</div>
+              <div class="content">me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:03:03 PM</div>
+              <div class="content">que te mostro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:03:08 PM</div>
+              <div class="content">no meu mapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:03:35 PM</div>
+              <div class="content">ai ja tiramos todas as duvidas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:04:32 PM</div>
+              <div class="content">A NÃO SER QUE VC ALTEROU OS LIMITES DA ARE PVE/PVP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:05:01 PM</div>
+              <div class="content"><span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:05:41 PM</div>
+              <div class="content">ME LEVA LA NO PONTO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:05:50 PM</div>
+              <div class="content">tô te pedindo ??? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:05:57 PM</div>
+              <div class="content">ja te mandei o print </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:06 PM</div>
+              <div class="content">e vc tem as coordenadas ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:16 PM</div>
+              <div class="content">me leva la !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:36 PM</div>
+              <div class="content">cara não acredito que vc ira fazer isso !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:06:37 PM</div>
+              <div class="content">ta no pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:42 PM</div>
+              <div class="content">não ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:06:45 PM</div>
+              <div class="content">nós não fizemos nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:06:49 PM</div>
+              <div class="content">olha o clip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:53 PM</div>
+              <div class="content">então pq vc não me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:06:58 PM</div>
+              <div class="content">no meu mapa não marcou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:05 PM</div>
+              <div class="content">vou te mostrar isso !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:07:09 PM</div>
+              <div class="content">mas olha o clip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:07:12 PM</div>
+              <div class="content">os caras estao no pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:14 PM</div>
+              <div class="content">simples </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:07:16 PM</div>
+              <div class="content">perto de onde vc marcou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:19 PM</div>
+              <div class="content">me leva la na coordenada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:07:20 PM</div>
+              <div class="content">pode ter marcado errado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:25 PM</div>
+              <div class="content">não ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:33 PM</div>
+              <div class="content">tirei na porta do carro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:07:36 PM</div>
+              <div class="content">não estão não? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:41 PM</div>
+              <div class="content">me leva la na coordenada !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:49 PM</div>
+              <div class="content">eu sei onde ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:07:56 PM</div>
+              <div class="content">abvro o mapa ao vivo para vcs </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:08:01 PM</div>
+              <div class="content">to indo para la !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:08:40 PM</div>
+              <div class="content">nem a espada do pvp mostrou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:08:44 PM</div>
+              <div class="content">DA NÃO MANO, CARRO ESTAVA NO PVP, EU MSM FUI NO LOCAL  E LIBEREI O RAID </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:08:58 PM</div>
+              <div class="content">então me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:09:07 PM</div>
+              <div class="content">PRA QUE? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:09:18 PM</div>
+              <div class="content">vou abrir o meu mapa !!! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:09:28 PM</div>
+              <div class="content">me leva la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:09:57 PM</div>
+              <div class="content">NÃO VOU LEVAR VC SENDO QUE NÃO TEM NADA LÁ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:10:04 PM</div>
+              <div class="content">tava o carro la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:10:10 PM</div>
+              <div class="content">para com isso tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:10:19 PM</div>
+              <div class="content">tava mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:10:21 PM</div>
+              <div class="content">os caras raidaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:10:23 PM</div>
+              <div class="content">levaram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:10:25 PM</div>
+              <div class="content">não tava </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:10:43 PM</div>
+              <div class="content">vou levar um carro la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:10:58 PM</div>
+              <div class="content">vou colocar na mesma pocisão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:11:13 PM</div>
+              <div class="content">vou iur la </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:11:19 PM</div>
+              <div class="content">vou printa o meu mapa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:11:33 PM</div>
+              <div class="content">vc não quer resolver , ou calar a minha boca </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:11:42 PM</div>
+              <div class="content">tenho os prints aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:11:52 PM</div>
+              <div class="content">e estou indo la tirar essa duvida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:12:23 PM</div>
+              <div class="content">tem o print do local aonde o carro estava?: </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:12:28 PM</div>
+              <div class="content">ou só do mapa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:07 PM</div>
+              <div class="content">o carro ewstava certo como no clip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:17 PM</div>
+              <div class="content">ou seja eles não empurraram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:13:17 PM</div>
+              <div class="content">entao tava no pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:23 PM</div>
+              <div class="content">cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:30 PM</div>
+              <div class="content">no meu mapa não marcava pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:13:33 PM</div>
+              <div class="content">ele tava no mesmo lugar que no clipe? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:38 PM</div>
+              <div class="content">nem as espada aparecia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:46 PM</div>
+              <div class="content">VAMOS LA VER </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:49 PM</div>
+              <div class="content">ME LEVA LA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:13:56 PM</div>
+              <div class="content">VCS TEM A COORDENADA DO CARRO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:14:31 PM</div>
+              <div class="content">O CARRO FOI RAIDADO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:14:34 PM</div>
+              <div class="content">FIM DE PAPO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:02 PM</div>
+              <div class="content">cara mas no meu mapa não marcava pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:15:03 PM</div>
+              <div class="content">EU VERIFIQUEI E LIBEREI RAID </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:15:04 PM</div>
+              <div class="content">. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:15:14 PM</div>
+              <div class="content">NO MEU MARCAVA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:20 PM</div>
+              <div class="content">a ta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/11/2025, 2:15:28 PM</div>
+              <div class="content">NA PROXIMA OPORTUNIDADE DEUXA LONGE DA LINHA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:39 PM</div>
+              <div class="content">mancada sua </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:46 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1338917198177243328/1338921436441481258/image.png?ex=67acd742&is=67ab85c2&hm=1088ae512a3bf11fb3bdeb6a5518be6900b77ac2eff48e58b468e059c20be5c6&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:47 PM</div>
+              <div class="content">aqui ó </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:15:59 PM</div>
+              <div class="content">termina com qdisse que me disse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:16:02 PM</div>
+              <div class="content">essa marcação não vale de nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:16:08 PM</div>
+              <div class="content">e me çleva nessa coordenad </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:16:15 PM</div>
+              <div class="content">é só uma marcação </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:16:21 PM</div>
+              <div class="content">isso vc pode fazer a qualquer momento </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:17:12 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1338917198177243328/1338921796933648464/image.png?ex=67acd798&is=67ab8618&hm=93ec9d582aae80dcb910ee21dffe00eec8359e250027e6f6bf5539d15b5b62bc&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/11/2025, 2:17:34 PM</div>
+              <div class="content">pronto, te levei no local </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:20:18 PM</div>
+              <div class="content">me tala ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">o.leocarvalho</div>
+              <div class="timestamp">2/11/2025, 2:20:31 PM</div>
+              <div class="content">to indo para o bate papo 1 </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
