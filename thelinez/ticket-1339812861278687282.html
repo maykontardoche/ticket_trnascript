@@ -1,0 +1,461 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・-b4dboy-ppj8c81r</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">2/14/2025, 1:17:58 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:49:41 AM</div>
+              <div class="content">boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:49:46 AM</div>
+              <div class="content">qual a denuncia? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:53:22 AM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:53:27 AM</div>
+              <div class="content">boa noite tam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:53:41 AM</div>
+              <div class="content">moonwalk mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:53:48 AM</div>
+              <div class="content">porem foi uma filmagem de longe </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:53:58 AM</div>
+              <div class="content">então fiquei meio na duvida se mandava pra voce ou nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:54:11 AM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:54:12 AM</div>
+              <div class="content">manda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:54:19 AM</div>
+              <div class="content">matou o cara? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:54:32 AM</div>
+              <div class="content">ou acertou algun tiro ou ele acertou vc? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:54:40 AM</div>
+              <div class="content">só para ver quem foi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:03 AM</div>
+              <div class="content">pois é </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:05 AM</div>
+              <div class="content">ai que ta kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:09 AM</div>
+              <div class="content">foi cedo da noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:10 AM</div>
+              <div class="content">https://medal.tv/pt/games/dayz/clips/jGRKFYIzhzEMk2Y2X?invite=cr-MSw0MU4sMjY3ODEwMDk3LA </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:19 AM</div>
+              <div class="content">da pra ver bem pouco </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:32 AM</div>
+              <div class="content">no pé da arvore </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 1:56:40 AM</div>
+              <div class="content">maluco de ghillie verde neon </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:58:14 AM</div>
+              <div class="content">eu não v nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:58:26 AM</div>
+              <div class="content">nem cara nem walk nem nada kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 1:58:32 AM</div>
+              <div class="content">o visão da pourra </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:31 AM</div>
+              <div class="content">kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:32 AM</div>
+              <div class="content">mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:34 AM</div>
+              <div class="content">mais assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:38 AM</div>
+              <div class="content">juro pra ti o cara vez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:49 AM</div>
+              <div class="content">porem a imagem perde a qualidade na gameplay </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:01:53 AM</div>
+              <div class="content">mais tudo bem mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:07 AM</div>
+              <div class="content">nem mandei na hora pq imaginei que seria dificil identificar kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:14 AM</div>
+              <div class="content">deixa te falar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:20 AM</div>
+              <div class="content">vou editar um video aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:24 AM</div>
+              <div class="content">quer ver como funfa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:29 AM</div>
+              <div class="content">ou acha mto tarde? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:02:39 AM</div>
+              <div class="content">to lendo as regras da minha cidade de gta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:02:45 AM</div>
+              <div class="content">caraio é muita coisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:02:48 AM</div>
+              <div class="content">ta doido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:02:53 AM</div>
+              <div class="content">kkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:03:01 AM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:03:28 AM</div>
+              <div class="content">eu nunca joguei  GTA rp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:03:34 AM</div>
+              <div class="content">mais eu jogaria no server ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:03:54 AM</div>
+              <div class="content">quando tiver de pé me avisa que eu vejo como que faz pra logar nesses RP que colo lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:04:25 AM</div>
+              <div class="content">nem eu kkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:04:32 AM</div>
+              <div class="content">bora pow </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:04:36 AM</div>
+              <div class="content">tem o game? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:05:12 AM</div>
+              <div class="content">assim que estiver prestes a lançar eu aviso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:05:20 AM</div>
+              <div class="content">pra fazer uns conteudos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:05:50 AM</div>
+              <div class="content">tenho sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">wagner_vargas</div>
+              <div class="timestamp">2/14/2025, 2:06:05 AM</div>
+              <div class="content">show show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:37:32 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1339812861278687282/1339832884873269329/image.png?ex=67b0281c&is=67aed69c&hm=3fa075f7dc11eea6252efd935f0be927b4e5273721f648fe034c62a230e3f932&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:37:40 AM</div>
+              <div class="content">tu mecheu no rechade, não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:37:46 AM</div>
+              <div class="content">ta bem mais claro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:37:53 AM</div>
+              <div class="content">da uma reduzida </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/14/2025, 2:37:57 AM</div>
+              <div class="content">ta estourado </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
