@@ -1,0 +1,737 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: gabriel-1033-ajuda</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:20:14 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:20:41 PM</div>
+              <div class="content">Vou ver com ele certinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:20:47 PM</div>
+              <div class="content">okay </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:20:47 PM</div>
+              <div class="content">Já de dou um retorno! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:22:32 PM</div>
+              <div class="content">opa consiguiu? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:23:09 PM</div>
+              <div class="content">Tenha paciência, ele não respondeu ainda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:23:17 PM</div>
+              <div class="content">ele ta no mine </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:23:27 PM</div>
+              <div class="content">posso te mostrar minha tela po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:23:47 PM</div>
+              <div class="content">Não precisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:23:54 PM</div>
+              <div class="content">okay </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:23:59 PM</div>
+              <div class="content">Quando ele me responder, eu te aviso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:24:06 PM</div>
+              <div class="content">okay </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:26:36 PM</div>
+              <div class="content">qualquer coisa me marque para eu ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 8:34:23 PM</div>
+              <div class="content">Qual é a sua idade <span class="mention">@swatzin0944</span>? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 8:34:32 PM</div>
+              <div class="content">16 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:06:26 PM</div>
+              <div class="content">Vi aqui seus formulários pra staff </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:06:47 PM</div>
+              <div class="content">Você cita que tem  14, 15 e 16 anos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:15:53 PM</div>
+              <div class="content">14 nunca citei e 15 eu tinha eu fiz aniver po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:16:09 PM</div>
+              <div class="content">faz 2 meses </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:18:57 PM</div>
+              <div class="content">dois meses que fez aniversário? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:19:26 PM</div>
+              <div class="content">faz 2 meses </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:07 PM</div>
+              <div class="content">Beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:12 PM</div>
+              <div class="content">É que assim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:20 PM</div>
+              <div class="content">Tenho dois formulários no mesmo dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:26 PM</div>
+              <div class="content">Com idades diferentes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:21:32 PM</div>
+              <div class="content">tem print? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:21:37 PM</div>
+              <div class="content">Quero ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:43 PM</div>
+              <div class="content">E como você disse, faz 2 meses que fizesse aniversário </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:51 PM</div>
+              <div class="content">No caso seria no mês de dezembro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:21:59 PM</div>
+              <div class="content">Claro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:22:08 PM</div>
+              <div class="content">mostra-me </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:22:42 PM</div>
+              <div class="content">dezembro eu estava curtindo po </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:22:45 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1341186614931750993/1341203215496118406/Screenshot_2025-02-17-21-22-33-419_com.discord.jpg?ex=67b5cd14&is=67b47b94&hm=af3ca9ab3b61c90519cd0ee3d8a4d0531c8777277ec87e7eea2967469e7c5527&" target="_blank">📎 Attachment</a> <a href="https://cdn.discordapp.com/attachments/1341186614931750993/1341203215827472474/Screenshot_2025-02-17-21-22-28-795_com.discord.jpg?ex=67b5cd15&is=67b47b95&hm=3658cd5f840fee3c83aa9a1e35016fe4bc6fa70015380309a99caf39b2f12763&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:22:45 PM</div>
+              <div class="content">Ferias </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:23:01 PM</div>
+              <div class="content">Ta tudo preto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:23:02 PM</div>
+              <div class="content">Só errasse na hora de colocar o id </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:23:24 PM</div>
+              <div class="content">bugou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:23:44 PM</div>
+              <div class="content">Pra mim está normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:23:59 PM</div>
+              <div class="content">pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:24:26 PM</div>
+              <div class="content">Ué </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:24:31 PM</div>
+              <div class="content">Foi dezembro? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:24:40 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:24:41 PM</div>
+              <div class="content">Não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:24:45 PM</div>
+              <div class="content">29/01 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 9:24:50 PM</div>
+              <div class="content">Esses formulários </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:24:54 PM</div>
+              <div class="content">hmm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:24:59 PM</div>
+              <div class="content">liguei os pontos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:25:36 PM</div>
+              <div class="content">Meu amigo tem minha conta e eu tenho a dele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:25:40 PM</div>
+              <div class="content">Calma ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:25:42 PM</div>
+              <div class="content">Espera ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:29:06 PM</div>
+              <div class="content">ou ele botou nobre e niteroi? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:29:30 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:30:43 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:30:56 PM</div>
+              <div class="content">Acabei de ver ele botou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:31:13 PM</div>
+              <div class="content">Men não fui que fiz form cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:31:21 PM</div>
+              <div class="content">Porque eu tava off </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/17/2025, 9:41:16 PM</div>
+              <div class="content">mas se você não Acredita ta de boa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 10:40:33 PM</div>
+              <div class="content">Como eu não consigo ter essa certeza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 10:40:58 PM</div>
+              <div class="content">Vou deixar anexado seu formulário </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/17/2025, 10:41:15 PM</div>
+              <div class="content">E vamos analisar seu caso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 7:15:19 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 7:26:13 AM</div>
+              <div class="content">Ou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 7:26:16 AM</div>
+              <div class="content">Ta ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:23:21 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:23:26 AM</div>
+              <div class="content">Sim! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:25:29 AM</div>
+              <div class="content">Oque vai acontecer? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:25:58 AM</div>
+              <div class="content">Vai acontecer oque eu citei logo acima! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:26:05 AM</div>
+              <div class="content">. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:26:22 AM</div>
+              <div class="content">blz mas eu fui convidado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:26:30 AM</div>
+              <div class="content">Ta ligado? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:28:16 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:35:19 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:35:44 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:37:15 AM</div>
+              <div class="content">o cara me ingnora dunada kakaka </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:37:33 AM</div>
+              <div class="content">Beleza, está convidado pra ser staff de março </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:37:51 AM</div>
+              <div class="content">como assim março? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:37:56 AM</div>
+              <div class="content">O formulário é dia 29/02 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:38:00 AM</div>
+              <div class="content">😎👍🏻 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:38:11 AM</div>
+              <div class="content">ah </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:38:15 AM</div>
+              <div class="content">gustavo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:38:29 AM</div>
+              <div class="content">Vocês fazem parceria? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:38:31 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:38:45 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:39:16 AM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:39:34 AM</div>
+              <div class="content">Para de ingnorar rapaz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:40:06 AM</div>
+              <div class="content">Para de me marcar, por favor! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:40:11 AM</div>
+              <div class="content">tabom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:40:14 AM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:40:14 AM</div>
+              <div class="content">Estou resolvendo outros tickets </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:40:24 AM</div>
+              <div class="content">Não tem só o seu pra ser resolvido </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:40:36 AM</div>
+              <div class="content">Somente com deus 🙏🏻 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:40:43 AM</div>
+              <div class="content">beleza ent fecha esse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 8:41:05 AM</div>
+              <div class="content">feche </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:45:50 AM</div>
+              <div class="content">Tenha um bom dia! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:45:50 AM</div>
+              <div class="content">Seu ticket está sendo finalizado </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:45:54 AM</div>
+              <div class="content">Você será setado como staff dia 29/02 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:46:26 AM</div>
+              <div class="content">Para exercer suas funções em março </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 8:46:32 AM</div>
+              <div class="content">👍🏻 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/18/2025, 9:15:47 AM</div>
+              <div class="content"><span class="mention">@swatzin0944</span> alguma dúvida? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">swatzin0944</div>
+              <div class="timestamp">2/18/2025, 9:16:30 AM</div>
+              <div class="content">fecha o ticket </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
