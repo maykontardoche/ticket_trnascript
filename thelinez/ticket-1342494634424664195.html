@@ -1,0 +1,739 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・ungarato-mkmfn2jo</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 11:10:58 AM</div>
+              <div class="content">Salve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 11:11:02 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 11:11:14 AM</div>
+              <div class="content">Vou esperar o Tam chegar, aí ele manda tudo pra vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 1:36:42 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 1:36:52 PM</div>
+              <div class="content">Vou somar e já passo para vc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 2:58:09 PM</div>
+              <div class="content">no dia 25/02
+vc terá um valor de 57,50 restante na sua base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 2:58:36 PM</div>
+              <div class="content">ai dependendo da base que vc pegar podemos abater este valor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:31:52 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:31:59 PM</div>
+              <div class="content">Eu vou pegar a mais foda lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:32:44 PM</div>
+              <div class="content">vai quererpor o muro na frente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:32:52 PM</div>
+              <div class="content">foca top para plantação </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:33:04 PM</div>
+              <div class="content">Mas eu tenho duas bases né, uma de 40 e uma de 35 que peguei no mesmo dia. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:33:17 PM</div>
+              <div class="content">Eu vou pegar só uma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:33:24 PM</div>
+              <div class="content">Aquela mais top mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:33:41 PM</div>
+              <div class="content">Só que vou largar em um lugar estratégico dessa vez </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:33:42 PM</div>
+              <div class="content">geralmente o pessoal faz ela assom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:33:45 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342494634424664195/1342564942028472330/image.png?ex=67bb6a09&is=67ba1889&hm=95f71904b50553b38790127db0bac05e551509398802ec75d8292ad9bad0ae2f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:33:49 PM</div>
+              <div class="content">fica bem conveniente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:34:04 PM</div>
+              <div class="content">Hummm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:34:09 PM</div>
+              <div class="content">É uma boa ideia também </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:34:33 PM</div>
+              <div class="content">pondo um muro ja fica com desconto maneiro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:34:36 PM</div>
+              <div class="content">Você mesmo faz o projeto das bases? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:34:43 PM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:35:45 PM</div>
+              <div class="content">Daria para fazer uma nova base, uma base composta, parecida com essa só que simétrica. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:36:34 PM</div>
+              <div class="content">só passar sua idéia que executamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:36:39 PM</div>
+              <div class="content">E se o projeto já vier pronto mesmo, e não tiver que ficar clicando, poderia vir com canteiros para plantação, para induzir os caras a plantarem. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:37:33 PM</div>
+              <div class="content"><span class="mention">@tam8181</span>Blz. Vou tentar, mas meu nível de criatividade para isso é a de um babuíno. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:38:47 PM</div>
+              <div class="content">nosso forte é por base e muros, alguma coisinha a mais da pra por, mas se for muito extravagante cobramos a adição. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:38:58 PM</div>
+              <div class="content">Sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:39:33 PM</div>
+              <div class="content">Por exemplo, a base mais top com os muros iguais as paredes da base, só que simétrico. É possível fazer? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:40:07 PM</div>
+              <div class="content">Porque dai fica tudo simétrico de da mesma cor. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:40:57 PM</div>
+              <div class="content">O cara compra uma base composta, com a parte fechada e a parte aberta. Não sei se tem base que vem com parquímetro, mas seria uma coisa que poderia ser cobrada para colocar na base. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:42:03 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342494634424664195/1342567030741794886/image.png?ex=67bb6bfb&is=67ba1a7b&hm=3d7368ce01bd69ab039a2c6df85a8427e3545660d21852a71c5f2af1fb94e1cd&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:42:07 PM</div>
+              <div class="content">tenho muros nesta cor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:42:25 PM</div>
+              <div class="content">Tipo isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:42:55 PM</div>
+              <div class="content">Que o cara consiga subir nos muros para ter visão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:43:03 PM</div>
+              <div class="content">Dai só colocar para vender </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:43:04 PM</div>
+              <div class="content">tem como fazer como o senhor quiser </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:43:16 PM</div>
+              <div class="content">Os caras com certeza vão colocar em zonas PVP </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:43:18 PM</div>
+              <div class="content">da tbm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:43:22 PM</div>
+              <div class="content">só por escadas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:43:34 PM</div>
+              <div class="content">da para por canteiros de plantações </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:43:43 PM</div>
+              <div class="content">da para por heliponto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:44:06 PM</div>
+              <div class="content">Isso é show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:44:12 PM</div>
+              <div class="content">Minha ideia seria mais ou menos isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:44:54 PM</div>
+              <div class="content">Uma base composta que chegue pronta e que o cara consiga ver por cima do muro. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:45:07 PM</div>
+              <div class="content">Tudo da mesma cor </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 3:45:12 PM</div>
+              <div class="content">Igual a foto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:45:33 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342494634424664195/1342567910270308464/image.png?ex=67bb6ccd&is=67ba1b4d&hm=d264e6ff4f5ba3527e908c1a97b6b4babcc5612df12383307416dc44a2b0c597&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:45:41 PM</div>
+              <div class="content">olha estas passarelas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:46:14 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342494634424664195/1342568083075629247/image.png?ex=67bb6cf6&is=67ba1b76&hm=11105cbe38c3a531670a68ba56ea3646405a931cdaa59327260f46a7e3fc0d4f&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:46:22 PM</div>
+              <div class="content">muros que envolvem toda a base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 3:46:55 PM</div>
+              <div class="content">da para fazer com os muros que mostrei a cima </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 7:48:45 PM</div>
+              <div class="content">Da pra fazer tudo que vc quer, depende do cliente kkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 7:48:52 PM</div>
+              <div class="content">Conseguimos deixar o cliente satisfeito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/21/2025, 7:48:59 PM</div>
+              <div class="content">Mas depende da condição do cliente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:01:28 PM</div>
+              <div class="content">Voltei </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:01:32 PM</div>
+              <div class="content">Tive que entrar em reunião </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:01:33 PM</div>
+              <div class="content">Desculpa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 10:02:13 PM</div>
+              <div class="content">de boas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:03:06 PM</div>
+              <div class="content">Ficou top essa ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:03:17 PM</div>
+              <div class="content">Só aquele muro de fora que ficou estranho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:03:21 PM</div>
+              <div class="content">O restante ficou show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:03:31 PM</div>
+              <div class="content">Só faltou simetria nas portas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:04:05 PM</div>
+              <div class="content">A rampa de madeira no meio eu não compreendi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:04:23 PM</div>
+              <div class="content">É para atacar os caras que entram de helicóptero na base? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:04:51 PM</div>
+              <div class="content">Tem como eu ver ela pessoalmente? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:04:53 PM</div>
+              <div class="content">Ela está montada? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 10:09:43 PM</div>
+              <div class="content">é defesa queos caras fizeram </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 10:09:50 PM</div>
+              <div class="content">posso mostrar para vc sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 10:09:58 PM</div>
+              <div class="content">mas na parte do dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/21/2025, 10:10:02 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/21/2025, 11:11:06 PM</div>
+              <div class="content">se quiser ir call posso mostrar caso queira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 10:28:33 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 10:28:42 AM</div>
+              <div class="content">Opa, se estiver online, eu aceito. </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 10:29:00 AM</div>
+              <div class="content">Gostaria de ver outras coisas também para depois do Wipe adquirir ou não algumas coisas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/22/2025, 10:49:01 AM</div>
+              <div class="content">Salve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/22/2025, 10:49:03 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/22/2025, 10:49:10 AM</div>
+              <div class="content">Agora só eu que estou on </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/22/2025, 10:49:13 AM</div>
+              <div class="content">Ele vem a tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">2/22/2025, 10:49:19 AM</div>
+              <div class="content">Ele te chama aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 10:55:53 AM</div>
+              <div class="content">Blz, vlw </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/22/2025, 2:31:23 PM</div>
+              <div class="content">to por aqui </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/22/2025, 2:31:28 PM</div>
+              <div class="content">se quiser ver a base lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 3:59:20 PM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 3:59:23 PM</div>
+              <div class="content">Boa tarde </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 3:59:26 PM</div>
+              <div class="content">Ainda está por ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/22/2025, 4:03:12 PM</div>
+              <div class="content">opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/22/2025, 4:03:21 PM</div>
+              <div class="content">ja vou para o pc </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:05:48 PM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:05:56 PM</div>
+              <div class="content">Dai vou entrar em uma call com você, se for possível </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:06:11 PM</div>
+              <div class="content">Quero deixar tudo pronto para o dia 25 e ver o que vou adquirir de cara já </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:06:22 PM</div>
+              <div class="content">Inclusive qual a base e posição da base </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">tam8181</div>
+              <div class="timestamp">2/22/2025, 4:09:16 PM</div>
+              <div class="content">boa
+cola call ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:18:06 PM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:18:13 PM</div>
+              <div class="content">Qual sala? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:18:32 PM</div>
+              <div class="content">Fui para o Papo 3 ali </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:30:12 PM</div>
+              <div class="content"><span class="mention">@tam8181</span>É uma call específica? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:38:35 PM</div>
+              <div class="content">Deu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">ungarato_29315</div>
+              <div class="timestamp">2/22/2025, 4:38:38 PM</div>
+              <div class="content">Tinha dado erro </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
