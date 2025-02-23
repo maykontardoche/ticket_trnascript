@@ -1,0 +1,402 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・nando-luiz-qu5n83nh</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">2/19/2025, 12:07:05 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 12:19:12 AM</div>
+              <div class="content">oie </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 7:42:03 AM</div>
+              <div class="content">Opa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 7:42:08 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 7:42:14 AM</div>
+              <div class="content">Quando você pode entrar call? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 11:42:23 AM</div>
+              <div class="content">Agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 11:46:54 AM</div>
+              <div class="content">Agora não dá 
+Pode ser lá pelas 21h? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 3:18:53 PM</div>
+              <div class="content">so eu consigo neste horario </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 3:19:50 PM</div>
+              <div class="content">Ok, sem problemas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 9:32:40 PM</div>
+              <div class="content">Posso subir </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 9:33:24 PM</div>
+              <div class="content">pode </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 9:34:17 PM</div>
+              <div class="content">https://discord.com/channels/1208818489117245482/1208818492233482305 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 9:40:18 PM</div>
+              <div class="content">subi </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 10:37:01 PM</div>
+              <div class="content">pode se render levantando a mao depois puxa o fuzil e atira </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 10:48:12 PM</div>
+              <div class="content">OS CARA VE A POLICIA E QUE MATA FICA CHATO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/19/2025, 10:48:24 PM</div>
+              <div class="content">AI PEGA 5 CARA CONTRA 1 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 10:59:23 PM</div>
+              <div class="content">pode não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/19/2025, 10:59:26 PM</div>
+              <div class="content">tem vídeo aí? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 11:59:40 AM</div>
+              <div class="content">ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 12:02:18 PM</div>
+              <div class="content">pode mandar aí depois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 12:02:19 PM</div>
+              <div class="content">vou ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 12:05:30 PM</div>
+              <div class="content">https://youtu.be/MVXxbmJvSDg </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 2:08:57 PM</div>
+              <div class="content">Consegue me colocar como permissão para manda em <#1208818490232934472> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:16:19 PM</div>
+              <div class="content">Consegue escrever lá agora? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:16:30 PM</div>
+              <div class="content">Vou conversar com o rapaz que te matou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 2:18:27 PM</div>
+              <div class="content">Não tô conseguindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:18:36 PM</div>
+              <div class="content">tá, pera ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:29:35 PM</div>
+              <div class="content">Tenta agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:29:38 PM</div>
+              <div class="content"><span class="mention">@nando.da</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 2:35:13 PM</div>
+              <div class="content">DEU ME SETA EM SERVISO </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:36:01 PM</div>
+              <div class="content">Ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:36:44 PM</div>
+              <div class="content">Pronto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 2:39:27 PM</div>
+              <div class="content">VALEU </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 2:45:23 PM</div>
+              <div class="content">é nois </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 4:00:56 PM</div>
+              <div class="content">puder marcar o servudir pfv </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 4:01:01 PM</div>
+              <div class="content"><#1208818490232934472> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 4:07:54 PM</div>
+              <div class="content">pq apagou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 4:09:34 PM</div>
+              <div class="content">pera ae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 4:09:38 PM</div>
+              <div class="content">fui eu não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 4:10:57 PM</div>
+              <div class="content">https://discord.gg/aucZzWaW </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/20/2025, 4:11:00 PM</div>
+              <div class="content">Entra aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 4:26:35 PM</div>
+              <div class="content">vou posta de novo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">nando.da</div>
+              <div class="timestamp">2/20/2025, 4:27:21 PM</div>
+              <div class="content">nao tenho mais permiçao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">marquindf_</div>
+              <div class="timestamp">2/21/2025, 1:35:24 PM</div>
+              <div class="content">Resolvido? <span class="mention">@nando.da</span> </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
