@@ -1,0 +1,502 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・magoo-realspecter-3r30yh6g</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/16/2025, 8:20:51 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/16/2025, 8:20:51 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 8:21:39 PM</div>
+                  <div class="content">Boa noite, estou precisando de um bot para meu discord de faccao ! qual valor esta saindo o de voces ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 8:36:06 PM</div>
+                  <div class="content"><span class="mention">@magoo_realspecter</span> boa noite irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 8:37:19 PM</div>
+                  <div class="content">o bot sai 
+30,00 mensal
+25,00 mes se fechar trimestral
+20,00 mes se fechar semestral
+18,50 mes se fechar anual
+
+Obs. planos trimestal, semestral e anual, e pago o plano inteiro </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 8:39:21 PM</div>
+                  <div class="content">tenho interesse no plano mensal </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 8:40:14 PM</div>
+                  <div class="content">Adicione o bot ao seu servidor: Use o link abaixo, escolha seu plano com o comando /adquirir_plano, efetue o pagamento e comece a usar!
+https://discord.com/api/oauth2/authorize?client_id=1253452629950992414&scope=bot&permissions=46 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 8:41:54 PM</div>
+                  <div class="content">so mais uma duvida manin, quais os acesso que o bot fornece ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 8:44:43 PM</div>
+                  <div class="content">Como assim nao entendi <span class="mention">@magoo_realspecter</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 8:46:20 PM</div>
+                  <div class="content">quais sao as funçoes que eu consigo fazer com o bot de voces ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 9:01:40 PM</div>
+                  <div class="content">toda gestao da fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 9:01:46 PM</div>
+                  <div class="content">o bot e completo para fac </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 10:16:11 PM</div>
+                  <div class="content">adicionei o boot e paguei o plano mais nao consigo configurar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 10:17:07 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/16/2025, 10:27:58 PM</div>
+                  <div class="content">Pra configurar e /config-action </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 10:48:25 PM</div>
+                  <div class="content">TIPO COMFIGUREI O RECRUTAMENTO MAIS QUANDO ACEITO ELE NAO DA CARGO PRO MEMBRO </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/16/2025, 10:51:23 PM</div>
+                  <div class="content">achei aqui o boot tava abaixo dos cargo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 7:13:31 AM</div>
+                  <div class="content"><span class="mention">@magoo_realspecter</span>  isso o bot sempre tem que estar acima dos cargos que ele vai dar pra pessoa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 7:14:11 AM</div>
+                  <div class="content">Se você tiver com dúvidas eu saio do plantão as 21h hoje aí consigo entrar em call e te ajudar mostrar como é ele certinho </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/17/2025, 10:41:51 AM</div>
+                  <div class="content">Consegui configurar ja </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 11:16:51 AM</div>
+                  <div class="content"><span class="mention">@magoo_realspecter</span> ta sabendo usar ou precisa de ajuda ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/17/2025, 1:42:24 PM</div>
+                  <div class="content">os comando que eu queria mesmo era o de registro e hierarquia  , aprendi ontem na pratica </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 2:04:20 PM</div>
+                  <div class="content">Show, voce viu que ele tem varios sistemas de controle da fac como bau farms craft neeh </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/17/2025, 2:07:20 PM</div>
+                  <div class="content">sim mais o farme da cidade ta automatico os proprio membros conseguem produzir seus itens entao no momento nao vai ter ultilidade a propria craft ira cobrar a taxa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/17/2025, 6:22:18 PM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span>  CONSIGO USAR O BOT PRA ENVIAR INFORMAÇOES ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 7:28:09 PM</div>
+                  <div class="content">Esse bot não tem opção de anúncio não </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/19/2025, 8:48:02 AM</div>
+                  <div class="content"><span class="mention">@yoshibrosfps</span> os membro estão indo fazer o registro e diz que tem que esperar 10 min tem como tirar isso ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:02:21 AM</div>
+                  <div class="content">Haam como assim irmão ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:03:10 AM</div>
+                  <div class="content">me manda o link do servidor ai deixa eu ver </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:04:48 AM</div>
+                  <div class="content">o bot nao tempo de espera nao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/19/2025, 10:15:16 AM</div>
+                  <div class="content">https://discord.gg/uuzaptRh </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/19/2025, 10:15:41 AM</div>
+                  <div class="content">alguns play diz que pede pra esperar 10 min pra realizar o set </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:46:55 AM</div>
+                  <div class="content">Estranho pq o bot nao tem esse tempo de espera nao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:47:03 AM</div>
+                  <div class="content">e nem na log dele me mostou sobre isso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/19/2025, 10:52:19 AM</div>
+                  <div class="content">pois e entranho que tambem nao e pra todos mais varios me passaram a mesma irfomação que tava pedindo pra aguarda 10 min </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 10:55:33 AM</div>
+                  <div class="content">Quando aparecer isso me manda um print por favor, que ai consigo achar. Pq pra minhas nas log nao apareceu e dos mais de 30 clientes que usa o bot nunca me relataram isso. 
+
+Talvez possa da dando isso pq o seu plano é o teste ele tem algumas limitações mas eu nao me lembro de ter colocado limite de tempo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/883164573123883058/f61bccc6f11d22f527238b76f24e24c7.webp?size=128" alt="magoo_realspecter" class="avatar">
+              <div class="message-content">
+                  <div class="author">magoo_realspecter</div>
+                  <div class="timestamp">2/19/2025, 10:59:46 AM</div>
+                  <div class="content">vou aderir ao plano mensal hoje a vejo qualquer coisa vou te passando </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 11:02:09 AM</div>
+                  <div class="content">Show mano, pode mandar sim que sempre estamos tentando melhor ele com os feedback </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/19/2025, 11:02:23 AM</div>
+                  <div class="content">E logo vai sair a servão 2.0 dele que vai ser top de mais </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
