@@ -1,0 +1,467 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: assumir-fac</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">2/22/2025, 4:48:06 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/22/2025, 5:54:56 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342946037584756756/1342962856949448775/Video_sem_titulo_Feito_com_o_Clipchamp_88.mp4?ex=67c179e0&is=67c02860&hm=693d36749ae2b02f2f9007282292a14d98a12cc55928d94a38e4507e18de3313&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/22/2025, 10:47:22 PM</div>
+              <div class="content">Boa noite, tudo bem? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/22/2025, 10:48:39 PM</div>
+              <div class="content">Além dessas 3 pessoas, tem mais alguém pra vim? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 11:53:39 AM</div>
+              <div class="content">Tem ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 11:55:59 AM</div>
+              <div class="content">Tem 6 ou mais para entrar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 12:48:06 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 1:23:43 PM</div>
+              <div class="content">Bom dia! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 1:24:07 PM</div>
+              <div class="content">Tem alguma ideia de produto? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 1:40:14 PM</div>
+              <div class="content">arma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 1:54:16 PM</div>
+              <div class="content">iai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 1:54:19 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 2:04:29 PM</div>
+              <div class="content">Estou vendo a disponibilidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 2:27:13 PM</div>
+              <div class="content">Jae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 8:38:18 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342946037584756756/1343366356699185262/image.png?ex=67c1a029&is=67c04ea9&hm=edbb01098e7e7c30a87fccc2e22b5c4643a1ca881b50bd1dc3b3e92bbb3525da&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 8:38:55 PM</div>
+              <div class="content"><span class="mention">@pedrinxsep</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 8:47:48 PM</div>
+              <div class="content">Tamos só em 3 no momento como disse </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 8:48:01 PM</div>
+              <div class="content">mas tem mais 6 pessoas para entrar aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 8:48:14 PM</div>
+              <div class="content">a nossa proposta é essa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 8:49:43 PM</div>
+              <div class="content">Consegue subir call? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 8:53:48 PM</div>
+              <div class="content">Eu consigo te entregar uma fac de drogas/desmanche </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:28:15 PM</div>
+              <div class="content">consigo mrm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:28:24 PM</div>
+              <div class="content">agr tá só eu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:28:28 PM</div>
+              <div class="content">só um minuto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:43:44 PM</div>
+              <div class="content">tem DP disponível </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:43:45 PM</div>
+              <div class="content">ou nem </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:46:16 PM</div>
+              <div class="content">Tem a militar e a civil </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:46:22 PM</div>
+              <div class="content">Só que é 10 tmb </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:46:41 PM</div>
+              <div class="content">Mas 10 ativos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:47:17 PM</div>
+              <div class="content">tou sup aq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:49:11 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:49:23 PM</div>
+              <div class="content">Consegue juntar o pessoal em call? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:49:30 PM</div>
+              <div class="content">agr  nn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:49:34 PM</div>
+              <div class="content">só tá eu on </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:49:39 PM</div>
+              <div class="content">mas tenho dc e td </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:50:44 PM</div>
+              <div class="content">Junta o pessoal então e me avisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:51:27 PM</div>
+              <div class="content">precisa juntar os 10 mn </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:51:32 PM</div>
+              <div class="content">pra entregar a fac </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:51:36 PM</div>
+              <div class="content">ou pode entregar agr </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:51:48 PM</div>
+              <div class="content">Precisa de todos pra entregar a fac </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:52:34 PM</div>
+              <div class="content">os 10 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:52:42 PM</div>
+              <div class="content">ou os disponíveis </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:53:35 PM</div>
+              <div class="content">Você tem 9 ou 6? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:58:18 PM</div>
+              <div class="content">que cole direto uns 5 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/23/2025, 10:58:19 PM</div>
+              <div class="content">por aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 11:07:12 PM</div>
+              <div class="content">Se consegue trazer mais? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 11:07:36 PM</div>
+              <div class="content">Exemplo: Irei te dar 7 dias pra colocar 10 pessoas no painel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 11:07:44 PM</div>
+              <div class="content">completar os 10 no caso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/24/2025, 12:47:08 PM</div>
+              <div class="content">consigo mrm </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/24/2025, 12:47:10 PM</div>
+              <div class="content">até mais </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/24/2025, 12:49:23 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/24/2025, 12:54:49 PM</div>
+              <div class="content">Sobe com os 6 em call e nos vemos isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">pedrinxsep</div>
+              <div class="timestamp">2/24/2025, 1:42:56 PM</div>
+              <div class="content">jae </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/24/2025, 2:00:23 PM</div>
+              <div class="content">Me avisa quando conseguir juntar todos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/26/2025, 10:21:38 PM</div>
+              <div class="content">Boa noite, alguma novidade? </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
