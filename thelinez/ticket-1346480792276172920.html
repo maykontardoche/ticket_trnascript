@@ -1,0 +1,413 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・bdmghost-d0e4vdzr</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">3/4/2025, 10:53:57 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:54:05 AM</div>
+              <div class="content">agora ficou bom </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:06 AM</div>
+              <div class="content">bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:54:18 AM</div>
+              <div class="content">serv caiu eu tava no helli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:54:23 AM</div>
+              <div class="content">vou morrer ne </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:54:26 AM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:54 AM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:55:15 AM</div>
+              <div class="content">tou muito alto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:55:22 AM</div>
+              <div class="content">vc aparece no chão </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:55:27 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:55:36 AM</div>
+              <div class="content">perto do helli? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:56:01 AM</div>
+              <div class="content">não </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:56:06 AM</div>
+              <div class="content">tem localizador no heli </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:56:06 AM</div>
+              <div class="content">?] </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:56:09 AM</div>
+              <div class="content">n </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:56:15 AM</div>
+              <div class="content">helli é do clan </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:56:24 AM</div>
+              <div class="content">helli vip </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:56:31 AM</div>
+              <div class="content">mosquitinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 10:56:45 AM</div>
+              <div class="content">MH6 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:00:31 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:00:34 AM</div>
+              <div class="content">ja colo ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:00:53 AM</div>
+              <div class="content">ja logou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:01:29 AM</div>
+              <div class="content">loguei mais o serv caiu dinovo kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:01:53 AM</div>
+              <div class="content">mano pq o serv ta caindo tanto ? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:02:10 AM</div>
+              <div class="content">é o serv ou Jogo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:02:11 AM</div>
+              <div class="content">? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:02:20 AM</div>
+              <div class="content">não ta caindo tanto mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:02:23 AM</div>
+              <div class="content">começou agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:02:43 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1346480792276172920/1346482998052261918/image.png?ex=67c85983&is=67c70803&hm=ea9389c6e41ba374052d8fac047513b55b06476a6ff564f0f363777c1a74a3e8&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:02:48 AM</div>
+              <div class="content">desde 1 da manha ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:03:20 AM</div>
+              <div class="content">mano morri </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:03:27 AM</div>
+              <div class="content">cai do ceu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:03:40 AM</div>
+              <div class="content">clipa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:03:43 AM</div>
+              <div class="content">clipou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:03:46 AM</div>
+              <div class="content">kkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:03:52 AM</div>
+              <div class="content">né possivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:03:52 AM</div>
+              <div class="content">mano cai e n morri </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:03:56 AM</div>
+              <div class="content">sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:03:56 AM</div>
+              <div class="content">kkkkkkkkkkkkkkkkkkkkkk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:04:01 AM</div>
+              <div class="content">é pra acontecer isso </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:04:01 AM</div>
+              <div class="content">vem em mim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:04:05 AM</div>
+              <div class="content">pera </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:04:07 AM</div>
+              <div class="content">to logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:04:53 AM</div>
+              <div class="content">vai bate papo 1 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:05:04 AM</div>
+              <div class="content">meu mic no jogo n fala </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">magalhaesjr</div>
+              <div class="timestamp">3/4/2025, 11:05:14 AM</div>
+              <div class="content">so me puxa </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
