@@ -1,0 +1,559 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・vasfer-yz2g8d4t</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">The LineZ Ticket#1920</div>
+              <div class="timestamp">3/4/2025, 9:00:15 AM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 9:00:56 AM</div>
+              <div class="content">o servidor caiu, e nao estou achando o L </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 9:12:54 AM</div>
+              <div class="content"><span class="role-mention">@Administrador</span> <span class="mention">@tam8181</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 9:58:09 AM</div>
+              <div class="content">Bom dia </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 9:58:15 AM</div>
+              <div class="content">Bom dia meu lindo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 9:58:16 AM</div>
+              <div class="content">Tá sem rastreador? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 9:58:32 AM</div>
+              <div class="content">e que o L e do dono do cla**, instalei o rastreador mas nao apareceu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 9:59:20 AM</div>
+              <div class="content">Blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 9:59:34 AM</div>
+              <div class="content">Me dê 10m </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 9:59:40 AM</div>
+              <div class="content">o que tava dentro dele eu recupero tbm? tenho o video se quiser </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:00:00 AM</div>
+              <div class="content">Mano, dependendo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:00:03 AM</div>
+              <div class="content">Vamos ver </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:00:20 AM</div>
+              <div class="content">Não dropamos o que tem dentro </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:01:51 AM</div>
+              <div class="content">po era meu farm 😦 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:08:42 AM</div>
+              <div class="content">Mas vamos achar ele pô </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:10:37 AM</div>
+              <div class="content">:d </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:10:39 AM</div>
+              <div class="content">😄 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:10:50 AM</div>
+              <div class="content">cai perto da area de caça quando o server caiu </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:11:41 AM</div>
+              <div class="content">O Heli caiu na água? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:11:50 AM</div>
+              <div class="content">nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:17:38 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1346452179333943346/1346471652636229753/image.png?ex=67c84ef2&is=67c6fd72&hm=c2b493ab143d3370c8e5e7651839a7769278a3999af771560bce559d6cd8dede&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:17:52 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1346452179333943346/1346471713214435358/image.png?ex=67c84f00&is=67c6fd80&hm=68f2789ff479b83d4e0bb5e2883f8421c7e9eb3fc1b6195dc7f4b2f127b2bd81&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:18:20 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1346452179333943346/1346471829312901150/image.png?ex=67c84f1c&is=67c6fd9c&hm=e8add8b8650c05e30d788eecb96804ddc3b5d4202175c1cafd312ec83b068f40&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:18:36 AM</div>
+              <div class="content">caiu assim que passei da base que tem dps do caçador </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:28:03 AM</div>
+              <div class="content">relaxa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:28:04 AM</div>
+              <div class="content">eu acho ele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:28:09 AM</div>
+              <div class="content">to logando </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:31:25 AM</div>
+              <div class="content">vlw ❤️ </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:32:37 AM</div>
+              <div class="content">nick </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:33:15 AM</div>
+              <div class="content">qual a senha? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:37:16 AM</div>
+              <div class="content">23232323 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:37:33 AM</div>
+              <div class="content">o meu nick e vasfer </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:41:54 AM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1346452179333943346/1346477760381452299/image.png?ex=67c854a2&is=67c70322&hm=bdcd51aa519140689095245ae46ae6e373f1979159c3e6cb7d7749f5ef7a8352&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:41:56 AM</div>
+              <div class="content">ta aí </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:44:10 AM</div>
+              <div class="content">qual e essa arma na sua mao? e qual o valor? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:44:41 AM</div>
+              <div class="content">e aproveitando o tickt quanto custa para mover uma base de lugar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:49:32 AM</div>
+              <div class="content">é a mais braba das brabas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:49:42 AM</div>
+              <div class="content">mas é mais pra uso no pve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:49:54 AM</div>
+              <div class="content">50% do valor dela </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:50:01 AM</div>
+              <div class="content">150 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:52:40 AM</div>
+              <div class="content">vlw vou comprar essa semana </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:53:34 AM</div>
+              <div class="content">ela é foda </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:53:40 AM</div>
+              <div class="content">vou deixar uma com vc 30m </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:53:41 AM</div>
+              <div class="content">quer? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:53:52 AM</div>
+              <div class="content">mas tem que estar no pve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:53:57 AM</div>
+              <div class="content">não pode ir com ela pro pvp </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:54:15 AM</div>
+              <div class="content">e que agora nao vou farma vou na black ajudar os cara </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:54:18 AM</div>
+              <div class="content">se nao eu ia aceitar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:26 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:29 AM</div>
+              <div class="content">tmj </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:31 AM</div>
+              <div class="content">boa jogatina </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:54:36 AM</div>
+              <div class="content">vende mira noturna na safe n? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:38 AM</div>
+              <div class="content">pode me chamar na hora que for farmar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:54:44 AM</div>
+              <div class="content">blz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:54:46 AM</div>
+              <div class="content">não sei manin </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:55:02 AM</div>
+              <div class="content">beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:55:09 AM</div>
+              <div class="content">aqui nao sei se era pra ser assim mesmo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:55:25 AM</div>
+              <div class="content">mas tem umas arma que nao vende na safe nem na black
+
+tipo a 300ACC AR 15 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:55:35 AM</div>
+              <div class="content">me manda que colocamos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:55:41 AM</div>
+              <div class="content">manda print da arma que não vende </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:55:50 AM</div>
+              <div class="content">as trades são diferentes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 10:55:56 AM</div>
+              <div class="content">pode ser que uma vende e na outra naop </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:56:28 AM</div>
+              <div class="content">tentei nas duas safes </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 10:56:34 AM</div>
+              <div class="content">so nao fui no traficante ver se la vende </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:01:06 AM</div>
+              <div class="content">nao vende armas lá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 11:01:19 AM</div>
+              <div class="content">entao essa ai que eu falei nao vende em lugar nenhum por enquanto nao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:01:27 AM</div>
+              <div class="content">manda print da arma </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 11:01:31 AM</div>
+              <div class="content">bele </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">serginhogordaum</div>
+              <div class="timestamp">3/4/2025, 11:01:33 AM</div>
+              <div class="content">pq tem mais de uma pra gente </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">vasfer.</div>
+              <div class="timestamp">3/4/2025, 11:01:38 AM</div>
+              <div class="content">assim que eu entrar eu mando </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
