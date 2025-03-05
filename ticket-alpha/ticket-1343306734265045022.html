@@ -1,0 +1,457 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・santozkf-9f6gki6i</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">2/23/2025, 4:41:23 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">leviwsx</div>
+              <div class="timestamp">2/23/2025, 7:52:10 PM</div>
+              <div class="content">opa,boa noite </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">leviwsx</div>
+              <div class="timestamp">2/23/2025, 7:52:19 PM</div>
+              <div class="content">Não temos certeza se precisaremos de um designer. Vou comunicar aos meus superiores e te dar uma resposta em breve </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">leviwsx</div>
+              <div class="timestamp">2/23/2025, 7:52:45 PM</div>
+              <div class="content"><span class="mention">@santozkf</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">leviwsx</div>
+              <div class="timestamp">2/23/2025, 8:03:05 PM</div>
+              <div class="content">Em qual horário você pode conversar conosco sobre a vaga de designer? <span class="mention">@santozkf</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:04:47 PM</div>
+              <div class="content">Opa perdão,estava na igreja Jajá estou em casa e entro em contato </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:04:58 PM</div>
+              <div class="content">Podemos marcar uma call? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">leviwsx</div>
+              <div class="timestamp">2/23/2025, 8:05:07 PM</div>
+              <div class="content">ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:07:38 PM</div>
+              <div class="content">Que horas está disponível </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 8:23:12 PM</div>
+              <div class="content">Opa <span class="mention">@santozkf</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 8:23:21 PM</div>
+              <div class="content">vamos conversar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:23:39 PM</div>
+              <div class="content">Opa vamos sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 8:23:43 PM</div>
+              <div class="content">mas vamos esperar o <span class="mention">@killua7822</span>, é bom que ja nos conhecemos </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:23:46 PM</div>
+              <div class="content">Cheguei em casa agora </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:23:57 PM</div>
+              <div class="content">Beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 8:45:20 PM</div>
+              <div class="content">to disponivel so chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 9:42:20 PM</div>
+              <div class="content"><span class="mention">@santozkf</span> tá ai? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 9:46:53 PM</div>
+              <div class="content">to sim </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 10:07:01 PM</div>
+              <div class="content"><span class="mention">@gust4vinsz</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 10:14:47 PM</div>
+              <div class="content"><span class="mention">@meninofunai</span> <span class="mention">@killua7822</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">gust4vinsz</div>
+              <div class="timestamp">2/23/2025, 10:19:49 PM</div>
+              <div class="content">SOBE CALL </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 10:36:08 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 10:36:27 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1343306734265045022/1343396089981698068/H_Coroa_branca_3.jpg?ex=67c9a4da&is=67c8535a&hm=e34a13b5900209a9da53c27a00cf3aeadb3bd051a43249f4634ade33eed6a540&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 10:38:14 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1343306734265045022/1343396539191660544/image.png?ex=67c9a546&is=67c853c6&hm=034594f8fb6b3a43c8d30d5591b0d80c554ea565b87ea6c17fed2fafd36dffef&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 10:44:25 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1343306734265045022/1343398097321066638/vip-alpah-natal.png?ex=67c9a6b9&is=67c85539&hm=bf44753976d6b10723671932c3580f86eb02b559bcaae50bbba38fd90ff1e340&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/23/2025, 11:15:46 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1343306734265045022/1343405988358918195/alpha-city-sem-fundo.png?ex=67c9ae12&is=67c85c92&hm=84a21828d992938333c3d838b610b599e8d9d0197ea202622295c8830adc501c&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 11:20:02 PM</div>
+              <div class="content"> <a href="https://cdn.discordapp.com/attachments/1343306734265045022/1343407061639106651/Alpha_Coins_Maleta.jpg?ex=67c9af12&is=67c85d92&hm=09fccfc985e45b3682840aebfed4381004dca3d343c208f926e5e54cf6c342d7&" target="_blank">📎 Attachment</a></div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 11:22:34 PM</div>
+              <div class="content">Amanha se quiser podemos conversar na parte da noite to disponivel </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/23/2025, 11:23:58 PM</div>
+              <div class="content">ok </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/23/2025, 11:54:33 PM</div>
+              <div class="content">Se quiser mais artes dos coins lá,só me falar que amanhã a noite eu mando pra vocês tudo feito </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/24/2025, 5:45:42 PM</div>
+              <div class="content">Umas 18:30 tô on se quiser conversar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/24/2025, 8:21:20 PM</div>
+              <div class="content"><span class="mention">@meninofunai</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/24/2025, 10:05:11 PM</div>
+              <div class="content"><span class="mention">@killua7822</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/25/2025, 4:37:16 PM</div>
+              <div class="content">1 = 25 Coins 
+
+2 = 50 Coins
+
+3 = 100 Coins
+
+4 = 250 Coins
+
+5 = 500 Coins </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/25/2025, 4:37:22 PM</div>
+              <div class="content"><span class="mention">@santozkf</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/25/2025, 4:37:40 PM</div>
+              <div class="content">no caso vc vai cobrar por 4 artes, certo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 4:47:10 PM</div>
+              <div class="content">Isso vou cobrar por 4 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 4:47:29 PM</div>
+              <div class="content">Ficaria no caso 60 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 7:29:21 PM</div>
+              <div class="content"><span class="mention">@meninofunai</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 8:53:53 PM</div>
+              <div class="content">Se você me mandar por agora eu consigo mandar pra vocês Jajá todas </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">killua7822</div>
+              <div class="timestamp">2/25/2025, 8:55:53 PM</div>
+              <div class="content">Vamos pensar certinho man </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 8:56:28 PM</div>
+              <div class="content">beleza meu mano </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 8:56:36 PM</div>
+              <div class="content">fica 60 pra cada uma 15 </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/25/2025, 9:01:18 PM</div>
+              <div class="content">se quiser posso fazer os 4 e vcs ve se gostam </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/27/2025, 12:55:24 AM</div>
+              <div class="content">Opa de boa? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/27/2025, 12:55:30 AM</div>
+              <div class="content">Se quiserem posso fazer um desconto </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/27/2025, 2:27:38 PM</div>
+              <div class="content"><span class="mention">@meninofunai</span> <span class="mention">@killua7822</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/28/2025, 12:17:10 PM</div>
+              <div class="content"><span class="mention">@killua7822</span> <span class="mention">@meninofunai</span> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/28/2025, 12:19:08 PM</div>
+              <div class="content">Opa meu amigo! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">meninofunai</div>
+              <div class="timestamp">2/28/2025, 12:19:17 PM</div>
+              <div class="content">infelizmente tivemos outras prioridades na frente dos coins </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/28/2025, 5:26:08 PM</div>
+              <div class="content">beleza </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">santozkf</div>
+              <div class="timestamp">2/28/2025, 5:26:14 PM</div>
+              <div class="content">tranquilo meu mano </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
