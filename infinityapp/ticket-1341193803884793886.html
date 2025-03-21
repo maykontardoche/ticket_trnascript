@@ -1,0 +1,425 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫-golden-ticket</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/17/2025, 8:45:21 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/17/2025, 8:45:21 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 9:03:43 PM</div>
+                  <div class="content"><span class="mention">@golden.r</span> Boa noite irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 9:03:56 PM</div>
+                  <div class="content">Show de bola o Chan me amandou aqui mesmo msg </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 9:04:01 PM</div>
+                  <div class="content">quais bot voce precisa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/17/2025, 9:04:12 PM</div>
+                  <div class="content">Então o de ticket </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/17/2025, 9:05:18 PM</div>
+                  <div class="content">Para denúncia, revisão de ban, denúncia staff, VIPs e Doações e telagem. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 9:09:26 PM</div>
+                  <div class="content">Certo entao voce precisa de um bot de ticket avancado </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 9:09:44 PM</div>
+                  <div class="content">certo <span class="mention">@golden.r</span> ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/17/2025, 9:48:05 PM</div>
+                  <div class="content">Isso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/17/2025, 9:48:16 PM</div>
+                  <div class="content">Tbm queria saber 2 coisas </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/17/2025, 9:48:56 PM</div>
+                  <div class="content">A primeira seria sobre o bot de ticket avançado e a segunda era se vc é por quando vc vende a key de ticket tbm. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/17/2025, 10:50:03 PM</div>
+                  <div class="content"><span class="mention">@golden.r</span> key de ticket nao entendi ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 7:01:18 AM</div>
+                  <div class="content">queria saber se vc vende ou faz um bot de ticket diretamente para o cliente para colocar na base. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 7:03:01 AM</div>
+                  <div class="content">para qualquer modificação ou qualquer coisa que precise ser feita ser nossa. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 7:23:26 AM</div>
+                  <div class="content">Cara vou precisar entrar em call com você para entender sobre isso, não fez muito sentido pra mim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 8:17:09 AM</div>
+                  <div class="content">podemos conversar sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 8:17:16 AM</div>
+                  <div class="content">e so da um alo q tento te explicar </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 8:54:14 AM</div>
+                  <div class="content">Fechou assim que tiver em casa te aviso aqui entao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 10:27:08 AM</div>
+                  <div class="content">tranquilo </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 1:45:00 PM</div>
+                  <div class="content">qualquer coisa passa depois sobre os tickets </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 2:41:21 PM</div>
+                  <div class="content"><span class="mention">@golden.r</span> esta por ai ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 2:44:41 PM</div>
+                  <div class="content">To sim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 2:49:46 PM</div>
+                  <div class="content"><span class="mention">@golden.r</span> entra ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 2:49:47 PM</div>
+                  <div class="content">https://discord.com/channels/1209978061403979856/1230711758038110308 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">2/18/2025, 2:50:03 PM</div>
+                  <div class="content">To indo para o pc </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 3:03:14 PM</div>
+                  <div class="content"><span class="mention">@gabi27</span> adicionei voce aqui como sao o mesmo assunto e cidade, para que nao fique conversar em paralelos </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/18/2025, 3:07:19 PM</div>
+                  <div class="content">Ticket = 55,00
+Scann DC Hack = 50,00 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/17/2025, 11:07:50 AM</div>
+                  <div class="content"><span class="mention">@golden.r</span> , alguem retorno irmão ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120846954239377479/acc9119be1f0a028bd7a673e41884bbf.webp?size=128" alt="lukeblt." class="avatar">
+              <div class="message-content">
+                  <div class="author">lukeblt.</div>
+                  <div class="timestamp">3/21/2025, 9:07:34 AM</div>
+                  <div class="content">Bom dia <span class="mention">@golden.r</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/685571329222770773/f2b23522071e29fc4c464cc7e9734477.webp?size=128" alt="golden.r" class="avatar">
+              <div class="message-content">
+                  <div class="author">golden.r</div>
+                  <div class="timestamp">3/21/2025, 9:08:18 AM</div>
+                  <div class="content">B dia irmão.
+
+Acabei esquecendo…
+Podes fechar o ticket meu velho </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
