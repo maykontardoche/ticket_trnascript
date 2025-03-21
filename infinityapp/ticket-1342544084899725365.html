@@ -1,0 +1,580 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 20px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  display: flex;
+                  align-items: flex-start;
+                  gap: 15px;
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 15px;
+                  margin: 10px 0;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.02);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .avatar {
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  flex-shrink: 0;
+                  border: 2px solid #7289da;
+              }
+
+              .message-content {
+                  flex: 1;
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.1em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 5px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  float: right;
+              }
+
+              .content {
+                  font-size: 1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: 🎫・bob-boreli-h8tzgmpy</div>
+  
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/21/2025, 2:10:53 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1140017407801438328/a_8a4be5516ce1d20a12a278b4ae8bc0aa.gif?size=128" alt="Ticket Infinity Store#2395" class="avatar">
+              <div class="message-content">
+                  <div class="author">Ticket Infinity Store#2395</div>
+                  <div class="timestamp">2/21/2025, 2:10:53 PM</div>
+                  <div class="content"> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 2:27:38 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> boa tarde irmao </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 2:27:40 PM</div>
+                  <div class="content">o que voce precisa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 2:29:43 PM</div>
+                  <div class="content">*Ponto automático.
+*Recrutamento resultado de provas automático 
+*Hierarquia automático. </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 3:13:14 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> irmão tenho bot de policia completo que vem com tudo isso ai </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 3:13:25 PM</div>
+                  <div class="content">O bot é de pagamento mensal para o uso </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 3:17:53 PM</div>
+                  <div class="content">Tendi </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 3:17:59 PM</div>
+                  <div class="content">Qual valor ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 3:56:28 PM</div>
+                  <div class="content">o bot de policia completo é 80,00 a versão 1.0 a versão 2.0 esta em desenvolvimento e vai ser esse mesmo valor para os assinantes no lançamento </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 4:19:13 PM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 4:21:38 PM</div>
+                  <div class="content">Vou querer .porém minha cidade vai abrir daq uns dias aínda </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 4:36:49 PM</div>
+                  <div class="content">Abre quando a cidade ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">2/21/2025, 6:54:52 PM</div>
+                  <div class="content">começo do mes </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">2/21/2025, 7:28:10 PM</div>
+                  <div class="content">podemos fazer a implantacao do bot mais perto pra voce entao ai nao perde nenhum dia </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/5/2025, 11:43:27 AM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> bom dia irmão ainda tem interesse no bot de policia, ja lançamos a versão 2.0 dele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/5/2025, 11:44:01 AM</div>
+                  <div class="content">Tenho sim.
+Porém não lancemos a cidade ainda . Mais uns 15 dias </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/5/2025, 11:44:27 AM</div>
+                  <div class="content">Show de bola 😄 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 9:23:23 AM</div>
+                  <div class="content">Bom dia .
+Consegui me dizer o que vem nesse boot polícia ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:55:56 AM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> bom dia irmão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:56:28 AM</div>
+                  <div class="content"> <a href="https://cdn.discordapp.com/attachments/1342544084899725365/1347553488711979059/image.png?ex=67de0abc&is=67dcb93c&hm=12b81d0388d06922617037ee6fe088f35b3f49b3a8091176fd419b0faf634106&" target="_blank">📎 Attachment</a></div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:56:38 AM</div>
+                  <div class="content">Uma das coisa que vem nele e muito mais </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:57:11 AM</div>
+                  <div class="content">E esta sendo implementado mais funçoes ainda no bot ate segunda sera implementado mais 5 sistemas diferentes no bot </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 9:57:23 AM</div>
+                  <div class="content">Tem algum vídeo de demostração? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:57:36 AM</div>
+                  <div class="content">Se caso quiser ver ele funcionando se voce puder entrar em call as 18:30 te mostro ele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 9:57:53 AM</div>
+                  <div class="content">Não fiz ainda pq estou desenvolvendo os outros 5 sistemas pra colocar nele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 9:58:14 AM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 9:58:31 AM</div>
+                  <div class="content">Pode ser então dps das 18h . </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 10:03:19 AM</div>
+                  <div class="content">as 18h é hora que to chegando em casa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 10:03:28 AM</div>
+                  <div class="content">se conseguir as 18:30 é melhor pra mim </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 10:04:08 AM</div>
+                  <div class="content">Voce pode entrar nessa call aqui direto, pode entrar as 18h que eu chegando ja entro na call com voce pra te mostrar ele
+
+https://discord.com/channels/1209978061403979856/1230711758038110308 </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 10:04:35 AM</div>
+                  <div class="content">Se quiser trazer mais pessoas pra acompar pode trazer sem problemas </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 10:34:20 AM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 6:21:32 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> está por aí irmão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 6:21:50 PM</div>
+                  <div class="content">Opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 6:22:01 PM</div>
+                  <div class="content">15 min entro na call </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/7/2025, 6:24:16 PM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/7/2025, 6:32:05 PM</div>
+                  <div class="content">puxa la eu eo lino </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/8/2025, 3:39:59 PM</div>
+                  <div class="content">opa </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/8/2025, 3:40:31 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> boa tarde irmão </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/8/2025, 3:41:27 PM</div>
+                  <div class="content">consegui mostrar para o master , ele eo dono da cidade </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/8/2025, 3:48:32 PM</div>
+                  <div class="content">Consigo irmão, pode ser umas 16:30 ? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/8/2025, 3:48:50 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/8/2025, 3:50:27 PM</div>
+                  <div class="content">vo fala com ele </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/8/2025, 4:07:00 PM</div>
+                  <div class="content">Ok </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1001154526100869152/3f2ded74e94dc033e6098a68b1063232.webp?size=128" alt="yoshibrosfps" class="avatar">
+              <div class="message-content">
+                  <div class="author">yoshibrosfps</div>
+                  <div class="timestamp">3/12/2025, 2:55:04 PM</div>
+                  <div class="content"><span class="mention">@bobboreli</span> algum retorno meu rei </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1120846954239377479/acc9119be1f0a028bd7a673e41884bbf.webp?size=128" alt="lukeblt." class="avatar">
+              <div class="message-content">
+                  <div class="author">lukeblt.</div>
+                  <div class="timestamp">3/21/2025, 9:07:01 AM</div>
+                  <div class="content">Bom dia <span class="mention">@bobboreli</span> , ainda tem interesse? </div>
+              </div>
+          </div>
+      
+          <div class="message">
+              <img src="https://cdn.discordapp.com/avatars/1017169991751184435/9e65b040ab913bd5de3f425a482450af.webp?size=128" alt="bobboreli" class="avatar">
+              <div class="message-content">
+                  <div class="author">bobboreli</div>
+                  <div class="timestamp">3/21/2025, 9:09:01 AM</div>
+                  <div class="content">Opa . No momento não </div>
+              </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
