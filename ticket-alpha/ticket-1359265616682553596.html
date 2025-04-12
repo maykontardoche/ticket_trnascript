@@ -1,0 +1,383 @@
+
+  <html>
+      <head>
+          <style>
+              body {
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  background-color: #202225;
+                  color: #ffffff;
+                  padding: 20px;
+                  margin: 0;
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+
+              .container {
+                  max-width: 800px;
+                  width: 100%;
+              }
+
+              .header {
+                  font-size: 2.5em;
+                  font-weight: bold;
+                  margin-bottom: 30px;
+                  text-align: center;
+                  color: #ffffff;
+                  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+                  border-bottom: 3px solid #7289da;
+                  padding-bottom: 15px;
+                  animation: fadeIn 1s ease-in-out;
+              }
+
+              .message {
+                  background-color: rgba(35, 39, 42, 0.9);
+                  padding: 20px;
+                  margin: 15px 0;
+                  border-radius: 12px;
+                  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                  transition: all 0.3s ease;
+                  transform-origin: top;
+                  animation: fadeIn 0.5s ease-in-out;
+              }
+
+              .message:hover {
+                  transform: scale(1.05);
+                  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+              }
+
+              .author {
+                  font-weight: bold;
+                  font-size: 1.2em;
+                  color: #7289da;
+                  display: inline-block;
+                  margin-bottom: 8px;
+              }
+
+              .timestamp {
+                  font-size: 0.85em;
+                  color: #99aab5;
+                  display: inline-block;
+                  float: right;
+              }
+
+              .content {
+                  margin-top: 10px;
+                  font-size: 1.1em;
+                  color: #dcddde;
+                  line-height: 1.6em;
+                  word-wrap: break-word;
+              }
+
+              .mention {
+                  color: #00b0f4;
+                  font-weight: bold;
+              }
+
+              .role-mention {
+                  color: #43b581;
+                  font-weight: bold;
+              }
+
+              .footer {
+                  text-align: center;
+                  margin-top: 50px;
+                  color: #7289da;
+                  font-size: 1em;
+                  opacity: 0.7;
+              }
+
+              /* Animation */
+              @keyframes fadeIn {
+                  0% {
+                      opacity: 0;
+                      transform: translateY(20px);
+                  }
+                  100% {
+                      opacity: 1;
+                      transform: translateY(0);
+                  }
+              }
+
+              /* Scrollbar */
+              ::-webkit-scrollbar {
+                  width: 10px;
+              }
+
+              ::-webkit-scrollbar-track {
+                  background: #2f3136;
+              }
+
+              ::-webkit-scrollbar-thumb {
+                  background: #7289da;
+                  border-radius: 10px;
+              }
+
+              /* Glow on focus */
+              .message:focus {
+                  outline: none;
+                  box-shadow: 0 0 15px rgba(114, 137, 218, 0.6);
+              }
+
+              /* Transition effects */
+              .message, .header {
+                  transition: transform 0.2s, box-shadow 0.2s;
+              }
+          </style>
+      </head>
+      <body>
+          <div class="container">
+              <div class="header">Transcript do Canal: ticket-martini</div>
+  
+          <div class="message" tabindex="0">
+              <div class="author">Ticket Alpha#0074</div>
+              <div class="timestamp">4/8/2025, 5:36:17 PM</div>
+              <div class="content"> </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 5:36:38 PM</div>
+              <div class="content">Olá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 5:36:52 PM</div>
+              <div class="content">Eu queria uma ajuda para ter o VIP da cidade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 5:37:22 PM</div>
+              <div class="content">O meu amigo disse que era só eu dizer que eu vim por ele e eu ganhava um VIP de graça </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 5:37:36 PM</div>
+              <div class="content">Não sei se é VIP prata ou sla </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 5:38:00 PM</div>
+              <div class="content">Eu vim pelo Queiroz </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 7:27:06 PM</div>
+              <div class="content">opa irmao! </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 7:27:16 PM</div>
+              <div class="content">suave? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 7:27:22 PM</div>
+              <div class="content">quem seria esse seu amigo? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:01:45 PM</div>
+              <div class="content">Olá </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:00 PM</div>
+              <div class="content">ja deu certo irmao? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:06 PM</div>
+              <div class="content">vi que esta com o vip na cota </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:02:06 PM</div>
+              <div class="content">Já ss </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:07 PM</div>
+              <div class="content">conta </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:09 PM</div>
+              <div class="content">show </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:02:15 PM</div>
+              <div class="content">Então </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:21 PM</div>
+              <div class="content">vou estar fechadno aqui, se puder dar um feedback pra ajudar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:02:28 PM</div>
+              <div class="content">fala ai </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:02:42 PM</div>
+              <div class="content">Estou aqui agora só pra resolver o negócio da staff, que eu mandei o formulário </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:02:50 PM</div>
+              <div class="content">Falei com o padre, mais até agora nada </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:03:18 PM</div>
+              <div class="content">show irmao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:03:21 PM</div>
+              <div class="content">mas seguinte </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:03:55 PM</div>
+              <div class="content">tem que aguardar mais um pouco, pois a questao da idade voce nao passou </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:05:00 PM</div>
+              <div class="content">Que chato pq na outra cidade que eu era Staff não precisou desse negócio de idade </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:05:19 PM</div>
+              <div class="content">poise irmao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:05:23 PM</div>
+              <div class="content">mas infelizmente aqui precisa </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:05:31 PM</div>
+              <div class="content">Eu só consegui o negócio de Staff com minha idade normal </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:05:40 PM</div>
+              <div class="content">Fazer oq </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:05:43 PM</div>
+              <div class="content">poise irmao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:05:45 PM</div>
+              <div class="content">É a vida né </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:05:53 PM</div>
+              <div class="content">mas infelizmente sao regras acima de mim kk </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:05:58 PM</div>
+              <div class="content">mas e isso irmaozinho </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:06:05 PM</div>
+              <div class="content">precisando so abrir outro ticket fechou? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:06:10 PM</div>
+              <div class="content">Então não vai dar pra eu ir?? De Staff </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:06:22 PM</div>
+              <div class="content">vou estar fechando aqui se precisar so chamar </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:06:31 PM</div>
+              <div class="content">infelizmente nao irmao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:06:31 PM</div>
+              <div class="content">Não vai dar pra eu ser Staff?? </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">joaozitzkky</div>
+              <div class="timestamp">4/8/2025, 11:06:51 PM</div>
+              <div class="content">Chatão esse bglh </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:07:00 PM</div>
+              <div class="content">pior que nao amigo </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:07:01 PM</div>
+              <div class="content">perdao </div>
+          </div>
+      
+          <div class="message" tabindex="0">
+              <div class="author">qburocracia</div>
+              <div class="timestamp">4/8/2025, 11:07:11 PM</div>
+              <div class="content">sao regras da cidade </div>
+          </div>
+      
+          <div class="footer">Transcript gerado automaticamente pelo sistema de tickets.<p>Todos Direitos Reservados, Infinity Applications</p></div>
+          </div>
+      </body>
+  </html>
+  
